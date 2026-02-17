@@ -36,6 +36,9 @@ We also welcome draft consultations for X Community Notes!<br>
 5. **Emotional support**
    - Feeling conflicted? Say so!
    - Someone will pat you on the back 🤗
+## 🚀 Get Started!
+
+Ready to dive in? Head over to [Discussions](https://github.com/yukincom/AI-Curious-Community/discussions) and join the conversation!
 
 ---
 Japanese
@@ -83,3 +86,7 @@ AI関係の論文読み合わせ、tec話題確認<br>
 
    - 葛藤を感じたら、そう表明してください
    - 誰かがヨシヨシしてくれます 🤗
+  
+## 🚀 Get Started!
+興味のあるトピックについて話し合いたい方は、[Discussionsへどうぞ！](https://github.com/yukincom/AI-Curious-Community/discussions)
+
