@@ -1,0 +1,59 @@
+{
+  "experiment_date": "2026-10-14",
+  "hardware": {
+    "chip": "Apple M4 Max",
+    "memory_gib": 64
+  },
+  "inference_backend": "persistent MLX VLM server over HTTP",
+  "baseline": "Previously saved Baberu outputs and inference times; no Baberu rerun.",
+  "variants": [
+    {
+      "run": "initial_marker",
+      "prompt": "画像内に実際に書かれている文字だけを、日本語の漫画の読み順で正確に転記してください。手書きの文字、記号、句読点を保ち、文章を補完・言い換えしないでください。解説やMarkdownは不要です。文字がなければ空文字を返してください。判読できない文字は□で示してください。",
+      "model_id": "lmstudio-community/gemma-4-26B-A4B-it-QAT-MLX-4bit",
+      "model_snapshot": "aa5e2e50376f54254d503276ca2222ea8569b95e",
+      "request_settings": {
+        "temperature": 0,
+        "max_tokens": 320,
+        "repetition_penalty": 1.05,
+        "enable_thinking": false
+      },
+      "pages": 29,
+      "crops": 239,
+      "finish_reasons": {
+        "length": 4,
+        "stop": 235
+      },
+      "unknown_marker_bearing_crops": 16,
+      "unknown_marker_count": 1301,
+      "median_http_seconds_per_crop": 0.7927237083204091
+    },
+    {
+      "run": "rerun_no_marker",
+      "prompt": "画像内に実際に書かれている文字だけを、日本語の漫画の読み順で正確に転記してください。手書きの文字、記号、句読点を保ち、文章を補完・言い換えしないでください。解説やMarkdownは不要です。文字がない場合や全く判読できない場合は空文字を返し、一部分だけ判読できる場合はその読めた文字だけを返してください。",
+      "model_id": "lmstudio-community/gemma-4-26B-A4B-it-QAT-MLX-4bit",
+      "model_snapshot": "aa5e2e50376f54254d503276ca2222ea8569b95e",
+      "request_settings": {
+        "temperature": 0,
+        "max_tokens": 320,
+        "repetition_penalty": 1.05,
+        "enable_thinking": false
+      },
+      "pages": 29,
+      "crops": 239,
+      "finish_reasons": {
+        "stop": 239
+      },
+      "unknown_marker_bearing_crops": 0,
+      "unknown_marker_count": 0,
+      "median_http_seconds_per_crop": 0.7833419172093272
+    }
+  ],
+  "rerun_normal_page_comparison": {
+    "better": 16,
+    "worse": 10,
+    "equal": 2
+  },
+  "rerun_sampled_peak_process_rss_gib": 17.73284912109375,
+  "matching_saved_crop_hashes_between_runs": 239
+}
