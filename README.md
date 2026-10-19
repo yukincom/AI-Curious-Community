@@ -90,3 +90,7 @@ AI関係の論文読み合わせ、tec話題確認<br>
 ## 🚀 Get Started!
 興味のあるトピックについて話し合いたい方は、[Discussionsへどうぞ！](https://github.com/yukincom/AI-Curious-Community/discussions)
 
+## 公開実験 / Published Experiments
+
+- [翻訳ベンチマーク（Qwen / GPT）](translationbenchmark-qwen-gpt/)
+- [手書き漫画ネームのOCR比較](manga-ocr-benchmark/) — 集計結果・実験条件・数値専用の評価コード。原稿画像・本文・作家や作品の識別情報は含みません。

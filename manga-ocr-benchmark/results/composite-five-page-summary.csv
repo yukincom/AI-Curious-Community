@@ -1,0 +1,3 @@
+configuration,reference_chars,output_chars,edit_distance,micro_cer_percent,reported_char_f1_percent,exact_pages
+Baberu単独,597,491,495,82.9%,29.6%,0/5
+新・合成OCR,597,567,526,88.1%,34.9%,0/5
