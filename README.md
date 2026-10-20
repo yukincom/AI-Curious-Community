@@ -13,7 +13,7 @@ AIに関する疑問を、小さな実験・試作・比較で確かめるため
 | LLM SugarScape | [資源世界での行動と実験ログ](https://github.com/yukincom/llm-SugarScape) |
 | ドギドの対話・分類・モデル比較 | [公開研究への案内](research-index.md) |
 | 手書き漫画ネームOCR | [集計・条件・評価コード](manga-ocr-benchmark/) |
-| Qwen / GPTの長文翻訳 | [翻訳比較](translationbenchmark-qwen-gpt/) |
+| AIコンパニオン報告書の翻訳 | [モデル別の翻訳比較・誤読の検証・読書案内](translationbenchmark-qwen-gpt/) |
 
 既公開の研究は元の公開先へつなぎ、この場所で初公開する研究はテーマ別フォルダへまとめています。論文を読む・疑問を相談する場は、引き続き[Discussions](https://github.com/yukincom/AI-Curious-Community/discussions)です。
 
@@ -112,5 +112,5 @@ AI関係の論文読み合わせ、tec話題確認<br>
 
 ## 公開実験 / Published Experiments
 
-- [翻訳ベンチマーク（Qwen / GPT）](translationbenchmark-qwen-gpt/)
+- [AIコンパニオン報告書の翻訳比較（GPT / Gemini / Grok / Claude / Qwen）](translationbenchmark-qwen-gpt/)
 - [手書き漫画ネームのOCR比較](manga-ocr-benchmark/) — 集計結果・実験条件・数値専用の評価コード。原稿画像・本文・作家や作品の識別情報は含みません。

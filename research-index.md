@@ -30,7 +30,7 @@
 | テーマ | 公開資料 | 内容 |
 |---|---|---|
 | 手書き漫画ネームのOCR | [概要](manga-ocr-benchmark/)・[ページ単位の比較](manga-ocr-benchmark/results/page-level-summary.csv)・[フキダシ条件の比較](manga-ocr-benchmark/results/bubble-configuration-comparisons.csv)・[1ページの段階比較](manga-ocr-benchmark/results/single-page-stage-comparisons.csv) | 集計結果・実験条件・数値評価コード。原稿画像・正解本文・作家や作品の識別情報は非公開 |
-| Qwen / GPTの長文翻訳 | [比較と成果物](translationbenchmark-qwen-gpt/) | 同じ英語報告書の訳文、図表・引用・参考文献の保持を照合。速度・費用の比較ではない |
+| AIコンパニオン報告書の翻訳比較 | [入口](translationbenchmark-qwen-gpt/)・[原文を読む案内](translationbenchmark-qwen-gpt/reading-guide.md)・[追加評価](translationbenchmark-qwen-gpt/review-2026-10-20.md) | GPT / Gemini / Grok / Claude / Qwenの保存出力。図表の責任主体・統計の単位・限定の脱落などを照合。生成条件を統一したモデル順位ではない |
 
 ## ほかの公開試作
 

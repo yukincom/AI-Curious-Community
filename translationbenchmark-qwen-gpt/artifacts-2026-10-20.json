@@ -1,0 +1,130 @@
+{
+  "review_date": "2026-10-20",
+  "source": {
+    "title": "AI Companions: Emerging Evidence, Open Questions, and Paths Toward Responsible Design",
+    "authors": "Yutong Zhang et al.",
+    "publisher": "The Tech Impact and Policy Center, Stanford University",
+    "publication": "2026-09",
+    "official_url": "https://fsi.stanford.edu/publication/ai-companions-emerging-evidence-open-questions-and-paths-toward-responsible-design",
+    "official_pdf_url": "https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/2026-09/091626_tip-aicompanions-web_0.pdf",
+    "pdf_sha256": "6a54435b6235ee19cb8e3a9c614ef2620fdb81f0cb6e46806626208cfd96b859",
+    "pdf_pages": 48,
+    "pdf_in_current_repository_tree": false,
+    "license": "CC BY-ND 4.0"
+  },
+  "method": {
+    "unit": "saved output artifact; not a controlled model-level benchmark",
+    "reviewer": "Codex-assisted source comparison with separate GPT/Gemini reviews and integration checks",
+    "model_names": "new labels inferred from filenames; historical GPT/Qwen labels retained from existing records",
+    "unknown": [
+      "exact model IDs",
+      "generation timestamps",
+      "complete prompts and settings for added outputs",
+      "independence of outputs",
+      "meaning of filename suffixes _gr and _2",
+      "why Claude output stops"
+    ],
+    "scope": "Targeted error analysis; not exhaustive scoring; no model re-execution",
+    "line_numbering": "1-based splitlines; original output bytes preserved"
+  },
+  "outputs": [
+    {
+      "filename": "Gemini38_flash_hight.md",
+      "bytes": 62644,
+      "lines": 583,
+      "sha256": "5b2ee9f6f7113fdf733db1dcff1d814bb3828f191969eea22ce39d112d27e1f8",
+      "publication_status": "provided_output_added_without_text_changes"
+    },
+    {
+      "filename": "claude_sonnet55_mid.md",
+      "bytes": 51287,
+      "lines": 201,
+      "sha256": "552ef49b3b75a1d437a03597f7bf5c6bfcd2bd5cb7ff791731e93a7017955691",
+      "publication_status": "provided_output_added_without_text_changes"
+    },
+    {
+      "filename": "gemini3.8flash_high_gr.md",
+      "bytes": 183017,
+      "lines": 867,
+      "sha256": "e3b683981cac0272d553290f7ef20266afa7dc937fe281c5d3173d5d840bb667",
+      "publication_status": "provided_output_added_without_text_changes"
+    },
+    {
+      "filename": "gemini31_pro_high.md",
+      "bytes": 43706,
+      "lines": 228,
+      "sha256": "920afd99d15d6a4187cf38daea6932434b3202bf76db30bb69886308a89fc35e",
+      "publication_status": "provided_output_added_without_text_changes"
+    },
+    {
+      "filename": "grmini38_flash_high_2.md",
+      "bytes": 173310,
+      "lines": 811,
+      "sha256": "939c22c3616c5291d11d9ef5879b8691ca445e7eaa21ee47cfc9bc7fc344b52b",
+      "publication_status": "provided_output_added_without_text_changes"
+    },
+    {
+      "filename": "grok47_high.md",
+      "bytes": 156973,
+      "lines": 863,
+      "sha256": "335d854bbf0ab00c064d629b8bbeb1d0081609661a1aacac969626b041165994",
+      "publication_status": "provided_output_added_without_text_changes"
+    },
+    {
+      "filename": "translation_GPT.md",
+      "bytes": 167141,
+      "lines": 903,
+      "sha256": "8b9947a02351d61ea3e2ed68324130861d4ef94c738ca6b14fc6f43b310deef9",
+      "publication_status": "existing_public_output_preserved"
+    },
+    {
+      "filename": "translation_chunk1.md",
+      "bytes": 13462,
+      "lines": 123,
+      "sha256": "c5e40d56707f519738f78f7337262534d7245b8a22193d401bbe92617d861a5e",
+      "publication_status": "existing_public_output_preserved"
+    },
+    {
+      "filename": "translation_chunk2.md",
+      "bytes": 19440,
+      "lines": 72,
+      "sha256": "796e1c0873be3a6d943050ae5b22232bc857436e256113bf8a111b40e74efbdf",
+      "publication_status": "existing_public_output_preserved"
+    },
+    {
+      "filename": "translation_chunk3.md",
+      "bytes": 21360,
+      "lines": 74,
+      "sha256": "e598aece7457220f81d6e24bb5d7c136ec69a4550344dd2b68b646450bf0c4b7",
+      "publication_status": "existing_public_output_preserved"
+    },
+    {
+      "filename": "translation_chunk4.md",
+      "bytes": 24980,
+      "lines": 79,
+      "sha256": "a13e4dd9bba9ecc876eaeddffbb6d213700ee337d1c2344899d4230def2f2b73",
+      "publication_status": "existing_public_output_preserved"
+    },
+    {
+      "filename": "translation_chunk5.md",
+      "bytes": 26005,
+      "lines": 65,
+      "sha256": "cc1673ec8910e9fe119fb0dd7304972725bd3e2341117f2f49e88e4e6bde2ae2",
+      "publication_status": "existing_public_output_preserved"
+    },
+    {
+      "filename": "translation_chunk6.md",
+      "bytes": 18780,
+      "lines": 70,
+      "sha256": "b35e2c85faaaeb14bcf905c35df70f7b1989473d63176e9d4aca186cbaccef88",
+      "publication_status": "existing_public_output_preserved"
+    },
+    {
+      "filename": "translation_chunk7.md",
+      "bytes": 16060,
+      "lines": 125,
+      "sha256": "aedad7998415ac251a90fccc21c965399ef9e93e7396e55bc9803789e47604d8",
+      "publication_status": "existing_public_output_preserved"
+    }
+  ]
+}
