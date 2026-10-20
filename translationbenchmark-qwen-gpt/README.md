@@ -40,4 +40,4 @@ Geminiの`high_2`では、重点確認した図表で上記`_gr`の主要な相�
 
 原文の表示ライセンスは[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)で、原文の権利は原著作権者に帰属します。保存出力は著者による訳・公認訳ではありません。原文PDFはこのフォルダに収録せず、公式配布先へリンクします。
 
-[溜まり場の研究目次へ](../research-index.md)
+[研究・実験の目次へ](../README.md)
