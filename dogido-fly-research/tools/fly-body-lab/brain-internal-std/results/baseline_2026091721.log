@@ -1,0 +1,8 @@
+targets=192 ACh=144 unknown=46 PN=686 GABA=120 edges=37660 contacts=819907 use=0.000 tau_ms=300.0
+preserve_orn=false all_orn_count=2635
+baseline_2026091721 t=1.5s eLN=268.646 PN=135.831 wall=2.3s
+baseline_2026091721 t=3.5s eLN=267.083 PN=134.431 wall=6.9s
+baseline_2026091721 t=21.5s eLN=268.125 PN=135.219 wall=48.6s
+baseline_2026091721 t=22.5s eLN=268.854 PN=135.598 wall=51.0s
+baseline_2026091721 t=24.5s eLN=267.813 PN=135.248 wall=55.6s
+DONE baseline_2026091721 wall_seconds=55.640

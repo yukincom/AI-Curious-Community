@@ -1,0 +1,17 @@
+{
+  "original_replay_files_byte_identical": {
+    "known_positive_hungry_2026091731-populations.csv": "61fa4718bcc6b8096b0f7c8c18c47b436fd873d0559cbdb3cf3bf549f111f0a9",
+    "known_positive_hungry_2026091731-PN-cells.csv": "162652698c115d75f52070a3b687d628efcef8869d2ff912ef03eea35c1e375c",
+    "known_positive_hungry_2026091731-topology.csv.gz": "4b89e63adcff72f240eeac7d0017c08a5a690e7aee0ed0449ad0eafe336ab9c5",
+    "known_positive_hungry_2026091731-phase-edges.csv.gz": "54a86902b392ba6418cd0e4f0e4be849b1d2a511971bf61107e50f425088fd92",
+    "known_positive_hungry_2026091731-source-spikes.csv.gz": "11d37e186a5a0e5223993b0ef062637db87735b1045f47bf5f6702b9f058d38f",
+    "known_positive_hungry_2026091731-late-inputs.csv": "1b8b49df393c419fd72aca80f42ce2cd0084072f872e0d279067ff79de6eab2b",
+    "known_positive_hungry_2026091731-late-steps.csv.gz": "48d9ad96013ef1dc34c307657964223fcc34ceba0ebea978793ae10c4c57b717",
+    "known_positive_hungry_2026091731-boundaries.csv.gz": "6f852b3811e75c31b9c5ef750a538a8b58f264facc3d58c6cfe53cd6ef79862f",
+    "known_positive_hungry_2026091731-checks.json": "31379558d7e01aa82e692bef1b2f45b9b89740168c8ea726357eac5da7593e44"
+  },
+  "trace_rows": 24500,
+  "each_1ms_time_and_input_match": true,
+  "four_cell_cumulative_counts_match_all_4_saved_snapshots": true,
+  "no_model_change_from_recording": true
+}

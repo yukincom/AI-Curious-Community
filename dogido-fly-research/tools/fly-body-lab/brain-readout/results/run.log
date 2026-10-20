@@ -1,0 +1,47 @@
+class:ALPN neurons=686
+prefix:KC neurons=4064
+DNp01 neurons=2
+DNp09 neurons=2
+DNa02 neurons=2
+superclass:descending_neuron neurons=1314
+superclass:vnc_motor neurons=708
+superclass:cb_motor neurons=107
+Connectome[male-cns:v1.0, 176422 neurons, 6287749 edges, 9619 retina entries]
+completed train seed=2026091601 none rate=0
+completed train seed=2026091601 odor rate=60
+completed train seed=2026091601 loom rate=60
+completed train seed=2026091601 odor rate=120
+completed train seed=2026091601 loom rate=120
+completed train seed=2026091601 odor rate=180
+completed train seed=2026091601 loom rate=180
+completed train seed=2026091602 none rate=0
+completed train seed=2026091602 odor rate=60
+completed train seed=2026091602 loom rate=60
+completed train seed=2026091602 odor rate=120
+completed train seed=2026091602 loom rate=120
+completed train seed=2026091602 odor rate=180
+completed train seed=2026091602 loom rate=180
+completed train seed=2026091603 none rate=0
+completed train seed=2026091603 odor rate=60
+completed train seed=2026091603 loom rate=60
+completed train seed=2026091603 odor rate=120
+completed train seed=2026091603 loom rate=120
+completed train seed=2026091603 odor rate=180
+completed train seed=2026091603 loom rate=180
+completed train seed=2026091604 none rate=0
+completed train seed=2026091604 odor rate=60
+completed train seed=2026091604 loom rate=60
+completed train seed=2026091604 odor rate=120
+completed train seed=2026091604 loom rate=120
+completed train seed=2026091604 odor rate=180
+completed train seed=2026091604 loom rate=180
+completed test seed=2026091605 none rate=0
+completed test seed=2026091605 odor rate=90
+completed test seed=2026091605 loom rate=90
+completed test seed=2026091605 odor rate=150
+completed test seed=2026091605 loom rate=150
+completed test seed=2026091606 none rate=0
+completed test seed=2026091606 odor rate=90
+completed test seed=2026091606 loom rate=90
+completed test seed=2026091606 odor rate=150
+completed test seed=2026091606 loom rate=150

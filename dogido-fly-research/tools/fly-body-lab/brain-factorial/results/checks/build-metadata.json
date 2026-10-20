@@ -1,0 +1,22 @@
+{
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "original_sources": {
+    "Connectome": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+    "PopulationIndex": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+    "LifConfig": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+    "LifNetwork": "33c30cc556213ded9ca12b9074811d42ae5cf1ab5905caf50f145ce91fa4aaf0"
+  },
+  "patched_sources": {
+    "Connectome": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+    "PopulationIndex": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+    "LifConfig": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+    "LifNetwork": "69944ed5e39e66c6f400ae20a05749e923ab31fe8e76f1b3041532d3a40c8fcd"
+  },
+  "data_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3",
+  "wrappers": {
+    "FactorialTrial.java": "c29d9631528e87ac684b1755355efc7fe8764825c24a98ebe55249f323340ee6",
+    "AuditFixture.java": "115629f3b96bf0282c9bc0345424783b336392eca032f7d038726be61192d0c6",
+    "CausalTrial.java": "d8bd29393ec36b4d601d4e12607dc8ba0ce1fba2f8105662ecba4a5b4cd994c0",
+    "ReferenceFixture.java": "18ced6e60e19d052125a4120f1a651cb351a1efe1cbc5a0a8f80a65dbc55ac1f"
+  }
+}

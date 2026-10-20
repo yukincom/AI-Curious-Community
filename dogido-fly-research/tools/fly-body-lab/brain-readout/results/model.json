@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "algorithm": "multinomial logistic regression",
+  "labels": [
+    "none",
+    "odor",
+    "loom"
+  ],
+  "features_hz": [
+    "class:ALPN",
+    "prefix:KC",
+    "DNp01",
+    "DNp09",
+    "DNa02",
+    "superclass:descending_neuron",
+    "superclass:vnc_motor",
+    "superclass:cb_motor"
+  ],
+  "transform": "log1p_then_training_standardization",
+  "means": [
+    2.082880576195199,
+    0.2899523220598468,
+    2.200441094768723,
+    0.0,
+    1.1943237698157787,
+    1.7460005273416914,
+    1.989248715528311,
+    1.9071549689730667
+  ],
+  "scales": [
+    2.40656294597515,
+    0.35415406934656035,
+    2.7039224806655895,
+    1e-06,
+    1.5634692515842676,
+    0.8986550855903479,
+    0.9175893570401145,
+    0.8910999913300122
+  ],
+  "weights_bias_last": [
+    [
+      -0.5973074881310386,
+      0.33796904170286285,
+      -0.717635705311941,
+      0.0,
+      -0.05663225355459742,
+      -1.3914755337722227,
+      0.08800457668176663,
+      -0.013076972255103052,
+      1.415198681719849
+    ],
+    [
+      1.262993516138963,
+      0.2368177476315875,
+      -0.6382755575822926,
+      0.0,
+      0.43616429753915087,
+      0.11664952780862951,
+      -0.9802626646180921,
+      -0.5760570498745845,
+      -0.26127128442166575
+    ],
+    [
+      -0.6656860280079269,
+      -0.5747867893344506,
+      1.3559112628942342,
+      0.0,
+      -0.379532043984554,
+      1.274826005963594,
+      0.8922580879363269,
+      0.5891340221296882,
+      -1.1539273972981843
+    ]
+  ],
+  "class_weights": [
+    0.7777777777777778,
+    1.1666666666666667,
+    1.1666666666666667
+  ],
+  "epochs": 1200,
+  "learning_rate": 0.08,
+  "l2": 0.002,
+  "training_loss": [
+    {
+      "epoch": 0,
+      "weighted_cross_entropy": 1.0986122886681093
+    },
+    {
+      "epoch": 100,
+      "weighted_cross_entropy": 0.37270824596009655
+    },
+    {
+      "epoch": 200,
+      "weighted_cross_entropy": 0.33591437850819456
+    },
+    {
+      "epoch": 300,
+      "weighted_cross_entropy": 0.31649150659091824
+    },
+    {
+      "epoch": 400,
+      "weighted_cross_entropy": 0.3038739854461723
+    },
+    {
+      "epoch": 500,
+      "weighted_cross_entropy": 0.29481170057896655
+    },
+    {
+      "epoch": 600,
+      "weighted_cross_entropy": 0.2878782078848112
+    },
+    {
+      "epoch": 700,
+      "weighted_cross_entropy": 0.28233360744684977
+    },
+    {
+      "epoch": 800,
+      "weighted_cross_entropy": 0.2777516818332842
+    },
+    {
+      "epoch": 900,
+      "weighted_cross_entropy": 0.27386809253111016
+    },
+    {
+      "epoch": 1000,
+      "weighted_cross_entropy": 0.2705096054479192
+    },
+    {
+      "epoch": 1100,
+      "weighted_cross_entropy": 0.2675577048430379
+    },
+    {
+      "epoch": 1199,
+      "weighted_cross_entropy": 0.26495335607656617
+    }
+  ],
+  "fixed_circuit_trained": false,
+  "readout_trained": true,
+  "dataset_sha256": "a9f40822f63deefa52fcad7039f87a075dccd8de8994ae04c5335b6509b86997",
+  "train_seeds": [
+    2026091601,
+    2026091602,
+    2026091603,
+    2026091604
+  ],
+  "test_seeds": [
+    2026091605,
+    2026091606
+  ],
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3",
+  "rate_window_ms": 50,
+  "network_config": {
+    "dt_ms": 0.5,
+    "global_gain": 0.65,
+    "kenyon_input_gain": 0.25,
+    "threads": 1
+  }
+}

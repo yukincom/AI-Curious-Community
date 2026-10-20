@@ -1,0 +1,722 @@
+{
+  "experiment": "continuous-odor-readout-01",
+  "dataset_sha256": "caea659b10f9c66f66ff9c356ef29263de0dd8107d44f910cbfbc5722f8431f5",
+  "protocol_sha256": "c3d1428475b2a15cc2bb348278224b064a1fe62cf5e1a891426d8b06d268e798",
+  "original_model_sha256": "bb6448586e4132590adebef36c1f8f2f073548bcadde24be280b35b7d83ffff3",
+  "generator_metadata_sha256": "70e710a96f35aaf920b27d6883590da5a0b1e9f6e68e28107f9f7e0102bccae7",
+  "trainer_sha256": "26ac29959df96c3a3f76d003c3e2975aeda3dd6e7711ee616526bb66bd8f8963",
+  "feature_code_sha256": "01f4618fdf8e68bc47186bd1310ad5cca9585d943c0b48ef0b38b38056b1dbc4",
+  "test_used_for_fit_or_tuning": false,
+  "train_windows": 1200,
+  "test_windows": 1200,
+  "independent_test_seeds": 4,
+  "accepted": false,
+  "acceptance_checks": {
+    "balanced": false,
+    "active_recall": true,
+    "washout": false,
+    "gain_over_current_only": true,
+    "washout_gain_over_frozen": true
+  },
+  "test": {
+    "current_only": {
+      "overall": {
+        "windows": 1200,
+        "confusion_actual_by_predicted": [
+          [
+            547,
+            401
+          ],
+          [
+            11,
+            241
+          ]
+        ],
+        "accuracy": 0.6566666666666666,
+        "balanced_accuracy": 0.7666767128792445,
+        "inactive_specificity": 0.5770042194092827,
+        "active_recall": 0.9563492063492064
+      },
+      "by_phase": {
+        "odor_1": {
+          "windows": 164,
+          "confusion_actual_by_predicted": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              155
+            ]
+          ],
+          "accuracy": 0.9451219512195121,
+          "balanced_accuracy": 0.9451219512195121,
+          "inactive_specificity": null,
+          "active_recall": 0.9451219512195121
+        },
+        "odor_2": {
+          "windows": 88,
+          "confusion_actual_by_predicted": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              86
+            ]
+          ],
+          "accuracy": 0.9772727272727273,
+          "balanced_accuracy": 0.9772727272727273,
+          "inactive_specificity": null,
+          "active_recall": 0.9772727272727273
+        },
+        "quiet": {
+          "windows": 488,
+          "confusion_actual_by_predicted": [
+            [
+              488,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "inactive_specificity": 1.0,
+          "active_recall": null
+        },
+        "washout_1": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              36,
+              264
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 0.12,
+          "balanced_accuracy": 0.12,
+          "inactive_specificity": 0.12,
+          "active_recall": null
+        },
+        "washout_2": {
+          "windows": 160,
+          "confusion_actual_by_predicted": [
+            [
+              23,
+              137
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 0.14375,
+          "balanced_accuracy": 0.14375,
+          "inactive_specificity": 0.14375,
+          "active_recall": null
+        }
+      },
+      "by_seed": {
+        "2026091705": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              140,
+              97
+            ],
+            [
+              4,
+              59
+            ]
+          ],
+          "accuracy": 0.6633333333333333,
+          "balanced_accuracy": 0.7636126180429978,
+          "inactive_specificity": 0.5907172995780591,
+          "active_recall": 0.9365079365079365
+        },
+        "2026091706": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              138,
+              99
+            ],
+            [
+              2,
+              61
+            ]
+          ],
+          "accuracy": 0.6633333333333333,
+          "balanced_accuracy": 0.7752662246333133,
+          "inactive_specificity": 0.5822784810126582,
+          "active_recall": 0.9682539682539683
+        },
+        "2026091707": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              134,
+              103
+            ],
+            [
+              3,
+              60
+            ]
+          ],
+          "accuracy": 0.6466666666666666,
+          "balanced_accuracy": 0.7588908981314044,
+          "inactive_specificity": 0.5654008438818565,
+          "active_recall": 0.9523809523809523
+        },
+        "2026091708": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              135,
+              102
+            ],
+            [
+              2,
+              61
+            ]
+          ],
+          "accuracy": 0.6533333333333333,
+          "balanced_accuracy": 0.7689371107092626,
+          "inactive_specificity": 0.569620253164557,
+          "active_recall": 0.9682539682539683
+        }
+      },
+      "by_profile": {
+        "A": {
+          "windows": 400,
+          "confusion_actual_by_predicted": [
+            [
+              65,
+              187
+            ],
+            [
+              7,
+              141
+            ]
+          ],
+          "accuracy": 0.515,
+          "balanced_accuracy": 0.6053196053196054,
+          "inactive_specificity": 0.25793650793650796,
+          "active_recall": 0.9527027027027027
+        },
+        "B": {
+          "windows": 400,
+          "confusion_actual_by_predicted": [
+            [
+              82,
+              214
+            ],
+            [
+              4,
+              100
+            ]
+          ],
+          "accuracy": 0.455,
+          "balanced_accuracy": 0.6192827442827443,
+          "inactive_specificity": 0.27702702702702703,
+          "active_recall": 0.9615384615384616
+        },
+        "Q": {
+          "windows": 400,
+          "confusion_actual_by_predicted": [
+            [
+              400,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "inactive_specificity": 1.0,
+          "active_recall": null
+        }
+      },
+      "washout_specificity": 0.1282608695652174,
+      "washout_windows": 460
+    },
+    "temporal": {
+      "overall": {
+        "windows": 1200,
+        "confusion_actual_by_predicted": [
+          [
+            697,
+            251
+          ],
+          [
+            1,
+            251
+          ]
+        ],
+        "accuracy": 0.79,
+        "balanced_accuracy": 0.8656319067711473,
+        "inactive_specificity": 0.7352320675105485,
+        "active_recall": 0.996031746031746
+      },
+      "by_phase": {
+        "odor_1": {
+          "windows": 164,
+          "confusion_actual_by_predicted": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              164
+            ]
+          ],
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "inactive_specificity": null,
+          "active_recall": 1.0
+        },
+        "odor_2": {
+          "windows": 88,
+          "confusion_actual_by_predicted": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              87
+            ]
+          ],
+          "accuracy": 0.9886363636363636,
+          "balanced_accuracy": 0.9886363636363636,
+          "inactive_specificity": null,
+          "active_recall": 0.9886363636363636
+        },
+        "quiet": {
+          "windows": 488,
+          "confusion_actual_by_predicted": [
+            [
+              488,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "inactive_specificity": 1.0,
+          "active_recall": null
+        },
+        "washout_1": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              128,
+              172
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 0.4266666666666667,
+          "balanced_accuracy": 0.4266666666666667,
+          "inactive_specificity": 0.4266666666666667,
+          "active_recall": null
+        },
+        "washout_2": {
+          "windows": 160,
+          "confusion_actual_by_predicted": [
+            [
+              81,
+              79
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 0.50625,
+          "balanced_accuracy": 0.50625,
+          "inactive_specificity": 0.50625,
+          "active_recall": null
+        }
+      },
+      "by_seed": {
+        "2026091705": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              172,
+              65
+            ],
+            [
+              1,
+              62
+            ]
+          ],
+          "accuracy": 0.78,
+          "balanced_accuracy": 0.8549326903757284,
+          "inactive_specificity": 0.7257383966244726,
+          "active_recall": 0.9841269841269841
+        },
+        "2026091706": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              171,
+              66
+            ],
+            [
+              0,
+              63
+            ]
+          ],
+          "accuracy": 0.78,
+          "balanced_accuracy": 0.860759493670886,
+          "inactive_specificity": 0.7215189873417721,
+          "active_recall": 1.0
+        },
+        "2026091707": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              176,
+              61
+            ],
+            [
+              0,
+              63
+            ]
+          ],
+          "accuracy": 0.7966666666666666,
+          "balanced_accuracy": 0.8713080168776371,
+          "inactive_specificity": 0.7426160337552743,
+          "active_recall": 1.0
+        },
+        "2026091708": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              178,
+              59
+            ],
+            [
+              0,
+              63
+            ]
+          ],
+          "accuracy": 0.8033333333333333,
+          "balanced_accuracy": 0.8755274261603376,
+          "inactive_specificity": 0.7510548523206751,
+          "active_recall": 1.0
+        }
+      },
+      "by_profile": {
+        "A": {
+          "windows": 400,
+          "confusion_actual_by_predicted": [
+            [
+              144,
+              108
+            ],
+            [
+              1,
+              147
+            ]
+          ],
+          "accuracy": 0.7275,
+          "balanced_accuracy": 0.7823359073359073,
+          "inactive_specificity": 0.5714285714285714,
+          "active_recall": 0.9932432432432432
+        },
+        "B": {
+          "windows": 400,
+          "confusion_actual_by_predicted": [
+            [
+              153,
+              143
+            ],
+            [
+              0,
+              104
+            ]
+          ],
+          "accuracy": 0.6425,
+          "balanced_accuracy": 0.7584459459459459,
+          "inactive_specificity": 0.5168918918918919,
+          "active_recall": 1.0
+        },
+        "Q": {
+          "windows": 400,
+          "confusion_actual_by_predicted": [
+            [
+              400,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "inactive_specificity": 1.0,
+          "active_recall": null
+        }
+      },
+      "washout_specificity": 0.4543478260869565,
+      "washout_windows": 460
+    },
+    "frozen_original": {
+      "overall": {
+        "windows": 1200,
+        "confusion_actual_by_predicted": [
+          [
+            529,
+            419
+          ],
+          [
+            6,
+            246
+          ]
+        ],
+        "accuracy": 0.6458333333333334,
+        "balanced_accuracy": 0.7671036769138035,
+        "inactive_specificity": 0.5580168776371308,
+        "active_recall": 0.9761904761904762
+      },
+      "by_phase": {
+        "odor_1": {
+          "windows": 164,
+          "confusion_actual_by_predicted": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              161
+            ]
+          ],
+          "accuracy": 0.9817073170731707,
+          "balanced_accuracy": 0.9817073170731707,
+          "inactive_specificity": null,
+          "active_recall": 0.9817073170731707
+        },
+        "odor_2": {
+          "windows": 88,
+          "confusion_actual_by_predicted": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              85
+            ]
+          ],
+          "accuracy": 0.9659090909090909,
+          "balanced_accuracy": 0.9659090909090909,
+          "inactive_specificity": null,
+          "active_recall": 0.9659090909090909
+        },
+        "quiet": {
+          "windows": 488,
+          "confusion_actual_by_predicted": [
+            [
+              488,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "inactive_specificity": 1.0,
+          "active_recall": null
+        },
+        "washout_1": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              26,
+              274
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 0.08666666666666667,
+          "balanced_accuracy": 0.08666666666666667,
+          "inactive_specificity": 0.08666666666666667,
+          "active_recall": null
+        },
+        "washout_2": {
+          "windows": 160,
+          "confusion_actual_by_predicted": [
+            [
+              15,
+              145
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 0.09375,
+          "balanced_accuracy": 0.09375,
+          "inactive_specificity": 0.09375,
+          "active_recall": null
+        }
+      },
+      "by_seed": {
+        "2026091705": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              132,
+              105
+            ],
+            [
+              3,
+              60
+            ]
+          ],
+          "accuracy": 0.64,
+          "balanced_accuracy": 0.754671488848704,
+          "inactive_specificity": 0.5569620253164557,
+          "active_recall": 0.9523809523809523
+        },
+        "2026091706": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              132,
+              105
+            ],
+            [
+              0,
+              63
+            ]
+          ],
+          "accuracy": 0.65,
+          "balanced_accuracy": 0.7784810126582278,
+          "inactive_specificity": 0.5569620253164557,
+          "active_recall": 1.0
+        },
+        "2026091707": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              132,
+              105
+            ],
+            [
+              2,
+              61
+            ]
+          ],
+          "accuracy": 0.6433333333333333,
+          "balanced_accuracy": 0.762607996785212,
+          "inactive_specificity": 0.5569620253164557,
+          "active_recall": 0.9682539682539683
+        },
+        "2026091708": {
+          "windows": 300,
+          "confusion_actual_by_predicted": [
+            [
+              133,
+              104
+            ],
+            [
+              1,
+              62
+            ]
+          ],
+          "accuracy": 0.65,
+          "balanced_accuracy": 0.7726542093630702,
+          "inactive_specificity": 0.5611814345991561,
+          "active_recall": 0.9841269841269841
+        }
+      },
+      "by_profile": {
+        "A": {
+          "windows": 400,
+          "confusion_actual_by_predicted": [
+            [
+              57,
+              195
+            ],
+            [
+              4,
+              144
+            ]
+          ],
+          "accuracy": 0.5025,
+          "balanced_accuracy": 0.5995817245817247,
+          "inactive_specificity": 0.2261904761904762,
+          "active_recall": 0.972972972972973
+        },
+        "B": {
+          "windows": 400,
+          "confusion_actual_by_predicted": [
+            [
+              72,
+              224
+            ],
+            [
+              2,
+              102
+            ]
+          ],
+          "accuracy": 0.435,
+          "balanced_accuracy": 0.612006237006237,
+          "inactive_specificity": 0.24324324324324326,
+          "active_recall": 0.9807692307692307
+        },
+        "Q": {
+          "windows": 400,
+          "confusion_actual_by_predicted": [
+            [
+              400,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "inactive_specificity": 1.0,
+          "active_recall": null
+        }
+      },
+      "washout_specificity": 0.0891304347826087,
+      "washout_windows": 460
+    }
+  },
+  "limitations": [
+    "Synthetic forced population stimulation; not biological smell recognition",
+    "Windows within each trial are correlated; test seeds share two fixed schedules",
+    "Feature history ends at the current 50ms window, uses no future, labels, clock, input intensity, or external sensor",
+    "No hyperparameter tuning after heldout evaluation; negative results do not replace live readout"
+  ]
+}

@@ -1,0 +1,1126 @@
+{
+  "source": "real_live_fixed_lif_worker_smoke",
+  "rows": [
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 1,
+      "odor_strength": 0,
+      "body_time": 0.05,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 50.0,
+      "window_ms": 50,
+      "wall_ms": 0.011833,
+      "rates_hz": {
+        "class:ALPN": 0.0,
+        "prefix:KC": 0.0,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 0.0,
+        "superclass:descending_neuron": 0.0,
+        "superclass:vnc_motor": 0.0,
+        "superclass:cb_motor": 0.0
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "none",
+        "probabilities": {
+          "none": 0.954949450268313,
+          "odor": 0.04504003062230383,
+          "loom": 1.0519109383068594e-05
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 2,
+      "odor_strength": 0.3,
+      "body_time": 0.1,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 100.0,
+      "window_ms": 50,
+      "wall_ms": 49.476166,
+      "rates_hz": {
+        "class:ALPN": 98.74635568513119,
+        "prefix:KC": 0.44291338582677164,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 0.0,
+        "superclass:descending_neuron": 5.646879756468797,
+        "superclass:vnc_motor": 4.745762711864407,
+        "superclass:cb_motor": 5.420560747663552
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.40635696251770925,
+          "odor": 0.586792525582416,
+          "loom": 0.006850511899874754
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 3,
+      "odor_strength": 0.3,
+      "body_time": 0.15000000000000002,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 150.0,
+      "window_ms": 50,
+      "wall_ms": 84.542542,
+      "rates_hz": {
+        "class:ALPN": 137.1137026239067,
+        "prefix:KC": 1.2893700787401574,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 30.0,
+        "superclass:descending_neuron": 8.751902587519027,
+        "superclass:vnc_motor": 7.372881355932203,
+        "superclass:cb_motor": 10.841121495327103
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.19911288483943404,
+          "odor": 0.7976204875070245,
+          "loom": 0.0032666276535414504
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 4,
+      "odor_strength": 0.3,
+      "body_time": 0.2,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 200.0,
+      "window_ms": 50,
+      "wall_ms": 87.50475,
+      "rates_hz": {
+        "class:ALPN": 136.82215743440233,
+        "prefix:KC": 1.2450787401574803,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 20.0,
+        "superclass:descending_neuron": 9.132420091324201,
+        "superclass:vnc_motor": 8.841807909604519,
+        "superclass:cb_motor": 11.401869158878505
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.24528886568460798,
+          "odor": 0.7486026228040374,
+          "loom": 0.006108511511354612
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 5,
+      "odor_strength": 0.3,
+      "body_time": 0.25,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 250.0,
+      "window_ms": 50,
+      "wall_ms": 82.9405,
+      "rates_hz": {
+        "class:ALPN": 137.46355685131195,
+        "prefix:KC": 1.358267716535433,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 10.0,
+        "superclass:descending_neuron": 8.812785388127853,
+        "superclass:vnc_motor": 7.627118644067797,
+        "superclass:cb_motor": 11.77570093457944
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.27090560355076226,
+          "odor": 0.7234809162898754,
+          "loom": 0.005613480159362316
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 6,
+      "odor_strength": 0.3,
+      "body_time": 0.30000000000000004,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 300.0,
+      "window_ms": 50,
+      "wall_ms": 82.78825,
+      "rates_hz": {
+        "class:ALPN": 137.201166180758,
+        "prefix:KC": 1.3730314960629921,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 30.0,
+        "superclass:descending_neuron": 8.554033485540335,
+        "superclass:vnc_motor": 8.163841807909604,
+        "superclass:cb_motor": 9.345794392523365
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.2095748176735609,
+          "odor": 0.7875112268823639,
+          "loom": 0.0029139554440751887
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 7,
+      "odor_strength": 0.3,
+      "body_time": 0.35000000000000003,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 350.0,
+      "window_ms": 50,
+      "wall_ms": 84.056458,
+      "rates_hz": {
+        "class:ALPN": 137.5801749271137,
+        "prefix:KC": 1.264763779527559,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 10.0,
+        "superclass:descending_neuron": 8.78234398782344,
+        "superclass:vnc_motor": 7.853107344632768,
+        "superclass:cb_motor": 11.77570093457944
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.27526262534031054,
+          "odor": 0.7183212354231074,
+          "loom": 0.006416139236582081
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 8,
+      "odor_strength": 0.3,
+      "body_time": 0.4,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 400.0,
+      "window_ms": 50,
+      "wall_ms": 85.113208,
+      "rates_hz": {
+        "class:ALPN": 137.0262390670554,
+        "prefix:KC": 1.2893700787401574,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 30.0,
+        "superclass:descending_neuron": 8.949771689497718,
+        "superclass:vnc_motor": 7.372881355932203,
+        "superclass:cb_motor": 11.401869158878505
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.19841865787068563,
+          "odor": 0.7980163894092079,
+          "loom": 0.003564952720106433
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 9,
+      "odor_strength": 0.3,
+      "body_time": 0.45,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 450.0,
+      "window_ms": 50,
+      "wall_ms": 84.062167,
+      "rates_hz": {
+        "class:ALPN": 137.98833819241983,
+        "prefix:KC": 1.2844488188976377,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 20.0,
+        "superclass:descending_neuron": 8.645357686453577,
+        "superclass:vnc_motor": 8.27683615819209,
+        "superclass:cb_motor": 11.401869158878505
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.24788387404194706,
+          "odor": 0.7472748297546266,
+          "loom": 0.004841296203426408
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 10,
+      "odor_strength": 0.3,
+      "body_time": 0.5,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 500.0,
+      "window_ms": 50,
+      "wall_ms": 84.638709,
+      "rates_hz": {
+        "class:ALPN": 136.44314868804665,
+        "prefix:KC": 1.2598425196850394,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 30.0,
+        "superclass:descending_neuron": 9.208523592085236,
+        "superclass:vnc_motor": 9.067796610169491,
+        "superclass:cb_motor": 11.214953271028037
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.2249511044880622,
+          "odor": 0.7698015805162844,
+          "loom": 0.005247314995653293
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 11,
+      "odor_strength": 0.3,
+      "body_time": 0.55,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 550.0,
+      "window_ms": 50,
+      "wall_ms": 83.410166,
+      "rates_hz": {
+        "class:ALPN": 137.05539358600583,
+        "prefix:KC": 1.2893700787401574,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 0.0,
+        "superclass:descending_neuron": 8.645357686453577,
+        "superclass:vnc_motor": 8.05084745762712,
+        "superclass:cb_motor": 12.523364485981308
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.46374191552104177,
+          "odor": 0.5187289630854922,
+          "loom": 0.01752912139346606
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 12,
+      "odor_strength": 0.3,
+      "body_time": 0.6000000000000001,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 600.0,
+      "window_ms": 50,
+      "wall_ms": 83.942042,
+      "rates_hz": {
+        "class:ALPN": 137.05539358600583,
+        "prefix:KC": 1.2992125984251968,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 20.0,
+        "superclass:descending_neuron": 8.904109589041095,
+        "superclass:vnc_motor": 7.288135593220339,
+        "superclass:cb_motor": 11.214953271028037
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.21639343267281974,
+          "odor": 0.7795739512970856,
+          "loom": 0.0040326160300946
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 13,
+      "odor_strength": 0.3,
+      "body_time": 0.65,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 180.0,
+      "brain_ms": 650.0,
+      "window_ms": 50,
+      "wall_ms": 83.479792,
+      "rates_hz": {
+        "class:ALPN": 137.5801749271137,
+        "prefix:KC": 1.1909448818897639,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 20.0,
+        "superclass:descending_neuron": 8.63013698630137,
+        "superclass:vnc_motor": 8.728813559322035,
+        "superclass:cb_motor": 10.841121495327103
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.25129746410303666,
+          "odor": 0.7432044846450168,
+          "loom": 0.0054980512519465456
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 14,
+      "odor_strength": 0,
+      "body_time": 0.7000000000000001,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 700.0,
+      "window_ms": 50,
+      "wall_ms": 82.916666,
+      "rates_hz": {
+        "class:ALPN": 134.19825072886297,
+        "prefix:KC": 1.0088582677165354,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 20.0,
+        "superclass:descending_neuron": 8.995433789954339,
+        "superclass:vnc_motor": 8.954802259887005,
+        "superclass:cb_motor": 11.214953271028037
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.24664011325868673,
+          "odor": 0.7455013011830218,
+          "loom": 0.007858585558291338
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 15,
+      "odor_strength": 0,
+      "body_time": 0.75,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 750.0,
+      "window_ms": 50,
+      "wall_ms": 86.432875,
+      "rates_hz": {
+        "class:ALPN": 134.6064139941691,
+        "prefix:KC": 1.013779527559055,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 0.0,
+        "superclass:descending_neuron": 8.584474885844749,
+        "superclass:vnc_motor": 8.07909604519774,
+        "superclass:cb_motor": 11.588785046728972
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.44848404495080046,
+          "odor": 0.5293837005213808,
+          "loom": 0.02213225452781873
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 16,
+      "odor_strength": 0,
+      "body_time": 0.8,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 800.0,
+      "window_ms": 50,
+      "wall_ms": 83.769833,
+      "rates_hz": {
+        "class:ALPN": 134.3148688046647,
+        "prefix:KC": 0.9793307086614174,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 30.0,
+        "superclass:descending_neuron": 9.056316590563165,
+        "superclass:vnc_motor": 9.293785310734464,
+        "superclass:cb_motor": 10.093457943925234
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.21852941037625495,
+          "odor": 0.7749132565586998,
+          "loom": 0.006557333065045343
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 17,
+      "odor_strength": 0,
+      "body_time": 0.8500000000000001,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 850.0,
+      "window_ms": 50,
+      "wall_ms": 82.612041,
+      "rates_hz": {
+        "class:ALPN": 134.46064139941691,
+        "prefix:KC": 0.890748031496063,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 10.0,
+        "superclass:descending_neuron": 9.23896499238965,
+        "superclass:vnc_motor": 9.6045197740113,
+        "superclass:cb_motor": 13.83177570093458
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.31204361658659546,
+          "odor": 0.6707634568137745,
+          "loom": 0.017192926599630075
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 18,
+      "odor_strength": 0,
+      "body_time": 0.9,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 900.0,
+      "window_ms": 50,
+      "wall_ms": 84.15025,
+      "rates_hz": {
+        "class:ALPN": 133.96501457725947,
+        "prefix:KC": 1.0088582677165354,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 0.0,
+        "superclass:descending_neuron": 8.964992389649924,
+        "superclass:vnc_motor": 9.80225988700565,
+        "superclass:cb_motor": 11.77570093457944
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.4802395243381519,
+          "odor": 0.4882701292765951,
+          "loom": 0.03149034638525295
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 19,
+      "odor_strength": 0,
+      "body_time": 0.9500000000000001,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 950.0,
+      "window_ms": 50,
+      "wall_ms": 81.788542,
+      "rates_hz": {
+        "class:ALPN": 134.08163265306123,
+        "prefix:KC": 0.9793307086614174,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 10.0,
+        "superclass:descending_neuron": 8.858447488584474,
+        "superclass:vnc_motor": 9.124293785310735,
+        "superclass:cb_motor": 11.02803738317757
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.2915377170176977,
+          "odor": 0.6978287409268704,
+          "loom": 0.010633542055431806
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 20,
+      "odor_strength": 0,
+      "body_time": 1.0,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 1000.0,
+      "window_ms": 50,
+      "wall_ms": 82.203583,
+      "rates_hz": {
+        "class:ALPN": 134.78134110787173,
+        "prefix:KC": 0.9301181102362205,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 20.0,
+        "superclass:descending_neuron": 8.88888888888889,
+        "superclass:vnc_motor": 10.141242937853107,
+        "superclass:cb_motor": 11.02803738317757
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.2698371304955583,
+          "odor": 0.7200793725046241,
+          "loom": 0.01008349699981758
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 21,
+      "odor_strength": 0,
+      "body_time": 1.05,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 1050.0,
+      "window_ms": 50,
+      "wall_ms": 83.385125,
+      "rates_hz": {
+        "class:ALPN": 134.02332361516034,
+        "prefix:KC": 0.8858267716535433,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 10.0,
+        "superclass:descending_neuron": 9.071537290715373,
+        "superclass:vnc_motor": 8.728813559322035,
+        "superclass:cb_motor": 10.093457943925234
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.262292721368011,
+          "odor": 0.7271491114879519,
+          "loom": 0.010558167144036994
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 22,
+      "odor_strength": 0,
+      "body_time": 1.1,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 1100.0,
+      "window_ms": 50,
+      "wall_ms": 84.739375,
+      "rates_hz": {
+        "class:ALPN": 134.63556851311952,
+        "prefix:KC": 0.9793307086614174,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 20.0,
+        "superclass:descending_neuron": 8.843226788432268,
+        "superclass:vnc_motor": 9.152542372881356,
+        "superclass:cb_motor": 11.02803738317757
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.2526054349629472,
+          "odor": 0.7393510373778147,
+          "loom": 0.0080435276592382
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 23,
+      "odor_strength": 0,
+      "body_time": 1.1500000000000001,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 1150.0,
+      "window_ms": 50,
+      "wall_ms": 82.953542,
+      "rates_hz": {
+        "class:ALPN": 135.36443148688048,
+        "prefix:KC": 1.0088582677165354,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 30.0,
+        "superclass:descending_neuron": 9.254185692541856,
+        "superclass:vnc_motor": 9.6045197740113,
+        "superclass:cb_motor": 14.57943925233645
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.2563905762800904,
+          "odor": 0.733480835470627,
+          "loom": 0.010128588249282505
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 24,
+      "odor_strength": 0,
+      "body_time": 1.2000000000000002,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 1200.0,
+      "window_ms": 50,
+      "wall_ms": 82.824583,
+      "rates_hz": {
+        "class:ALPN": 133.9067055393586,
+        "prefix:KC": 0.9793307086614174,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 10.0,
+        "superclass:descending_neuron": 8.67579908675799,
+        "superclass:vnc_motor": 9.830508474576272,
+        "superclass:cb_motor": 11.962616822429906
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.3244688398107023,
+          "odor": 0.663037070903023,
+          "loom": 0.01249408928627473
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    },
+    {
+      "source": "live_fixed_lif",
+      "session": "smoke-main",
+      "sequence": 25,
+      "odor_strength": 0,
+      "body_time": 1.25,
+      "body_position": {
+        "x": -3,
+        "y": 3.2,
+        "z": -3
+      },
+      "input_hz": 0.0,
+      "brain_ms": 1250.0,
+      "window_ms": 50,
+      "wall_ms": 83.344541,
+      "rates_hz": {
+        "class:ALPN": 135.48104956268222,
+        "prefix:KC": 0.9153543307086615,
+        "DNp01": 0.0,
+        "DNp09": 0.0,
+        "DNa02": 30.0,
+        "superclass:descending_neuron": 9.330289193302892,
+        "superclass:vnc_motor": 9.774011299435028,
+        "superclass:cb_motor": 10.841121495327103
+      },
+      "readout": {
+        "source": "fixed_lif_downstream_readout",
+        "label": "odor",
+        "probabilities": {
+          "none": 0.2237724239004618,
+          "odor": 0.7676210387495455,
+          "loom": 0.008606537349992774
+        },
+        "window_ms": 50,
+        "meaning": "classification of synthetic stimulation, not a verified current world observation",
+        "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+      },
+      "neuron_count": 176422,
+      "edge_count": 6287749,
+      "nonfinite_membranes": 0,
+      "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+    }
+  ],
+  "new_session": {
+    "source": "live_fixed_lif",
+    "session": "smoke-new",
+    "sequence": 1,
+    "odor_strength": 0,
+    "body_time": 0,
+    "body_position": {
+      "x": 0,
+      "y": 3.2,
+      "z": 0
+    },
+    "input_hz": 0.0,
+    "brain_ms": 50.0,
+    "window_ms": 50,
+    "wall_ms": 0.020584,
+    "rates_hz": {
+      "class:ALPN": 0.0,
+      "prefix:KC": 0.0,
+      "DNp01": 0.0,
+      "DNp09": 0.0,
+      "DNa02": 0.0,
+      "superclass:descending_neuron": 0.0,
+      "superclass:vnc_motor": 0.0,
+      "superclass:cb_motor": 0.0
+    },
+    "readout": {
+      "source": "fixed_lif_downstream_readout",
+      "label": "none",
+      "probabilities": {
+        "none": 0.954949450268313,
+        "odor": 0.04504003062230383,
+        "loom": 1.0519109383068594e-05
+      },
+      "window_ms": 50,
+      "meaning": "classification of synthetic stimulation, not a verified current world observation",
+      "known_limitation": "odor activity can remain classified as odor for at least 100 ms after stimulus removal"
+    },
+    "neuron_count": 176422,
+    "edge_count": 6287749,
+    "nonfinite_membranes": 0,
+    "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+    "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+  },
+  "duplicate_rejected": true,
+  "limitation": "Classifier was evaluated on fresh 300ms synthetic trials. Continuous repeated input here is outside that heldout domain; labels are synthetic circuit classification, not ground-truth world smell.",
+  "worker_exited_on_close": true
+}

@@ -1,0 +1,58 @@
+--- upstream/LifNetwork.java
++++ observed/LifNetwork.java
+@@ -73,6 +73,7 @@
+     private double simTimeMs;
+ 
+     private final SplittableRandom rng;
++    public TimingRecorder timing;
+ 
+     public LifNetwork(Connectome c, LifConfig cfg) {
+         this.c = c;
+@@ -231,6 +232,7 @@
+         final int step = (int) stepIndex;
+         final int readSlot = (int) (stepIndex % slots);
+         final float[] in = delayBuf[readSlot];
++        if(timing!=null)timing.start(step);
+ 
+         // Poisson-driven neurons: spike generators
+         if (stimCount > 0) {
+@@ -241,6 +243,7 @@
+                 if (p <= 0f) { inStim[i] = false; continue; }
+                 stimList[w++] = i;
+                 if (rng.nextFloat() < p) {
++                    if(timing!=null)timing.markForced(i);
+                     emitSpike(i);
+                     v[i] = vReset;
+                     refUntil[i] = step + refSteps;
+@@ -249,6 +252,7 @@
+             }
+             stimCount = w;
+         }
++        if(timing!=null)timing.begin(in,v,g,refUntil);
+         // injected currents
+         if (injectCount > 0) {
+             int w = 0;
+@@ -293,6 +297,7 @@
+             for (int k = 0, n = spikeCount[0]; k < n; k++) emitSpike(sb[k]);
+             spikeCount[0] = 0;
+         }
++        if(timing!=null)timing.end(v,g);
+         stepIndex++;
+         simTimeMs += cfg.dtMs;
+     }
+@@ -382,6 +387,7 @@
+     }
+ 
+     private void emitSpike(int i) {
++        if(timing!=null)timing.spike(i);
+         totalSpikes++;
+         spikeCountTick[i]++;
+         // reservoir sample of this tick's spikes (uniform over the whole tick, not just the first spikes)
+@@ -416,6 +422,7 @@
+             if (cap > 0f) {
+                 if (jump > cap) jump = cap; else if (jump < -cap) jump = -cap;
+             }
++            if(timing!=null)timing.edge(i,j,jump);
+             if (out[j] == 0f) pending[j]++;
+             out[j] += jump;
+             if (out[j] == 0f) pending[j]--; // exact cancellation: keep counter consistent

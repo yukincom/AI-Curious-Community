@@ -1,0 +1,50 @@
+[
+  {
+    "trial": "sham_2026091701",
+    "wall_seconds": 25.850030999979936,
+    "windows.csv_sha256": "cdd3d48eed94d2d5040ebebc32d564d0f9dbea6b90774cc22a7f1f15d58cb8a9",
+    "cells.csv_sha256": "c8b60eeb472b1dfbeef561f9cf70fd88788b451bc14f846dee73f7daefb2c5be"
+  },
+  {
+    "trial": "exc_ln_to_pn_2026091701",
+    "wall_seconds": 23.342498125013663,
+    "windows.csv_sha256": "680f62966deff33250a84cb2cc357443e2fc98d874cecaf5f4e5bd392e6cfb19",
+    "cells.csv_sha256": "e1e76f8de362cf945bf3f9a52eded0bfdb5d2d91f880b4504ec6e7b100f48e47"
+  },
+  {
+    "trial": "exc_ln_to_ln_2026091701",
+    "wall_seconds": 25.525935750018107,
+    "windows.csv_sha256": "319b5ab406c22542e31b68e67b6d4eae438e74eba171aa7c6c74fc27f35580b8",
+    "cells.csv_sha256": "319e8db7be8d910accb15cf6ec94c165812744a47282c04347436fdd8334fe53"
+  },
+  {
+    "trial": "unknown_ln_out_2026091701",
+    "wall_seconds": 24.478192334005143,
+    "windows.csv_sha256": "f553520241698017216b8d3d2eb79a22796601424ad344fb4760f3f2c576634d",
+    "cells.csv_sha256": "a0106a66dce086c095a0319f07c28de041ce08890f8ab77bebda1d4bf932a5d5"
+  },
+  {
+    "trial": "sham_2026091711",
+    "wall_seconds": 24.690477249998366,
+    "windows.csv_sha256": "a6097d2b51f5c4e63cd2885e16a30e79c4d03030efaf84fc57b568bf660683ed",
+    "cells.csv_sha256": "153bd0c629e9d6c5cdfa0489109ee2c61e5aa190efbf13e34d76e1bd4fad02f3"
+  },
+  {
+    "trial": "exc_ln_to_pn_2026091711",
+    "wall_seconds": 22.3374458749895,
+    "windows.csv_sha256": "b4b019229b4b281099b4923d3ed40ca3d5cb212da533c8b6628a0f22630962f3",
+    "cells.csv_sha256": "d2c060b028a60e63b2aa74b31c105dd8a162518b2ec05fc0ae378c0cd218ca99"
+  },
+  {
+    "trial": "exc_ln_to_ln_2026091711",
+    "wall_seconds": 26.468244249990676,
+    "windows.csv_sha256": "2acbba034822b070ee7b3194dbb42e6b8542db79e983c81fe32a8eaccabdba29",
+    "cells.csv_sha256": "72d92ac9da6ee9bea6235c329573608b477b5ce06de72facf584616eac841e9c"
+  },
+  {
+    "trial": "unknown_ln_out_2026091711",
+    "wall_seconds": 24.74524262500927,
+    "windows.csv_sha256": "551d9ed890e14bc259fbb0878c4bc6a9541e700b7a92252730d8abda9cb121e0",
+    "cells.csv_sha256": "7539fc91af34149f91177e5560b288040925897ecff2aef89b016a5db84f0c89"
+  }
+]

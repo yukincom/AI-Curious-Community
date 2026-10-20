@@ -1,0 +1,113 @@
+{
+  "metric_fixtures_passed": true,
+  "trials": {
+    "baseline_2026091701": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "pn300_2026091701": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "eln300_2026091701": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "baseline_2026091711": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "pn300_2026091711": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "eln300_2026091711": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "baseline_2026091721": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "pn300_2026091721": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "eln300_2026091721": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "baseline_2026091731": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "pn300_2026091731": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    },
+    "eln300_2026091731": {
+      "time_and_count_checks": true,
+      "ORN_transmission_exactly_preserved": true,
+      "finite_and_bounded_transmission": true
+    }
+  },
+  "csv_sha256": {
+    "PN-summary.csv": "5728fb9b9554c7277e67996fa64f54891f0e04b25c170ea818a121ff94bdf36f",
+    "baseline_2026091701-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "baseline_2026091701-spikes.csv": "6dbdd69839f60a9ff638dcd071435e4406a472c660a5bca8723aeb7f9a8067e1",
+    "baseline_2026091701-synapses.csv": "265ccd2fb3459f2677b736aa0c16a1d771fff6e5d57aee721a6d45b2d6e61cb8",
+    "baseline_2026091711-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "baseline_2026091711-spikes.csv": "1148fc01b48ee7f4832e096b88176d2f4b4f8a9d6b642476984ee6a04ce1e777",
+    "baseline_2026091711-synapses.csv": "20d0d04ad0d35a07059aa5b572c3158e516362ed5a07c58aa428b5e3e8099750",
+    "baseline_2026091721-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "baseline_2026091721-spikes.csv": "79a5c4aaa225e231672c339a189ed632989a045507ee0db46ff3b755cdc97912",
+    "baseline_2026091721-synapses.csv": "953d530c68f0e4a70a782d674b1b28ef65fddfbc39dc244c9055ece8302f8d12",
+    "baseline_2026091731-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "baseline_2026091731-spikes.csv": "34958ca3621f180381af723fdf41ae8af98be59c3c93d683e3fb188bcb57c84f",
+    "baseline_2026091731-synapses.csv": "98209f13c34adcac44c36eda260902100ae7998752c024bfb48588a691d1c6ca",
+    "baseline_zero-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "baseline_zero-spikes.csv": "10b2d2d6fb9b50a621e098f0e57755d59daf9bd92f4bb12b31f2525486f09235",
+    "baseline_zero-synapses.csv": "20721836f5c91e06db6184fff4edeb1973a296477b8d1c6ee97867db978839d9",
+    "eln300_2026091701-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "eln300_2026091701-spikes.csv": "f1959573f20b87abd3ef94ff387802076ee14fa870066a5ae49a98577bb3ff8d",
+    "eln300_2026091701-synapses.csv": "b4dad46eb131be369fee6869bd8759798eab1424a4b3cb8e02c9e62f6379b9b0",
+    "eln300_2026091711-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "eln300_2026091711-spikes.csv": "a16ab21de067888d28de97d274bb95c14bb1d2c6589c338650acce56eda40262",
+    "eln300_2026091711-synapses.csv": "5417579fe9b8bc7c7737c59dd06628a9d42408ec9da8c66089dec90a9989f2ec",
+    "eln300_2026091721-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "eln300_2026091721-spikes.csv": "aa16797ee2f56d684825ca989dc6c2e0277b28fcb787023418011fc17dba26f2",
+    "eln300_2026091721-synapses.csv": "60ae44c4737ac3e8c5c86520fc938e6db11544d4f65f0498448a98b6dea9e715",
+    "eln300_2026091731-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "eln300_2026091731-spikes.csv": "c94be82099712d65009674a323a6e28068ec2fb79a17d96b3da791624d5da8d4",
+    "eln300_2026091731-synapses.csv": "4258ac01e1e7cabf0069826e66671d99d63f2bdd8b85bf3a2bfcfb23e3906548",
+    "eln300_zero-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "eln300_zero-spikes.csv": "10b2d2d6fb9b50a621e098f0e57755d59daf9bd92f4bb12b31f2525486f09235",
+    "eln300_zero-synapses.csv": "20721836f5c91e06db6184fff4edeb1973a296477b8d1c6ee97867db978839d9",
+    "pn300_2026091701-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "pn300_2026091701-spikes.csv": "e8ac770d531e513676c689110dd2c4f3981007cc3679ce0a9d3f9a56e02a3922",
+    "pn300_2026091701-synapses.csv": "897185b979644b523c99503327075948db750090bcc3bd1a07e780cfee11d0b4",
+    "pn300_2026091711-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "pn300_2026091711-spikes.csv": "916acb47601d0b5275e6b54949b14b6c7dd1d6775c6feba03cde94085efc853a",
+    "pn300_2026091711-synapses.csv": "c4f39be7e5a4eacf1fca3b3dbb879c60ad188cb6370181db6d4079e2dbb1e32d",
+    "pn300_2026091721-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "pn300_2026091721-spikes.csv": "9f6b78131687250ee340a1b9454261046eb38ea715708e1ea0163acb733145eb",
+    "pn300_2026091721-synapses.csv": "117dddd42534afd06b567bbf9b99c35e81bda17e1f6ed254e642c0f2c531543e",
+    "pn300_2026091731-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "pn300_2026091731-spikes.csv": "c9f3b8af7996786f9632cd3495de3f9df01eec5f64b3f5784054db172f3f07a1",
+    "pn300_2026091731-synapses.csv": "cdad9723d39a1dba14200685723536c77a1e49d612e50b31f39f217c8c2de015",
+    "pn300_zero-edges.csv": "f0eb6525679f5b6ec2cbd5b09de94ac3079ef4c93ed1d5393da70350c1720db7",
+    "pn300_zero-spikes.csv": "10b2d2d6fb9b50a621e098f0e57755d59daf9bd92f4bb12b31f2525486f09235",
+    "pn300_zero-synapses.csv": "20721836f5c91e06db6184fff4edeb1973a296477b8d1c6ee97867db978839d9"
+  }
+}

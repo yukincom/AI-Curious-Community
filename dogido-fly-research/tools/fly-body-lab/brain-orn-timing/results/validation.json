@@ -1,0 +1,90 @@
+{
+  "hungry_2026091701": {
+    "all_edge_events_match_real_source_spikes_and_topology": true,
+    "edge_events": 1280193,
+    "effective_delay_ms": 2,
+    "all_OFF_target_steps_checked": 440000,
+    "source_ORN_nonzero_edge_events_emitted_in_first_OFF": 0,
+    "max_event_vs_trace_arrival_error_mV": 1.0000000116860974e-07,
+    "max_independent_equation_error_mV": 7.158295062481557e-06,
+    "max_independent_component_error_after_first_OFF_spike_mV": 1.8367439480471148e-07,
+    "all_ten_previous_individual_cumulative_counts_match": true
+  },
+  "satiated_2026091701": {
+    "all_edge_events_match_real_source_spikes_and_topology": true,
+    "edge_events": 1279255,
+    "effective_delay_ms": 2,
+    "all_OFF_target_steps_checked": 440000,
+    "source_ORN_nonzero_edge_events_emitted_in_first_OFF": 0,
+    "max_event_vs_trace_arrival_error_mV": 1.0000000116860974e-07,
+    "max_independent_equation_error_mV": 7.232153478753389e-06,
+    "max_independent_component_error_after_first_OFF_spike_mV": 1.8367439480471148e-07,
+    "all_ten_previous_individual_cumulative_counts_match": true
+  },
+  "hungry_2026091711": {
+    "all_edge_events_match_real_source_spikes_and_topology": true,
+    "edge_events": 1269979,
+    "effective_delay_ms": 2,
+    "all_OFF_target_steps_checked": 440000,
+    "source_ORN_nonzero_edge_events_emitted_in_first_OFF": 0,
+    "max_event_vs_trace_arrival_error_mV": 1.0000000116860974e-07,
+    "max_independent_equation_error_mV": 7.26084630287005e-06,
+    "max_independent_component_error_after_first_OFF_spike_mV": 1.8367439480471148e-07,
+    "all_ten_previous_individual_cumulative_counts_match": true
+  },
+  "satiated_2026091711": {
+    "all_edge_events_match_real_source_spikes_and_topology": true,
+    "edge_events": 1279531,
+    "effective_delay_ms": 2,
+    "all_OFF_target_steps_checked": 440000,
+    "source_ORN_nonzero_edge_events_emitted_in_first_OFF": 0,
+    "max_event_vs_trace_arrival_error_mV": 1.0000000116860974e-07,
+    "max_independent_equation_error_mV": 7.313948145792892e-06,
+    "max_independent_component_error_after_first_OFF_spike_mV": 1.8367439480471148e-07,
+    "all_ten_previous_individual_cumulative_counts_match": true
+  },
+  "hungry_2026091721": {
+    "all_edge_events_match_real_source_spikes_and_topology": true,
+    "edge_events": 1283820,
+    "effective_delay_ms": 2,
+    "all_OFF_target_steps_checked": 440000,
+    "source_ORN_nonzero_edge_events_emitted_in_first_OFF": 0,
+    "max_event_vs_trace_arrival_error_mV": 1.0000000116860974e-07,
+    "max_independent_equation_error_mV": 7.235050716758451e-06,
+    "max_independent_component_error_after_first_OFF_spike_mV": 1.8367439480471148e-07,
+    "all_ten_previous_individual_cumulative_counts_match": true
+  },
+  "satiated_2026091721": {
+    "all_edge_events_match_real_source_spikes_and_topology": true,
+    "edge_events": 1281030,
+    "effective_delay_ms": 2,
+    "all_OFF_target_steps_checked": 440000,
+    "source_ORN_nonzero_edge_events_emitted_in_first_OFF": 1,
+    "max_event_vs_trace_arrival_error_mV": 1.0000000116860974e-07,
+    "max_independent_equation_error_mV": 7.3199886401198455e-06,
+    "max_independent_component_error_after_first_OFF_spike_mV": 1.8367439480471148e-07,
+    "all_ten_previous_individual_cumulative_counts_match": true
+  },
+  "hungry_2026091731": {
+    "all_edge_events_match_real_source_spikes_and_topology": true,
+    "edge_events": 1280942,
+    "effective_delay_ms": 2,
+    "all_OFF_target_steps_checked": 440000,
+    "source_ORN_nonzero_edge_events_emitted_in_first_OFF": 1,
+    "max_event_vs_trace_arrival_error_mV": 1.0000000116860974e-07,
+    "max_independent_equation_error_mV": 7.228561173633352e-06,
+    "max_independent_component_error_after_first_OFF_spike_mV": 1.8367439480471148e-07,
+    "all_ten_previous_individual_cumulative_counts_match": true
+  },
+  "satiated_2026091731": {
+    "all_edge_events_match_real_source_spikes_and_topology": true,
+    "edge_events": 1267671,
+    "effective_delay_ms": 2,
+    "all_OFF_target_steps_checked": 440000,
+    "source_ORN_nonzero_edge_events_emitted_in_first_OFF": 0,
+    "max_event_vs_trace_arrival_error_mV": 1.0000000116860974e-07,
+    "max_independent_equation_error_mV": 7.241789973022605e-06,
+    "max_independent_component_error_after_first_OFF_spike_mV": 1.8367439480471148e-07,
+    "all_ten_previous_individual_cumulative_counts_match": true
+  }
+}

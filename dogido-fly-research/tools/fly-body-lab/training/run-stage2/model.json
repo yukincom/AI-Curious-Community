@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "flight-stage2-pillar-cem-20260916-attempt2",
+  "architecture": "stage1-plus-geometric-obstacle-residual-4",
+  "base_model_id": "flight-stage1-cem-20260916",
+  "base_weights": [
+    3.2754781171716187,
+    -0.8910799594401315,
+    0.018781434419160734,
+    3.308688953636067,
+    -0.6774580970532696,
+    0.0015300190375540715,
+    3.854597878186127,
+    -2.222419284899813,
+    -2.752888200357007,
+    -0.2064631345706636,
+    0.4989382005668969,
+    -1.6071046173419612,
+    -0.3398378468331834
+  ],
+  "weights": [
+    0,
+    2.9599270525021124,
+    1.1863445953402623,
+    0.42435739245401305
+  ],
+  "initial_weights": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "trained": true,
+  "fly_connectome": false,
+  "accepted": true,
+  "scope": "single isolated tall pillar; body-local analytic geometry and privileged player position; hand-designed repulsion/tangent/braking features, only four gains learned"
+}

@@ -1,0 +1,57 @@
+{
+  "timing_fixture_passed": true,
+  "trials": {
+    "baseline_2026091701": {
+      "samples": 24500,
+      "finite_nonnegative": true,
+      "transmission_bounded": true
+    },
+    "std100_2026091701": {
+      "samples": 24500,
+      "finite_nonnegative": true,
+      "transmission_bounded": true
+    },
+    "std300_2026091701": {
+      "samples": 24500,
+      "finite_nonnegative": true,
+      "transmission_bounded": true
+    },
+    "baseline_2026091711": {
+      "samples": 24500,
+      "finite_nonnegative": true,
+      "transmission_bounded": true
+    },
+    "std100_2026091711": {
+      "samples": 24500,
+      "finite_nonnegative": true,
+      "transmission_bounded": true
+    },
+    "std300_2026091711": {
+      "samples": 24500,
+      "finite_nonnegative": true,
+      "transmission_bounded": true
+    }
+  },
+  "sha256": {
+    "baseline_2026091701-spikes.csv": "6dbdd69839f60a9ff638dcd071435e4406a472c660a5bca8723aeb7f9a8067e1",
+    "baseline_2026091701-synapses.csv": "c174fde12894461a78f09cf4243830b99fd4fb50f0d7ae012f6e2418c31bf3b7",
+    "baseline_2026091711-spikes.csv": "1148fc01b48ee7f4832e096b88176d2f4b4f8a9d6b642476984ee6a04ce1e777",
+    "baseline_2026091711-synapses.csv": "112af00b771a591b21a5e32f96f5bd43780785f8a968069ea2bc7bed005e8c0e",
+    "baseline_check-spikes.csv": "a3e398dba9d689d88f116a85c7cc680060f188b3863262f761268c2b36b5f921",
+    "baseline_check-synapses.csv": "b9570dac48c165e07efbce4228377accc83323f8c210cc9ec9c08b5b2675a1c1",
+    "baseline_zero-spikes.csv": "10b2d2d6fb9b50a621e098f0e57755d59daf9bd92f4bb12b31f2525486f09235",
+    "baseline_zero-synapses.csv": "d1a2aa145603f843facb712c828a50eee38eb8532f7a3255760ffa1443dba297",
+    "std100_2026091701-spikes.csv": "568820cc75d30c6313996b8851b6c6eebc18255aaeddaf08a720d3f66b120be6",
+    "std100_2026091701-synapses.csv": "c0e960b5c6a15dd7c8ddd796300be20a1e8481fd0e75f8330ce9074dfc729fd4",
+    "std100_2026091711-spikes.csv": "a9e426ca6a207c5b0e8872490b9e3fd72ab5069638870e3ba5bf95b90d22f2d3",
+    "std100_2026091711-synapses.csv": "77a620cfdf6899aa56ac4c8e9318323637e6d60f2ffcbbfe2712b0646401d6fe",
+    "std100_zero-spikes.csv": "10b2d2d6fb9b50a621e098f0e57755d59daf9bd92f4bb12b31f2525486f09235",
+    "std100_zero-synapses.csv": "d1a2aa145603f843facb712c828a50eee38eb8532f7a3255760ffa1443dba297",
+    "std300_2026091701-spikes.csv": "831f7bd54240f2987be1746fa530334e7669e68422d4670004ed9310f8736173",
+    "std300_2026091701-synapses.csv": "ef3d97c70726ea474263b4f82b76835cf842693e668e97b99ea3b60b13cbfccf",
+    "std300_2026091711-spikes.csv": "63ee94942679b8382ab5f074abee6d1494dbee44a4bb700eb56b9e7b0868d19a",
+    "std300_2026091711-synapses.csv": "56c75fb49ffecb633988e5c9fc50399e66b6c311e7f0957300d188d284c0957b",
+    "std300_zero-spikes.csv": "10b2d2d6fb9b50a621e098f0e57755d59daf9bd92f4bb12b31f2525486f09235",
+    "std300_zero-synapses.csv": "d1a2aa145603f843facb712c828a50eee38eb8532f7a3255760ffa1443dba297"
+  }
+}

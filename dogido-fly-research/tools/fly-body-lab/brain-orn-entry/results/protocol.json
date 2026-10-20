@@ -1,0 +1,69 @@
+{
+  "seeds": [
+    2026091701,
+    2026091711,
+    2026091721,
+    2026091731
+  ],
+  "states": {
+    "hungry": 1.0,
+    "satiated": 0.5
+  },
+  "gain_definition": "external food odor response gain: Poisson drive Hz=odor_drive_before_state_hz*gain; no change to synaptic weights or postsynaptic gain",
+  "gain_provenance": "engineering choices fixed before runs; neither a measured starvation ratio nor an sNPF biophysical model",
+  "odor_drive_before_state_hz": 60,
+  "odor_population": "prefix:ORN_DM1,prefix:ORN_VA2; engineering food-odor proxy, not odor-receptor concentration binding",
+  "schedule_ms": {
+    "quiet": [
+      0,
+      500
+    ],
+    "odor": [
+      500,
+      1500
+    ],
+    "off": [
+      1500,
+      21500
+    ],
+    "reodor": [
+      21500,
+      22500
+    ],
+    "off_again": [
+      22500,
+      24500
+    ]
+  },
+  "finish_ms": 24500,
+  "dt_ms": 0.5,
+  "gain": 0.65,
+  "kc_gain": 0.25,
+  "threads": 1,
+  "maximum_concurrent_trials": 2,
+  "interventions": "only state gain on driven ORNs; original AL topology and weights, no STD, no threshold adaptation, no OFF-triggered reset",
+  "measurements": [
+    "1ms forced spikes and total spikes for driven ORN, other ORN, all ORN, PN/eLN/GABA",
+    "50ms sum of absolute emitted ORN synaptic jumps by source and target group (not postsynaptic effective current)",
+    "individual ORN/PN/LN cumulative counts at fixed boundaries; individual OFF19-20s rate, nonzero cell count and maximum",
+    "PN and ORN first/second peak10/50, first late500, OFF1/20, reOFF1"
+  ],
+  "criteria": {
+    "PN_hungry_peak_higher": "strictly > satiated at both 10/50ms widths; report paired differences and ratios, not merely pass label",
+    "PN_quiet_hz": 3,
+    "PN_reon": "second peak50 > first OFF20s AND second peaks both >=70% own first peaks; meaningful recovery requires quiet OFF20s as well",
+    "overall": "all four paired seeds pass PN ordering, quiet OFF1/20/reOFF1 in both states, and reon in both states; retain ONlate as raw measurement",
+    "sensor_gate": "external forced spikes exactly 0 throughout OFF; separately report all-ORN actual mean/max and outgoing transmission; do not equate low population mean with absence of active cells"
+  },
+  "OFF_candidate_screen": {
+    "cells": "all annotated ORN plus ALPN/ALLN",
+    "peak": "largest of four fixed non-overlapping 50ms bins in first 200ms after OFF",
+    "both_pulses_required": true,
+    "minimum_peak_hz": 20,
+    "minimum_increase_over_ON_last500_hz": 20,
+    "minimum_fold_over_ON_last500": 2,
+    "OFF1s_max_fraction_of_OFF_peak": 0.5,
+    "first_OFF20s_max_hz": 3,
+    "interpretation": "exploratory candidates only; no matched continued-odor control, therefore not validated OFF coding or absence in biology"
+  }
+}

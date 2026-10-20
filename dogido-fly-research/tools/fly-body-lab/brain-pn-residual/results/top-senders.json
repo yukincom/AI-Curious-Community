@@ -1,0 +1,218 @@
+[
+  {
+    "trial": "all_positive_hungry_2026091701",
+    "top3": [
+      {
+        "body_id": "37147",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 25.5167348259572,
+        "spikes_arriving_in_1s": 266
+      },
+      {
+        "body_id": "35634",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 24.227608616897644,
+        "spikes_arriving_in_1s": 266
+      },
+      {
+        "body_id": "436612",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 21.7542251430879,
+        "spikes_arriving_in_1s": 253
+      }
+    ],
+    "combined_positive_percent": 71.49856858594275
+  },
+  {
+    "trial": "all_positive_satiated_2026091701",
+    "top3": [
+      {
+        "body_id": "37147",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 25.716230854546897,
+        "spikes_arriving_in_1s": 265
+      },
+      {
+        "body_id": "35634",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 23.9563273410594,
+        "spikes_arriving_in_1s": 260
+      },
+      {
+        "body_id": "436612",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 21.39814779912797,
+        "spikes_arriving_in_1s": 246
+      }
+    ],
+    "combined_positive_percent": 71.07070599473427
+  },
+  {
+    "trial": "all_positive_hungry_2026091711",
+    "top3": [
+      {
+        "body_id": "37147",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 26.220627350710608,
+        "spikes_arriving_in_1s": 265
+      },
+      {
+        "body_id": "35634",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 24.520152146114846,
+        "spikes_arriving_in_1s": 261
+      },
+      {
+        "body_id": "436612",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 21.817849692275548,
+        "spikes_arriving_in_1s": 246
+      }
+    ],
+    "combined_positive_percent": 72.558629189101
+  },
+  {
+    "trial": "all_positive_satiated_2026091711",
+    "top3": [
+      {
+        "body_id": "37147",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 26.2432713412299,
+        "spikes_arriving_in_1s": 267
+      },
+      {
+        "body_id": "35634",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 24.824116171155218,
+        "spikes_arriving_in_1s": 266
+      },
+      {
+        "body_id": "436612",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 22.025529212862914,
+        "spikes_arriving_in_1s": 250
+      }
+    ],
+    "combined_positive_percent": 73.09291672524803
+  },
+  {
+    "trial": "all_positive_hungry_2026091721",
+    "top3": [
+      {
+        "body_id": "37147",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 26.16835690518226,
+        "spikes_arriving_in_1s": 265
+      },
+      {
+        "body_id": "35634",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 24.8463102183868,
+        "spikes_arriving_in_1s": 265
+      },
+      {
+        "body_id": "436612",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 21.951383406562805,
+        "spikes_arriving_in_1s": 248
+      }
+    ],
+    "combined_positive_percent": 72.96605053013187
+  },
+  {
+    "trial": "all_positive_satiated_2026091721",
+    "top3": [
+      {
+        "body_id": "37147",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 26.2487231030495,
+        "spikes_arriving_in_1s": 265
+      },
+      {
+        "body_id": "35634",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 24.6404734250576,
+        "spikes_arriving_in_1s": 262
+      },
+      {
+        "body_id": "436612",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 21.930013288462355,
+        "spikes_arriving_in_1s": 247
+      }
+    ],
+    "combined_positive_percent": 72.81920981656945
+  },
+  {
+    "trial": "all_positive_hungry_2026091731",
+    "top3": [
+      {
+        "body_id": "37147",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 26.114478349455112,
+        "spikes_arriving_in_1s": 263
+      },
+      {
+        "body_id": "35634",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 24.41804104808245,
+        "spikes_arriving_in_1s": 259
+      },
+      {
+        "body_id": "436612",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 21.53875550610876,
+        "spikes_arriving_in_1s": 242
+      }
+    ],
+    "combined_positive_percent": 72.07127490364633
+  },
+  {
+    "trial": "all_positive_satiated_2026091731",
+    "top3": [
+      {
+        "body_id": "37147",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 25.553559980434095,
+        "spikes_arriving_in_1s": 265
+      },
+      {
+        "body_id": "35634",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 24.171016454093934,
+        "spikes_arriving_in_1s": 264
+      },
+      {
+        "body_id": "436612",
+        "type": "TRN_VP3a",
+        "class": "thermosensory",
+        "percent": 21.52209377353548,
+        "spikes_arriving_in_1s": 249
+      }
+    ],
+    "combined_positive_percent": 71.2466702080635
+  }
+]

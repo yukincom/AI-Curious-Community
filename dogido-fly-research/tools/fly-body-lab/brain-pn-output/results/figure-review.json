@@ -1,0 +1,7 @@
+{
+  "files": {
+    "PN-arrival-audit.png": "502c4c696200c18657bfb8652e8004cccece99268244662bbafc237c7d5eda72",
+    "PN-OFF20-comparison.png": "654ed4ba12c5af7d08d240e999ff374725fe5028e29bd4a87a0237dc2ff992ee"
+  },
+  "checked": "Final plots visually inspected; signed input denominator, endpoint window and zoom labels match measured reports."
+}

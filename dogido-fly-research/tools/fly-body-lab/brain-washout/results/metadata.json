@@ -1,0 +1,47 @@
+{
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "data_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3",
+  "source_sha256": {
+    "src/main/java/com/fruitfly/brain/Connectome.java": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+    "src/main/java/com/fruitfly/brain/PopulationIndex.java": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+    "src/main/java/com/fruitfly/brain/LifConfig.java": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+    "src/main/java/com/fruitfly/brain/LifNetwork.java": "33c30cc556213ded9ca12b9074811d42ae5cf1ab5905caf50f145ce91fa4aaf0"
+  },
+  "wrapper_sha256": "f455b64a19563e35b4769069bbe73e962afd9bce359f332d362a707fc09a1fb5",
+  "runner_sha256": "4a8262afe5253203469ae48b8d0d17974959b2e047dc98aa5181ced17accda19",
+  "dt_ms": 0.5,
+  "gain": 0.65,
+  "kc_gain": 0.25,
+  "threads": 1,
+  "quiet_ms": 500,
+  "stimulus_ms": 1000,
+  "initial_washout_ms": 30000,
+  "extended_washout_ms": 60000,
+  "extension_rule": "At 30s extend to 60s unless every ALPN 50ms rate in previous 5s is <=1Hz; control stops at 30s",
+  "trials": [
+    [
+      2026091701,
+      60
+    ],
+    [
+      2026091711,
+      60
+    ],
+    [
+      2026091712,
+      150
+    ],
+    [
+      2026091713,
+      0
+    ]
+  ],
+  "window_ms": 50,
+  "reset_between_trials_only": true,
+  "network_modified": false,
+  "analysis_rule": "Reference=last 500ms of odor; report 1s means, sustained half-reference and <=1Hz intervals; these thresholds are engineering summaries, not biological silence.",
+  "wall_seconds": 568.1912016250135,
+  "dataset_sha256": "2a0f296824857a955a7f6e7c85c24856e69b8ceeccf516066e476076a2f3b603",
+  "rows": 4320,
+  "nonfinite_membranes": 0
+}

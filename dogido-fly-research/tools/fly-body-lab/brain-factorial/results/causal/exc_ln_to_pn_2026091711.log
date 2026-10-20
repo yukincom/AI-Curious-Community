@@ -1,0 +1,7 @@
+exc_ln_to_pn_2026091711 t=1.5s PN=133.703 GABA_LN=221.167 exc_LN=268.229 wall=3.1s
+exc_ln_to_pn_2026091711 t=3.5s PN=132.915 GABA_LN=219.333 exc_LN=265.729 wall=9.2s
+INTERVENTION exc_ln_to_pn at_ms=3500 removed_edges=12838 removed_synapses=251711 no_state_reset=true
+exc_ln_to_pn_2026091711 t=5.5s PN=3.499 GABA_LN=143.667 exc_LN=225.104 wall=14.3s
+exc_ln_to_pn_2026091711 t=6.5s PN=4.519 GABA_LN=149.500 exc_LN=227.917 wall=17.0s
+exc_ln_to_pn_2026091711 t=8.5s PN=3.761 GABA_LN=144.000 exc_LN=225.833 wall=22.1s
+DONE exc_ln_to_pn_2026091711 wall_seconds=22.124

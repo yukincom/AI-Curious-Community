@@ -1,0 +1,74 @@
+{
+  "seeds": [
+    2026091701,
+    2026091711,
+    2026091721,
+    2026091731
+  ],
+  "states": {
+    "hungry": 1.0,
+    "satiated": 0.5
+  },
+  "conditions": {
+    "control": "original unchanged circuit",
+    "known_positive": "OFF: ALLN positive, nt != unclear; ACh plus octopamine",
+    "unclear_only": "OFF: ALLN positive, nt == unclear only",
+    "all_positive": "OFF: all positive ALLN to PN; no negative edges",
+    "GABA_only": "OFF: ALLN negative GABA only; all positive and glutamate inputs retained"
+  },
+  "base": "Original circuit. Earlier PN/LN-to-ORN gate is not stacked.",
+  "targets": "All 686 ALPN fixed by class; not selected from incoming-edge strengths",
+  "residual_ORN_ids": [
+    "111689",
+    "140755",
+    "153948",
+    "189046",
+    "211611",
+    "222974",
+    "513746",
+    "669738951",
+    "688942939",
+    "76504"
+  ],
+  "audit_window_ms": [
+    20500,
+    21500
+  ],
+  "high_PN_threshold_hz": 100,
+  "audit_high_selection": "Per-control trial OFF19-20s >=100Hz, descriptive only; also report all-PN and common-high cohort",
+  "primary_endpoint_PN_mean_hz_window_ms": [
+    21400,
+    21500
+  ],
+  "quiet_reference_hz": 3,
+  "schedule_ms": {
+    "quiet": [
+      0,
+      500
+    ],
+    "ON": [
+      500,
+      1500
+    ],
+    "OFF": [
+      1500,
+      21500
+    ],
+    "reON": [
+      21500,
+      22500
+    ],
+    "reOFF": [
+      22500,
+      24500
+    ]
+  },
+  "dt_ms": 0.5,
+  "delay_steps": 4,
+  "gain": 0.65,
+  "KC_gain": 0.25,
+  "gate_semantics": "Arrival time only, both OFF periods. Reconstruct unblocked input in original float event order. ON arrivals always pass. No v/g reset, no permanent edge changes, no other gate.",
+  "sequence": "Eight control arrival audits first. Save and inspect audit report. Prespecified eLN output candidate only. One seed at gain1 validates all gate modes, then remaining 7 paired conditions. No new edge chosen from this audit.",
+  "interpretation": "Only PN OFF20 mean <=3Hz is quiescence criterion. A positive-LN-only gate producing this supports necessity of that output route in this model, not sufficiency or unique biological cause. If not quiet, return to the measured input composition; do not add an unplanned gate. GABA is separate; do not attribute earlier DM1 increase definitively to one inhibitory edge. Labels are reproduction conditions, not new hunger physiology.",
+  "parent_checkpoint": "7e21ad7"
+}

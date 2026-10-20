@@ -1,0 +1,1 @@
+PASS exact full-graph source selection: sources=401 edges=9895 contacts=262476; every other source protected

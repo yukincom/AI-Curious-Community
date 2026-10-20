@@ -1,0 +1,20 @@
+{
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "source_sha256": {
+    "Connectome": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+    "PopulationIndex": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+    "LifConfig": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+    "LifNetwork": "33c30cc556213ded9ca12b9074811d42ae5cf1ab5905caf50f145ce91fa4aaf0"
+  },
+  "patched_sha256": {
+    "Connectome": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+    "PopulationIndex": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+    "LifConfig": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+    "LifNetwork": "f94a396cf2035d457fefcdd9b354c191102e9cd45357319825bd78fa3352213a"
+  },
+  "data_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3",
+  "wrappers": {
+    "GateTrial.java": "473a30412e0e7dd5bb7b70a68d12f9feb5c471cba5445b7e9a5ab4bc612e102b",
+    "ArrivalGate.java": "16cb18f2d15e98ae67854b06ffc70ea6dc13883afb0e829a0c47835680cb9b3b"
+  }
+}

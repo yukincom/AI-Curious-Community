@@ -1,0 +1,20 @@
+{
+  "brian2": "2.10.1",
+  "dt_ms": 0.5,
+  "refractory_ms": 2.2,
+  "arrivals_ms": [
+    1,
+    6
+  ],
+  "during_refractory_g_mV": {
+    "original_java": 100.0,
+    "guarded_java": 0.0,
+    "brian2": 0.0
+  },
+  "outside_refractory_accepted": true,
+  "brian2_spike_times_ms": [
+    0.0,
+    8.0
+  ],
+  "limits": "Tests refractory arrival handling only. Java integrates arrivals before state update, Brian2 default synapses after it. Refractory rounding, threshold, and Poisson drive also differ. Not exact whole-solver equivalence."
+}

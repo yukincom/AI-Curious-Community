@@ -1,0 +1,83 @@
+{
+  "seeds": [
+    2026091701,
+    2026091711,
+    2026091721,
+    2026091731
+  ],
+  "states": {
+    "hungry": 1,
+    "satiated": 0.5
+  },
+  "target_body_ids": [
+    "111689",
+    "140755",
+    "153948",
+    "189046",
+    "211611",
+    "222974",
+    "513746",
+    "669738951",
+    "688942939",
+    "76504"
+  ],
+  "source_groups": [
+    "PN_pos",
+    "PN_neg",
+    "LN_pos",
+    "LN_neg",
+    "ORN_other_pos",
+    "ORN_other_neg",
+    "self_pos",
+    "self_neg",
+    "other_pos",
+    "other_neg"
+  ],
+  "observation_only": true,
+  "model_or_AL_changes": false,
+  "trajectory": "identical preceding 24.5s protocol; gain and labels retained solely for paired replication, no new hunger physiology",
+  "schedule_ms": {
+    "quiet": [
+      0,
+      500
+    ],
+    "odor": [
+      500,
+      1500
+    ],
+    "off": [
+      1500,
+      21500
+    ],
+    "reodor": [
+      21500,
+      22500
+    ],
+    "off_again": [
+      22500,
+      24500
+    ]
+  },
+  "dt_ms": 0.5,
+  "nominal_delay_ms": 1.8,
+  "effective_delay_steps": 4,
+  "effective_delay_ms": 2,
+  "step_timing": "step denotes bin start, time=step*dt; target natural spike determined during that integration step; source spikes emitted after integration; synaptic arrival occurs at emit_step+delay_steps",
+  "data": "all incoming edge events and all spikes of their sources throughout 24.5s; all ten target membrane/input steps throughout both OFF periods; source-decomposed voltage at each natural target spike",
+  "analysis_windows_ms": {
+    "OFF_first1s": [
+      1500,
+      2500
+    ],
+    "OFF_last1s": [
+      20500,
+      21500
+    ],
+    "reOFF_first1s": [
+      22500,
+      23500
+    ]
+  },
+  "passive_decomposition": "signed group-specific g and voltage contributions follow the unchanged linear subthreshold equations, frozen g during refractory and g reset at natural spikes; forced spikes reset voltage only. Record pre-reset contributions; this is bookkeeping, not a network ablation or counterfactual. Require input/g/v reconstruction error <=0.02mV at every step.",
+  "interpretation": "PN/LN source->arrival->ORN spike sequences demonstrate recurrent input reaching the sensor in this model; neither temporal precedence nor positive contribution fractions prove necessity/sufficiency. ORN mutual input does not by itself prove autonomous sensor-only maintenance. No claims about fly-specific loops or hunger biology."
+}

@@ -1,0 +1,27 @@
+{
+  "validated_original_incoming_edges": 52534,
+  "all_source_spikes_account_for_all_phase_edge_events": true,
+  "all_gate_decisions_match_independent_source_class_nt_sign_and_arrival_phase": true,
+  "blocked_events_by_group": {
+    "other_neg": 0,
+    "PN_pos": 0,
+    "other_pos": 0,
+    "eLN_unclear_pos": 0,
+    "iLN_GABA_neg": 52461098,
+    "eLN_ACh_pos": 0,
+    "ALIN_pos": 0,
+    "PN_neg": 0,
+    "ALIN_neg": 0,
+    "iLN_other_neg": 0,
+    "eLN_other_pos": 0,
+    "other_ORN_pos": 0,
+    "residual_ORN_pos": 0
+  },
+  "ON_arrivals_unchanged": true,
+  "boundary_rows_checked": 18522,
+  "every_step_full_buffer_equal_recorded_by_solver": true,
+  "independent_late_input_group_max_error_mV": 0.0,
+  "net_window_roundoff_max_mV": 0.02396559715270996,
+  "PN_individual_endpoint_sums_match_original_population_counter": true,
+  "previous_trajectory_equal_through_ms": 1500
+}

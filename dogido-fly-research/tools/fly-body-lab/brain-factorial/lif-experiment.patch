@@ -1,0 +1,66 @@
+--- upstream/LifNetwork.java
++++ experiment/LifNetwork.java
+@@ -73,6 +73,32 @@
+     private double simTimeMs;
+ 
+     private final SplittableRandom rng;
++    // Experiment-only switch. Default preserves upstream behaviour.
++    public boolean experimentDropRefractory = false;
++    // Passive PN arrival counters: all excitatory, all inhibitory, GABA LN, excitatory LN, glutamate LN.
++    private int[] auditPn, auditPnIndex, auditSourceCategory;
++    private float[][][] auditPending;
++    public double[][] auditArrived, auditDuringRefractory;
++    public void enableAudit(int[] pn, int[] sourceCategory) {
++        auditPn=pn.clone();auditSourceCategory=sourceCategory.clone();auditPnIndex=new int[n];
++        Arrays.fill(auditPnIndex,-1);for(int k=0;k<pn.length;k++)auditPnIndex[pn[k]]=k;
++        auditPending=new float[5][slots][pn.length];auditArrived=new double[5][pn.length];
++        auditDuringRefractory=new double[5][pn.length];
++    }
++    public void clearAuditWindow() {
++        if(auditArrived!=null)for(int k=0;k<5;k++){Arrays.fill(auditArrived[k],0);Arrays.fill(auditDuringRefractory[k],0);}
++    }
++    private void auditDelivery(int slot, int step) {
++        if(auditPending==null)return;
++        for(int k=0;k<auditPn.length;k++)for(int cat=0;cat<5;cat++){
++            float x=auditPending[cat][slot][k];auditPending[cat][slot][k]=0;
++            auditArrived[cat][k]+=x;
++            if(step<refUntil[auditPn[k]])auditDuringRefractory[cat][k]+=x;
++        }
++    }
++    public float experimentG(int i){return g[i];}
++    public float experimentAdapt(int i){return adapt?thrAdd[i]:0;}
++
+ 
+     public LifNetwork(Connectome c, LifConfig cfg) {
+         this.c = c;
+@@ -261,6 +287,8 @@
+             injectCount = w;
+         }
+ 
++        auditDelivery(readSlot, step);
++
+         // Integrate active neurons. Each neuron's state is touched only by the worker owning its segment of the
+         // active list; spikes are collected per worker and delivered afterwards on the calling thread (delivery
+         // appends newly activated neurons and may reallocate activeList).
+@@ -324,7 +352,7 @@
+             boolean spiked = false;
+             if (expSyn) {
+                 // Shiu et al. 2024 formulation: inputs add to g; g drives v and decays; both frozen while refractory
+-                gi = g[i] + input;
++                gi = g[i] + ((experimentDropRefractory && refractory) ? 0f : input);
+                 if (refractory) {
+                     vi = vReset;
+                 } else {
+@@ -416,6 +444,12 @@
+             if (cap > 0f) {
+                 if (jump > cap) jump = cap; else if (jump < -cap) jump = -cap;
+             }
++            if(auditPending!=null&&auditPnIndex[j]>=0){
++                int q=auditPnIndex[j];int cat=jump>=0?0:1;
++                auditPending[cat][writeSlot][q]+=jump;
++                int specific=auditSourceCategory[i];
++                if(specific>=2)auditPending[specific][writeSlot][q]+=jump;
++            }
+             if (out[j] == 0f) pending[j]++;
+             out[j] += jump;
+             if (out[j] == 0f) pending[j]--; // exact cancellation: keep counter consistent

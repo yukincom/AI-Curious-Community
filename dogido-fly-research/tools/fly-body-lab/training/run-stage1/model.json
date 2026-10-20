@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "flight-stage1-cem-20260916",
+  "architecture": "axis-separated-linear-tanh-sigmoid-13",
+  "weights": [
+    3.2754781171716187,
+    -0.8910799594401315,
+    0.018781434419160734,
+    3.308688953636067,
+    -0.6774580970532696,
+    0.0015300190375540715,
+    3.854597878186127,
+    -2.222419284899813,
+    -2.752888200357007,
+    -0.2064631345706636,
+    0.4989382005668969,
+    -1.6071046173419612,
+    -0.3398378468331834
+  ],
+  "initial_weights": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "trained": true,
+  "fly_connectome": false,
+  "training": "cross-entropy method; rollout rewards, no teacher actions",
+  "input": "world-provided target offset, body velocity, local lift, temperature",
+  "scope": "no obstacles; player position is privileged world information, not visual recognition",
+  "training_seed": 20260916,
+  "accepted": true
+}

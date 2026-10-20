@@ -1,0 +1,54 @@
+{
+  "2026091701": {
+    "ORN": {
+      "peak10_hungry_over_satiated": 1.7878787878787878,
+      "peak50_hungry_over_satiated": 1.8978102189781023,
+      "hungry_higher_both_peaks": true
+    },
+    "ALPN": {
+      "peak10_hungry_over_satiated": 0.9979274611398964,
+      "peak50_hungry_over_satiated": 0.9997867803837953,
+      "hungry_higher_both_peaks": false
+    },
+    "all_PN_criteria_pass": false
+  },
+  "2026091711": {
+    "ORN": {
+      "peak10_hungry_over_satiated": 1.6619718309859155,
+      "peak50_hungry_over_satiated": 1.9320754716981132,
+      "hungry_higher_both_peaks": true
+    },
+    "ALPN": {
+      "peak10_hungry_over_satiated": 0.9917355371900828,
+      "peak50_hungry_over_satiated": 0.9933675652546001,
+      "hungry_higher_both_peaks": false
+    },
+    "all_PN_criteria_pass": false
+  },
+  "2026091721": {
+    "ORN": {
+      "peak10_hungry_over_satiated": 1.891891891891892,
+      "peak50_hungry_over_satiated": 1.8797250859106527,
+      "hungry_higher_both_peaks": true
+    },
+    "ALPN": {
+      "peak10_hungry_over_satiated": 0.9989648033126293,
+      "peak50_hungry_over_satiated": 1.0051391862955033,
+      "hungry_higher_both_peaks": false
+    },
+    "all_PN_criteria_pass": false
+  },
+  "2026091731": {
+    "ORN": {
+      "peak10_hungry_over_satiated": 1.8787878787878787,
+      "peak50_hungry_over_satiated": 1.9402985074626866,
+      "hungry_higher_both_peaks": true
+    },
+    "ALPN": {
+      "peak10_hungry_over_satiated": 1.008324661810614,
+      "peak50_hungry_over_satiated": 1.007505897490886,
+      "hungry_higher_both_peaks": true
+    },
+    "all_PN_criteria_pass": false
+  }
+}

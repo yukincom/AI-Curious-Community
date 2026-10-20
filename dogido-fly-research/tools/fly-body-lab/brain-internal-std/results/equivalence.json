@@ -1,0 +1,12 @@
+{
+  "baseline": {
+    "previous_name": "baseline_2026091701",
+    "all_1ms_spike_bins_exact_match": true,
+    "duration_ms": 3500
+  },
+  "all300": {
+    "previous_name": "std300_2026091701",
+    "all_1ms_spike_bins_exact_match": true,
+    "duration_ms": 3500
+  }
+}

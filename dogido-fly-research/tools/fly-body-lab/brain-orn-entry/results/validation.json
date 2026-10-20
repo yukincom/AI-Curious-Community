@@ -1,0 +1,42 @@
+{
+  "hungry_2026091701": {
+    "population_and_individual_counts_agree_at_every_boundary": true,
+    "forced_spikes_zero_throughout_both_OFF_periods": true,
+    "valid_schedule_nonnegative_counts_finite_transmission": true
+  },
+  "satiated_2026091701": {
+    "population_and_individual_counts_agree_at_every_boundary": true,
+    "forced_spikes_zero_throughout_both_OFF_periods": true,
+    "valid_schedule_nonnegative_counts_finite_transmission": true
+  },
+  "hungry_2026091711": {
+    "population_and_individual_counts_agree_at_every_boundary": true,
+    "forced_spikes_zero_throughout_both_OFF_periods": true,
+    "valid_schedule_nonnegative_counts_finite_transmission": true
+  },
+  "satiated_2026091711": {
+    "population_and_individual_counts_agree_at_every_boundary": true,
+    "forced_spikes_zero_throughout_both_OFF_periods": true,
+    "valid_schedule_nonnegative_counts_finite_transmission": true
+  },
+  "hungry_2026091721": {
+    "population_and_individual_counts_agree_at_every_boundary": true,
+    "forced_spikes_zero_throughout_both_OFF_periods": true,
+    "valid_schedule_nonnegative_counts_finite_transmission": true
+  },
+  "satiated_2026091721": {
+    "population_and_individual_counts_agree_at_every_boundary": true,
+    "forced_spikes_zero_throughout_both_OFF_periods": true,
+    "valid_schedule_nonnegative_counts_finite_transmission": true
+  },
+  "hungry_2026091731": {
+    "population_and_individual_counts_agree_at_every_boundary": true,
+    "forced_spikes_zero_throughout_both_OFF_periods": true,
+    "valid_schedule_nonnegative_counts_finite_transmission": true
+  },
+  "satiated_2026091731": {
+    "population_and_individual_counts_agree_at_every_boundary": true,
+    "forced_spikes_zero_throughout_both_OFF_periods": true,
+    "valid_schedule_nonnegative_counts_finite_transmission": true
+  }
+}

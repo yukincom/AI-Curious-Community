@@ -1,0 +1,11 @@
+{
+  "windows": 70,
+  "populations": [
+    "ORN",
+    "eLN",
+    "ALPN",
+    "GABA_LN"
+  ],
+  "max_abs_hz_error": 4.927187546854839e-10,
+  "passed": true
+}

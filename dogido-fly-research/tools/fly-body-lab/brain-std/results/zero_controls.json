@@ -1,0 +1,9 @@
+{
+  "conditions": [
+    "baseline",
+    "std100",
+    "std300"
+  ],
+  "duration_ms": 3500,
+  "all_population_spikes_and_selected_emissions_zero": true
+}

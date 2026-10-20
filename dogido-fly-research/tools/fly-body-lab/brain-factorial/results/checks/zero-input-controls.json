@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "baseline",
+    "duration_ms": 3500,
+    "spikes": 0,
+    "PN_arrivals": 0
+  },
+  {
+    "condition": "adapt",
+    "duration_ms": 3500,
+    "spikes": 0,
+    "PN_arrivals": 0
+  },
+  {
+    "condition": "refractory",
+    "duration_ms": 3500,
+    "spikes": 0,
+    "PN_arrivals": 0
+  },
+  {
+    "condition": "both",
+    "duration_ms": 3500,
+    "spikes": 0,
+    "PN_arrivals": 0
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "visually_reviewed": true,
+  "file": "four-PN-time-response.png",
+  "sha256": "b6f2fe26dfa05531bd4690e3422a6ce9b6c43ba96de6c5a539772fc5471e5eb9",
+  "plot_bins_ms": 10,
+  "metric_peak_stride_ms": 1
+}

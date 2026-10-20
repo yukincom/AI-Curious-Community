@@ -1,0 +1,17 @@
+{
+  "original_replay_files_byte_identical": {
+    "known_positive_satiated_2026091721-populations.csv": "8af7b4106f5aaf2fbd0c6b32a41298d287a613e61c4c707c9a73d6fc29b1a6cb",
+    "known_positive_satiated_2026091721-PN-cells.csv": "91b3b98f6caa15730c2ed0556b9e4966d87302ec704ab1650567d1b47dd58a83",
+    "known_positive_satiated_2026091721-topology.csv.gz": "4b89e63adcff72f240eeac7d0017c08a5a690e7aee0ed0449ad0eafe336ab9c5",
+    "known_positive_satiated_2026091721-phase-edges.csv.gz": "14c4c47c9715d7cc2dcb8a010a145396f9d79cfcac6d29c8134a7a5c5c15ffaa",
+    "known_positive_satiated_2026091721-source-spikes.csv.gz": "b704dec1a54b396773537fcb49a6cc3f0d50560e9fcb6e7a9f3aea35bdec740e",
+    "known_positive_satiated_2026091721-late-inputs.csv": "9275891572edd80f73b41234ecd08b58ff1772e7f9fc12f5c2e4449e4ad2aed8",
+    "known_positive_satiated_2026091721-late-steps.csv.gz": "f78d9c50c47d90ccfb44374d49e64633821d93c878d96eecb380bf898ebd0601",
+    "known_positive_satiated_2026091721-boundaries.csv.gz": "fe28ace17d870c02b4b0c838fc0979f9228dea87512f6293f929175b79c708dc",
+    "known_positive_satiated_2026091721-checks.json": "e6029bbcabdee51831c252d527aa8ab566e8967b4be7208b30d81315c014ee0a"
+  },
+  "trace_rows": 24500,
+  "each_1ms_time_and_input_match": true,
+  "four_cell_cumulative_counts_match_all_4_saved_snapshots": true,
+  "no_model_change_from_recording": true
+}

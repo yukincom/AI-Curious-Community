@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "source": "measured_fixed_lif_temporal_dataset",
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "connectome_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3",
+  "source_sha256": {
+    "src/main/java/com/fruitfly/brain/Connectome.java": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+    "src/main/java/com/fruitfly/brain/PopulationIndex.java": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+    "src/main/java/com/fruitfly/brain/LifConfig.java": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+    "src/main/java/com/fruitfly/brain/LifNetwork.java": "33c30cc556213ded9ca12b9074811d42ae5cf1ab5905caf50f145ce91fa4aaf0"
+  },
+  "generator_sha256": "e63d0fdb3503e45d5e96876ef0e9405eb34c47e7f212ac60c1e292476cc76741",
+  "runner_sha256": "11a748e52e045f4f5a3a5e920747a53250a00191c6643a53964becef25abd16a",
+  "dataset_sha256": "caea659b10f9c66f66ff9c356ef29263de0dd8107d44f910cbfbc5722f8431f5",
+  "generation_seconds": 247.49250970900175,
+  "java": "openjdk version \"25.0.2\" 2026-01-20 LTS\nOpenJDK Runtime Environment Temurin-25.0.2+10 (build 25.0.2+10-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.2+10 (build 25.0.2+10-LTS, mixed mode, sharing)",
+  "network_config": {
+    "dt_ms": 0.5,
+    "global_gain": 0.65,
+    "kenyon_input_gain": 0.25,
+    "threads": 1
+  },
+  "features_hz": [
+    "class:ALPN",
+    "prefix:KC",
+    "DNp01",
+    "DNp09",
+    "DNa02",
+    "superclass:descending_neuron",
+    "superclass:vnc_motor",
+    "superclass:cb_motor"
+  ],
+  "window_ms": 50,
+  "duration_ms_per_trial": 5000,
+  "durations_ms": {
+    "train": {
+      "A": [
+        500,
+        1000,
+        2000,
+        500,
+        1000
+      ],
+      "B": [
+        250,
+        1500,
+        1500,
+        750,
+        1000
+      ],
+      "Q": [
+        5000
+      ]
+    },
+    "test": {
+      "A": [
+        400,
+        1250,
+        1750,
+        600,
+        1000
+      ],
+      "B": [
+        700,
+        800,
+        2000,
+        500,
+        1000
+      ],
+      "Q": [
+        5000
+      ]
+    }
+  },
+  "seed_splits": {
+    "train": [
+      2026091701,
+      2026091702,
+      2026091703,
+      2026091704
+    ],
+    "test": [
+      2026091705,
+      2026091706,
+      2026091707,
+      2026091708
+    ]
+  },
+  "nonzero_input_hz": {
+    "train": [
+      60,
+      120,
+      180
+    ],
+    "test": [
+      90,
+      150
+    ]
+  },
+  "rows": 2400,
+  "trials": 24,
+  "rows_by_split": {
+    "train": 1200,
+    "test": 1200
+  },
+  "trials_by_profile": {
+    "A": 8,
+    "B": 8,
+    "Q": 8
+  },
+  "active_counts_by_split": {
+    "train": {
+      "0": 900,
+      "1": 300
+    },
+    "test": {
+      "0": 948,
+      "1": 252
+    }
+  },
+  "nonfinite_membranes": 0,
+  "reset_only_between_trials": true,
+  "input_population": "prefix:ORN_DM1,prefix:ORN_VA2",
+  "readout_populations_disjoint_from_forced_input": true,
+  "no_fit_or_accuracy_evaluation_performed": true
+}

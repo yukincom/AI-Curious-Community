@@ -1,0 +1,61 @@
+{
+  "screen": {
+    "cells": "all annotated ORN plus ALPN/ALLN",
+    "peak": "largest of four fixed non-overlapping 50ms bins in first 200ms after OFF",
+    "both_pulses_required": true,
+    "minimum_peak_hz": 20,
+    "minimum_increase_over_ON_last500_hz": 20,
+    "minimum_fold_over_ON_last500": 2,
+    "OFF1s_max_fraction_of_OFF_peak": 0.5,
+    "first_OFF20s_max_hz": 3,
+    "interpretation": "exploratory candidates only; no matched continued-odor control, therefore not validated OFF coding or absence in biology"
+  },
+  "per_trial_candidates": [
+    {
+      "state": "hungry",
+      "seed": 2026091731,
+      "body_id": "26762",
+      "type": "DL3_lPN",
+      "group": "PN",
+      "first": {
+        "off_peak50_hz": 20.0,
+        "ON_late_hz": 0.0,
+        "OFF1s_hz": 0.0,
+        "pass": true
+      },
+      "second": {
+        "off_peak50_hz": 20.0,
+        "ON_late_hz": 0.0,
+        "OFF1s_hz": 0.0,
+        "pass": true
+      },
+      "OFF20s_hz": 0.0,
+      "candidate": true
+    },
+    {
+      "state": "hungry",
+      "seed": 2026091731,
+      "body_id": "306197",
+      "type": "v2LN34E",
+      "group": "other_LN",
+      "first": {
+        "off_peak50_hz": 20.0,
+        "ON_late_hz": 0.0,
+        "OFF1s_hz": 10.0,
+        "pass": true
+      },
+      "second": {
+        "off_peak50_hz": 20.0,
+        "ON_late_hz": 0.0,
+        "OFF1s_hz": 0.0,
+        "pass": true
+      },
+      "OFF20s_hz": 0.0,
+      "candidate": true
+    }
+  ],
+  "all_four_seed_candidates_by_state": {
+    "hungry": [],
+    "satiated": []
+  }
+}

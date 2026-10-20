@@ -1,0 +1,11 @@
+{
+  "all_positive_thermosensory_senders_have_TRN_type": true,
+  "PN_positive_input_fraction_from_other_selected_PN_range": [
+    0.9998619425922385,
+    1.0
+  ],
+  "self_PN_positive_arrivals": 0,
+  "cell_source_class_edge_positive_sums_match_all_8": true,
+  "common25_sums_match_cell_rows_all_8": true,
+  "cell_firing_contributions_sum_to_PN_mean_all_8": true
+}

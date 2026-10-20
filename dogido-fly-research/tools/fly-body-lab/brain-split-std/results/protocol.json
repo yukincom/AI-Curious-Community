@@ -1,0 +1,79 @@
+{
+  "seeds": [
+    2026091701,
+    2026091711,
+    2026091721,
+    2026091731
+  ],
+  "conditions": {
+    "baseline": {
+      "U": 0,
+      "source": "baseline"
+    },
+    "pn300": {
+      "U": 0.2,
+      "source": "ALPN"
+    },
+    "eln300": {
+      "U": 0.2,
+      "source": "ALLN"
+    }
+  },
+  "tau_recovery_ms": 300,
+  "target": "positive ALLN (model eLN), positive presynaptic sources only; every ORN and unselected source and every non-eLN target preserved",
+  "odor_population": "prefix:ORN_DM1,prefix:ORN_VA2",
+  "odor_hz": 60,
+  "dt_ms": 0.5,
+  "gain": 0.65,
+  "kc_gain": 0.25,
+  "threads_per_trial": 1,
+  "max_concurrent_trials": 2,
+  "finish_ms": 24500,
+  "schedule_ms": {
+    "quiet": [
+      0,
+      500
+    ],
+    "odor": [
+      500,
+      1500
+    ],
+    "off": [
+      1500,
+      21500
+    ],
+    "reodor": [
+      21500,
+      22500
+    ],
+    "off_again": [
+      22500,
+      24500
+    ]
+  },
+  "metrics_order": [
+    "first peak10ms",
+    "first peak50ms",
+    "first ON last500ms",
+    "first OFF 900-1000ms",
+    "first OFF 19900-20000ms",
+    "second peak10ms",
+    "second peak50ms",
+    "second OFF 900-1000ms"
+  ],
+  "peak_definition": "maximum rolling average; window wholly inside each 1s ON; 1ms steps",
+  "thresholds": {
+    "peak_fraction": 0.7,
+    "late_fraction": 0.3,
+    "quiet_hz": 3
+  },
+  "threshold_provenance": {
+    "peak_fraction": "user: peak at least 70% of paired baseline; apply to both widths and both pulses",
+    "late_fraction": "provisional operational choice before runs; user said not extremely suppressed",
+    "quiet_hz": "provisional operational choice before runs for OFF1s, OFF20s and second OFF1s; user said few Hz at OFF20s"
+  },
+  "recovery_criterion": "second peak >=70% of same-seed baseline second peak at both widths AND second peak50 > first OFF20s; quiet OFF20s checked separately",
+  "candidate_criterion": "all seven component checks (including ON late) pass in every one of four trials; baseline is reference, never adopted as STD",
+  "unchanged": "refractory handling, adaptation disabled, first spike amplitude, no OFF-triggered reset, 50ms endTick",
+  "parameters": "engineering probe, not physiological calibration; tau=resource recovery time, not a fixed 300ms suppression window"
+}

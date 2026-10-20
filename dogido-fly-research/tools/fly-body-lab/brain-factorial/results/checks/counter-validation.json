@@ -1,0 +1,16 @@
+{
+  "counter_on_off_identical_windows": 70,
+  "compared_fields": [
+    "seed",
+    "end_ms",
+    "phase",
+    "input_hz",
+    "ORN_hz",
+    "ALPN_hz",
+    "GABA_LN_hz",
+    "exc_LN_hz",
+    "glut_LN_hz",
+    "total_spikes"
+  ],
+  "old_baseline_matching_PN_and_ORN_windows": 70
+}

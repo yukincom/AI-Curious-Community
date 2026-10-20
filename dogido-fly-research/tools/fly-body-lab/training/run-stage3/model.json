@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "flight-stage3-moving-cem-20260916",
+  "architecture": "stage2-plus-measured-player-velocity-lead-1",
+  "previous_model_id": "flight-stage2-pillar-cem-20260916-attempt2",
+  "base_weights": [
+    3.2754781171716187,
+    -0.8910799594401315,
+    0.018781434419160734,
+    3.308688953636067,
+    -0.6774580970532696,
+    0.0015300190375540715,
+    3.854597878186127,
+    -2.222419284899813,
+    -2.752888200357007,
+    -0.2064631345706636,
+    0.4989382005668969,
+    -1.6071046173419612,
+    -0.3398378468331834
+  ],
+  "obstacle_weights": [
+    0,
+    2.9599270525021124,
+    1.1863445953402623,
+    0.42435739245401305
+  ],
+  "lead_seconds": 0.5700280929137358,
+  "initial_lead_seconds": 0,
+  "trained": true,
+  "accepted": true,
+  "fly_connectome": false,
+  "scope": "one learned anticipation coefficient; stages1/2 frozen; code-designed extrapolation of measured world player velocity; single pillar and walking waypoint loops"
+}

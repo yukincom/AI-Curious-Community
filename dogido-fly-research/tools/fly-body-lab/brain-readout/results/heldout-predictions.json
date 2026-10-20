@@ -1,0 +1,722 @@
+[
+  {
+    "trial": "2026091605_none_0",
+    "phase": "quiet",
+    "end_ms": 50.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091605_none_0",
+    "phase": "quiet",
+    "end_ms": 100.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091605_none_0",
+    "phase": "quiet",
+    "end_ms": 150.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091605_none_0",
+    "phase": "quiet",
+    "end_ms": 200.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091605_none_0",
+    "phase": "quiet",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091605_none_0",
+    "phase": "quiet",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091605_odor_90",
+    "phase": "stimulus",
+    "end_ms": 50.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.24941210781293782,
+      0.7473782298314652,
+      0.0032096623555970495
+    ]
+  },
+  {
+    "trial": "2026091605_odor_90",
+    "phase": "stimulus",
+    "end_ms": 100.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.20855913604565338,
+      0.788009140610725,
+      0.0034317233436215585
+    ]
+  },
+  {
+    "trial": "2026091605_odor_90",
+    "phase": "stimulus",
+    "end_ms": 150.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.24541854010373423,
+      0.748440276072936,
+      0.006141183823329735
+    ]
+  },
+  {
+    "trial": "2026091605_odor_90",
+    "phase": "stimulus",
+    "end_ms": 200.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.2482487042193523,
+      0.7458981441756213,
+      0.0058531516050263814
+    ]
+  },
+  {
+    "trial": "2026091605_odor_90",
+    "phase": "washout",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "odor",
+    "probabilities": [
+      0.27571535393325847,
+      0.7137822881006892,
+      0.010502357966052327
+    ]
+  },
+  {
+    "trial": "2026091605_odor_90",
+    "phase": "washout",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "odor",
+    "probabilities": [
+      0.2721465247416098,
+      0.7196530948695761,
+      0.008200380388814052
+    ]
+  },
+  {
+    "trial": "2026091605_loom_90",
+    "phase": "stimulus",
+    "end_ms": 50.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.041865950893189154,
+      0.0015152266854599654,
+      0.9566188224213509
+    ]
+  },
+  {
+    "trial": "2026091605_loom_90",
+    "phase": "stimulus",
+    "end_ms": 100.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.013089603367920909,
+      0.00027535447280661,
+      0.9866350421592724
+    ]
+  },
+  {
+    "trial": "2026091605_loom_90",
+    "phase": "stimulus",
+    "end_ms": 150.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.014284044199546476,
+      0.000246645485649433,
+      0.9854693103148041
+    ]
+  },
+  {
+    "trial": "2026091605_loom_90",
+    "phase": "stimulus",
+    "end_ms": 200.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.011025181800162908,
+      0.0002117725367784705,
+      0.9887630456630585
+    ]
+  },
+  {
+    "trial": "2026091605_loom_90",
+    "phase": "washout",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.8833448193786425,
+      0.00891490375943843,
+      0.10774027686191916
+    ]
+  },
+  {
+    "trial": "2026091605_loom_90",
+    "phase": "washout",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.9875312062830788,
+      0.010208591004182874,
+      0.0022602027127383156
+    ]
+  },
+  {
+    "trial": "2026091605_odor_150",
+    "phase": "stimulus",
+    "end_ms": 50.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.4019509623355346,
+      0.5913107858819103,
+      0.0067382517825550345
+    ]
+  },
+  {
+    "trial": "2026091605_odor_150",
+    "phase": "stimulus",
+    "end_ms": 100.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.1565515735124669,
+      0.8406907882904509,
+      0.00275763819708228
+    ]
+  },
+  {
+    "trial": "2026091605_odor_150",
+    "phase": "stimulus",
+    "end_ms": 150.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.22906985952968453,
+      0.7664776575772794,
+      0.004452482893036089
+    ]
+  },
+  {
+    "trial": "2026091605_odor_150",
+    "phase": "stimulus",
+    "end_ms": 200.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.30406093270757933,
+      0.6879576157653433,
+      0.007981451527077387
+    ]
+  },
+  {
+    "trial": "2026091605_odor_150",
+    "phase": "washout",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "odor",
+    "probabilities": [
+      0.27077657369952923,
+      0.7191351382854341,
+      0.010088288015036627
+    ]
+  },
+  {
+    "trial": "2026091605_odor_150",
+    "phase": "washout",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "odor",
+    "probabilities": [
+      0.2843366809865275,
+      0.7067296018464241,
+      0.008933717167048445
+    ]
+  },
+  {
+    "trial": "2026091605_loom_150",
+    "phase": "stimulus",
+    "end_ms": 50.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.013984672842123192,
+      0.0006174088783730652,
+      0.9853979182795037
+    ]
+  },
+  {
+    "trial": "2026091605_loom_150",
+    "phase": "stimulus",
+    "end_ms": 100.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.004661770315538829,
+      0.00011047269071025139,
+      0.9952277569937509
+    ]
+  },
+  {
+    "trial": "2026091605_loom_150",
+    "phase": "stimulus",
+    "end_ms": 150.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.004499368658526561,
+      0.0001086631628964654,
+      0.9953919681785771
+    ]
+  },
+  {
+    "trial": "2026091605_loom_150",
+    "phase": "stimulus",
+    "end_ms": 200.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.00460286044979887,
+      9.948334866505251e-05,
+      0.9952976562015361
+    ]
+  },
+  {
+    "trial": "2026091605_loom_150",
+    "phase": "washout",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.8668524070448292,
+      0.011409653165189333,
+      0.12173793978998129
+    ]
+  },
+  {
+    "trial": "2026091605_loom_150",
+    "phase": "washout",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.9870629998696824,
+      0.011190864120302041,
+      0.001746136010015611
+    ]
+  },
+  {
+    "trial": "2026091606_none_0",
+    "phase": "quiet",
+    "end_ms": 50.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091606_none_0",
+    "phase": "quiet",
+    "end_ms": 100.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091606_none_0",
+    "phase": "quiet",
+    "end_ms": 150.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091606_none_0",
+    "phase": "quiet",
+    "end_ms": 200.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091606_none_0",
+    "phase": "quiet",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091606_none_0",
+    "phase": "quiet",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.954949450268313,
+      0.04504003062230383,
+      1.0519109383068594e-05
+    ]
+  },
+  {
+    "trial": "2026091606_odor_90",
+    "phase": "stimulus",
+    "end_ms": 50.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.26818572882760466,
+      0.7287383072296617,
+      0.003075963942733699
+    ]
+  },
+  {
+    "trial": "2026091606_odor_90",
+    "phase": "stimulus",
+    "end_ms": 100.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.18097104774794107,
+      0.8163052257375089,
+      0.002723726514549986
+    ]
+  },
+  {
+    "trial": "2026091606_odor_90",
+    "phase": "stimulus",
+    "end_ms": 150.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.23427100601626133,
+      0.7606069417511312,
+      0.005122052232607653
+    ]
+  },
+  {
+    "trial": "2026091606_odor_90",
+    "phase": "stimulus",
+    "end_ms": 200.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.2556809990674787,
+      0.7383325209760722,
+      0.005986479956449121
+    ]
+  },
+  {
+    "trial": "2026091606_odor_90",
+    "phase": "washout",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "odor",
+    "probabilities": [
+      0.19752795009767343,
+      0.7975114522516542,
+      0.004960597650672331
+    ]
+  },
+  {
+    "trial": "2026091606_odor_90",
+    "phase": "washout",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "odor",
+    "probabilities": [
+      0.26331720385703916,
+      0.7279193052298611,
+      0.008763490913099671
+    ]
+  },
+  {
+    "trial": "2026091606_loom_90",
+    "phase": "stimulus",
+    "end_ms": 50.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.041387772344228184,
+      0.001550157896402616,
+      0.9570620697593692
+    ]
+  },
+  {
+    "trial": "2026091606_loom_90",
+    "phase": "stimulus",
+    "end_ms": 100.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.015599417165408256,
+      0.0003493896429336209,
+      0.984051193191658
+    ]
+  },
+  {
+    "trial": "2026091606_loom_90",
+    "phase": "stimulus",
+    "end_ms": 150.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.012288843582443518,
+      0.00021170406907225863,
+      0.9874994523484841
+    ]
+  },
+  {
+    "trial": "2026091606_loom_90",
+    "phase": "stimulus",
+    "end_ms": 200.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.012056996836145988,
+      0.00024167674510328148,
+      0.9877013264187506
+    ]
+  },
+  {
+    "trial": "2026091606_loom_90",
+    "phase": "washout",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.902714592849981,
+      0.009516045434004205,
+      0.0877693617160148
+    ]
+  },
+  {
+    "trial": "2026091606_loom_90",
+    "phase": "washout",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.9867105918760907,
+      0.011214875625187394,
+      0.0020745324987220337
+    ]
+  },
+  {
+    "trial": "2026091606_odor_150",
+    "phase": "stimulus",
+    "end_ms": 50.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.2544461302895825,
+      0.7428391402821117,
+      0.002714729428305735
+    ]
+  },
+  {
+    "trial": "2026091606_odor_150",
+    "phase": "stimulus",
+    "end_ms": 100.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.17493358231091038,
+      0.822022968121767,
+      0.0030434495673226426
+    ]
+  },
+  {
+    "trial": "2026091606_odor_150",
+    "phase": "stimulus",
+    "end_ms": 150.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.194395223036053,
+      0.8024173266198796,
+      0.0031874503440674305
+    ]
+  },
+  {
+    "trial": "2026091606_odor_150",
+    "phase": "stimulus",
+    "end_ms": 200.0,
+    "actual": "odor",
+    "predicted": "odor",
+    "probabilities": [
+      0.23884682989530265,
+      0.754405161063276,
+      0.006748009041421198
+    ]
+  },
+  {
+    "trial": "2026091606_odor_150",
+    "phase": "washout",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "odor",
+    "probabilities": [
+      0.2694768154357777,
+      0.720260692281285,
+      0.010262492282937309
+    ]
+  },
+  {
+    "trial": "2026091606_odor_150",
+    "phase": "washout",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "odor",
+    "probabilities": [
+      0.2385876159899599,
+      0.7538631813039868,
+      0.007549202706053419
+    ]
+  },
+  {
+    "trial": "2026091606_loom_150",
+    "phase": "stimulus",
+    "end_ms": 50.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.013144502088643097,
+      0.0005533804638658034,
+      0.9863021174474912
+    ]
+  },
+  {
+    "trial": "2026091606_loom_150",
+    "phase": "stimulus",
+    "end_ms": 100.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.005196500039765736,
+      0.00013288844652130228,
+      0.9946706115137129
+    ]
+  },
+  {
+    "trial": "2026091606_loom_150",
+    "phase": "stimulus",
+    "end_ms": 150.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.004954200103187215,
+      0.00010962052699706029,
+      0.9949361793698157
+    ]
+  },
+  {
+    "trial": "2026091606_loom_150",
+    "phase": "stimulus",
+    "end_ms": 200.0,
+    "actual": "loom",
+    "predicted": "loom",
+    "probabilities": [
+      0.004748765462431071,
+      0.0001100635462841832,
+      0.9951411709912849
+    ]
+  },
+  {
+    "trial": "2026091606_loom_150",
+    "phase": "washout",
+    "end_ms": 250.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.8211247493267063,
+      0.011424496280132403,
+      0.16745075439316132
+    ]
+  },
+  {
+    "trial": "2026091606_loom_150",
+    "phase": "washout",
+    "end_ms": 300.0,
+    "actual": "none",
+    "predicted": "none",
+    "probabilities": [
+      0.9871528242515266,
+      0.010596525009659984,
+      0.002250650738813367
+    ]
+  }
+]

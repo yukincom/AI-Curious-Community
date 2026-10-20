@@ -1,0 +1,5 @@
+{
+  "audit_report_sha256": "846fb831e5605b3d2a1b162df334b8a96aa856d58ef2bffbcc148f93deb65f73",
+  "prespecified_conditions_unchanged": true,
+  "review": "Eight controls reproduce prior trajectories and actual incoming buffers. High PN positive input is predominantly ALLN; negative GABA is present and remains a separate gate. No targets chosen from measured strength. All 686 PN remain targets; no ALIN or ORN gates added."
+}

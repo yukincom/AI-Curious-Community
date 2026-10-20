@@ -1,0 +1,10 @@
+{
+  "zero_controls_passed": true,
+  "observer_cross_checked_against_original_tick_counters": true,
+  "hungry_all_populations_all_1ms_bins_match_previous_baseline": {
+    "2026091701": true,
+    "2026091711": true,
+    "2026091721": true,
+    "2026091731": true
+  }
+}

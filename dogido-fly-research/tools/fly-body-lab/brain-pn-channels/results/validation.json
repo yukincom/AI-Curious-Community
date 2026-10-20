@@ -1,0 +1,20 @@
+{
+  "saved_trials": 40,
+  "same_body_ids_and_type_annotations_in_all_trials": true,
+  "fixed_cohort_sizes": {
+    "DM1": 2,
+    "VA2": 2,
+    "DM1_VA2": 4,
+    "VP3": 14,
+    "other_PN": 668,
+    "all_PN": 686
+  },
+  "DM1_VA2_VP3_other_partition_exact": true,
+  "weighted_contributions_match_original_PN_mean": true,
+  "all_individual_spike_sums_match_population_counters_in_both_windows": true,
+  "OFF19to20_external_input_zero": true,
+  "DM1_VA2_named_cells_have_direct_stimulated_ORN_afferents": true,
+  "new_simulations": 0,
+  "new_gates": 0,
+  "TRN_input_audit_added": false
+}

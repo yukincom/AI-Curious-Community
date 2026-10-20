@@ -1,0 +1,1719 @@
+[
+  {
+    "body_id": "76504",
+    "spike_step": 41016,
+    "spike_ms": 20508.0,
+    "group_voltage_mV": {
+      "PN_pos": 10.0704091,
+      "PN_neg": 0.0,
+      "LN_pos": 7.03445939,
+      "LN_neg": -10.3730223,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 0.450488683,
+      "other_neg": 0.0
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 40996,
+        "arrival_ms": 20498.0,
+        "source_emit_ms": 20496.0,
+        "groups_mV": {
+          "PN_pos": 13.2275,
+          "LN_pos": 2.144999862,
+          "LN_neg": -5.00499988,
+          "other_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 40997,
+        "arrival_ms": 20498.5,
+        "source_emit_ms": 20496.5,
+        "groups_mV": {
+          "LN_pos": 2.8599999,
+          "LN_neg": -2.8599999
+        }
+      },
+      {
+        "arrival_step": 40998,
+        "arrival_ms": 20499.0,
+        "source_emit_ms": 20497.0,
+        "groups_mV": {
+          "LN_pos": 1.25124991,
+          "LN_neg": -2.68124986
+        }
+      },
+      {
+        "arrival_step": 40999,
+        "arrival_ms": 20499.5,
+        "source_emit_ms": 20497.5,
+        "groups_mV": {
+          "LN_pos": 2.323749902,
+          "LN_neg": -3.21749997
+        }
+      },
+      {
+        "arrival_step": 41000,
+        "arrival_ms": 20500.0,
+        "source_emit_ms": 20498.0,
+        "groups_mV": {
+          "PN_pos": 14.47874991,
+          "LN_pos": 2.144999862,
+          "LN_neg": -5.00499988
+        }
+      },
+      {
+        "arrival_step": 41001,
+        "arrival_ms": 20500.5,
+        "source_emit_ms": 20498.5,
+        "groups_mV": {
+          "LN_pos": 2.8599999,
+          "LN_neg": -2.8599999
+        }
+      },
+      {
+        "arrival_step": 41002,
+        "arrival_ms": 20501.0,
+        "source_emit_ms": 20499.0,
+        "groups_mV": {
+          "LN_pos": 1.25124991,
+          "LN_neg": -2.68124986,
+          "other_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 41003,
+        "arrival_ms": 20501.5,
+        "source_emit_ms": 20499.5,
+        "groups_mV": {
+          "LN_pos": 3.396249892,
+          "LN_neg": -3.21749997
+        }
+      },
+      {
+        "arrival_step": 41004,
+        "arrival_ms": 20502.0,
+        "source_emit_ms": 20500.0,
+        "groups_mV": {
+          "PN_pos": 13.2275,
+          "LN_pos": 2.144999862,
+          "LN_neg": -5.00499988
+        }
+      },
+      {
+        "arrival_step": 41005,
+        "arrival_ms": 20502.5,
+        "source_emit_ms": 20500.5,
+        "groups_mV": {
+          "LN_pos": 2.8599999,
+          "LN_neg": -2.8599999
+        }
+      },
+      {
+        "arrival_step": 41006,
+        "arrival_ms": 20503.0,
+        "source_emit_ms": 20501.0,
+        "groups_mV": {
+          "PN_pos": 1.25124991,
+          "LN_pos": 1.25124991,
+          "LN_neg": -2.68124986
+        }
+      },
+      {
+        "arrival_step": 41007,
+        "arrival_ms": 20503.5,
+        "source_emit_ms": 20501.5,
+        "groups_mV": {
+          "LN_pos": 2.323749902,
+          "LN_neg": -3.21749997
+        }
+      },
+      {
+        "arrival_step": 41008,
+        "arrival_ms": 20504.0,
+        "source_emit_ms": 20502.0,
+        "groups_mV": {
+          "PN_pos": 13.2275,
+          "LN_pos": 2.144999862,
+          "LN_neg": -5.00499988,
+          "other_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 41009,
+        "arrival_ms": 20504.5,
+        "source_emit_ms": 20502.5,
+        "groups_mV": {
+          "LN_pos": 2.8599999,
+          "LN_neg": -2.8599999
+        }
+      },
+      {
+        "arrival_step": 41010,
+        "arrival_ms": 20505.0,
+        "source_emit_ms": 20503.0,
+        "groups_mV": {
+          "LN_pos": 1.25124991,
+          "LN_neg": -2.68124986
+        }
+      },
+      {
+        "arrival_step": 41011,
+        "arrival_ms": 20505.5,
+        "source_emit_ms": 20503.5,
+        "groups_mV": {
+          "LN_pos": 3.396249892,
+          "LN_neg": -3.21749997
+        }
+      },
+      {
+        "arrival_step": 41012,
+        "arrival_ms": 20506.0,
+        "source_emit_ms": 20504.0,
+        "groups_mV": {
+          "PN_pos": 14.47874991,
+          "LN_pos": 2.144999862,
+          "LN_neg": -5.00499988
+        }
+      },
+      {
+        "arrival_step": 41013,
+        "arrival_ms": 20506.5,
+        "source_emit_ms": 20504.5,
+        "groups_mV": {
+          "LN_pos": 2.8599999
+        }
+      },
+      {
+        "arrival_step": 41014,
+        "arrival_ms": 20507.0,
+        "source_emit_ms": 20505.0,
+        "groups_mV": {
+          "LN_pos": 1.25124991,
+          "LN_neg": -5.5412497599999995,
+          "other_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 41015,
+        "arrival_ms": 20507.5,
+        "source_emit_ms": 20505.5,
+        "groups_mV": {
+          "LN_pos": 2.323749902,
+          "LN_neg": -3.21749997
+        }
+      },
+      {
+        "arrival_step": 41016,
+        "arrival_ms": 20508.0,
+        "source_emit_ms": 20506.0,
+        "groups_mV": {
+          "PN_pos": 13.2275,
+          "LN_pos": 2.144999862,
+          "LN_neg": -5.00499988
+        }
+      }
+    ]
+  },
+  {
+    "body_id": "111689",
+    "spike_step": 41002,
+    "spike_ms": 20501.0,
+    "group_voltage_mV": {
+      "PN_pos": 7.37899726,
+      "PN_neg": 0.0,
+      "LN_pos": 15.97228,
+      "LN_neg": -16.9464674,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 1.11997774,
+      "other_neg": -0.289345188
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 40982,
+        "arrival_ms": 20491.0,
+        "source_emit_ms": 20489.0,
+        "groups_mV": {
+          "PN_pos": 4.11124992,
+          "LN_pos": 8.22249961
+        }
+      },
+      {
+        "arrival_step": 40983,
+        "arrival_ms": 20491.5,
+        "source_emit_ms": 20489.5,
+        "groups_mV": {
+          "PN_pos": 2.68124986,
+          "LN_pos": 5.898749712000001,
+          "LN_neg": -2.14499998,
+          "other_pos": 2.50249982
+        }
+      },
+      {
+        "arrival_step": 40984,
+        "arrival_ms": 20492.0,
+        "source_emit_ms": 20490.0,
+        "groups_mV": {
+          "LN_pos": 5.541249872,
+          "LN_neg": -18.053749441999997
+        }
+      },
+      {
+        "arrival_step": 40985,
+        "arrival_ms": 20492.5,
+        "source_emit_ms": 20490.5,
+        "groups_mV": {
+          "LN_pos": 3.574999804,
+          "LN_neg": -1.42999995
+        }
+      },
+      {
+        "arrival_step": 40986,
+        "arrival_ms": 20493.0,
+        "source_emit_ms": 20491.0,
+        "groups_mV": {
+          "PN_pos": 3.93249989,
+          "LN_pos": 8.22249961
+        }
+      },
+      {
+        "arrival_step": 40987,
+        "arrival_ms": 20493.5,
+        "source_emit_ms": 20491.5,
+        "groups_mV": {
+          "PN_pos": 0.893749952,
+          "LN_pos": 2.144999862,
+          "LN_neg": -2.14499998
+        }
+      },
+      {
+        "arrival_step": 40988,
+        "arrival_ms": 20494.0,
+        "source_emit_ms": 20492.0,
+        "groups_mV": {
+          "PN_pos": 2.68124986,
+          "LN_pos": 4.468749882,
+          "LN_neg": -18.053749441999997
+        }
+      },
+      {
+        "arrival_step": 40989,
+        "arrival_ms": 20494.5,
+        "source_emit_ms": 20492.5,
+        "groups_mV": {
+          "PN_pos": 10.367499819999999,
+          "LN_pos": 7.507499692000001,
+          "LN_neg": -1.42999995,
+          "other_pos": 2.50249982
+        }
+      },
+      {
+        "arrival_step": 40990,
+        "arrival_ms": 20495.0,
+        "source_emit_ms": 20493.0,
+        "groups_mV": {
+          "LN_pos": 8.22249961
+        }
+      },
+      {
+        "arrival_step": 40991,
+        "arrival_ms": 20495.5,
+        "source_emit_ms": 20493.5,
+        "groups_mV": {
+          "LN_pos": 2.144999862,
+          "LN_neg": -2.14499998
+        }
+      },
+      {
+        "arrival_step": 40992,
+        "arrival_ms": 20496.0,
+        "source_emit_ms": 20494.0,
+        "groups_mV": {
+          "LN_pos": 4.468749882,
+          "LN_neg": -15.193749542
+        }
+      },
+      {
+        "arrival_step": 40993,
+        "arrival_ms": 20496.5,
+        "source_emit_ms": 20494.5,
+        "groups_mV": {
+          "PN_pos": 6.61374975,
+          "LN_pos": 2.681249852,
+          "LN_neg": -4.28999985
+        }
+      },
+      {
+        "arrival_step": 40994,
+        "arrival_ms": 20497.0,
+        "source_emit_ms": 20495.0,
+        "groups_mV": {
+          "PN_pos": 0.893749952,
+          "LN_pos": 13.04874945
+        }
+      },
+      {
+        "arrival_step": 40995,
+        "arrival_ms": 20497.5,
+        "source_emit_ms": 20495.5,
+        "groups_mV": {
+          "LN_pos": 2.144999862,
+          "LN_neg": -2.14499998
+        }
+      },
+      {
+        "arrival_step": 40996,
+        "arrival_ms": 20498.0,
+        "source_emit_ms": 20496.0,
+        "groups_mV": {
+          "LN_pos": 4.468749882,
+          "LN_neg": -15.193749542,
+          "other_pos": 2.50249982
+        }
+      },
+      {
+        "arrival_step": 40997,
+        "arrival_ms": 20498.5,
+        "source_emit_ms": 20496.5,
+        "groups_mV": {
+          "PN_pos": 10.367499819999999,
+          "LN_pos": 2.681249852,
+          "LN_neg": -4.28999985
+        }
+      },
+      {
+        "arrival_step": 40998,
+        "arrival_ms": 20499.0,
+        "source_emit_ms": 20497.0,
+        "groups_mV": {
+          "LN_pos": 8.22249961
+        }
+      },
+      {
+        "arrival_step": 40999,
+        "arrival_ms": 20499.5,
+        "source_emit_ms": 20497.5,
+        "groups_mV": {
+          "PN_pos": 2.68124986,
+          "LN_pos": 6.971249702000001,
+          "LN_neg": -2.14499998
+        }
+      },
+      {
+        "arrival_step": 41000,
+        "arrival_ms": 20500.0,
+        "source_emit_ms": 20498.0,
+        "groups_mV": {
+          "LN_pos": 4.468749882,
+          "LN_neg": -15.193749542
+        }
+      },
+      {
+        "arrival_step": 41001,
+        "arrival_ms": 20500.5,
+        "source_emit_ms": 20498.5,
+        "groups_mV": {
+          "PN_pos": 0.893749952,
+          "LN_pos": 3.574999804,
+          "LN_neg": -4.28999985
+        }
+      },
+      {
+        "arrival_step": 41002,
+        "arrival_ms": 20501.0,
+        "source_emit_ms": 20499.0,
+        "groups_mV": {
+          "PN_pos": 3.93249989,
+          "LN_pos": 8.22249961,
+          "other_pos": 2.50249982,
+          "other_neg": -1.60874999
+        }
+      }
+    ]
+  },
+  {
+    "body_id": "140755",
+    "spike_step": 41003,
+    "spike_ms": 20501.5,
+    "group_voltage_mV": {
+      "PN_pos": 8.03238685,
+      "PN_neg": 0.0,
+      "LN_pos": 6.77961819,
+      "LN_neg": -7.74214678,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 0.0,
+      "other_neg": 0.0
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 40983,
+        "arrival_ms": 20491.5,
+        "source_emit_ms": 20489.5,
+        "groups_mV": {
+          "LN_pos": 1.42999995,
+          "LN_neg": -2.3237499
+        }
+      },
+      {
+        "arrival_step": 40984,
+        "arrival_ms": 20492.0,
+        "source_emit_ms": 20490.0,
+        "groups_mV": {
+          "LN_pos": 1.787499904,
+          "LN_neg": -1.42999995
+        }
+      },
+      {
+        "arrival_step": 40985,
+        "arrival_ms": 20492.5,
+        "source_emit_ms": 20490.5,
+        "groups_mV": {
+          "LN_neg": -2.144999862
+        }
+      },
+      {
+        "arrival_step": 40986,
+        "arrival_ms": 20493.0,
+        "source_emit_ms": 20491.0,
+        "groups_mV": {
+          "PN_pos": 3.75374985
+        }
+      },
+      {
+        "arrival_step": 40987,
+        "arrival_ms": 20493.5,
+        "source_emit_ms": 20491.5,
+        "groups_mV": {
+          "PN_pos": 2.68124986,
+          "LN_pos": 3.0387499399999998,
+          "LN_neg": -1.25124991
+        }
+      },
+      {
+        "arrival_step": 40988,
+        "arrival_ms": 20494.0,
+        "source_emit_ms": 20492.0,
+        "groups_mV": {
+          "LN_pos": 0.893749952,
+          "LN_neg": -1.42999995
+        }
+      },
+      {
+        "arrival_step": 40989,
+        "arrival_ms": 20494.5,
+        "source_emit_ms": 20492.5,
+        "groups_mV": {
+          "LN_pos": 0.893749952,
+          "LN_neg": -1.9662499420000001
+        }
+      },
+      {
+        "arrival_step": 40991,
+        "arrival_ms": 20495.5,
+        "source_emit_ms": 20493.5,
+        "groups_mV": {
+          "PN_pos": 3.75374985,
+          "LN_pos": 1.42999995,
+          "LN_neg": -1.25124991
+        }
+      },
+      {
+        "arrival_step": 40992,
+        "arrival_ms": 20496.0,
+        "source_emit_ms": 20494.0,
+        "groups_mV": {
+          "PN_pos": 2.68124986,
+          "LN_pos": 2.502499942,
+          "LN_neg": -2.6812498600000003
+        }
+      },
+      {
+        "arrival_step": 40993,
+        "arrival_ms": 20496.5,
+        "source_emit_ms": 20494.5,
+        "groups_mV": {
+          "LN_neg": -0.893749952
+        }
+      },
+      {
+        "arrival_step": 40994,
+        "arrival_ms": 20497.0,
+        "source_emit_ms": 20495.0,
+        "groups_mV": {
+          "LN_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 40995,
+        "arrival_ms": 20497.5,
+        "source_emit_ms": 20495.5,
+        "groups_mV": {
+          "LN_pos": 1.42999995,
+          "LN_neg": -2.3237499
+        }
+      },
+      {
+        "arrival_step": 40996,
+        "arrival_ms": 20498.0,
+        "source_emit_ms": 20496.0,
+        "groups_mV": {
+          "PN_pos": 3.75374985,
+          "LN_pos": 0.893749952,
+          "LN_neg": -1.42999995
+        }
+      },
+      {
+        "arrival_step": 40997,
+        "arrival_ms": 20498.5,
+        "source_emit_ms": 20496.5,
+        "groups_mV": {
+          "PN_pos": 2.68124986,
+          "LN_pos": 1.60874999,
+          "LN_neg": -0.893749952
+        }
+      },
+      {
+        "arrival_step": 40999,
+        "arrival_ms": 20499.5,
+        "source_emit_ms": 20497.5,
+        "groups_mV": {
+          "LN_pos": 2.323749902,
+          "LN_neg": -2.50249982
+        }
+      },
+      {
+        "arrival_step": 41000,
+        "arrival_ms": 20500.0,
+        "source_emit_ms": 20498.0,
+        "groups_mV": {
+          "LN_pos": 0.893749952,
+          "LN_neg": -1.42999995
+        }
+      },
+      {
+        "arrival_step": 41001,
+        "arrival_ms": 20500.5,
+        "source_emit_ms": 20498.5,
+        "groups_mV": {
+          "PN_pos": 3.75374985,
+          "LN_neg": -1.9662499420000001
+        }
+      },
+      {
+        "arrival_step": 41002,
+        "arrival_ms": 20501.0,
+        "source_emit_ms": 20499.0,
+        "groups_mV": {
+          "PN_pos": 2.68124986,
+          "LN_pos": 1.60874999
+        }
+      },
+      {
+        "arrival_step": 41003,
+        "arrival_ms": 20501.5,
+        "source_emit_ms": 20499.5,
+        "groups_mV": {
+          "LN_pos": 1.42999995,
+          "LN_neg": -1.25124991
+        }
+      }
+    ]
+  },
+  {
+    "body_id": "153948",
+    "spike_step": 41010,
+    "spike_ms": 20505.0,
+    "group_voltage_mV": {
+      "PN_pos": 4.79250946,
+      "PN_neg": 0.0,
+      "LN_pos": 3.41680717,
+      "LN_neg": -0.589349854,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 0.695115018,
+      "other_neg": 0.0
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 40990,
+        "arrival_ms": 20495.0,
+        "source_emit_ms": 20493.0,
+        "groups_mV": {
+          "LN_pos": 1.25124991
+        }
+      },
+      {
+        "arrival_step": 40992,
+        "arrival_ms": 20496.0,
+        "source_emit_ms": 20494.0,
+        "groups_mV": {
+          "PN_pos": 24.6674995,
+          "LN_pos": 7.5074996899999995,
+          "LN_neg": -1.9662499420000001,
+          "other_pos": 2.8599999
+        }
+      },
+      {
+        "arrival_step": 40993,
+        "arrival_ms": 20496.5,
+        "source_emit_ms": 20494.5,
+        "groups_mV": {
+          "PN_pos": 13.406249,
+          "LN_pos": 2.144999862
+        }
+      },
+      {
+        "arrival_step": 40994,
+        "arrival_ms": 20497.0,
+        "source_emit_ms": 20495.0,
+        "groups_mV": {
+          "LN_pos": 1.25124991
+        }
+      },
+      {
+        "arrival_step": 40995,
+        "arrival_ms": 20497.5,
+        "source_emit_ms": 20495.5,
+        "groups_mV": {
+          "LN_pos": 2.32375002
+        }
+      },
+      {
+        "arrival_step": 40996,
+        "arrival_ms": 20498.0,
+        "source_emit_ms": 20496.0,
+        "groups_mV": {
+          "LN_pos": 7.5074996899999995,
+          "LN_neg": -1.9662499420000001,
+          "other_pos": 2.14499998
+        }
+      },
+      {
+        "arrival_step": 40997,
+        "arrival_ms": 20498.5,
+        "source_emit_ms": 20496.5,
+        "groups_mV": {
+          "LN_pos": 2.144999862
+        }
+      },
+      {
+        "arrival_step": 40998,
+        "arrival_ms": 20499.0,
+        "source_emit_ms": 20497.0,
+        "groups_mV": {
+          "PN_pos": 24.6674995,
+          "LN_pos": 1.25124991
+        }
+      },
+      {
+        "arrival_step": 40999,
+        "arrival_ms": 20499.5,
+        "source_emit_ms": 20497.5,
+        "groups_mV": {
+          "PN_pos": 13.406249,
+          "other_pos": 2.8599999
+        }
+      },
+      {
+        "arrival_step": 41000,
+        "arrival_ms": 20500.0,
+        "source_emit_ms": 20498.0,
+        "groups_mV": {
+          "LN_pos": 7.5074996899999995,
+          "LN_neg": -1.9662499420000001
+        }
+      },
+      {
+        "arrival_step": 41001,
+        "arrival_ms": 20500.5,
+        "source_emit_ms": 20498.5,
+        "groups_mV": {
+          "LN_pos": 2.144999862
+        }
+      },
+      {
+        "arrival_step": 41002,
+        "arrival_ms": 20501.0,
+        "source_emit_ms": 20499.0,
+        "groups_mV": {
+          "LN_pos": 1.25124991,
+          "other_pos": 2.14499998
+        }
+      },
+      {
+        "arrival_step": 41003,
+        "arrival_ms": 20501.5,
+        "source_emit_ms": 20499.5,
+        "groups_mV": {
+          "LN_pos": 2.32375002
+        }
+      },
+      {
+        "arrival_step": 41004,
+        "arrival_ms": 20502.0,
+        "source_emit_ms": 20500.0,
+        "groups_mV": {
+          "PN_pos": 24.6674995,
+          "LN_pos": 7.5074996899999995,
+          "LN_neg": -1.9662499420000001
+        }
+      },
+      {
+        "arrival_step": 41005,
+        "arrival_ms": 20502.5,
+        "source_emit_ms": 20500.5,
+        "groups_mV": {
+          "PN_pos": 13.406249,
+          "LN_pos": 2.144999862,
+          "other_pos": 2.8599999
+        }
+      },
+      {
+        "arrival_step": 41006,
+        "arrival_ms": 20503.0,
+        "source_emit_ms": 20501.0,
+        "groups_mV": {
+          "LN_pos": 1.25124991
+        }
+      },
+      {
+        "arrival_step": 41008,
+        "arrival_ms": 20504.0,
+        "source_emit_ms": 20502.0,
+        "groups_mV": {
+          "LN_pos": 7.5074996899999995,
+          "LN_neg": -1.9662499420000001,
+          "other_pos": 2.14499998
+        }
+      },
+      {
+        "arrival_step": 41009,
+        "arrival_ms": 20504.5,
+        "source_emit_ms": 20502.5,
+        "groups_mV": {
+          "LN_pos": 2.144999862
+        }
+      },
+      {
+        "arrival_step": 41010,
+        "arrival_ms": 20505.0,
+        "source_emit_ms": 20503.0,
+        "groups_mV": {
+          "PN_pos": 24.6674995,
+          "LN_pos": 1.25124991
+        }
+      }
+    ]
+  },
+  {
+    "body_id": "189046",
+    "spike_step": 41005,
+    "spike_ms": 20502.5,
+    "group_voltage_mV": {
+      "PN_pos": 5.77218333,
+      "PN_neg": -0.304936143,
+      "LN_pos": 2.57150814,
+      "LN_neg": -0.925882372,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 0.230744343,
+      "other_neg": 0.0
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 40986,
+        "arrival_ms": 20493.0,
+        "source_emit_ms": 20491.0,
+        "groups_mV": {
+          "PN_pos": 5.89874983
+        }
+      },
+      {
+        "arrival_step": 40987,
+        "arrival_ms": 20493.5,
+        "source_emit_ms": 20491.5,
+        "groups_mV": {
+          "PN_pos": 10.0099993,
+          "PN_neg": -1.07249999,
+          "LN_pos": 3.03874981
+        }
+      },
+      {
+        "arrival_step": 40988,
+        "arrival_ms": 20494.0,
+        "source_emit_ms": 20492.0,
+        "groups_mV": {
+          "LN_pos": 2.68124986,
+          "LN_neg": -2.14499998
+        }
+      },
+      {
+        "arrival_step": 40989,
+        "arrival_ms": 20494.5,
+        "source_emit_ms": 20492.5,
+        "groups_mV": {
+          "other_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 40991,
+        "arrival_ms": 20495.5,
+        "source_emit_ms": 20493.5,
+        "groups_mV": {
+          "PN_pos": 5.89874983,
+          "LN_pos": 3.03874981
+        }
+      },
+      {
+        "arrival_step": 40992,
+        "arrival_ms": 20496.0,
+        "source_emit_ms": 20494.0,
+        "groups_mV": {
+          "PN_pos": 10.0099993,
+          "LN_pos": 2.68124986,
+          "LN_neg": -2.14499998
+        }
+      },
+      {
+        "arrival_step": 40993,
+        "arrival_ms": 20496.5,
+        "source_emit_ms": 20494.5,
+        "groups_mV": {
+          "PN_neg": -1.07249999
+        }
+      },
+      {
+        "arrival_step": 40995,
+        "arrival_ms": 20497.5,
+        "source_emit_ms": 20495.5,
+        "groups_mV": {
+          "LN_pos": 3.03874981
+        }
+      },
+      {
+        "arrival_step": 40996,
+        "arrival_ms": 20498.0,
+        "source_emit_ms": 20496.0,
+        "groups_mV": {
+          "PN_pos": 5.89874983,
+          "LN_pos": 2.68124986,
+          "LN_neg": -2.14499998,
+          "other_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 40997,
+        "arrival_ms": 20498.5,
+        "source_emit_ms": 20496.5,
+        "groups_mV": {
+          "PN_pos": 10.0099993
+        }
+      },
+      {
+        "arrival_step": 40999,
+        "arrival_ms": 20499.5,
+        "source_emit_ms": 20497.5,
+        "groups_mV": {
+          "PN_neg": -1.07249999,
+          "LN_pos": 3.03874981
+        }
+      },
+      {
+        "arrival_step": 41000,
+        "arrival_ms": 20500.0,
+        "source_emit_ms": 20498.0,
+        "groups_mV": {
+          "LN_pos": 2.68124986,
+          "LN_neg": -2.14499998
+        }
+      },
+      {
+        "arrival_step": 41001,
+        "arrival_ms": 20500.5,
+        "source_emit_ms": 20498.5,
+        "groups_mV": {
+          "PN_pos": 5.89874983
+        }
+      },
+      {
+        "arrival_step": 41002,
+        "arrival_ms": 20501.0,
+        "source_emit_ms": 20499.0,
+        "groups_mV": {
+          "PN_pos": 10.0099993,
+          "other_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 41003,
+        "arrival_ms": 20501.5,
+        "source_emit_ms": 20499.5,
+        "groups_mV": {
+          "LN_pos": 3.03874981
+        }
+      },
+      {
+        "arrival_step": 41004,
+        "arrival_ms": 20502.0,
+        "source_emit_ms": 20500.0,
+        "groups_mV": {
+          "LN_pos": 2.68124986,
+          "LN_neg": -2.14499998
+        }
+      },
+      {
+        "arrival_step": 41005,
+        "arrival_ms": 20502.5,
+        "source_emit_ms": 20500.5,
+        "groups_mV": {
+          "PN_neg": -1.07249999
+        }
+      }
+    ]
+  },
+  {
+    "body_id": "211611",
+    "spike_step": 41006,
+    "spike_ms": 20503.0,
+    "group_voltage_mV": {
+      "PN_pos": 2.86306262,
+      "PN_neg": 0.0,
+      "LN_pos": 6.43482126,
+      "LN_neg": -2.29782698,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 0.0,
+      "other_neg": 0.0
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 40986,
+        "arrival_ms": 20493.0,
+        "source_emit_ms": 20491.0,
+        "groups_mV": {
+          "LN_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 40987,
+        "arrival_ms": 20493.5,
+        "source_emit_ms": 20491.5,
+        "groups_mV": {
+          "LN_neg": -1.07249999
+        }
+      },
+      {
+        "arrival_step": 40989,
+        "arrival_ms": 20494.5,
+        "source_emit_ms": 20492.5,
+        "groups_mV": {
+          "PN_pos": 1.7874999,
+          "LN_pos": 2.502499942
+        }
+      },
+      {
+        "arrival_step": 40990,
+        "arrival_ms": 20495.0,
+        "source_emit_ms": 20493.0,
+        "groups_mV": {
+          "LN_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 40991,
+        "arrival_ms": 20495.5,
+        "source_emit_ms": 20493.5,
+        "groups_mV": {
+          "LN_neg": -1.07249999
+        }
+      },
+      {
+        "arrival_step": 40993,
+        "arrival_ms": 20496.5,
+        "source_emit_ms": 20494.5,
+        "groups_mV": {
+          "LN_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 40994,
+        "arrival_ms": 20497.0,
+        "source_emit_ms": 20495.0,
+        "groups_mV": {
+          "LN_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 40995,
+        "arrival_ms": 20497.5,
+        "source_emit_ms": 20495.5,
+        "groups_mV": {
+          "PN_pos": 1.7874999,
+          "LN_pos": 1.60874999,
+          "LN_neg": -1.07249999
+        }
+      },
+      {
+        "arrival_step": 40997,
+        "arrival_ms": 20498.5,
+        "source_emit_ms": 20496.5,
+        "groups_mV": {
+          "LN_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 40998,
+        "arrival_ms": 20499.0,
+        "source_emit_ms": 20497.0,
+        "groups_mV": {
+          "LN_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 40999,
+        "arrival_ms": 20499.5,
+        "source_emit_ms": 20497.5,
+        "groups_mV": {
+          "LN_neg": -1.07249999
+        }
+      },
+      {
+        "arrival_step": 41000,
+        "arrival_ms": 20500.0,
+        "source_emit_ms": 20498.0,
+        "groups_mV": {
+          "PN_pos": 1.7874999
+        }
+      },
+      {
+        "arrival_step": 41001,
+        "arrival_ms": 20500.5,
+        "source_emit_ms": 20498.5,
+        "groups_mV": {
+          "LN_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 41002,
+        "arrival_ms": 20501.0,
+        "source_emit_ms": 20499.0,
+        "groups_mV": {
+          "LN_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 41003,
+        "arrival_ms": 20501.5,
+        "source_emit_ms": 20499.5,
+        "groups_mV": {
+          "LN_pos": 1.60874999,
+          "LN_neg": -1.07249999
+        }
+      },
+      {
+        "arrival_step": 41005,
+        "arrival_ms": 20502.5,
+        "source_emit_ms": 20500.5,
+        "groups_mV": {
+          "LN_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 41006,
+        "arrival_ms": 20503.0,
+        "source_emit_ms": 20501.0,
+        "groups_mV": {
+          "PN_pos": 1.7874999,
+          "LN_pos": 1.07249999
+        }
+      }
+    ]
+  },
+  {
+    "body_id": "222974",
+    "spike_step": 41063,
+    "spike_ms": 20531.5,
+    "group_voltage_mV": {
+      "PN_pos": 2.58925851,
+      "PN_neg": 0.0,
+      "LN_pos": 17.4823281,
+      "LN_neg": -14.3014279,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 1.32467137,
+      "other_neg": 0.0
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 41043,
+        "arrival_ms": 20521.5,
+        "source_emit_ms": 20519.5,
+        "groups_mV": {
+          "PN_pos": 1.7874999,
+          "LN_pos": 2.681249852,
+          "LN_neg": -1.25124991
+        }
+      },
+      {
+        "arrival_step": 41044,
+        "arrival_ms": 20522.0,
+        "source_emit_ms": 20520.0,
+        "groups_mV": {
+          "LN_neg": -6.43499983,
+          "other_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 41045,
+        "arrival_ms": 20522.5,
+        "source_emit_ms": 20520.5,
+        "groups_mV": {
+          "LN_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 41046,
+        "arrival_ms": 20523.0,
+        "source_emit_ms": 20521.0,
+        "groups_mV": {
+          "LN_pos": 5.54124975
+        }
+      },
+      {
+        "arrival_step": 41047,
+        "arrival_ms": 20523.5,
+        "source_emit_ms": 20521.5,
+        "groups_mV": {
+          "LN_pos": 2.502499942,
+          "LN_neg": -1.25124991
+        }
+      },
+      {
+        "arrival_step": 41048,
+        "arrival_ms": 20524.0,
+        "source_emit_ms": 20522.0,
+        "groups_mV": {
+          "PN_pos": 1.7874999,
+          "LN_pos": 1.7874999,
+          "LN_neg": -6.43499983
+        }
+      },
+      {
+        "arrival_step": 41050,
+        "arrival_ms": 20525.0,
+        "source_emit_ms": 20523.0,
+        "groups_mV": {
+          "LN_pos": 2.50249982,
+          "other_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 41051,
+        "arrival_ms": 20525.5,
+        "source_emit_ms": 20523.5,
+        "groups_mV": {
+          "LN_pos": 4.8262498339999995,
+          "LN_neg": -1.25124991
+        }
+      },
+      {
+        "arrival_step": 41052,
+        "arrival_ms": 20526.0,
+        "source_emit_ms": 20524.0,
+        "groups_mV": {
+          "LN_pos": 1.60874999,
+          "LN_neg": -6.43499983
+        }
+      },
+      {
+        "arrival_step": 41053,
+        "arrival_ms": 20526.5,
+        "source_emit_ms": 20524.5,
+        "groups_mV": {
+          "PN_pos": 1.7874999,
+          "LN_pos": 1.7874999
+        }
+      },
+      {
+        "arrival_step": 41054,
+        "arrival_ms": 20527.0,
+        "source_emit_ms": 20525.0,
+        "groups_mV": {
+          "LN_pos": 2.50249982
+        }
+      },
+      {
+        "arrival_step": 41055,
+        "arrival_ms": 20527.5,
+        "source_emit_ms": 20525.5,
+        "groups_mV": {
+          "LN_pos": 3.9324998819999997,
+          "LN_neg": -1.25124991
+        }
+      },
+      {
+        "arrival_step": 41056,
+        "arrival_ms": 20528.0,
+        "source_emit_ms": 20526.0,
+        "groups_mV": {
+          "LN_neg": -6.43499983,
+          "other_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 41057,
+        "arrival_ms": 20528.5,
+        "source_emit_ms": 20526.5,
+        "groups_mV": {
+          "LN_pos": 1.60874999
+        }
+      },
+      {
+        "arrival_step": 41058,
+        "arrival_ms": 20529.0,
+        "source_emit_ms": 20527.0,
+        "groups_mV": {
+          "PN_pos": 1.7874999,
+          "LN_pos": 4.28999972
+        }
+      },
+      {
+        "arrival_step": 41059,
+        "arrival_ms": 20529.5,
+        "source_emit_ms": 20527.5,
+        "groups_mV": {
+          "LN_pos": 1.787499904,
+          "LN_neg": -1.25124991
+        }
+      },
+      {
+        "arrival_step": 41060,
+        "arrival_ms": 20530.0,
+        "source_emit_ms": 20528.0,
+        "groups_mV": {
+          "LN_pos": 3.03874993,
+          "LN_neg": -6.43499983
+        }
+      },
+      {
+        "arrival_step": 41062,
+        "arrival_ms": 20531.0,
+        "source_emit_ms": 20529.0,
+        "groups_mV": {
+          "LN_pos": 4.11124981,
+          "other_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 41063,
+        "arrival_ms": 20531.5,
+        "source_emit_ms": 20529.5,
+        "groups_mV": {
+          "PN_pos": 1.7874999,
+          "LN_pos": 2.681249852,
+          "LN_neg": -1.25124991
+        }
+      }
+    ]
+  },
+  {
+    "body_id": "513746",
+    "spike_step": 41011,
+    "spike_ms": 20505.5,
+    "group_voltage_mV": {
+      "PN_pos": 5.18986573,
+      "PN_neg": 0.0,
+      "LN_pos": 6.43366898,
+      "LN_neg": -4.34902313,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 0.23620837,
+      "other_neg": 0.0
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 40991,
+        "arrival_ms": 20495.5,
+        "source_emit_ms": 20493.5,
+        "groups_mV": {
+          "LN_pos": 4.468749752,
+          "LN_neg": -3.574999932
+        }
+      },
+      {
+        "arrival_step": 40992,
+        "arrival_ms": 20496.0,
+        "source_emit_ms": 20494.0,
+        "groups_mV": {
+          "PN_pos": 17.3387489,
+          "LN_pos": 0.893749952,
+          "LN_neg": -5.00499988,
+          "other_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 40994,
+        "arrival_ms": 20497.0,
+        "source_emit_ms": 20495.0,
+        "groups_mV": {
+          "LN_pos": 5.362499834
+        }
+      },
+      {
+        "arrival_step": 40995,
+        "arrival_ms": 20497.5,
+        "source_emit_ms": 20495.5,
+        "groups_mV": {
+          "LN_pos": 5.898749702000001,
+          "LN_neg": -2.502499942
+        }
+      },
+      {
+        "arrival_step": 40996,
+        "arrival_ms": 20498.0,
+        "source_emit_ms": 20496.0,
+        "groups_mV": {
+          "LN_pos": 0.893749952,
+          "LN_neg": -6.0774998700000005
+        }
+      },
+      {
+        "arrival_step": 40998,
+        "arrival_ms": 20499.0,
+        "source_emit_ms": 20497.0,
+        "groups_mV": {
+          "PN_pos": 17.3387489,
+          "LN_pos": 3.2174998539999997
+        }
+      },
+      {
+        "arrival_step": 40999,
+        "arrival_ms": 20499.5,
+        "source_emit_ms": 20497.5,
+        "groups_mV": {
+          "LN_pos": 6.6137497320000005,
+          "LN_neg": -2.502499942,
+          "other_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 41000,
+        "arrival_ms": 20500.0,
+        "source_emit_ms": 20498.0,
+        "groups_mV": {
+          "LN_pos": 2.323749902,
+          "LN_neg": -5.00499988
+        }
+      },
+      {
+        "arrival_step": 41001,
+        "arrival_ms": 20500.5,
+        "source_emit_ms": 20498.5,
+        "groups_mV": {
+          "LN_neg": -1.07249999
+        }
+      },
+      {
+        "arrival_step": 41002,
+        "arrival_ms": 20501.0,
+        "source_emit_ms": 20499.0,
+        "groups_mV": {
+          "LN_pos": 1.787499904
+        }
+      },
+      {
+        "arrival_step": 41003,
+        "arrival_ms": 20501.5,
+        "source_emit_ms": 20499.5,
+        "groups_mV": {
+          "LN_pos": 5.898749702000001,
+          "LN_neg": -2.502499942
+        }
+      },
+      {
+        "arrival_step": 41004,
+        "arrival_ms": 20502.0,
+        "source_emit_ms": 20500.0,
+        "groups_mV": {
+          "PN_pos": 17.3387489,
+          "LN_pos": 1.9662499420000001,
+          "LN_neg": -5.00499988
+        }
+      },
+      {
+        "arrival_step": 41005,
+        "arrival_ms": 20502.5,
+        "source_emit_ms": 20500.5,
+        "groups_mV": {
+          "LN_pos": 2.50249994,
+          "other_pos": 0.893749952
+        }
+      },
+      {
+        "arrival_step": 41006,
+        "arrival_ms": 20503.0,
+        "source_emit_ms": 20501.0,
+        "groups_mV": {
+          "LN_pos": 1.787499904,
+          "LN_neg": -1.07249999
+        }
+      },
+      {
+        "arrival_step": 41007,
+        "arrival_ms": 20503.5,
+        "source_emit_ms": 20501.5,
+        "groups_mV": {
+          "LN_pos": 5.898749702000001,
+          "LN_neg": -2.502499942
+        }
+      },
+      {
+        "arrival_step": 41008,
+        "arrival_ms": 20504.0,
+        "source_emit_ms": 20502.0,
+        "groups_mV": {
+          "LN_pos": 0.893749952,
+          "LN_neg": -5.00499988
+        }
+      },
+      {
+        "arrival_step": 41009,
+        "arrival_ms": 20504.5,
+        "source_emit_ms": 20502.5,
+        "groups_mV": {
+          "LN_pos": 2.50249994
+        }
+      },
+      {
+        "arrival_step": 41010,
+        "arrival_ms": 20505.0,
+        "source_emit_ms": 20503.0,
+        "groups_mV": {
+          "LN_pos": 2.859999894
+        }
+      },
+      {
+        "arrival_step": 41011,
+        "arrival_ms": 20505.5,
+        "source_emit_ms": 20503.5,
+        "groups_mV": {
+          "PN_pos": 17.3387489,
+          "LN_pos": 4.468749752,
+          "LN_neg": -3.574999932
+        }
+      }
+    ]
+  },
+  {
+    "body_id": "669738951",
+    "spike_step": 41103,
+    "spike_ms": 20551.5,
+    "group_voltage_mV": {
+      "PN_pos": 0.0,
+      "PN_neg": 0.0,
+      "LN_pos": 7.00288993,
+      "LN_neg": 0.0,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 0.0,
+      "other_neg": 0.0
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 41086,
+        "arrival_ms": 20543.0,
+        "source_emit_ms": 20541.0,
+        "groups_mV": {
+          "LN_pos": 2.859999894
+        }
+      },
+      {
+        "arrival_step": 41090,
+        "arrival_ms": 20545.0,
+        "source_emit_ms": 20543.0,
+        "groups_mV": {
+          "LN_pos": 2.859999894
+        }
+      },
+      {
+        "arrival_step": 41094,
+        "arrival_ms": 20547.0,
+        "source_emit_ms": 20545.0,
+        "groups_mV": {
+          "LN_pos": 2.859999894
+        }
+      },
+      {
+        "arrival_step": 41098,
+        "arrival_ms": 20549.0,
+        "source_emit_ms": 20547.0,
+        "groups_mV": {
+          "LN_pos": 2.859999894
+        }
+      },
+      {
+        "arrival_step": 41102,
+        "arrival_ms": 20551.0,
+        "source_emit_ms": 20549.0,
+        "groups_mV": {
+          "LN_pos": 2.859999894
+        }
+      }
+    ]
+  },
+  {
+    "body_id": "688942939",
+    "spike_step": 41023,
+    "spike_ms": 20511.5,
+    "group_voltage_mV": {
+      "PN_pos": 0.912523436,
+      "PN_neg": 0.0,
+      "LN_pos": 6.15926251,
+      "LN_neg": 0.0,
+      "ORN_other_pos": 0.0,
+      "ORN_other_neg": 0.0,
+      "self_pos": 0.0,
+      "self_neg": 0.0,
+      "other_pos": 0.0,
+      "other_neg": 0.0
+    },
+    "arrivals_in_prior_10ms": [
+      {
+        "arrival_step": 41003,
+        "arrival_ms": 20501.5,
+        "source_emit_ms": 20499.5,
+        "groups_mV": {
+          "PN_pos": 1.07249999,
+          "LN_pos": 1.42999995
+        }
+      },
+      {
+        "arrival_step": 41004,
+        "arrival_ms": 20502.0,
+        "source_emit_ms": 20500.0,
+        "groups_mV": {
+          "LN_pos": 1.25124991
+        }
+      },
+      {
+        "arrival_step": 41005,
+        "arrival_ms": 20502.5,
+        "source_emit_ms": 20500.5,
+        "groups_mV": {
+          "LN_pos": 2.14499998
+        }
+      },
+      {
+        "arrival_step": 41007,
+        "arrival_ms": 20503.5,
+        "source_emit_ms": 20501.5,
+        "groups_mV": {
+          "LN_pos": 1.42999995
+        }
+      },
+      {
+        "arrival_step": 41009,
+        "arrival_ms": 20504.5,
+        "source_emit_ms": 20502.5,
+        "groups_mV": {
+          "PN_pos": 1.07249999,
+          "LN_pos": 3.39624989
+        }
+      },
+      {
+        "arrival_step": 41012,
+        "arrival_ms": 20506.0,
+        "source_emit_ms": 20504.0,
+        "groups_mV": {
+          "LN_pos": 1.42999995
+        }
+      },
+      {
+        "arrival_step": 41013,
+        "arrival_ms": 20506.5,
+        "source_emit_ms": 20504.5,
+        "groups_mV": {
+          "LN_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 41014,
+        "arrival_ms": 20507.0,
+        "source_emit_ms": 20505.0,
+        "groups_mV": {
+          "LN_pos": 2.3237499
+        }
+      },
+      {
+        "arrival_step": 41016,
+        "arrival_ms": 20508.0,
+        "source_emit_ms": 20506.0,
+        "groups_mV": {
+          "PN_pos": 1.07249999,
+          "LN_pos": 1.42999995
+        }
+      },
+      {
+        "arrival_step": 41017,
+        "arrival_ms": 20508.5,
+        "source_emit_ms": 20506.5,
+        "groups_mV": {
+          "LN_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 41018,
+        "arrival_ms": 20509.0,
+        "source_emit_ms": 20507.0,
+        "groups_mV": {
+          "LN_pos": 2.3237499
+        }
+      },
+      {
+        "arrival_step": 41020,
+        "arrival_ms": 20510.0,
+        "source_emit_ms": 20508.0,
+        "groups_mV": {
+          "LN_pos": 1.42999995
+        }
+      },
+      {
+        "arrival_step": 41021,
+        "arrival_ms": 20510.5,
+        "source_emit_ms": 20508.5,
+        "groups_mV": {
+          "LN_pos": 1.07249999
+        }
+      },
+      {
+        "arrival_step": 41023,
+        "arrival_ms": 20511.5,
+        "source_emit_ms": 20509.5,
+        "groups_mV": {
+          "PN_pos": 1.07249999,
+          "LN_pos": 2.3237499
+        }
+      }
+    ]
+  }
+]

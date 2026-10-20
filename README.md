@@ -1,4 +1,24 @@
 # AI-Curious-Community
+
+## ミニ研究・実験の溜まり場 / Small Research & Experiments
+
+AIに関する疑問を、小さな実験・試作・比較で確かめるための公開資料です。条件、結果、うまくいかなかった点、まだ確認していない点を一緒に残します。
+
+**[研究・実験の詳しい目次](research-index.md)**
+
+| テーマ | 入口 |
+|---|---|
+| ドギドの身体とハエ神経回路 | [3D試作・飛行学習・16テーマの神経実験](dogido-fly-research/) |
+| ハエの匂いON / OFF | [既公開の3実験](https://github.com/yukincom/fly-odor-onoff/blob/main/README_jp.md) |
+| LLM SugarScape | [資源世界での行動と実験ログ](https://github.com/yukincom/llm-SugarScape) |
+| ドギドの対話・分類・モデル比較 | [公開研究への案内](research-index.md) |
+| 手書き漫画ネームOCR | [集計・条件・評価コード](manga-ocr-benchmark/) |
+| Qwen / GPTの長文翻訳 | [翻訳比較](translationbenchmark-qwen-gpt/) |
+
+既公開の研究は元の公開先へつなぎ、この場所で初公開する研究はテーマ別フォルダへまとめています。論文を読む・疑問を相談する場は、引き続き[Discussions](https://github.com/yukincom/AI-Curious-Community/discussions)です。
+
+---
+
 Ever see those eye-catching posts on X like "Is this real?" or "AI just surpassed humanity!?"<br>
 Let's investigate these surprising claims together and find out what's really going on!<br>
 Deep-diving into researchers' statements is welcome (but no personal attacks!)<br>

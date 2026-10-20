@@ -1,0 +1,4161 @@
+{
+  "fixed_cohort_PN_count": 366,
+  "cohort_body_ids": [
+    "10039",
+    "10049",
+    "10084",
+    "10111",
+    "10126",
+    "10134",
+    "10176",
+    "10198",
+    "10208",
+    "10262",
+    "10321",
+    "10359",
+    "10390",
+    "10402",
+    "10408",
+    "10423",
+    "10429",
+    "10470",
+    "10472",
+    "10522",
+    "10524",
+    "10530",
+    "10561",
+    "10569",
+    "10613",
+    "10653",
+    "10670",
+    "10716",
+    "10736",
+    "10756",
+    "10767",
+    "10786",
+    "10808",
+    "10877",
+    "10904",
+    "10906",
+    "10973",
+    "10996",
+    "11050",
+    "11058",
+    "11080",
+    "11092",
+    "11105",
+    "11135",
+    "11141",
+    "11143",
+    "11229",
+    "11355",
+    "11390",
+    "11409",
+    "11467",
+    "11469",
+    "11471",
+    "11514",
+    "11521",
+    "11583",
+    "11624",
+    "11703",
+    "11749",
+    "11761",
+    "11817",
+    "11829",
+    "11930",
+    "12012",
+    "12023",
+    "12031",
+    "12050",
+    "12057",
+    "12061",
+    "12121",
+    "12152",
+    "12160",
+    "12163",
+    "12164",
+    "12171",
+    "12241",
+    "12279",
+    "12309",
+    "12312",
+    "12367",
+    "12387",
+    "12460",
+    "12471",
+    "12509",
+    "12653",
+    "12667",
+    "12711",
+    "12715",
+    "12728",
+    "12756",
+    "12765",
+    "12782",
+    "12815",
+    "12837",
+    "12840",
+    "12890",
+    "12934",
+    "12958",
+    "12965",
+    "13027",
+    "13127",
+    "13143",
+    "13172",
+    "13194",
+    "13198",
+    "13225",
+    "13230",
+    "13283",
+    "13334",
+    "13356",
+    "13386",
+    "13423",
+    "13470",
+    "13479",
+    "13480",
+    "13483",
+    "13571",
+    "13582",
+    "13596",
+    "13610",
+    "13666",
+    "13684",
+    "13725",
+    "13940",
+    "13972",
+    "13981",
+    "14158",
+    "14319",
+    "14339",
+    "14340",
+    "14360",
+    "14391",
+    "14427",
+    "14430",
+    "14437",
+    "14442",
+    "14506",
+    "14510",
+    "14530",
+    "14573",
+    "14607",
+    "14661",
+    "14666",
+    "14685",
+    "14802",
+    "14874",
+    "14895",
+    "14962",
+    "14985",
+    "15005",
+    "15125",
+    "15164",
+    "15276",
+    "15313",
+    "15353",
+    "15431",
+    "15517",
+    "15823",
+    "15970",
+    "15992",
+    "16005",
+    "16013",
+    "16083",
+    "16141",
+    "16167",
+    "16206",
+    "16207",
+    "16426",
+    "16433",
+    "16437",
+    "16508",
+    "16524",
+    "16610",
+    "16648",
+    "16651",
+    "17027",
+    "17052",
+    "17225",
+    "17319",
+    "17484",
+    "17540",
+    "17569",
+    "17570",
+    "17650",
+    "17705",
+    "17722",
+    "17817",
+    "18015",
+    "18049",
+    "18416",
+    "18417",
+    "18466",
+    "18536",
+    "18776",
+    "18834",
+    "18867",
+    "19579",
+    "19647",
+    "19743",
+    "19845",
+    "20001",
+    "20278",
+    "20311",
+    "20324",
+    "20445",
+    "20688",
+    "20739",
+    "20910",
+    "20926",
+    "20960",
+    "20995",
+    "21132",
+    "21756",
+    "21876",
+    "22026",
+    "22224",
+    "22473",
+    "22494",
+    "22569",
+    "22665",
+    "22717",
+    "22787",
+    "22977",
+    "23132",
+    "23200",
+    "23339",
+    "23517",
+    "24352",
+    "24502",
+    "24841",
+    "25039",
+    "25166",
+    "25927",
+    "26047",
+    "26071",
+    "26102",
+    "26129",
+    "26223",
+    "26387",
+    "26423",
+    "26551",
+    "26625",
+    "26628",
+    "26766",
+    "26845",
+    "26860",
+    "27379",
+    "27775",
+    "28037",
+    "28640",
+    "28680",
+    "28803",
+    "29090",
+    "29176",
+    "29217",
+    "29560",
+    "29750",
+    "29826",
+    "30021",
+    "30776",
+    "30885",
+    "31117",
+    "31348",
+    "31397",
+    "32815",
+    "32880",
+    "33165",
+    "33296",
+    "33987",
+    "34084",
+    "34301",
+    "34385",
+    "35182",
+    "36146",
+    "36291",
+    "36577",
+    "36743",
+    "37336",
+    "37596",
+    "38262",
+    "38510",
+    "38819",
+    "39719",
+    "39922",
+    "40838",
+    "43216",
+    "43363",
+    "43489",
+    "44995",
+    "45451",
+    "47617",
+    "50178",
+    "51479",
+    "51603",
+    "52099",
+    "52536",
+    "52544",
+    "52616",
+    "54383",
+    "56364",
+    "58009",
+    "58226",
+    "58496",
+    "60017",
+    "61941",
+    "62837",
+    "63046",
+    "63336",
+    "63883",
+    "65179",
+    "66007",
+    "66970",
+    "68701",
+    "69631",
+    "70248",
+    "73492",
+    "77609",
+    "83289",
+    "91799",
+    "99925",
+    "103414",
+    "114510",
+    "114513",
+    "125291",
+    "136213",
+    "146273",
+    "155294",
+    "161034",
+    "511807",
+    "512883",
+    "514009",
+    "516097",
+    "516162",
+    "516322",
+    "517351",
+    "517359",
+    "517458",
+    "518294",
+    "519842",
+    "519850",
+    "519869",
+    "519970",
+    "520003",
+    "520466",
+    "520916",
+    "521108",
+    "521437",
+    "521575",
+    "522439",
+    "523351",
+    "523941",
+    "524207",
+    "524990",
+    "525105",
+    "527524",
+    "527577",
+    "529665",
+    "532662",
+    "532766",
+    "538094",
+    "547655",
+    "555966",
+    "555967",
+    "556574",
+    "563873",
+    "564174"
+  ],
+  "connected_GABA_LN_count": 119,
+  "connected_GABA_LN_body_ids": [
+    "10133",
+    "10169",
+    "10254",
+    "10376",
+    "10456",
+    "10473",
+    "10515",
+    "10647",
+    "11603",
+    "11788",
+    "12511",
+    "12534",
+    "12541",
+    "13315",
+    "13944",
+    "14343",
+    "15507",
+    "15662",
+    "16188",
+    "16379",
+    "16434",
+    "16511",
+    "16601",
+    "16922",
+    "17325",
+    "18016",
+    "18165",
+    "18726",
+    "18730",
+    "18868",
+    "18909",
+    "19062",
+    "19767",
+    "19921",
+    "19938",
+    "20044",
+    "20380",
+    "20402",
+    "20581",
+    "20620",
+    "21267",
+    "21567",
+    "22166",
+    "22243",
+    "22276",
+    "23854",
+    "24828",
+    "25476",
+    "27416",
+    "27614",
+    "28406",
+    "28525",
+    "29612",
+    "30421",
+    "34676",
+    "35196",
+    "35420",
+    "37202",
+    "38921",
+    "40568",
+    "40733",
+    "42426",
+    "42495",
+    "43659",
+    "44147",
+    "51646",
+    "53128",
+    "56207",
+    "60623",
+    "61795",
+    "62555",
+    "62576",
+    "68850",
+    "73819",
+    "74436",
+    "79739",
+    "87083",
+    "90364",
+    "93870",
+    "94617",
+    "99751",
+    "110372",
+    "119212",
+    "119949",
+    "121520",
+    "122297",
+    "124599",
+    "130279",
+    "139148",
+    "144279",
+    "151762",
+    "156863",
+    "158892",
+    "163745",
+    "164635",
+    "167893",
+    "168466",
+    "173628",
+    "176598",
+    "182223",
+    "188051",
+    "267437",
+    "511758",
+    "514291",
+    "515096",
+    "515554",
+    "517330",
+    "521290",
+    "521438",
+    "521439",
+    "523544",
+    "523591",
+    "524797",
+    "525379",
+    "527469",
+    "551294",
+    "555322",
+    "564824",
+    "918582"
+  ],
+  "trials": [
+    {
+      "trial": "baseline_2026091701",
+      "condition": "baseline",
+      "seed": 2026091701,
+      "phases": {
+        "quiet": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 0.0,
+          "GABA_LN_hz": 0.0,
+          "exc_LN_hz": 0.0,
+          "glut_LN_hz": 0.0,
+          "cohort_PN_mean_hz": 0.0,
+          "cohort_PN_at_least_100hz": 0,
+          "connected_GABA_LN_mean_hz": 0.0,
+          "connected_GABA_LN_active": 0,
+          "cohort_PN_receiving_GABA_LN": 0,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "inh": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "gaba_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "exc_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "glut_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            }
+          }
+        },
+        "odor_early": {
+          "ORN_hz": 59.3248407643,
+          "ALPN_hz": 131.0641399418,
+          "GABA_LN_hz": 214.9333333331,
+          "exc_LN_hz": 261.0937499999,
+          "glut_LN_hz": 83.1666666667,
+          "cohort_PN_mean_hz": 218.775956284153,
+          "cohort_PN_at_least_100hz": 350,
+          "connected_GABA_LN_mean_hz": 216.73949579831933,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 10586724.010599377,
+              "during_refractory_mV": 4856456.969422346,
+              "accepted_mV": 10586724.010599377,
+              "refractory_fraction": 0.4587308561704343
+            },
+            "inh": {
+              "arrived_mV": -4571740.423233031,
+              "during_refractory_mV": -2048280.2747488085,
+              "accepted_mV": -4571740.423233031,
+              "refractory_fraction": 0.448030746527011
+            },
+            "gaba_ln": {
+              "arrived_mV": -3263361.2544674934,
+              "during_refractory_mV": -1434112.4567192786,
+              "accepted_mV": -3263361.2544674934,
+              "refractory_fraction": 0.43945868841704233
+            },
+            "exc_ln": {
+              "arrived_mV": 8533488.070780631,
+              "during_refractory_mV": 3958465.798082114,
+              "accepted_mV": 8533488.070780631,
+              "refractory_fraction": 0.4638742991434216
+            },
+            "glut_ln": {
+              "arrived_mV": -145467.99598026002,
+              "during_refractory_mV": -67282.57011974104,
+              "accepted_mV": -145467.99598026002,
+              "refractory_fraction": 0.4625248988022855
+            }
+          }
+        },
+        "odor_tail": {
+          "ORN_hz": 59.6942675159,
+          "ALPN_hz": 135.5189504374,
+          "GABA_LN_hz": 221.4499999999,
+          "exc_LN_hz": 268.5416666667,
+          "glut_LN_hz": 86.4814814814,
+          "cohort_PN_mean_hz": 226.01639344262296,
+          "cohort_PN_at_least_100hz": 364,
+          "connected_GABA_LN_mean_hz": 223.3109243697479,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 10912355.55555224,
+              "during_refractory_mV": 5025407.174941433,
+              "accepted_mV": 10912355.55555224,
+              "refractory_fraction": 0.46052450814659257
+            },
+            "inh": {
+              "arrived_mV": -4721802.832076194,
+              "during_refractory_mV": -2125803.6120500537,
+              "accepted_mV": -4721802.832076194,
+              "refractory_fraction": 0.45021016074814163
+            },
+            "gaba_ln": {
+              "arrived_mV": -3364789.901432739,
+              "during_refractory_mV": -1486569.145270109,
+              "accepted_mV": -3364789.901432739,
+              "refractory_fraction": 0.441801476115083
+            },
+            "exc_ln": {
+              "arrived_mV": 8779192.624674803,
+              "during_refractory_mV": 4097126.814148776,
+              "accepted_mV": 8779192.624674803,
+              "refractory_fraction": 0.46668605979021227
+            },
+            "glut_ln": {
+              "arrived_mV": -152145.91693926294,
+              "during_refractory_mV": -69053.08880042602,
+              "accepted_mV": -152145.91693926294,
+              "refractory_fraction": 0.4538609394821433
+            }
+          }
+        },
+        "off_0_1": {
+          "ORN_hz": 0.21019108275,
+          "ALPN_hz": 134.19679300295002,
+          "GABA_LN_hz": 219.89166666655,
+          "exc_LN_hz": 267.31770833325,
+          "glut_LN_hz": 86.3703703704,
+          "cohort_PN_mean_hz": 224.45081967213116,
+          "cohort_PN_at_least_100hz": 364,
+          "connected_GABA_LN_mean_hz": 221.73949579831933,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21440690.73856998,
+              "during_refractory_mV": 9707872.679983864,
+              "accepted_mV": 21440690.73856998,
+              "refractory_fraction": 0.45277798175224954
+            },
+            "inh": {
+              "arrived_mV": -9374676.26946617,
+              "during_refractory_mV": -4165682.995290166,
+              "accepted_mV": -9374676.26946617,
+              "refractory_fraction": 0.44435486362958715
+            },
+            "gaba_ln": {
+              "arrived_mV": -6684641.159323932,
+              "during_refractory_mV": -2915165.19948113,
+              "accepted_mV": -6684641.159323932,
+              "refractory_fraction": 0.4360989812317708
+            },
+            "exc_ln": {
+              "arrived_mV": 17503619.315045718,
+              "during_refractory_mV": 8052346.882832525,
+              "accepted_mV": 17503619.315045718,
+              "refractory_fraction": 0.4600389632509265
+            },
+            "glut_ln": {
+              "arrived_mV": -303356.077811479,
+              "during_refractory_mV": -139306.48380661203,
+              "accepted_mV": -303356.077811479,
+              "refractory_fraction": 0.459217711448604
+            }
+          }
+        },
+        "off_1_2": {
+          "ORN_hz": 0.21019108275,
+          "ALPN_hz": 134.2580174927,
+          "GABA_LN_hz": 219.92500000005,
+          "exc_LN_hz": 267.4479166667,
+          "glut_LN_hz": 86.39814814815,
+          "cohort_PN_mean_hz": 224.5327868852459,
+          "cohort_PN_at_least_100hz": 366,
+          "connected_GABA_LN_mean_hz": 221.7731092436975,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21445728.090753675,
+              "during_refractory_mV": 9685047.554302806,
+              "accepted_mV": 21445728.090753675,
+              "refractory_fraction": 0.45160730907888896
+            },
+            "inh": {
+              "arrived_mV": -9369497.702484969,
+              "during_refractory_mV": -4149780.501362803,
+              "accepted_mV": -9369497.702484969,
+              "refractory_fraction": 0.4429031985633768
+            },
+            "gaba_ln": {
+              "arrived_mV": -6683021.862944135,
+              "during_refractory_mV": -2905753.475476027,
+              "accepted_mV": -6683021.862944135,
+              "refractory_fraction": 0.43479634438842424
+            },
+            "exc_ln": {
+              "arrived_mV": 17506777.289019346,
+              "during_refractory_mV": 8025322.743596795,
+              "accepted_mV": 17506777.289019346,
+              "refractory_fraction": 0.458412340038761
+            },
+            "glut_ln": {
+              "arrived_mV": -302449.10028970084,
+              "during_refractory_mV": -139255.54005074,
+              "accepted_mV": -302449.10028970084,
+              "refractory_fraction": 0.4604263656838592
+            }
+          }
+        },
+        "off_2_19": {
+          "ORN_hz": 0.21019108275,
+          "ALPN_hz": 134.3459955410941,
+          "GABA_LN_hz": 219.9990196078441,
+          "exc_LN_hz": 267.5327818627353,
+          "glut_LN_hz": 86.41830065356764,
+          "cohort_PN_mean_hz": 224.64705882349728,
+          "cohort_PN_at_least_100hz": 364,
+          "connected_GABA_LN_mean_hz": 221.84775086507562,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 364710152.5760181,
+              "during_refractory_mV": 164951649.23160374,
+              "accepted_mV": 364710152.5760181,
+              "refractory_fraction": 0.4522814845337276
+            },
+            "inh": {
+              "arrived_mV": -159353043.7063285,
+              "during_refractory_mV": -70860167.11503732,
+              "accepted_mV": -159353043.7063285,
+              "refractory_fraction": 0.4446740737856593
+            },
+            "gaba_ln": {
+              "arrived_mV": -113641553.40519476,
+              "during_refractory_mV": -49623088.59226179,
+              "accepted_mV": -113641553.40519476,
+              "refractory_fraction": 0.43666323721683153
+            },
+            "exc_ln": {
+              "arrived_mV": 297708726.5629474,
+              "during_refractory_mV": 136839916.64780915,
+              "accepted_mV": 297708726.5629474,
+              "refractory_fraction": 0.4596436195459517
+            },
+            "glut_ln": {
+              "arrived_mV": -5156275.043895004,
+              "during_refractory_mV": -2355933.6748406906,
+              "accepted_mV": -5156275.043895004,
+              "refractory_fraction": 0.45690612986793644
+            }
+          }
+        },
+        "off_19_20": {
+          "ORN_hz": 0.21019108275,
+          "ALPN_hz": 134.4169096211,
+          "GABA_LN_hz": 220.1333333334,
+          "exc_LN_hz": 267.52083333335,
+          "glut_LN_hz": 86.38888888885,
+          "cohort_PN_mean_hz": 224.79781420765028,
+          "cohort_PN_at_least_100hz": 364,
+          "connected_GABA_LN_mean_hz": 221.98319327731093,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21455416.86462641,
+              "during_refractory_mV": 9711766.381420733,
+              "accepted_mV": 21455416.86462641,
+              "refractory_fraction": 0.4526486920621217
+            },
+            "inh": {
+              "arrived_mV": -9372080.63983143,
+              "during_refractory_mV": -4164643.0291558504,
+              "accepted_mV": -9372080.63983143,
+              "refractory_fraction": 0.44436696494651134
+            },
+            "gaba_ln": {
+              "arrived_mV": -6686624.746234531,
+              "during_refractory_mV": -2913335.871560098,
+              "accepted_mV": -6686624.746234531,
+              "refractory_fraction": 0.43569603232194215
+            },
+            "exc_ln": {
+              "arrived_mV": 17509503.579391602,
+              "during_refractory_mV": 8050613.897556064,
+              "accepted_mV": 17509503.579391602,
+              "refractory_fraction": 0.4597853880353012
+            },
+            "glut_ln": {
+              "arrived_mV": -302966.58147406706,
+              "during_refractory_mV": -138329.43631350895,
+              "accepted_mV": -302966.58147406706,
+              "refractory_fraction": 0.456583150657986
+            }
+          }
+        },
+        "reodor": {
+          "ORN_hz": 61.02547770695,
+          "ALPN_hz": 135.50437317785,
+          "GABA_LN_hz": 221.5083333334,
+          "exc_LN_hz": 268.9635416666,
+          "glut_LN_hz": 86.7037037037,
+          "cohort_PN_mean_hz": 225.92896174863387,
+          "cohort_PN_at_least_100hz": 364,
+          "connected_GABA_LN_mean_hz": 223.36974789915968,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21848536.53885055,
+              "during_refractory_mV": 10074826.919082893,
+              "accepted_mV": 21848536.53885055,
+              "refractory_fraction": 0.4611213616604515
+            },
+            "inh": {
+              "arrived_mV": -9449299.92384517,
+              "during_refractory_mV": -4257149.011559475,
+              "accepted_mV": -9449299.92384517,
+              "refractory_fraction": 0.4505253347728568
+            },
+            "gaba_ln": {
+              "arrived_mV": -6731542.834569101,
+              "during_refractory_mV": -2970011.2390379882,
+              "accepted_mV": -6731542.834569101,
+              "refractory_fraction": 0.4412081022177889
+            },
+            "exc_ln": {
+              "arrived_mV": 17575766.56571615,
+              "during_refractory_mV": 8208585.277971746,
+              "accepted_mV": 17575766.56571615,
+              "refractory_fraction": 0.46703995796027886
+            },
+            "glut_ln": {
+              "arrived_mV": -304997.5388499548,
+              "during_refractory_mV": -139601.599948051,
+              "accepted_mV": -304997.5388499548,
+              "refractory_fraction": 0.457713857214857
+            }
+          }
+        },
+        "reoff_0_1": {
+          "ORN_hz": 0.21019108275,
+          "ALPN_hz": 134.25510204075,
+          "GABA_LN_hz": 219.975,
+          "exc_LN_hz": 267.484375,
+          "glut_LN_hz": 86.36111111115,
+          "cohort_PN_mean_hz": 224.51092896174865,
+          "cohort_PN_at_least_100hz": 366,
+          "connected_GABA_LN_mean_hz": 221.8235294117647,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21453122.08573759,
+              "during_refractory_mV": 9716407.093676325,
+              "accepted_mV": 21453122.08573759,
+              "refractory_fraction": 0.4529134293295223
+            },
+            "inh": {
+              "arrived_mV": -9374492.15559375,
+              "during_refractory_mV": -4167889.663830634,
+              "accepted_mV": -9374492.15559375,
+              "refractory_fraction": 0.44459898143321386
+            },
+            "gaba_ln": {
+              "arrived_mV": -6685777.828077076,
+              "during_refractory_mV": -2916799.1521166614,
+              "accepted_mV": -6685777.828077076,
+              "refractory_fraction": 0.43626923106351173
+            },
+            "exc_ln": {
+              "arrived_mV": 17513565.504038576,
+              "during_refractory_mV": 8055643.923629408,
+              "accepted_mV": 17513565.504038576,
+              "refractory_fraction": 0.45996595734728035
+            },
+            "glut_ln": {
+              "arrived_mV": -302566.53909122996,
+              "during_refractory_mV": -136841.16390240393,
+              "accepted_mV": -302566.53909122996,
+              "refractory_fraction": 0.45226800132430883
+            }
+          }
+        },
+        "reoff_1_2": {
+          "ORN_hz": 0.2165605095,
+          "ALPN_hz": 134.42274052485,
+          "GABA_LN_hz": 220.0833333333,
+          "exc_LN_hz": 267.6666666667,
+          "glut_LN_hz": 86.55555555545,
+          "cohort_PN_mean_hz": 224.6639344262295,
+          "cohort_PN_at_least_100hz": 365,
+          "connected_GABA_LN_mean_hz": 221.9327731092437,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21459487.887563705,
+              "during_refractory_mV": 9700449.891990075,
+              "accepted_mV": 21459487.887563705,
+              "refractory_fraction": 0.45203547926284493
+            },
+            "inh": {
+              "arrived_mV": -9378005.130258793,
+              "during_refractory_mV": -4167716.2771296506,
+              "accepted_mV": -9378005.130258793,
+              "refractory_fraction": 0.4444139472351344
+            },
+            "gaba_ln": {
+              "arrived_mV": -6688738.820875406,
+              "during_refractory_mV": -2920959.199654453,
+              "accepted_mV": -6688738.820875406,
+              "refractory_fraction": 0.4366980499430182
+            },
+            "exc_ln": {
+              "arrived_mV": 17515330.820739985,
+              "during_refractory_mV": 8044716.213959095,
+              "accepted_mV": 17515330.820739985,
+              "refractory_fraction": 0.4592957047909885
+            },
+            "glut_ln": {
+              "arrived_mV": -303388.2527363281,
+              "during_refractory_mV": -137344.88141834998,
+              "accepted_mV": -303388.2527363281,
+              "refractory_fraction": 0.45270336006620243
+            }
+          }
+        }
+      },
+      "reodor_minus_preceding_off_PN_hz": 1.0874635567500093
+    },
+    {
+      "trial": "adapt_2026091701",
+      "condition": "adapt",
+      "seed": 2026091701,
+      "phases": {
+        "quiet": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 0.0,
+          "GABA_LN_hz": 0.0,
+          "exc_LN_hz": 0.0,
+          "glut_LN_hz": 0.0,
+          "cohort_PN_mean_hz": 0.0,
+          "cohort_PN_at_least_100hz": 0,
+          "connected_GABA_LN_mean_hz": 0.0,
+          "connected_GABA_LN_active": 0,
+          "cohort_PN_receiving_GABA_LN": 0,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "inh": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "gaba_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "exc_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "glut_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            }
+          }
+        },
+        "odor_early": {
+          "ORN_hz": 59.0191082801,
+          "ALPN_hz": 67.0962099125,
+          "GABA_LN_hz": 114.4499999999,
+          "exc_LN_hz": 156.0520833333,
+          "glut_LN_hz": 35.925925926,
+          "cohort_PN_mean_hz": 113.33333333333333,
+          "cohort_PN_at_least_100hz": 200,
+          "connected_GABA_LN_mean_hz": 115.41176470588235,
+          "connected_GABA_LN_active": 93,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 9.780737348961749,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 6730084.044290189,
+              "during_refractory_mV": 1709212.6294636703,
+              "accepted_mV": 6730084.044290189,
+              "refractory_fraction": 0.25396601561220744
+            },
+            "inh": {
+              "arrived_mV": -2478293.9547865326,
+              "during_refractory_mV": -634745.8766117053,
+              "accepted_mV": -2478293.9547865326,
+              "refractory_fraction": 0.25612210988360296
+            },
+            "gaba_ln": {
+              "arrived_mV": -1845979.9715242398,
+              "during_refractory_mV": -463637.8025921651,
+              "accepted_mV": -1845979.9715242398,
+              "refractory_fraction": 0.25116079791989065
+            },
+            "exc_ln": {
+              "arrived_mV": 5613349.352187876,
+              "during_refractory_mV": 1445418.2131660038,
+              "accepted_mV": 5613349.352187876,
+              "refractory_fraction": 0.25749657156161737
+            },
+            "glut_ln": {
+              "arrived_mV": -64487.09888052799,
+              "during_refractory_mV": -16273.756924756004,
+              "accepted_mV": -64487.09888052799,
+              "refractory_fraction": 0.25235678464781885
+            }
+          }
+        },
+        "odor_tail": {
+          "ORN_hz": 59.3503184713,
+          "ALPN_hz": 62.4489795918,
+          "GABA_LN_hz": 107.2500000001,
+          "exc_LN_hz": 147.6874999999,
+          "glut_LN_hz": 33.0555555556,
+          "cohort_PN_mean_hz": 105.89071038251366,
+          "cohort_PN_at_least_100hz": 185,
+          "connected_GABA_LN_mean_hz": 108.15126050420169,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.614748399844263,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 6429697.716227178,
+              "during_refractory_mV": 1475594.608310106,
+              "accepted_mV": 6429697.716227178,
+              "refractory_fraction": 0.22949673117385
+            },
+            "inh": {
+              "arrived_mV": -2335713.6647638176,
+              "during_refractory_mV": -533781.266571996,
+              "accepted_mV": -2335713.6647638176,
+              "refractory_fraction": 0.2285302666266547
+            },
+            "gaba_ln": {
+              "arrived_mV": -1747389.3392547388,
+              "during_refractory_mV": -393781.94724941195,
+              "accepted_mV": -1747389.3392547388,
+              "refractory_fraction": 0.22535444070945282
+            },
+            "exc_ln": {
+              "arrived_mV": 5368848.138225435,
+              "during_refractory_mV": 1251177.2079579874,
+              "accepted_mV": 5368848.138225435,
+              "refractory_fraction": 0.23304388124703765
+            },
+            "glut_ln": {
+              "arrived_mV": -59790.085308664035,
+              "during_refractory_mV": -12679.630791783993,
+              "accepted_mV": -59790.085308664035,
+              "refractory_fraction": 0.2120691202617605
+            }
+          }
+        },
+        "off_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.8075801749,
+          "GABA_LN_hz": 105.25000000005,
+          "exc_LN_hz": 146.8697916666,
+          "glut_LN_hz": 33.17592592595,
+          "cohort_PN_mean_hz": 105.03825136612022,
+          "cohort_PN_at_least_100hz": 182,
+          "connected_GABA_LN_mean_hz": 106.1344537815126,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.53536873348907,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12478635.06897819,
+              "during_refractory_mV": 2762620.3073809133,
+              "accepted_mV": 12478635.06897819,
+              "refractory_fraction": 0.2213880197721921
+            },
+            "inh": {
+              "arrived_mV": -4567499.757472393,
+              "during_refractory_mV": -1021146.164505125,
+              "accepted_mV": -4567499.757472393,
+              "refractory_fraction": 0.22356786397953016
+            },
+            "gaba_ln": {
+              "arrived_mV": -3404080.573649869,
+              "during_refractory_mV": -751832.8432589787,
+              "accepted_mV": -3404080.573649869,
+              "refractory_fraction": 0.2208622348950044
+            },
+            "exc_ln": {
+              "arrived_mV": 10672777.855331423,
+              "during_refractory_mV": 2425222.0053805183,
+              "accepted_mV": 10672777.855331423,
+              "refractory_fraction": 0.22723437499160876
+            },
+            "glut_ln": {
+              "arrived_mV": -120458.36930608399,
+              "during_refractory_mV": -26885.250323532997,
+              "accepted_mV": -120458.36930608399,
+              "refractory_fraction": 0.2231912193267181
+            }
+          }
+        },
+        "off_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.7069970846,
+          "GABA_LN_hz": 105.3,
+          "exc_LN_hz": 146.8177083333,
+          "glut_LN_hz": 33.15740740745,
+          "cohort_PN_mean_hz": 104.89617486338798,
+          "cohort_PN_at_least_100hz": 184,
+          "connected_GABA_LN_mean_hz": 106.18487394957984,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.528426485666667,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12472554.714032648,
+              "during_refractory_mV": 2734031.9280079748,
+              "accepted_mV": 12472554.714032648,
+              "refractory_fraction": 0.2192038432136092
+            },
+            "inh": {
+              "arrived_mV": -4568448.563093069,
+              "during_refractory_mV": -1019875.0733892961,
+              "accepted_mV": -4568448.563093069,
+              "refractory_fraction": 0.22324319937155854
+            },
+            "gaba_ln": {
+              "arrived_mV": -3406181.958512423,
+              "during_refractory_mV": -753006.3371857445,
+              "accepted_mV": -3406181.958512423,
+              "refractory_fraction": 0.2210704966315434
+            },
+            "exc_ln": {
+              "arrived_mV": 10667421.080842141,
+              "during_refractory_mV": 2397723.8229750395,
+              "accepted_mV": 10667421.080842141,
+              "refractory_fraction": 0.22477071119665137
+            },
+            "glut_ln": {
+              "arrived_mV": -120594.93429636903,
+              "during_refractory_mV": -26594.960304139986,
+              "accepted_mV": -120594.93429636903,
+              "refractory_fraction": 0.22053132214311202
+            }
+          }
+        },
+        "off_2_19": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.70605385012647,
+          "GABA_LN_hz": 105.23088235293824,
+          "exc_LN_hz": 146.79534313728234,
+          "glut_LN_hz": 33.12418300656471,
+          "cohort_PN_mean_hz": 104.89569270331147,
+          "cohort_PN_at_least_100hz": 180,
+          "connected_GABA_LN_mean_hz": 106.11517548192437,
+          "connected_GABA_LN_active": 88,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.51636768118306,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 211967700.42304504,
+              "during_refractory_mV": 46556513.17566013,
+              "accepted_mV": 211967700.42304504,
+              "refractory_fraction": 0.21963965775324573
+            },
+            "inh": {
+              "arrived_mV": -77635237.22022463,
+              "during_refractory_mV": -17336903.30940819,
+              "accepted_mV": -77635237.22022463,
+              "refractory_fraction": 0.22331229903026278
+            },
+            "gaba_ln": {
+              "arrived_mV": -57880396.13022292,
+              "during_refractory_mV": -12788975.968809484,
+              "accepted_mV": -57880396.13022292,
+              "refractory_fraction": 0.22095522532423673
+            },
+            "exc_ln": {
+              "arrived_mV": 181304913.47106433,
+              "during_refractory_mV": 40839044.08563566,
+              "accepted_mV": 181304913.47106433,
+              "refractory_fraction": 0.22525061954348766
+            },
+            "glut_ln": {
+              "arrived_mV": -2044227.2886800773,
+              "during_refractory_mV": -451833.33035421197,
+              "accepted_mV": -2044227.2886800773,
+              "refractory_fraction": 0.22102891046227693
+            }
+          }
+        },
+        "off_19_20": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.72011661815,
+          "GABA_LN_hz": 105.29166666665,
+          "exc_LN_hz": 146.8333333334,
+          "glut_LN_hz": 33.1944444444,
+          "cohort_PN_mean_hz": 104.90983606557377,
+          "cohort_PN_at_least_100hz": 183,
+          "connected_GABA_LN_mean_hz": 106.17647058823529,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.519182400631147,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12472756.158888105,
+              "during_refractory_mV": 2745806.3671788117,
+              "accepted_mV": 12472756.158888105,
+              "refractory_fraction": 0.22014431551459024
+            },
+            "inh": {
+              "arrived_mV": -4570783.57445848,
+              "during_refractory_mV": -1016719.7786769863,
+              "accepted_mV": -4570783.57445848,
+              "refractory_fraction": 0.22243883616770052
+            },
+            "gaba_ln": {
+              "arrived_mV": -3407897.601086133,
+              "during_refractory_mV": -748982.6746807153,
+              "accepted_mV": -3407897.601086133,
+              "refractory_fraction": 0.2197785151883691
+            },
+            "exc_ln": {
+              "arrived_mV": 10667596.42755079,
+              "during_refractory_mV": 2410451.893113496,
+              "accepted_mV": 10667596.42755079,
+              "refractory_fraction": 0.22596016914251785
+            },
+            "glut_ln": {
+              "arrived_mV": -120513.781832934,
+              "during_refractory_mV": -26698.992841484,
+              "accepted_mV": -120513.781832934,
+              "refractory_fraction": 0.22154306698711285
+            }
+          }
+        },
+        "reodor": {
+          "ORN_hz": 60.6815286624,
+          "ALPN_hz": 62.3046647229,
+          "GABA_LN_hz": 107.28333333329999,
+          "exc_LN_hz": 147.57291666675,
+          "glut_LN_hz": 32.88888888895,
+          "cohort_PN_mean_hz": 105.66939890710383,
+          "cohort_PN_at_least_100hz": 182,
+          "connected_GABA_LN_mean_hz": 108.18487394957984,
+          "connected_GABA_LN_active": 87,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.584185509814208,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12846350.438724278,
+              "during_refractory_mV": 2931697.779532184,
+              "accepted_mV": 12846350.438724278,
+              "refractory_fraction": 0.22821250233800408
+            },
+            "inh": {
+              "arrived_mV": -4667723.80680394,
+              "during_refractory_mV": -1069865.1900988854,
+              "accepted_mV": -4667723.80680394,
+              "refractory_fraction": 0.22920490465596724
+            },
+            "gaba_ln": {
+              "arrived_mV": -3491465.90402186,
+              "during_refractory_mV": -790042.9782242815,
+              "accepted_mV": -3491465.90402186,
+              "refractory_fraction": 0.22627830256461098
+            },
+            "exc_ln": {
+              "arrived_mV": 10727825.344737772,
+              "during_refractory_mV": 2484230.5946167735,
+              "accepted_mV": 10727825.344737772,
+              "refractory_fraction": 0.23156888882753315
+            },
+            "glut_ln": {
+              "arrived_mV": -118969.024385453,
+              "during_refractory_mV": -25351.396586416995,
+              "accepted_mV": -118969.024385453,
+              "refractory_fraction": 0.21309241390666436
+            }
+          }
+        },
+        "reoff_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.7565597668,
+          "GABA_LN_hz": 105.25833333325,
+          "exc_LN_hz": 146.87499999995,
+          "glut_LN_hz": 33.22222222225,
+          "cohort_PN_mean_hz": 104.94535519125684,
+          "cohort_PN_at_least_100hz": 182,
+          "connected_GABA_LN_mean_hz": 106.14285714285714,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.523749369934427,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12477279.787655832,
+              "during_refractory_mV": 2733010.906317595,
+              "accepted_mV": 12477279.787655832,
+              "refractory_fraction": 0.21903900151549452
+            },
+            "inh": {
+              "arrived_mV": -4568740.819145676,
+              "during_refractory_mV": -1017299.4644388002,
+              "accepted_mV": -4568740.819145676,
+              "refractory_fraction": 0.22266517290184748
+            },
+            "gaba_ln": {
+              "arrived_mV": -3406032.702296146,
+              "during_refractory_mV": -748686.6646275475,
+              "accepted_mV": -3406032.702296146,
+              "refractory_fraction": 0.21981194253444106
+            },
+            "exc_ln": {
+              "arrived_mV": 10672394.973848103,
+              "during_refractory_mV": 2400586.8604688663,
+              "accepted_mV": 10672394.973848103,
+              "refractory_fraction": 0.22493422201402055
+            },
+            "glut_ln": {
+              "arrived_mV": -120367.92179465399,
+              "during_refractory_mV": -26784.971523287008,
+              "accepted_mV": -120367.92179465399,
+              "refractory_fraction": 0.22252582850920863
+            }
+          }
+        },
+        "reoff_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.6545189505,
+          "GABA_LN_hz": 105.17500000005,
+          "exc_LN_hz": 146.68229166665,
+          "glut_LN_hz": 33.074074074,
+          "cohort_PN_mean_hz": 104.82513661202186,
+          "cohort_PN_at_least_100hz": 182,
+          "connected_GABA_LN_mean_hz": 106.05882352941177,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.515986363142076,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12461146.348623278,
+              "during_refractory_mV": 2733315.854382162,
+              "accepted_mV": 12461146.348623278,
+              "refractory_fraction": 0.21934706309617671
+            },
+            "inh": {
+              "arrived_mV": -4561539.69789231,
+              "during_refractory_mV": -1020524.1146489474,
+              "accepted_mV": -4561539.69789231,
+              "refractory_fraction": 0.22372360699184254
+            },
+            "gaba_ln": {
+              "arrived_mV": -3400049.0467413734,
+              "during_refractory_mV": -755120.234360333,
+              "accepted_mV": -3400049.0467413734,
+              "refractory_fraction": 0.22209098280039358
+            },
+            "exc_ln": {
+              "arrived_mV": 10660299.853812221,
+              "during_refractory_mV": 2399422.4825314297,
+              "accepted_mV": 10660299.853812221,
+              "refractory_fraction": 0.22508020556976868
+            },
+            "glut_ln": {
+              "arrived_mV": -120265.140572547,
+              "during_refractory_mV": -25927.865322826998,
+              "accepted_mV": -120265.140572547,
+              "refractory_fraction": 0.21558919899309184
+            }
+          }
+        }
+      },
+      "reodor_minus_preceding_off_PN_hz": 0.5845481047499987
+    },
+    {
+      "trial": "refractory_2026091701",
+      "condition": "refractory",
+      "seed": 2026091701,
+      "phases": {
+        "quiet": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 0.0,
+          "GABA_LN_hz": 0.0,
+          "exc_LN_hz": 0.0,
+          "glut_LN_hz": 0.0,
+          "cohort_PN_mean_hz": 0.0,
+          "cohort_PN_at_least_100hz": 0,
+          "connected_GABA_LN_mean_hz": 0.0,
+          "connected_GABA_LN_active": 0,
+          "cohort_PN_receiving_GABA_LN": 0,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "inh": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "gaba_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "exc_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "glut_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            }
+          }
+        },
+        "odor_early": {
+          "ORN_hz": 59.0700636941,
+          "ALPN_hz": 105.7405247812,
+          "GABA_LN_hz": 167.3000000001,
+          "exc_LN_hz": 225.5625000001,
+          "glut_LN_hz": 62.481481481399996,
+          "cohort_PN_mean_hz": 172.65573770491804,
+          "cohort_PN_at_least_100hz": 301,
+          "connected_GABA_LN_mean_hz": 168.7058823529412,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9453859.660650492,
+              "during_refractory_mV": 2872104.329685438,
+              "accepted_mV": 6581755.330965053,
+              "refractory_fraction": 0.3038023022110122
+            },
+            "inh": {
+              "arrived_mV": -3574826.680898899,
+              "during_refractory_mV": -1195733.9658668002,
+              "accepted_mV": -2379092.715032099,
+              "refractory_fraction": 0.33448725563560183
+            },
+            "gaba_ln": {
+              "arrived_mV": -2615376.433964963,
+              "during_refractory_mV": -833460.6375930308,
+              "accepted_mV": -1781915.7963719321,
+              "refractory_fraction": 0.3186771230210589
+            },
+            "exc_ln": {
+              "arrived_mV": 7849998.346131563,
+              "during_refractory_mV": 2370176.847856281,
+              "accepted_mV": 5479821.498275282,
+              "refractory_fraction": 0.3019334200273165
+            },
+            "glut_ln": {
+              "arrived_mV": -107035.67482542798,
+              "during_refractory_mV": -36636.241194726994,
+              "accepted_mV": -70399.43363070098,
+              "refractory_fraction": 0.3422806578692536
+            }
+          }
+        },
+        "odor_tail": {
+          "ORN_hz": 59.4012738853,
+          "ALPN_hz": 109.5655976674,
+          "GABA_LN_hz": 173.11666666669998,
+          "exc_LN_hz": 233.1979166667,
+          "glut_LN_hz": 65.6296296297,
+          "cohort_PN_mean_hz": 178.69398907103826,
+          "cohort_PN_at_least_100hz": 312,
+          "connected_GABA_LN_mean_hz": 174.57142857142858,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9800664.320587875,
+              "during_refractory_mV": 2954667.340772396,
+              "accepted_mV": 6845996.979815479,
+              "refractory_fraction": 0.3014762310107531
+            },
+            "inh": {
+              "arrived_mV": -3711991.383183836,
+              "during_refractory_mV": -1236103.758838654,
+              "accepted_mV": -2475887.624345182,
+              "refractory_fraction": 0.3330028632174322
+            },
+            "gaba_ln": {
+              "arrived_mV": -2708323.0347393686,
+              "during_refractory_mV": -858049.4863448091,
+              "accepted_mV": -1850273.5483945594,
+              "refractory_fraction": 0.31681947660552323
+            },
+            "exc_ln": {
+              "arrived_mV": 8123970.427546508,
+              "during_refractory_mV": 2426284.1452312428,
+              "accepted_mV": 5697686.282315265,
+              "refractory_fraction": 0.29865743196261196
+            },
+            "glut_ln": {
+              "arrived_mV": -112123.07839501096,
+              "during_refractory_mV": -38462.887404327994,
+              "accepted_mV": -73660.19099068297,
+              "refractory_fraction": 0.34304166416857357
+            }
+          }
+        },
+        "off_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.52769679305,
+          "GABA_LN_hz": 170.025,
+          "exc_LN_hz": 232.38541666675,
+          "glut_LN_hz": 65.8333333333,
+          "cohort_PN_mean_hz": 178.60928961748633,
+          "cohort_PN_at_least_100hz": 314,
+          "connected_GABA_LN_mean_hz": 171.45378151260505,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19223762.711152315,
+              "during_refractory_mV": 5768014.216538901,
+              "accepted_mV": 13455748.494613413,
+              "refractory_fraction": 0.300046057746681
+            },
+            "inh": {
+              "arrived_mV": -7277815.497413988,
+              "during_refractory_mV": -2445736.4289482823,
+              "accepted_mV": -4832079.068465706,
+              "refractory_fraction": 0.3360536454678359
+            },
+            "gaba_ln": {
+              "arrived_mV": -5294251.122226483,
+              "during_refractory_mV": -1701264.6893092345,
+              "accepted_mV": -3592986.4329172485,
+              "refractory_fraction": 0.3213418952053359
+            },
+            "exc_ln": {
+              "arrived_mV": 16180399.995758535,
+              "during_refractory_mV": 4869245.484575991,
+              "accepted_mV": 11311154.511182545,
+              "refractory_fraction": 0.3009348029623739
+            },
+            "glut_ln": {
+              "arrived_mV": -224530.54807579998,
+              "during_refractory_mV": -78050.82723056902,
+              "accepted_mV": -146479.72084523097,
+              "refractory_fraction": 0.34761785378183635
+            }
+          }
+        },
+        "off_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.4139941692,
+          "GABA_LN_hz": 169.9833333333,
+          "exc_LN_hz": 232.34375,
+          "glut_LN_hz": 65.68518518515,
+          "cohort_PN_mean_hz": 178.327868852459,
+          "cohort_PN_at_least_100hz": 312,
+          "connected_GABA_LN_mean_hz": 171.41176470588235,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19213558.22786522,
+              "during_refractory_mV": 5777344.967126972,
+              "accepted_mV": 13436213.260738246,
+              "refractory_fraction": 0.30069104840498256
+            },
+            "inh": {
+              "arrived_mV": -7276952.312455536,
+              "during_refractory_mV": -2424285.534955143,
+              "accepted_mV": -4852666.777500393,
+              "refractory_fraction": 0.33314572239337537
+            },
+            "gaba_ln": {
+              "arrived_mV": -5296799.02432894,
+              "during_refractory_mV": -1689121.8439174786,
+              "accepted_mV": -3607677.180411461,
+              "refractory_fraction": 0.3188948336833445
+            },
+            "exc_ln": {
+              "arrived_mV": 16174559.337539554,
+              "during_refractory_mV": 4878602.872175339,
+              "accepted_mV": 11295956.465364214,
+              "refractory_fraction": 0.3016219960226418
+            },
+            "glut_ln": {
+              "arrived_mV": -224871.960613965,
+              "during_refractory_mV": -76516.43735158697,
+              "accepted_mV": -148355.52326237803,
+              "refractory_fraction": 0.34026668839758917
+            }
+          }
+        },
+        "off_2_19": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.46698679472352,
+          "GABA_LN_hz": 170.05441176473235,
+          "exc_LN_hz": 232.48039215687353,
+          "glut_LN_hz": 65.79738562091471,
+          "cohort_PN_mean_hz": 178.41626486662022,
+          "cohort_PN_at_least_100hz": 311,
+          "connected_GABA_LN_mean_hz": 171.48344043502522,
+          "connected_GABA_LN_active": 95,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 326758552.594164,
+              "during_refractory_mV": 98405255.27924478,
+              "accepted_mV": 228353297.31491923,
+              "refractory_fraction": 0.3011558672236643
+            },
+            "inh": {
+              "arrived_mV": -123692800.74737036,
+              "during_refractory_mV": -41403122.223933816,
+              "accepted_mV": -82289678.52343655,
+              "refractory_fraction": 0.33472540013460744
+            },
+            "gaba_ln": {
+              "arrived_mV": -89990927.39032042,
+              "during_refractory_mV": -28775482.424523354,
+              "accepted_mV": -61215444.96579707,
+              "refractory_fraction": 0.3197598164503247
+            },
+            "exc_ln": {
+              "arrived_mV": 275073624.1964288,
+              "during_refractory_mV": 83109821.47682297,
+              "accepted_mV": 191963802.7196058,
+              "refractory_fraction": 0.3021366433063558
+            },
+            "glut_ln": {
+              "arrived_mV": -3820042.515846015,
+              "during_refractory_mV": -1305418.5325502171,
+              "accepted_mV": -2514623.983295798,
+              "refractory_fraction": 0.3417287967699777
+            }
+          }
+        },
+        "off_19_20": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.49271137025,
+          "GABA_LN_hz": 169.88333333325,
+          "exc_LN_hz": 232.69791666665,
+          "glut_LN_hz": 66.08333333335,
+          "cohort_PN_mean_hz": 178.44808743169398,
+          "cohort_PN_at_least_100hz": 313,
+          "connected_GABA_LN_mean_hz": 171.3109243697479,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19240375.199329734,
+              "during_refractory_mV": 5789340.159346577,
+              "accepted_mV": 13451035.039983157,
+              "refractory_fraction": 0.3008953879209308
+            },
+            "inh": {
+              "arrived_mV": -7286502.747823112,
+              "during_refractory_mV": -2439583.85434366,
+              "accepted_mV": -4846918.893479452,
+              "refractory_fraction": 0.3348086096684038
+            },
+            "gaba_ln": {
+              "arrived_mV": -5298883.2500972785,
+              "during_refractory_mV": -1697896.6823203543,
+              "accepted_mV": -3600986.567776924,
+              "refractory_fraction": 0.3204253806288681
+            },
+            "exc_ln": {
+              "arrived_mV": 16196753.653876547,
+              "during_refractory_mV": 4885522.102400304,
+              "accepted_mV": 11311231.551476244,
+              "refractory_fraction": 0.30163588375816275
+            },
+            "glut_ln": {
+              "arrived_mV": -225011.5642410519,
+              "during_refractory_mV": -75845.94598865799,
+              "accepted_mV": -149165.6182523939,
+              "refractory_fraction": 0.33707576872540307
+            }
+          }
+        },
+        "reodor": {
+          "ORN_hz": 60.73885350315,
+          "ALPN_hz": 109.6865889213,
+          "GABA_LN_hz": 172.2666666667,
+          "exc_LN_hz": 233.06770833335,
+          "glut_LN_hz": 65.6574074074,
+          "cohort_PN_mean_hz": 178.8224043715847,
+          "cohort_PN_at_least_100hz": 312,
+          "connected_GABA_LN_mean_hz": 173.71428571428572,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19576658.999259118,
+              "during_refractory_mV": 5934877.333494305,
+              "accepted_mV": 13641781.665764812,
+              "refractory_fraction": 0.3031608883680771
+            },
+            "inh": {
+              "arrived_mV": -7393910.940677635,
+              "during_refractory_mV": -2480285.2294065924,
+              "accepted_mV": -4913625.711271043,
+              "refractory_fraction": 0.33544970304704264
+            },
+            "gaba_ln": {
+              "arrived_mV": -5398865.630161161,
+              "during_refractory_mV": -1720356.7985436996,
+              "accepted_mV": -3678508.831617461,
+              "refractory_fraction": 0.3186515309684315
+            },
+            "exc_ln": {
+              "arrived_mV": 16223683.943580152,
+              "during_refractory_mV": 4884718.975222106,
+              "accepted_mV": 11338964.968358047,
+              "refractory_fraction": 0.30108568388100476
+            },
+            "glut_ln": {
+              "arrived_mV": -223005.63187348997,
+              "during_refractory_mV": -76676.06106698001,
+              "accepted_mV": -146329.57080650996,
+              "refractory_fraction": 0.34383015542171586
+            }
+          }
+        },
+        "reoff_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.51311953365,
+          "GABA_LN_hz": 169.77500000005,
+          "exc_LN_hz": 232.9583333334,
+          "glut_LN_hz": 66.12962962965,
+          "cohort_PN_mean_hz": 178.56830601092895,
+          "cohort_PN_at_least_100hz": 313,
+          "connected_GABA_LN_mean_hz": 171.2016806722689,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19258699.391949773,
+              "during_refractory_mV": 5813712.543420914,
+              "accepted_mV": 13444986.848528858,
+              "refractory_fraction": 0.3018746191059544
+            },
+            "inh": {
+              "arrived_mV": -7285140.849816796,
+              "during_refractory_mV": -2439807.6486839093,
+              "accepted_mV": -4845333.201132887,
+              "refractory_fraction": 0.334901918711052
+            },
+            "gaba_ln": {
+              "arrived_mV": -5295440.346447464,
+              "during_refractory_mV": -1696479.1940947766,
+              "accepted_mV": -3598961.1523526874,
+              "refractory_fraction": 0.32036602871617437
+            },
+            "exc_ln": {
+              "arrived_mV": 16210969.280486943,
+              "during_refractory_mV": 4904330.359181518,
+              "accepted_mV": 11306638.921305425,
+              "refractory_fraction": 0.3025315929186809
+            },
+            "glut_ln": {
+              "arrived_mV": -225147.95054150003,
+              "during_refractory_mV": -77191.576009744,
+              "accepted_mV": -147956.37453175604,
+              "refractory_fraction": 0.3428482285718865
+            }
+          }
+        },
+        "reoff_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.41399416905,
+          "GABA_LN_hz": 169.39166666674998,
+          "exc_LN_hz": 232.56770833344999,
+          "glut_LN_hz": 65.90740740735001,
+          "cohort_PN_mean_hz": 178.4344262295082,
+          "cohort_PN_at_least_100hz": 311,
+          "connected_GABA_LN_mean_hz": 170.81512605042016,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19225157.853289012,
+              "during_refractory_mV": 5822522.772083757,
+              "accepted_mV": 13402635.081205254,
+              "refractory_fraction": 0.3028595560315594
+            },
+            "inh": {
+              "arrived_mV": -7258450.437157635,
+              "during_refractory_mV": -2423057.702100522,
+              "accepted_mV": -4835392.735057113,
+              "refractory_fraction": 0.33382575565941
+            },
+            "gaba_ln": {
+              "arrived_mV": -5274648.681493757,
+              "during_refractory_mV": -1681820.622843502,
+              "accepted_mV": -3592828.058650255,
+              "refractory_fraction": 0.3188497897014855
+            },
+            "exc_ln": {
+              "arrived_mV": 16186656.961363077,
+              "during_refractory_mV": 4914790.09132945,
+              "accepted_mV": 11271866.870033627,
+              "refractory_fraction": 0.30363218934341185
+            },
+            "glut_ln": {
+              "arrived_mV": -224039.8792462351,
+              "during_refractory_mV": -75856.134794713,
+              "accepted_mV": -148183.7444515221,
+              "refractory_fraction": 0.33858318014598615
+            }
+          }
+        }
+      },
+      "reodor_minus_preceding_off_PN_hz": 0.1938775510499937
+    },
+    {
+      "trial": "both_2026091701",
+      "condition": "both",
+      "seed": 2026091701,
+      "phases": {
+        "quiet": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 0.0,
+          "GABA_LN_hz": 0.0,
+          "exc_LN_hz": 0.0,
+          "glut_LN_hz": 0.0,
+          "cohort_PN_mean_hz": 0.0,
+          "cohort_PN_at_least_100hz": 0,
+          "connected_GABA_LN_mean_hz": 0.0,
+          "connected_GABA_LN_active": 0,
+          "cohort_PN_receiving_GABA_LN": 0,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "inh": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "gaba_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "exc_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "glut_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            }
+          }
+        },
+        "odor_early": {
+          "ORN_hz": 59.0063694266,
+          "ALPN_hz": 50.8746355685,
+          "GABA_LN_hz": 86.3333333333,
+          "exc_LN_hz": 117.2395833332,
+          "glut_LN_hz": 26.7592592593,
+          "cohort_PN_mean_hz": 87.24590163934427,
+          "cohort_PN_at_least_100hz": 131,
+          "connected_GABA_LN_mean_hz": 87.05882352941177,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 7.528720204210383,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 5086560.959362156,
+              "during_refractory_mV": 982512.9279503814,
+              "accepted_mV": 4104048.0314117745,
+              "refractory_fraction": 0.19315858706893124
+            },
+            "inh": {
+              "arrived_mV": -1886187.815731286,
+              "during_refractory_mV": -374656.23408961174,
+              "accepted_mV": -1511531.5816416743,
+              "refractory_fraction": 0.19863145703989998
+            },
+            "gaba_ln": {
+              "arrived_mV": -1405824.7332696968,
+              "during_refractory_mV": -277026.56222557515,
+              "accepted_mV": -1128798.1710441217,
+              "refractory_fraction": 0.19705625862852827
+            },
+            "exc_ln": {
+              "arrived_mV": 4191522.914821022,
+              "during_refractory_mV": 818102.4365855466,
+              "accepted_mV": 3373420.4782354757,
+              "refractory_fraction": 0.1951802371621961
+            },
+            "glut_ln": {
+              "arrived_mV": -49747.73189019499,
+              "during_refractory_mV": -9171.662149549999,
+              "accepted_mV": -40576.06974064499,
+              "refractory_fraction": 0.18436342323694327
+            }
+          }
+        },
+        "odor_tail": {
+          "ORN_hz": 59.3248407643,
+          "ALPN_hz": 47.6734693878,
+          "GABA_LN_hz": 81.5833333333,
+          "exc_LN_hz": 111.03125,
+          "glut_LN_hz": 24.6111111111,
+          "cohort_PN_mean_hz": 82.14207650273224,
+          "cohort_PN_at_least_100hz": 107,
+          "connected_GABA_LN_mean_hz": 82.26890756302521,
+          "connected_GABA_LN_active": 81,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.238535168631147,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 4855305.300375696,
+              "during_refractory_mV": 849863.094200493,
+              "accepted_mV": 4005442.2061752034,
+              "refractory_fraction": 0.1750380339903099
+            },
+            "inh": {
+              "arrived_mV": -1789313.5411959835,
+              "during_refractory_mV": -324406.92935169383,
+              "accepted_mV": -1464906.6118442896,
+              "refractory_fraction": 0.18130245028764444
+            },
+            "gaba_ln": {
+              "arrived_mV": -1338604.7253289255,
+              "during_refractory_mV": -242612.004614238,
+              "accepted_mV": -1095992.7207146876,
+              "refractory_fraction": 0.18124245344690734
+            },
+            "exc_ln": {
+              "arrived_mV": 3999645.1643166593,
+              "during_refractory_mV": 706702.4020655126,
+              "accepted_mV": 3292942.7622511466,
+              "refractory_fraction": 0.17669127460866968
+            },
+            "glut_ln": {
+              "arrived_mV": -46065.83954202901,
+              "during_refractory_mV": -7227.755967859,
+              "accepted_mV": -38838.083574170014,
+              "refractory_fraction": 0.15690055884609733
+            }
+          }
+        },
+        "off_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 47.230320699800004,
+          "GABA_LN_hz": 79.3666666667,
+          "exc_LN_hz": 110.2916666668,
+          "glut_LN_hz": 24.8703703703,
+          "cohort_PN_mean_hz": 81.60109289617486,
+          "cohort_PN_at_least_100hz": 110,
+          "connected_GABA_LN_mean_hz": 80.03361344537815,
+          "connected_GABA_LN_active": 80,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.178579075166667,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9350775.240591286,
+              "during_refractory_mV": 1583964.4727329058,
+              "accepted_mV": 7766810.76785838,
+              "refractory_fraction": 0.16939391996686956
+            },
+            "inh": {
+              "arrived_mV": -3475098.839443092,
+              "during_refractory_mV": -614446.4914100149,
+              "accepted_mV": -2860652.348033077,
+              "refractory_fraction": 0.1768141050941976
+            },
+            "gaba_ln": {
+              "arrived_mV": -2583542.1299490966,
+              "during_refractory_mV": -458884.8401205609,
+              "accepted_mV": -2124657.2898285356,
+              "refractory_fraction": 0.17761848541235217
+            },
+            "exc_ln": {
+              "arrived_mV": 7950721.629711267,
+              "during_refractory_mV": 1386466.8217666124,
+              "accepted_mV": 6564254.8079446545,
+              "refractory_fraction": 0.17438251347971825
+            },
+            "glut_ln": {
+              "arrived_mV": -93149.83904123396,
+              "during_refractory_mV": -15154.603179104006,
+              "accepted_mV": -77995.23586212996,
+              "refractory_fraction": 0.16269059973786565
+            }
+          }
+        },
+        "off_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 47.2055393587,
+          "GABA_LN_hz": 79.79166666665,
+          "exc_LN_hz": 110.55729166665,
+          "glut_LN_hz": 24.8611111112,
+          "cohort_PN_mean_hz": 81.61475409836065,
+          "cohort_PN_at_least_100hz": 109,
+          "connected_GABA_LN_mean_hz": 80.46218487394958,
+          "connected_GABA_LN_active": 80,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.180152344139344,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9365935.3845638,
+              "during_refractory_mV": 1583932.8339124967,
+              "accepted_mV": 7782002.5506513035,
+              "refractory_fraction": 0.1691163529190059
+            },
+            "inh": {
+              "arrived_mV": -3484383.113886239,
+              "during_refractory_mV": -619739.1001154146,
+              "accepted_mV": -2864644.0137708243,
+              "refractory_fraction": 0.17786192845602464
+            },
+            "gaba_ln": {
+              "arrived_mV": -2595010.908010368,
+              "during_refractory_mV": -462472.3526518309,
+              "accepted_mV": -2132538.555358537,
+              "refractory_fraction": 0.17821595709839042
+            },
+            "exc_ln": {
+              "arrived_mV": 7962417.420661094,
+              "during_refractory_mV": 1385356.7844530249,
+              "accepted_mV": 6577060.636208069,
+              "refractory_fraction": 0.1739869578877219
+            },
+            "glut_ln": {
+              "arrived_mV": -93269.244043829,
+              "during_refractory_mV": -15501.735646492,
+              "accepted_mV": -77767.508397337,
+              "refractory_fraction": 0.16620415234852162
+            }
+          }
+        },
+        "off_2_19": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 47.1161893329,
+          "GABA_LN_hz": 79.62058823528824,
+          "exc_LN_hz": 110.37101715684412,
+          "glut_LN_hz": 24.85947712418235,
+          "cohort_PN_mean_hz": 81.50016072002185,
+          "cohort_PN_at_least_100hz": 107,
+          "connected_GABA_LN_mean_hz": 80.28966880868907,
+          "connected_GABA_LN_active": 82,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.170766457177596,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 158824122.3212415,
+              "during_refractory_mV": 26847407.2003876,
+              "accepted_mV": 131976715.1208539,
+              "refractory_fraction": 0.16903859947725944
+            },
+            "inh": {
+              "arrived_mV": -59199875.83859646,
+              "during_refractory_mV": -10476010.385500195,
+              "accepted_mV": -48723865.45309627,
+              "refractory_fraction": 0.17696000603214382
+            },
+            "gaba_ln": {
+              "arrived_mV": -44051463.034479976,
+              "during_refractory_mV": -7817442.953044057,
+              "accepted_mV": -36234020.08143592,
+              "refractory_fraction": 0.17746159638160452
+            },
+            "exc_ln": {
+              "arrived_mV": 135001733.77325678,
+              "during_refractory_mV": 23503455.272049665,
+              "accepted_mV": 111498278.50120711,
+              "refractory_fraction": 0.17409743278945644
+            },
+            "glut_ln": {
+              "arrived_mV": -1588191.7248311008,
+              "during_refractory_mV": -260592.64396786987,
+              "accepted_mV": -1327599.0808632309,
+              "refractory_fraction": 0.1640813510696154
+            }
+          }
+        },
+        "off_19_20": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 47.1734693877,
+          "GABA_LN_hz": 79.5999999999,
+          "exc_LN_hz": 110.3697916667,
+          "glut_LN_hz": 24.90740740735,
+          "cohort_PN_mean_hz": 81.52459016393442,
+          "cohort_PN_at_least_100hz": 109,
+          "connected_GABA_LN_mean_hz": 80.26890756302521,
+          "connected_GABA_LN_active": 80,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.172254460349727,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9340897.15765536,
+              "during_refractory_mV": 1580580.1982893965,
+              "accepted_mV": 7760316.959365964,
+              "refractory_fraction": 0.16921074834808852
+            },
+            "inh": {
+              "arrived_mV": -3481743.8709509377,
+              "during_refractory_mV": -616896.2603294807,
+              "accepted_mV": -2864847.610621457,
+              "refractory_fraction": 0.17718025311293026
+            },
+            "gaba_ln": {
+              "arrived_mV": -2588600.0401760307,
+              "during_refractory_mV": -459824.529082425,
+              "accepted_mV": -2128775.511093606,
+              "refractory_fraction": 0.17763444408011209
+            },
+            "exc_ln": {
+              "arrived_mV": 7941938.2123337975,
+              "during_refractory_mV": 1383049.8360352565,
+              "accepted_mV": 6558888.376298541,
+              "refractory_fraction": 0.17414512667542362
+            },
+            "glut_ln": {
+              "arrived_mV": -93501.79778516,
+              "during_refractory_mV": -15196.430676933996,
+              "accepted_mV": -78305.367108226,
+              "refractory_fraction": 0.16252554535743777
+            }
+          }
+        },
+        "reodor": {
+          "ORN_hz": 60.6624203821,
+          "ALPN_hz": 47.6428571429,
+          "GABA_LN_hz": 81.51666666655,
+          "exc_LN_hz": 111.2135416668,
+          "glut_LN_hz": 24.63888888895,
+          "cohort_PN_mean_hz": 82.14754098360656,
+          "cohort_PN_at_least_100hz": 105,
+          "connected_GABA_LN_mean_hz": 82.2016806722689,
+          "connected_GABA_LN_active": 81,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.23661722687705,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9724984.243359562,
+              "during_refractory_mV": 1713675.2996410178,
+              "accepted_mV": 8011308.943718544,
+              "refractory_fraction": 0.17621368392562217
+            },
+            "inh": {
+              "arrived_mV": -3581720.172385932,
+              "during_refractory_mV": -656395.7187427287,
+              "accepted_mV": -2925324.4536432032,
+              "refractory_fraction": 0.18326270259842112
+            },
+            "gaba_ln": {
+              "arrived_mV": -2677403.037122017,
+              "during_refractory_mV": -489999.31541276415,
+              "accepted_mV": -2187403.721709253,
+              "refractory_fraction": 0.18301290788833655
+            },
+            "exc_ln": {
+              "arrived_mV": 8007474.9325621165,
+              "during_refractory_mV": 1422624.3704849554,
+              "accepted_mV": 6584850.562077161,
+              "refractory_fraction": 0.17766204483512063
+            },
+            "glut_ln": {
+              "arrived_mV": -92571.40406215303,
+              "during_refractory_mV": -15948.431905264992,
+              "accepted_mV": -76622.97215688803,
+              "refractory_fraction": 0.17228248903470356
+            }
+          }
+        },
+        "reoff_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 46.9285714285,
+          "GABA_LN_hz": 79.5833333334,
+          "exc_LN_hz": 110.1562499999,
+          "glut_LN_hz": 24.8333333333,
+          "cohort_PN_mean_hz": 81.24863387978142,
+          "cohort_PN_at_least_100hz": 107,
+          "connected_GABA_LN_mean_hz": 80.25210084033614,
+          "connected_GABA_LN_active": 80,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.147207613122951,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9328098.837484721,
+              "during_refractory_mV": 1582147.657432071,
+              "accepted_mV": 7745951.18005265,
+              "refractory_fraction": 0.16961094484486505
+            },
+            "inh": {
+              "arrived_mV": -3480134.9414695487,
+              "during_refractory_mV": -608390.2628560073,
+              "accepted_mV": -2871744.6786135416,
+              "refractory_fraction": 0.17481800938417166
+            },
+            "gaba_ln": {
+              "arrived_mV": -2591279.502628567,
+              "during_refractory_mV": -450331.65312041173,
+              "accepted_mV": -2140947.8495081556,
+              "refractory_fraction": 0.17378737132123337
+            },
+            "exc_ln": {
+              "arrived_mV": 7935335.724113939,
+              "during_refractory_mV": 1383003.1825252732,
+              "accepted_mV": 6552332.541588666,
+              "refractory_fraction": 0.1742841425502132
+            },
+            "glut_ln": {
+              "arrived_mV": -93510.19899200603,
+              "during_refractory_mV": -15725.173139695995,
+              "accepted_mV": -77785.02585231003,
+              "refractory_fraction": 0.1681653264478702
+            }
+          }
+        },
+        "reoff_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 47.0364431487,
+          "GABA_LN_hz": 79.55833333335,
+          "exc_LN_hz": 110.28645833335,
+          "glut_LN_hz": 24.82407407405,
+          "cohort_PN_mean_hz": 81.43442622950819,
+          "cohort_PN_at_least_100hz": 108,
+          "connected_GABA_LN_mean_hz": 80.22689075630252,
+          "connected_GABA_LN_active": 81,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.165283762327869,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9327783.521646379,
+              "during_refractory_mV": 1576452.3254729505,
+              "accepted_mV": 7751331.196173428,
+              "refractory_fraction": 0.16900610116160827
+            },
+            "inh": {
+              "arrived_mV": -3479247.8053380167,
+              "during_refractory_mV": -613142.8678371947,
+              "accepted_mV": -2866104.937500822,
+              "refractory_fraction": 0.1762285706975179
+            },
+            "gaba_ln": {
+              "arrived_mV": -2588928.0459525567,
+              "during_refractory_mV": -457227.6490052943,
+              "accepted_mV": -2131700.3969472623,
+              "refractory_fraction": 0.17660886702514142
+            },
+            "exc_ln": {
+              "arrived_mV": 7926643.290415405,
+              "during_refractory_mV": 1378512.9830641781,
+              "accepted_mV": 6548130.307351227,
+              "refractory_fraction": 0.1739087950041884
+            },
+            "glut_ln": {
+              "arrived_mV": -93324.83528494897,
+              "during_refractory_mV": -15527.296915295,
+              "accepted_mV": -77797.53836965398,
+              "refractory_fraction": 0.16637904441926377
+            }
+          }
+        }
+      },
+      "reodor_minus_preceding_off_PN_hz": 0.4693877551999961
+    },
+    {
+      "trial": "baseline_2026091711",
+      "condition": "baseline",
+      "seed": 2026091711,
+      "phases": {
+        "quiet": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 0.0,
+          "GABA_LN_hz": 0.0,
+          "exc_LN_hz": 0.0,
+          "glut_LN_hz": 0.0,
+          "cohort_PN_mean_hz": 0.0,
+          "cohort_PN_at_least_100hz": 0,
+          "connected_GABA_LN_mean_hz": 0.0,
+          "connected_GABA_LN_active": 0,
+          "cohort_PN_receiving_GABA_LN": 0,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "inh": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "gaba_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "exc_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "glut_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            }
+          }
+        },
+        "odor_early": {
+          "ORN_hz": 60.4076433121,
+          "ALPN_hz": 129.8454810495,
+          "GABA_LN_hz": 214.1,
+          "exc_LN_hz": 260.4062499999,
+          "glut_LN_hz": 82.6851851851,
+          "cohort_PN_mean_hz": 216.85245901639345,
+          "cohort_PN_at_least_100hz": 346,
+          "connected_GABA_LN_mean_hz": 215.89915966386553,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 10562819.431798462,
+              "during_refractory_mV": 4749136.197781333,
+              "accepted_mV": 10562819.431798462,
+              "refractory_fraction": 0.44960876482319345
+            },
+            "inh": {
+              "arrived_mV": -4560309.894405364,
+              "during_refractory_mV": -2037852.5345878596,
+              "accepted_mV": -4560309.894405364,
+              "refractory_fraction": 0.4468671168790346
+            },
+            "gaba_ln": {
+              "arrived_mV": -3256839.1970424675,
+              "during_refractory_mV": -1424237.0531718782,
+              "accepted_mV": -3256839.1970424675,
+              "refractory_fraction": 0.43730653157982946
+            },
+            "exc_ln": {
+              "arrived_mV": 8524559.156975858,
+              "during_refractory_mV": 3870424.2813546616,
+              "accepted_mV": 8524559.156975858,
+              "refractory_fraction": 0.45403219217352697
+            },
+            "glut_ln": {
+              "arrived_mV": -145498.74089301,
+              "during_refractory_mV": -67157.80256188098,
+              "accepted_mV": -145498.74089301,
+              "refractory_fraction": 0.4615696476113447
+            }
+          }
+        },
+        "odor_tail": {
+          "ORN_hz": 59.0318471336,
+          "ALPN_hz": 134.1253644316,
+          "GABA_LN_hz": 220.6333333332,
+          "exc_LN_hz": 267.9270833334,
+          "glut_LN_hz": 85.7962962962,
+          "cohort_PN_mean_hz": 223.72677595628414,
+          "cohort_PN_at_least_100hz": 362,
+          "connected_GABA_LN_mean_hz": 222.48739495798318,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 10881297.779641988,
+              "during_refractory_mV": 4911327.159824968,
+              "accepted_mV": 10881297.779641988,
+              "refractory_fraction": 0.4513549081446569
+            },
+            "inh": {
+              "arrived_mV": -4704881.280083051,
+              "during_refractory_mV": -2117526.4125738153,
+              "accepted_mV": -4704881.280083051,
+              "refractory_fraction": 0.45007010517732693
+            },
+            "gaba_ln": {
+              "arrived_mV": -3356097.638940814,
+              "during_refractory_mV": -1477288.8004560405,
+              "accepted_mV": -3356097.638940814,
+              "refractory_fraction": 0.4401805189798571
+            },
+            "exc_ln": {
+              "arrived_mV": 8770581.54811026,
+              "during_refractory_mV": 3994618.1763948174,
+              "accepted_mV": 8770581.54811026,
+              "refractory_fraction": 0.4554564773707066
+            },
+            "glut_ln": {
+              "arrived_mV": -151417.33192550996,
+              "during_refractory_mV": -70618.75993513798,
+              "accepted_mV": -151417.33192550996,
+              "refractory_fraction": 0.466384918008455
+            }
+          }
+        },
+        "off_0_1": {
+          "ORN_hz": 0.19745222925,
+          "ALPN_hz": 132.8279883381,
+          "GABA_LN_hz": 218.7000000001,
+          "exc_LN_hz": 266.4114583333,
+          "glut_LN_hz": 85.89814814815,
+          "cohort_PN_mean_hz": 222.2622950819672,
+          "cohort_PN_at_least_100hz": 362,
+          "connected_GABA_LN_mean_hz": 220.53781512605042,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21363164.373244043,
+              "during_refractory_mV": 9476287.225509638,
+              "accepted_mV": 21363164.373244043,
+              "refractory_fraction": 0.4435806915092627
+            },
+            "inh": {
+              "arrived_mV": -9329966.77580178,
+              "during_refractory_mV": -4116811.3127861023,
+              "accepted_mV": -9329966.77580178,
+              "refractory_fraction": 0.4412460849767946
+            },
+            "gaba_ln": {
+              "arrived_mV": -6658604.063559183,
+              "during_refractory_mV": -2878176.4568593567,
+              "accepted_mV": -6658604.063559183,
+              "refractory_fraction": 0.4322492266225697
+            },
+            "exc_ln": {
+              "arrived_mV": 17466136.348313097,
+              "during_refractory_mV": 7829199.151561497,
+              "accepted_mV": 17466136.348313097,
+              "refractory_fraction": 0.44825020230176155
+            },
+            "glut_ln": {
+              "arrived_mV": -304158.30768752686,
+              "during_refractory_mV": -140551.65615367898,
+              "accepted_mV": -304158.30768752686,
+              "refractory_fraction": 0.46210033591478594
+            }
+          }
+        },
+        "off_1_2": {
+          "ORN_hz": 0.19108280249999998,
+          "ALPN_hz": 132.70116618075,
+          "GABA_LN_hz": 218.6833333333,
+          "exc_LN_hz": 266.35416666665,
+          "glut_LN_hz": 85.71296296285,
+          "cohort_PN_mean_hz": 222.06830601092895,
+          "cohort_PN_at_least_100hz": 363,
+          "connected_GABA_LN_mean_hz": 220.52100840336135,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21352645.476137996,
+              "during_refractory_mV": 9402437.924467806,
+              "accepted_mV": 21352645.476137996,
+              "refractory_fraction": 0.44034065638261155
+            },
+            "inh": {
+              "arrived_mV": -9326597.338391546,
+              "during_refractory_mV": -4119704.9167708154,
+              "accepted_mV": -9326597.338391546,
+              "refractory_fraction": 0.4417157476942491
+            },
+            "gaba_ln": {
+              "arrived_mV": -6656246.3512067795,
+              "during_refractory_mV": -2886200.901796572,
+              "accepted_mV": -6656246.3512067795,
+              "refractory_fraction": 0.4336078849114866
+            },
+            "exc_ln": {
+              "arrived_mV": 17458719.12484002,
+              "during_refractory_mV": 7766562.126047128,
+              "accepted_mV": 17458719.12484002,
+              "refractory_fraction": 0.44485291678683186
+            },
+            "glut_ln": {
+              "arrived_mV": -303060.961465478,
+              "during_refractory_mV": -139114.86374724103,
+              "accepted_mV": -303060.961465478,
+              "refractory_fraction": 0.45903260873501767
+            }
+          }
+        },
+        "off_2_19": {
+          "ORN_hz": 0.19445485195588236,
+          "ALPN_hz": 132.70288115244705,
+          "GABA_LN_hz": 218.78431372548823,
+          "exc_LN_hz": 266.2647058823471,
+          "glut_LN_hz": 85.71241830066471,
+          "cohort_PN_mean_hz": 222.09000321440985,
+          "cohort_PN_at_least_100hz": 362,
+          "connected_GABA_LN_mean_hz": 220.62283737021008,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 362956175.8561249,
+              "during_refractory_mV": 159578820.64501882,
+              "accepted_mV": 362956175.8561249,
+              "refractory_fraction": 0.43966415578578155
+            },
+            "inh": {
+              "arrived_mV": -158589706.8869667,
+              "during_refractory_mV": -70003390.60040045,
+              "accepted_mV": -158589706.8869667,
+              "refractory_fraction": 0.4414119426445166
+            },
+            "gaba_ln": {
+              "arrived_mV": -113200065.55443192,
+              "during_refractory_mV": -48982445.30120802,
+              "accepted_mV": -113200065.55443192,
+              "refractory_fraction": 0.43270686338653186
+            },
+            "exc_ln": {
+              "arrived_mV": 296774698.5224345,
+              "during_refractory_mV": 132045088.10908556,
+              "accepted_mV": 296774698.5224345,
+              "refractory_fraction": 0.44493377894579417
+            },
+            "glut_ln": {
+              "arrived_mV": -5155673.369994525,
+              "during_refractory_mV": -2367882.038162592,
+              "accepted_mV": -5155673.369994525,
+              "refractory_fraction": 0.45927696892968733
+            }
+          }
+        },
+        "off_19_20": {
+          "ORN_hz": 0.19745222925,
+          "ALPN_hz": 132.67638483960002,
+          "GABA_LN_hz": 218.77499999995,
+          "exc_LN_hz": 266.29166666665,
+          "glut_LN_hz": 85.5925925926,
+          "cohort_PN_mean_hz": 222.02459016393442,
+          "cohort_PN_at_least_100hz": 361,
+          "connected_GABA_LN_mean_hz": 220.61344537815125,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21349327.50548697,
+              "during_refractory_mV": 9352074.3889184,
+              "accepted_mV": 21349327.50548697,
+              "refractory_fraction": 0.438050069095377
+            },
+            "inh": {
+              "arrived_mV": -9326052.3296653,
+              "during_refractory_mV": -4113086.8780714297,
+              "accepted_mV": -9326052.3296653,
+              "refractory_fraction": 0.4410319321271751
+            },
+            "gaba_ln": {
+              "arrived_mV": -6657433.430760617,
+              "during_refractory_mV": -2880414.943210594,
+              "accepted_mV": -6657433.430760617,
+              "refractory_fraction": 0.4326614712963798
+            },
+            "exc_ln": {
+              "arrived_mV": 17458547.336082697,
+              "during_refractory_mV": 7745250.470457439,
+              "accepted_mV": 17458547.336082697,
+              "refractory_fraction": 0.44363659366148034
+            },
+            "glut_ln": {
+              "arrived_mV": -302808.03019965277,
+              "during_refractory_mV": -139550.47753477006,
+              "accepted_mV": -302808.03019965277,
+              "refractory_fraction": 0.4608546128805077
+            }
+          }
+        },
+        "reodor": {
+          "ORN_hz": 60.5477707006,
+          "ALPN_hz": 134.2725947523,
+          "GABA_LN_hz": 220.6249999999,
+          "exc_LN_hz": 267.9739583333,
+          "glut_LN_hz": 85.9074074074,
+          "cohort_PN_mean_hz": 223.95355191256832,
+          "cohort_PN_at_least_100hz": 363,
+          "connected_GABA_LN_mean_hz": 222.47899159663865,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21773626.744832754,
+              "during_refractory_mV": 9798736.667724373,
+              "accepted_mV": 21773626.744832754,
+              "refractory_fraction": 0.45002776903254194
+            },
+            "inh": {
+              "arrived_mV": -9412346.214600798,
+              "during_refractory_mV": -4224050.586106901,
+              "accepted_mV": -9412346.214600798,
+              "refractory_fraction": 0.4487776469117115
+            },
+            "gaba_ln": {
+              "arrived_mV": -6711904.098058944,
+              "during_refractory_mV": -2953569.6316157514,
+              "accepted_mV": -6711904.098058944,
+              "refractory_fraction": 0.44004943879783864
+            },
+            "exc_ln": {
+              "arrived_mV": 17541219.212569356,
+              "during_refractory_mV": 7952683.937870978,
+              "accepted_mV": 17541219.212569356,
+              "refractory_fraction": 0.453371219041171
+            },
+            "glut_ln": {
+              "arrived_mV": -303420.4276119489,
+              "during_refractory_mV": -140354.13747823096,
+              "accepted_mV": -303420.4276119489,
+              "refractory_fraction": 0.4625731318846237
+            }
+          }
+        },
+        "reoff_0_1": {
+          "ORN_hz": 0.19745222925,
+          "ALPN_hz": 133.03061224495,
+          "GABA_LN_hz": 218.89999999995,
+          "exc_LN_hz": 266.4010416667,
+          "glut_LN_hz": 85.75000000005,
+          "cohort_PN_mean_hz": 222.5846994535519,
+          "cohort_PN_at_least_100hz": 362,
+          "connected_GABA_LN_mean_hz": 220.73949579831933,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21365653.993982553,
+              "during_refractory_mV": 9433039.018179778,
+              "accepted_mV": 21365653.993982553,
+              "refractory_fraction": 0.44150481051675317
+            },
+            "inh": {
+              "arrived_mV": -9330462.63052213,
+              "during_refractory_mV": -4124140.5999448234,
+              "accepted_mV": -9330462.63052213,
+              "refractory_fraction": 0.44200815792925346
+            },
+            "gaba_ln": {
+              "arrived_mV": -6657064.312273385,
+              "during_refractory_mV": -2892656.9943104954,
+              "accepted_mV": -6657064.312273385,
+              "refractory_fraction": 0.43452441776436046
+            },
+            "exc_ln": {
+              "arrived_mV": 17463288.14239633,
+              "during_refractory_mV": 7798506.170321581,
+              "accepted_mV": 17463288.14239633,
+              "refractory_fraction": 0.44656573875047234
+            },
+            "glut_ln": {
+              "arrived_mV": -303254.54768097796,
+              "during_refractory_mV": -139829.68495166,
+              "accepted_mV": -303254.54768097796,
+              "refractory_fraction": 0.46109674536112816
+            }
+          }
+        },
+        "reoff_1_2": {
+          "ORN_hz": 0.19108280249999998,
+          "ALPN_hz": 132.74489795915,
+          "GABA_LN_hz": 218.54999999995,
+          "exc_LN_hz": 266.14583333335,
+          "glut_LN_hz": 85.62962962955,
+          "cohort_PN_mean_hz": 222.16666666666666,
+          "cohort_PN_at_least_100hz": 362,
+          "connected_GABA_LN_mean_hz": 220.38655462184875,
+          "connected_GABA_LN_active": 97,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 21346550.976688504,
+              "during_refractory_mV": 9423498.59121144,
+              "accepted_mV": 21346550.976688504,
+              "refractory_fraction": 0.4414529823343532
+            },
+            "inh": {
+              "arrived_mV": -9323315.66958273,
+              "during_refractory_mV": -4102081.2415516437,
+              "accepted_mV": -9323315.66958273,
+              "refractory_fraction": 0.43998094529124043
+            },
+            "gaba_ln": {
+              "arrived_mV": -6652728.1945942715,
+              "during_refractory_mV": -2877907.6166299535,
+              "accepted_mV": -6652728.1945942715,
+              "refractory_fraction": 0.4325905902736896
+            },
+            "exc_ln": {
+              "arrived_mV": 17454457.71067429,
+              "during_refractory_mV": 7801799.993248342,
+              "accepted_mV": 17454457.71067429,
+              "refractory_fraction": 0.4469803715802149
+            },
+            "glut_ln": {
+              "arrived_mV": -302768.7053046248,
+              "during_refractory_mV": -139279.85004413195,
+              "accepted_mV": -302768.7053046248,
+              "refractory_fraction": 0.4600206283010599
+            }
+          }
+        }
+      },
+      "reodor_minus_preceding_off_PN_hz": 1.596209912699976
+    },
+    {
+      "trial": "adapt_2026091711",
+      "condition": "adapt",
+      "seed": 2026091711,
+      "phases": {
+        "quiet": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 0.0,
+          "GABA_LN_hz": 0.0,
+          "exc_LN_hz": 0.0,
+          "glut_LN_hz": 0.0,
+          "cohort_PN_mean_hz": 0.0,
+          "cohort_PN_at_least_100hz": 0,
+          "connected_GABA_LN_mean_hz": 0.0,
+          "connected_GABA_LN_active": 0,
+          "cohort_PN_receiving_GABA_LN": 0,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "inh": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "gaba_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "exc_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "glut_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            }
+          }
+        },
+        "odor_early": {
+          "ORN_hz": 60.1656050956,
+          "ALPN_hz": 67.1049562683,
+          "GABA_LN_hz": 114.7666666667,
+          "exc_LN_hz": 156.2083333334,
+          "glut_LN_hz": 35.8518518518,
+          "cohort_PN_mean_hz": 113.36612021857924,
+          "cohort_PN_at_least_100hz": 198,
+          "connected_GABA_LN_mean_hz": 115.73109243697479,
+          "connected_GABA_LN_active": 93,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 9.790724680060109,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 6740947.396927715,
+              "during_refractory_mV": 1715385.7594044285,
+              "accepted_mV": 6740947.396927715,
+              "refractory_fraction": 0.254472503403044
+            },
+            "inh": {
+              "arrived_mV": -2484256.1612514304,
+              "during_refractory_mV": -633877.8672367296,
+              "accepted_mV": -2484256.1612514304,
+              "refractory_fraction": 0.255158013542942
+            },
+            "gaba_ln": {
+              "arrived_mV": -1852570.4838823185,
+              "during_refractory_mV": -463249.9153408972,
+              "accepted_mV": -1852570.4838823185,
+              "refractory_fraction": 0.25005791648482534
+            },
+            "exc_ln": {
+              "arrived_mV": 5619877.661060572,
+              "during_refractory_mV": 1451911.127624279,
+              "accepted_mV": 5619877.661060572,
+              "refractory_fraction": 0.258352799685372
+            },
+            "glut_ln": {
+              "arrived_mV": -64532.14388453798,
+              "during_refractory_mV": -15816.335692401994,
+              "accepted_mV": -64532.14388453798,
+              "refractory_fraction": 0.2450923639031868
+            }
+          }
+        },
+        "odor_tail": {
+          "ORN_hz": 58.7770700636,
+          "ALPN_hz": 62.3206997084,
+          "GABA_LN_hz": 107.1833333333,
+          "exc_LN_hz": 147.46875,
+          "glut_LN_hz": 33.1111111111,
+          "cohort_PN_mean_hz": 105.73224043715847,
+          "cohort_PN_at_least_100hz": 184,
+          "connected_GABA_LN_mean_hz": 108.08403361344538,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.607802225795082,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 6419373.296397812,
+              "during_refractory_mV": 1472153.4926059274,
+              "accepted_mV": 6419373.296397812,
+              "refractory_fraction": 0.22932978417566344
+            },
+            "inh": {
+              "arrived_mV": -2333629.6180270966,
+              "during_refractory_mV": -531515.4315371573,
+              "accepted_mV": -2333629.6180270966,
+              "refractory_fraction": 0.22776340659684996
+            },
+            "gaba_ln": {
+              "arrived_mV": -1746100.194217322,
+              "during_refractory_mV": -391837.326131949,
+              "accepted_mV": -1746100.194217322,
+              "refractory_fraction": 0.224407125908137
+            },
+            "exc_ln": {
+              "arrived_mV": 5362259.056641705,
+              "during_refractory_mV": 1247649.2194775378,
+              "accepted_mV": 5362259.056641705,
+              "refractory_fraction": 0.23267231334752408
+            },
+            "glut_ln": {
+              "arrived_mV": -59827.086570012034,
+              "during_refractory_mV": -13265.394530777994,
+              "accepted_mV": -59827.086570012034,
+              "refractory_fraction": 0.22172890727771447
+            }
+          }
+        },
+        "off_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.8163265307,
+          "GABA_LN_hz": 105.2,
+          "exc_LN_hz": 146.82291666679998,
+          "glut_LN_hz": 33.12962962965,
+          "cohort_PN_mean_hz": 105.07377049180327,
+          "cohort_PN_at_least_100hz": 183,
+          "connected_GABA_LN_mean_hz": 106.08403361344538,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.541759253128415,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12478603.79032589,
+              "during_refractory_mV": 2761311.5000916747,
+              "accepted_mV": 12478603.79032589,
+              "refractory_fraction": 0.2212836905866342
+            },
+            "inh": {
+              "arrived_mV": -4565973.054523233,
+              "during_refractory_mV": -1021160.8219374359,
+              "accepted_mV": -4565973.054523233,
+              "refractory_fraction": 0.22364582745967668
+            },
+            "gaba_ln": {
+              "arrived_mV": -3402668.0914582,
+              "during_refractory_mV": -753675.0408825789,
+              "accepted_mV": -3402668.0914582,
+              "refractory_fraction": 0.22149531503661718
+            },
+            "exc_ln": {
+              "arrived_mV": 10672899.587396745,
+              "during_refractory_mV": 2425317.6374804988,
+              "accepted_mV": 10672899.587396745,
+              "refractory_fraction": 0.22724074349434262
+            },
+            "glut_ln": {
+              "arrived_mV": -120170.93935895496,
+              "during_refractory_mV": -26092.315329912002,
+              "accepted_mV": -120170.93935895496,
+              "refractory_fraction": 0.21712666530776886
+            }
+          }
+        },
+        "off_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.7390670553,
+          "GABA_LN_hz": 105.4333333334,
+          "exc_LN_hz": 146.8802083333,
+          "glut_LN_hz": 33.1388888889,
+          "cohort_PN_mean_hz": 104.95901639344262,
+          "cohort_PN_at_least_100hz": 183,
+          "connected_GABA_LN_mean_hz": 106.31932773109244,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.522979286210383,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12473064.151719332,
+              "during_refractory_mV": 2749543.4939131686,
+              "accepted_mV": 12473064.151719332,
+              "refractory_fraction": 0.22043849534231424
+            },
+            "inh": {
+              "arrived_mV": -4574191.979063273,
+              "during_refractory_mV": -1023820.0858247287,
+              "accepted_mV": -4574191.979063273,
+              "refractory_fraction": 0.22382534237979052
+            },
+            "gaba_ln": {
+              "arrived_mV": -3411572.164528016,
+              "during_refractory_mV": -756468.5457253442,
+              "accepted_mV": -3411572.164528016,
+              "refractory_fraction": 0.22173605283533554
+            },
+            "exc_ln": {
+              "arrived_mV": 10665653.60212052,
+              "during_refractory_mV": 2412004.33813048,
+              "accepted_mV": 10665653.60212052,
+              "refractory_fraction": 0.2261468849551734
+            },
+            "glut_ln": {
+              "arrived_mV": -120314.29684735,
+              "during_refractory_mV": -26335.59408652501,
+              "accepted_mV": -120314.29684735,
+              "refractory_fraction": 0.21888998046457078
+            }
+          }
+        },
+        "off_2_19": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.69850797461765,
+          "GABA_LN_hz": 105.24509803920883,
+          "exc_LN_hz": 146.77022058823235,
+          "glut_LN_hz": 33.103485838814706,
+          "cohort_PN_mean_hz": 104.8786563805683,
+          "cohort_PN_at_least_100hz": 181,
+          "connected_GABA_LN_mean_hz": 106.1295106277647,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.514949308860656,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 211935728.06519997,
+              "during_refractory_mV": 46566209.44281757,
+              "accepted_mV": 211935728.06519997,
+              "refractory_fraction": 0.219718543295786
+            },
+            "inh": {
+              "arrived_mV": -77643873.69939756,
+              "during_refractory_mV": -17345861.364166502,
+              "accepted_mV": -77643873.69939756,
+              "refractory_fraction": 0.22340283318838441
+            },
+            "gaba_ln": {
+              "arrived_mV": -57891906.379583,
+              "during_refractory_mV": -12787468.39243567,
+              "accepted_mV": -57891906.379583,
+              "refractory_fraction": 0.220885253088599
+            },
+            "exc_ln": {
+              "arrived_mV": 181279634.60985768,
+              "during_refractory_mV": 40858073.96930277,
+              "accepted_mV": 181279634.60985768,
+              "refractory_fraction": 0.2253870053149422
+            },
+            "glut_ln": {
+              "arrived_mV": -2042374.723820576,
+              "during_refractory_mV": -452145.7852460144,
+              "accepted_mV": -2042374.723820576,
+              "refractory_fraction": 0.2213823839340345
+            }
+          }
+        },
+        "off_19_20": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.66909620985,
+          "GABA_LN_hz": 105.21666666670001,
+          "exc_LN_hz": 146.80729166679998,
+          "glut_LN_hz": 33.1388888888,
+          "cohort_PN_mean_hz": 104.85519125683061,
+          "cohort_PN_at_least_100hz": 183,
+          "connected_GABA_LN_mean_hz": 106.10084033613445,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.507724481609289,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12461555.87471998,
+              "during_refractory_mV": 2734295.941883921,
+              "accepted_mV": 12461555.87471998,
+              "refractory_fraction": 0.21941850354583936
+            },
+            "inh": {
+              "arrived_mV": -4566484.637388231,
+              "during_refractory_mV": -1020056.3260518365,
+              "accepted_mV": -4566484.637388231,
+              "refractory_fraction": 0.2233789023837055
+            },
+            "gaba_ln": {
+              "arrived_mV": -3404289.5328359576,
+              "during_refractory_mV": -753263.3797109027,
+              "accepted_mV": -3404289.5328359576,
+              "refractory_fraction": 0.22126889397782612
+            },
+            "exc_ln": {
+              "arrived_mV": 10657990.95242703,
+              "during_refractory_mV": 2398414.870958814,
+              "accepted_mV": 10657990.95242703,
+              "refractory_fraction": 0.22503442549954958
+            },
+            "glut_ln": {
+              "arrived_mV": -120133.22312415203,
+              "during_refractory_mV": -27218.797779922996,
+              "accepted_mV": -120133.22312415203,
+              "refractory_fraction": 0.22657177650010812
+            }
+          }
+        },
+        "reodor": {
+          "ORN_hz": 60.22929936305,
+          "ALPN_hz": 62.31341107875,
+          "GABA_LN_hz": 107.225,
+          "exc_LN_hz": 147.6614583333,
+          "glut_LN_hz": 32.89814814825,
+          "cohort_PN_mean_hz": 105.68032786885246,
+          "cohort_PN_at_least_100hz": 181,
+          "connected_GABA_LN_mean_hz": 108.12605042016807,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.585093420945356,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12850079.53170824,
+              "during_refractory_mV": 2925363.0621824376,
+              "accepted_mV": 12850079.53170824,
+              "refractory_fraction": 0.22765330400982747
+            },
+            "inh": {
+              "arrived_mV": -4672017.20387745,
+              "during_refractory_mV": -1069634.960320939,
+              "accepted_mV": -4672017.20387745,
+              "refractory_fraction": 0.22894499605720978
+            },
+            "gaba_ln": {
+              "arrived_mV": -3494506.800345648,
+              "during_refractory_mV": -788719.6924188193,
+              "accepted_mV": -3494506.800345648,
+              "refractory_fraction": 0.22570272072179273
+            },
+            "exc_ln": {
+              "arrived_mV": 10730378.621945266,
+              "during_refractory_mV": 2476726.852089646,
+              "accepted_mV": 10730378.621945266,
+              "refractory_fraction": 0.23081448841184043
+            },
+            "glut_ln": {
+              "arrived_mV": -119685.63311565694,
+              "during_refractory_mV": -26124.66909324999,
+              "accepted_mV": -119685.63311565694,
+              "refractory_fraction": 0.21827740233453663
+            }
+          }
+        },
+        "reoff_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.69387755105,
+          "GABA_LN_hz": 105.1083333333,
+          "exc_LN_hz": 146.7395833334,
+          "glut_LN_hz": 33.064814815,
+          "cohort_PN_mean_hz": 104.86612021857924,
+          "cohort_PN_at_least_100hz": 183,
+          "connected_GABA_LN_mean_hz": 105.99159663865547,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.513674856590164,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12461968.428828478,
+              "during_refractory_mV": 2733492.1035517342,
+              "accepted_mV": 12461968.428828478,
+              "refractory_fraction": 0.21934673636536436
+            },
+            "inh": {
+              "arrived_mV": -4561014.887331244,
+              "during_refractory_mV": -1018480.8232871359,
+              "accepted_mV": -4561014.887331244,
+              "refractory_fraction": 0.2233013591155088
+            },
+            "gaba_ln": {
+              "arrived_mV": -3400866.8277320927,
+              "during_refractory_mV": -752206.0732233624,
+              "accepted_mV": -3400866.8277320927,
+              "refractory_fraction": 0.22118069049030648
+            },
+            "exc_ln": {
+              "arrived_mV": 10659129.589234354,
+              "during_refractory_mV": 2397324.3174252464,
+              "accepted_mV": 10659129.589234354,
+              "refractory_fraction": 0.22490807503142912
+            },
+            "glut_ln": {
+              "arrived_mV": -119593.57683885896,
+              "during_refractory_mV": -26650.909062151997,
+              "accepted_mV": -119593.57683885896,
+              "refractory_fraction": 0.22284565581696394
+            }
+          }
+        },
+        "reoff_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 61.690962099,
+          "GABA_LN_hz": 105.2250000001,
+          "exc_LN_hz": 146.72395833344999,
+          "glut_LN_hz": 33.120370370399996,
+          "cohort_PN_mean_hz": 104.86338797814207,
+          "cohort_PN_at_least_100hz": 183,
+          "connected_GABA_LN_mean_hz": 106.10924369747899,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 10.5049474050847,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 12462858.24342978,
+              "during_refractory_mV": 2741080.754895448,
+              "accepted_mV": 12462858.24342978,
+              "refractory_fraction": 0.2199399769583757
+            },
+            "inh": {
+              "arrived_mV": -4561620.491578932,
+              "during_refractory_mV": -1017912.7553340148,
+              "accepted_mV": -4561620.491578932,
+              "refractory_fraction": 0.2231471814047557
+            },
+            "gaba_ln": {
+              "arrived_mV": -3399845.271699547,
+              "during_refractory_mV": -750315.9709796972,
+              "accepted_mV": -3399845.271699547,
+              "refractory_fraction": 0.22069121122227486
+            },
+            "exc_ln": {
+              "arrived_mV": 10658356.315245869,
+              "during_refractory_mV": 2405804.752422096,
+              "accepted_mV": 10658356.315245869,
+              "refractory_fraction": 0.22572005300487075
+            },
+            "glut_ln": {
+              "arrived_mV": -120148.59559142997,
+              "during_refractory_mV": -25739.462842344004,
+              "accepted_mV": -120148.59559142997,
+              "refractory_fraction": 0.21423024310556288
+            }
+          }
+        }
+      },
+      "reodor_minus_preceding_off_PN_hz": 0.644314868900004
+    },
+    {
+      "trial": "refractory_2026091711",
+      "condition": "refractory",
+      "seed": 2026091711,
+      "phases": {
+        "quiet": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 0.0,
+          "GABA_LN_hz": 0.0,
+          "exc_LN_hz": 0.0,
+          "glut_LN_hz": 0.0,
+          "cohort_PN_mean_hz": 0.0,
+          "cohort_PN_at_least_100hz": 0,
+          "connected_GABA_LN_mean_hz": 0.0,
+          "connected_GABA_LN_active": 0,
+          "cohort_PN_receiving_GABA_LN": 0,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "inh": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "gaba_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "exc_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "glut_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            }
+          }
+        },
+        "odor_early": {
+          "ORN_hz": 60.1783439491,
+          "ALPN_hz": 105.6443148689,
+          "GABA_LN_hz": 166.63333333330002,
+          "exc_LN_hz": 225.0312499999,
+          "glut_LN_hz": 62.7037037038,
+          "cohort_PN_mean_hz": 172.44808743169398,
+          "cohort_PN_at_least_100hz": 300,
+          "connected_GABA_LN_mean_hz": 168.03361344537817,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9432020.531231772,
+              "during_refractory_mV": 2847817.925441382,
+              "accepted_mV": 6584202.60579039,
+              "refractory_fraction": 0.30193084461717895
+            },
+            "inh": {
+              "arrived_mV": -3566028.0679529924,
+              "during_refractory_mV": -1181516.1912989651,
+              "accepted_mV": -2384511.876654027,
+              "refractory_fraction": 0.33132554449499635
+            },
+            "gaba_ln": {
+              "arrived_mV": -2604649.6462839846,
+              "during_refractory_mV": -818788.1229972866,
+              "accepted_mV": -1785861.523286698,
+              "refractory_fraction": 0.31435633739280044
+            },
+            "exc_ln": {
+              "arrived_mV": 7820641.527780177,
+              "during_refractory_mV": 2346249.017839194,
+              "accepted_mV": 5474392.509940984,
+              "refractory_fraction": 0.30000723207999497
+            },
+            "glut_ln": {
+              "arrived_mV": -107029.23983609598,
+              "during_refractory_mV": -36914.01869237098,
+              "accepted_mV": -70115.22114372501,
+              "refractory_fraction": 0.3448965791862197
+            }
+          }
+        },
+        "odor_tail": {
+          "ORN_hz": 58.8280254776,
+          "ALPN_hz": 109.5655976677,
+          "GABA_LN_hz": 173.0333333334,
+          "exc_LN_hz": 233.21875,
+          "glut_LN_hz": 65.5555555555,
+          "cohort_PN_mean_hz": 178.68852459016392,
+          "cohort_PN_at_least_100hz": 313,
+          "connected_GABA_LN_mean_hz": 174.48739495798318,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9794017.509539722,
+              "during_refractory_mV": 2933453.115084883,
+              "accepted_mV": 6860564.394454839,
+              "refractory_fraction": 0.2995147917825954
+            },
+            "inh": {
+              "arrived_mV": -3714854.060935619,
+              "during_refractory_mV": -1233203.3614038187,
+              "accepted_mV": -2481650.6995318,
+              "refractory_fraction": 0.33196549344208304
+            },
+            "gaba_ln": {
+              "arrived_mV": -2715163.4388153544,
+              "during_refractory_mV": -853229.6721029285,
+              "accepted_mV": -1861933.7667124257,
+              "refractory_fraction": 0.3142461554635543
+            },
+            "exc_ln": {
+              "arrived_mV": 8119063.561430455,
+              "during_refractory_mV": 2407432.2767899116,
+              "accepted_mV": 5711631.284640543,
+              "refractory_fraction": 0.29651600317879007
+            },
+            "glut_ln": {
+              "arrived_mV": -111960.59467065799,
+              "during_refractory_mV": -38762.472357989995,
+              "accepted_mV": -73198.12231266798,
+              "refractory_fraction": 0.34621531327172067
+            }
+          }
+        },
+        "off_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.34693877555,
+          "GABA_LN_hz": 170.35000000005,
+          "exc_LN_hz": 232.7135416667,
+          "glut_LN_hz": 65.72222222225,
+          "cohort_PN_mean_hz": 178.27868852459017,
+          "cohort_PN_at_least_100hz": 313,
+          "connected_GABA_LN_mean_hz": 171.78151260504202,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19238475.80689645,
+              "during_refractory_mV": 5784066.148532868,
+              "accepted_mV": 13454409.658363584,
+              "refractory_fraction": 0.30065095627063365
+            },
+            "inh": {
+              "arrived_mV": -7299411.17743968,
+              "during_refractory_mV": -2437922.3735989295,
+              "accepted_mV": -4861488.803840751,
+              "refractory_fraction": 0.333988908740177
+            },
+            "gaba_ln": {
+              "arrived_mV": -5312333.829106208,
+              "during_refractory_mV": -1695367.1910690025,
+              "accepted_mV": -3616966.6380372057,
+              "refractory_fraction": 0.3191379242358806
+            },
+            "exc_ln": {
+              "arrived_mV": 16199263.313871386,
+              "during_refractory_mV": 4876171.161249998,
+              "accepted_mV": 11323092.152621388,
+              "refractory_fraction": 0.3010119081819323
+            },
+            "glut_ln": {
+              "arrived_mV": -224931.12671529804,
+              "during_refractory_mV": -76187.89476525901,
+              "accepted_mV": -148743.23195003904,
+              "refractory_fraction": 0.33871654793999356
+            }
+          }
+        },
+        "off_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.01020408165,
+          "GABA_LN_hz": 169.6916666667,
+          "exc_LN_hz": 231.4739583334,
+          "glut_LN_hz": 65.3888888889,
+          "cohort_PN_mean_hz": 177.72677595628414,
+          "cohort_PN_at_least_100hz": 312,
+          "connected_GABA_LN_mean_hz": 171.11764705882354,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19139349.835309625,
+              "during_refractory_mV": 5787068.261343006,
+              "accepted_mV": 13352281.573966619,
+              "refractory_fraction": 0.3023649346053863
+            },
+            "inh": {
+              "arrived_mV": -7249515.97627009,
+              "during_refractory_mV": -2418178.542310475,
+              "accepted_mV": -4831337.4339596145,
+              "refractory_fraction": 0.3335641372783951
+            },
+            "gaba_ln": {
+              "arrived_mV": -5272084.8712425325,
+              "during_refractory_mV": -1684556.9275673674,
+              "accepted_mV": -3587527.943675165,
+              "refractory_fraction": 0.3195238636532702
+            },
+            "exc_ln": {
+              "arrived_mV": 16120811.203582523,
+              "during_refractory_mV": 4895915.352217205,
+              "accepted_mV": 11224895.851365319,
+              "refractory_fraction": 0.30370155015085015
+            },
+            "glut_ln": {
+              "arrived_mV": -223043.169329642,
+              "during_refractory_mV": -76901.64346063299,
+              "accepted_mV": -146141.52586900903,
+              "refractory_fraction": 0.3447836743521959
+            }
+          }
+        },
+        "off_2_19": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.30252100840293,
+          "GABA_LN_hz": 169.73480392155295,
+          "exc_LN_hz": 231.94975490197353,
+          "glut_LN_hz": 65.66830065353824,
+          "cohort_PN_mean_hz": 178.13355834137704,
+          "cohort_PN_at_least_100hz": 309,
+          "connected_GABA_LN_mean_hz": 171.16114681168906,
+          "connected_GABA_LN_active": 95,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 326116743.0393696,
+              "during_refractory_mV": 98204246.6188196,
+              "accepted_mV": 227912496.42055,
+              "refractory_fraction": 0.3011321826152426
+            },
+            "inh": {
+              "arrived_mV": -123506529.10081482,
+              "during_refractory_mV": -41295571.92705774,
+              "accepted_mV": -82210957.17375708,
+              "refractory_fraction": 0.33435942397303836
+            },
+            "gaba_ln": {
+              "arrived_mV": -89788594.35901153,
+              "during_refractory_mV": -28681291.19217467,
+              "accepted_mV": -61107303.16683686,
+              "refractory_fraction": 0.31943134199757195
+            },
+            "exc_ln": {
+              "arrived_mV": 274573132.23434997,
+              "during_refractory_mV": 82972858.37087095,
+              "accepted_mV": 191600273.86347902,
+              "refractory_fraction": 0.302188556089505
+            },
+            "glut_ln": {
+              "arrived_mV": -3812064.545557378,
+              "during_refractory_mV": -1303646.7622847562,
+              "accepted_mV": -2508417.7832726217,
+              "refractory_fraction": 0.3419791943984895
+            }
+          }
+        },
+        "off_19_20": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.61370262385,
+          "GABA_LN_hz": 170.26666666665,
+          "exc_LN_hz": 232.83854166665,
+          "glut_LN_hz": 65.97222222225,
+          "cohort_PN_mean_hz": 178.75956284153006,
+          "cohort_PN_at_least_100hz": 312,
+          "connected_GABA_LN_mean_hz": 171.69747899159663,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19232941.173437122,
+              "during_refractory_mV": 5776146.809943313,
+              "accepted_mV": 13456794.36349381,
+              "refractory_fraction": 0.30032571502484645
+            },
+            "inh": {
+              "arrived_mV": -7287233.119639033,
+              "during_refractory_mV": -2442714.4819429163,
+              "accepted_mV": -4844518.637696117,
+              "refractory_fraction": 0.33520465749336614
+            },
+            "gaba_ln": {
+              "arrived_mV": -5304994.354059222,
+              "during_refractory_mV": -1688987.6042103723,
+              "accepted_mV": -3616006.74984885,
+              "refractory_fraction": 0.3183768900560676
+            },
+            "exc_ln": {
+              "arrived_mV": 16187691.21909047,
+              "during_refractory_mV": 4879187.749948862,
+              "accepted_mV": 11308503.469141606,
+              "refractory_fraction": 0.3014134433324709
+            },
+            "glut_ln": {
+              "arrived_mV": -224632.61427438588,
+              "during_refractory_mV": -77121.86350536499,
+              "accepted_mV": -147510.75076902087,
+              "refractory_fraction": 0.34332442666211244
+            }
+          }
+        },
+        "reodor": {
+          "ORN_hz": 60.28025477705,
+          "ALPN_hz": 109.6078717202,
+          "GABA_LN_hz": 172.31666666665,
+          "exc_LN_hz": 232.8802083334,
+          "glut_LN_hz": 65.42592592585,
+          "cohort_PN_mean_hz": 178.72131147540983,
+          "cohort_PN_at_least_100hz": 312,
+          "connected_GABA_LN_mean_hz": 173.76470588235293,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19573711.78916717,
+              "during_refractory_mV": 5871068.424309609,
+              "accepted_mV": 13702643.36485756,
+              "refractory_fraction": 0.29994660632322584
+            },
+            "inh": {
+              "arrived_mV": -7398104.052942757,
+              "during_refractory_mV": -2460093.6288561765,
+              "accepted_mV": -4938010.42408658,
+              "refractory_fraction": 0.3325302822521969
+            },
+            "gaba_ln": {
+              "arrived_mV": -5398026.754321095,
+              "during_refractory_mV": -1702525.234988568,
+              "accepted_mV": -3695501.5193325267,
+              "refractory_fraction": 0.31539770224845676
+            },
+            "exc_ln": {
+              "arrived_mV": 16224940.928056004,
+              "during_refractory_mV": 4829448.235602129,
+              "accepted_mV": 11395492.692453874,
+              "refractory_fraction": 0.297655828580004
+            },
+            "glut_ln": {
+              "arrived_mV": -223679.51932346405,
+              "during_refractory_mV": -77401.60723448396,
+              "accepted_mV": -146277.91208898008,
+              "refractory_fraction": 0.3460379719546568
+            }
+          }
+        },
+        "reoff_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.39941690965,
+          "GABA_LN_hz": 170.24166666669998,
+          "exc_LN_hz": 232.91145833335,
+          "glut_LN_hz": 65.98148148145,
+          "cohort_PN_mean_hz": 178.4016393442623,
+          "cohort_PN_at_least_100hz": 311,
+          "connected_GABA_LN_mean_hz": 171.67226890756302,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19243458.098600388,
+              "during_refractory_mV": 5759107.815547107,
+              "accepted_mV": 13484350.28305328,
+              "refractory_fraction": 0.2992761376899289
+            },
+            "inh": {
+              "arrived_mV": -7300662.247272366,
+              "during_refractory_mV": -2422384.351241352,
+              "accepted_mV": -4878277.896031014,
+              "refractory_fraction": 0.331803371967576
+            },
+            "gaba_ln": {
+              "arrived_mV": -5314123.830942642,
+              "during_refractory_mV": -1679209.0848436332,
+              "accepted_mV": -3634914.7460990087,
+              "refractory_fraction": 0.3159898297939677
+            },
+            "exc_ln": {
+              "arrived_mV": 16202448.09418106,
+              "during_refractory_mV": 4856322.5790016595,
+              "accepted_mV": 11346125.515179401,
+              "refractory_fraction": 0.29972770477479616
+            },
+            "glut_ln": {
+              "arrived_mV": -224715.55421984597,
+              "during_refractory_mV": -77556.22592281902,
+              "accepted_mV": -147159.32829702695,
+              "refractory_fraction": 0.3451306528027136
+            }
+          }
+        },
+        "reoff_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 109.221574344,
+          "GABA_LN_hz": 170.91666666665,
+          "exc_LN_hz": 232.78645833335,
+          "glut_LN_hz": 65.8981481482,
+          "cohort_PN_mean_hz": 178.31147540983608,
+          "cohort_PN_at_least_100hz": 310,
+          "connected_GABA_LN_mean_hz": 172.35294117647058,
+          "connected_GABA_LN_active": 94,
+          "cohort_PN_receiving_GABA_LN": 357,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 19255292.606148247,
+              "during_refractory_mV": 5744478.381807438,
+              "accepted_mV": 13510814.224340808,
+              "refractory_fraction": 0.29833243769939993
+            },
+            "inh": {
+              "arrived_mV": -7322304.582368013,
+              "during_refractory_mV": -2424512.1917113047,
+              "accepted_mV": -4897792.390656709,
+              "refractory_fraction": 0.331113266928214
+            },
+            "gaba_ln": {
+              "arrived_mV": -5335814.60583985,
+              "during_refractory_mV": -1687084.0948393238,
+              "accepted_mV": -3648730.5110005266,
+              "refractory_fraction": 0.31618116809996977
+            },
+            "exc_ln": {
+              "arrived_mV": 16212658.655676724,
+              "during_refractory_mV": 4849945.493035792,
+              "accepted_mV": 11362713.162640933,
+              "refractory_fraction": 0.2991455994996617
+            },
+            "glut_ln": {
+              "arrived_mV": -225496.33423542097,
+              "during_refractory_mV": -76905.039759875,
+              "accepted_mV": -148591.294475546,
+              "refractory_fraction": 0.3410478490509969
+            }
+          }
+        }
+      },
+      "reodor_minus_preceding_off_PN_hz": -0.005830903650007713
+    },
+    {
+      "trial": "both_2026091711",
+      "condition": "both",
+      "seed": 2026091711,
+      "phases": {
+        "quiet": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 0.0,
+          "GABA_LN_hz": 0.0,
+          "exc_LN_hz": 0.0,
+          "glut_LN_hz": 0.0,
+          "cohort_PN_mean_hz": 0.0,
+          "cohort_PN_at_least_100hz": 0,
+          "connected_GABA_LN_mean_hz": 0.0,
+          "connected_GABA_LN_active": 0,
+          "cohort_PN_receiving_GABA_LN": 0,
+          "cohort_PN_mean_adaptation_mV": 0.0,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "inh": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "gaba_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "exc_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            },
+            "glut_ln": {
+              "arrived_mV": 0.0,
+              "during_refractory_mV": 0.0,
+              "accepted_mV": 0.0,
+              "refractory_fraction": null
+            }
+          }
+        },
+        "odor_early": {
+          "ORN_hz": 60.152866242099996,
+          "ALPN_hz": 50.7434402332,
+          "GABA_LN_hz": 86.2499999998,
+          "exc_LN_hz": 116.66666666660001,
+          "glut_LN_hz": 26.6111111111,
+          "cohort_PN_mean_hz": 87.05464480874316,
+          "cohort_PN_at_least_100hz": 130,
+          "connected_GABA_LN_mean_hz": 86.97478991596638,
+          "connected_GABA_LN_active": 86,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 7.500101639032787,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 5068165.085807324,
+              "during_refractory_mV": 977472.8937740376,
+              "accepted_mV": 4090692.1920332867,
+              "refractory_fraction": 0.19286524357924162
+            },
+            "inh": {
+              "arrived_mV": -1881369.9666997269,
+              "during_refractory_mV": -374534.68407284404,
+              "accepted_mV": -1506835.282626883,
+              "refractory_fraction": 0.1990755091779463
+            },
+            "gaba_ln": {
+              "arrived_mV": -1401888.122277624,
+              "during_refractory_mV": -278569.88982772,
+              "accepted_mV": -1123318.232449904,
+              "refractory_fraction": 0.19871050007552116
+            },
+            "exc_ln": {
+              "arrived_mV": 4173859.0223072786,
+              "during_refractory_mV": 811981.5011447647,
+              "accepted_mV": 3361877.5211625136,
+              "refractory_fraction": 0.1945397524940618
+            },
+            "glut_ln": {
+              "arrived_mV": -49588.644411445996,
+              "during_refractory_mV": -8990.230907559999,
+              "accepted_mV": -40598.413503886,
+              "refractory_fraction": 0.18129616193914114
+            }
+          }
+        },
+        "odor_tail": {
+          "ORN_hz": 58.7770700636,
+          "ALPN_hz": 47.6384839648,
+          "GABA_LN_hz": 81.4666666666,
+          "exc_LN_hz": 111.125,
+          "glut_LN_hz": 24.740740740699998,
+          "cohort_PN_mean_hz": 82.10382513661202,
+          "cohort_PN_at_least_100hz": 109,
+          "connected_GABA_LN_mean_hz": 82.15126050420169,
+          "connected_GABA_LN_active": 81,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.237853449346995,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 4851568.532703268,
+              "during_refractory_mV": 851678.8357787188,
+              "accepted_mV": 3999889.6969245495,
+              "refractory_fraction": 0.17554711018462474
+            },
+            "inh": {
+              "arrived_mV": -1786062.9724801832,
+              "during_refractory_mV": -320005.3897067361,
+              "accepted_mV": -1466057.582773447,
+              "refractory_fraction": 0.17916803306345158
+            },
+            "gaba_ln": {
+              "arrived_mV": -1334883.3288834123,
+              "during_refractory_mV": -237833.12352742013,
+              "accepted_mV": -1097050.205355992,
+              "refractory_fraction": 0.17816772326189736
+            },
+            "exc_ln": {
+              "arrived_mV": 3996850.051267625,
+              "during_refractory_mV": 712008.5948112014,
+              "accepted_mV": 3284841.4564564233,
+              "refractory_fraction": 0.17814243358601448
+            },
+            "glut_ln": {
+              "arrived_mV": -46413.508275515,
+              "during_refractory_mV": -7483.547213669998,
+              "accepted_mV": -38929.961061845,
+              "refractory_fraction": 0.16123640491140964
+            }
+          }
+        },
+        "off_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 46.99125364425,
+          "GABA_LN_hz": 79.44166666665,
+          "exc_LN_hz": 110.3072916666,
+          "glut_LN_hz": 24.86111111115,
+          "cohort_PN_mean_hz": 81.31693989071039,
+          "cohort_PN_at_least_100hz": 109,
+          "connected_GABA_LN_mean_hz": 80.10924369747899,
+          "connected_GABA_LN_active": 80,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.171443635721312,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9335162.3251493,
+              "during_refractory_mV": 1577010.919351572,
+              "accepted_mV": 7758151.405797727,
+              "refractory_fraction": 0.16893235108542695
+            },
+            "inh": {
+              "arrived_mV": -3477857.30959534,
+              "during_refractory_mV": -614517.455370902,
+              "accepted_mV": -2863339.854224438,
+              "refractory_fraction": 0.1766942691051356
+            },
+            "gaba_ln": {
+              "arrived_mV": -2586601.7936581396,
+              "during_refractory_mV": -456050.75918709545,
+              "accepted_mV": -2130551.0344710443,
+              "refractory_fraction": 0.1763127050732146
+            },
+            "exc_ln": {
+              "arrived_mV": 7938714.818001872,
+              "during_refractory_mV": 1382089.7710993276,
+              "accepted_mV": 6556625.046902545,
+              "refractory_fraction": 0.17409490109977166
+            },
+            "glut_ln": {
+              "arrived_mV": -93839.45650040697,
+              "during_refractory_mV": -15531.050661799996,
+              "accepted_mV": -78308.40583860698,
+              "refractory_fraction": 0.16550661353982415
+            }
+          }
+        },
+        "off_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 46.93877551025,
+          "GABA_LN_hz": 79.6333333333,
+          "exc_LN_hz": 110.06770833335,
+          "glut_LN_hz": 24.8148148148,
+          "cohort_PN_mean_hz": 81.24590163934427,
+          "cohort_PN_at_least_100hz": 108,
+          "connected_GABA_LN_mean_hz": 80.30252100840336,
+          "connected_GABA_LN_active": 80,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.140101726612022,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9322128.05384207,
+              "during_refractory_mV": 1580010.1652299226,
+              "accepted_mV": 7742117.888612147,
+              "refractory_fraction": 0.169490287636494
+            },
+            "inh": {
+              "arrived_mV": -3486734.5698084906,
+              "during_refractory_mV": -612362.0875965426,
+              "accepted_mV": -2874372.482211948,
+              "refractory_fraction": 0.17562624149798034
+            },
+            "gaba_ln": {
+              "arrived_mV": -2596891.358203654,
+              "during_refractory_mV": -456729.2940449657,
+              "accepted_mV": -2140162.0641586883,
+              "refractory_fraction": 0.1758753952498416
+            },
+            "exc_ln": {
+              "arrived_mV": 7925517.883678555,
+              "during_refractory_mV": 1378659.3796738342,
+              "accepted_mV": 6546858.504004721,
+              "refractory_fraction": 0.17395196123561613
+            },
+            "glut_ln": {
+              "arrived_mV": -93443.70402205098,
+              "during_refractory_mV": -15322.091926215995,
+              "accepted_mV": -78121.61209583498,
+              "refractory_fraction": 0.16397136742995833
+            }
+          }
+        },
+        "off_2_19": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 47.11996227060588,
+          "GABA_LN_hz": 79.62009803921177,
+          "exc_LN_hz": 110.34313725489118,
+          "glut_LN_hz": 24.861111111111764,
+          "cohort_PN_mean_hz": 81.4938926390601,
+          "cohort_PN_at_least_100hz": 107,
+          "connected_GABA_LN_mean_hz": 80.28917449330253,
+          "connected_GABA_LN_active": 82,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.168192739385246,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 158824342.93876278,
+              "during_refractory_mV": 26866885.951019406,
+              "accepted_mV": 131957456.98774338,
+              "refractory_fraction": 0.1691610080287148
+            },
+            "inh": {
+              "arrived_mV": -59203619.9326365,
+              "during_refractory_mV": -10471740.047492264,
+              "accepted_mV": -48731879.88514423,
+              "refractory_fraction": 0.17687668523322217
+            },
+            "gaba_ln": {
+              "arrived_mV": -44049048.83722842,
+              "during_refractory_mV": -7812507.308089618,
+              "accepted_mV": -36236541.5291388,
+              "refractory_fraction": 0.1773592736805434
+            },
+            "exc_ln": {
+              "arrived_mV": 135006907.39101136,
+              "during_refractory_mV": 23521316.695227265,
+              "accepted_mV": 111485590.69578409,
+              "refractory_fraction": 0.1742230612475558
+            },
+            "glut_ln": {
+              "arrived_mV": -1587706.239975811,
+              "during_refractory_mV": -258953.863993168,
+              "accepted_mV": -1328752.375982643,
+              "refractory_fraction": 0.16309935520383997
+            }
+          }
+        },
+        "off_19_20": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 47.1705539358,
+          "GABA_LN_hz": 79.7666666667,
+          "exc_LN_hz": 110.53645833325,
+          "glut_LN_hz": 24.8055555556,
+          "cohort_PN_mean_hz": 81.59562841530055,
+          "cohort_PN_at_least_100hz": 110,
+          "connected_GABA_LN_mean_hz": 80.43697478991596,
+          "connected_GABA_LN_active": 80,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.175010100650272,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9359784.957335116,
+              "during_refractory_mV": 1589462.108326681,
+              "accepted_mV": 7770322.849008435,
+              "refractory_fraction": 0.16981822932598942
+            },
+            "inh": {
+              "arrived_mV": -3487829.4139067107,
+              "during_refractory_mV": -618048.1250546017,
+              "accepted_mV": -2869781.288852109,
+              "refractory_fraction": 0.17720136271295656
+            },
+            "gaba_ln": {
+              "arrived_mV": -2596750.8610388055,
+              "during_refractory_mV": -461401.81890237133,
+              "accepted_mV": -2135349.042136434,
+              "refractory_fraction": 0.17768428455157687
+            },
+            "exc_ln": {
+              "arrived_mV": 7956642.369483823,
+              "during_refractory_mV": 1391212.8137975878,
+              "accepted_mV": 6565429.555686235,
+              "refractory_fraction": 0.17484923277855466
+            },
+            "glut_ln": {
+              "arrived_mV": -92816.11283207497,
+              "during_refractory_mV": -15313.511925579001,
+              "accepted_mV": -77502.60090649597,
+              "refractory_fraction": 0.16498764555335943
+            }
+          }
+        },
+        "reodor": {
+          "ORN_hz": 60.21656050955,
+          "ALPN_hz": 47.6880466471,
+          "GABA_LN_hz": 81.58333333345,
+          "exc_LN_hz": 111.3125000001,
+          "glut_LN_hz": 24.7592592592,
+          "cohort_PN_mean_hz": 82.14480874316939,
+          "cohort_PN_at_least_100hz": 107,
+          "connected_GABA_LN_mean_hz": 82.26890756302521,
+          "connected_GABA_LN_active": 82,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.22731539330601,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9730007.659118049,
+              "during_refractory_mV": 1716063.2212620967,
+              "accepted_mV": 8013944.437855952,
+              "refractory_fraction": 0.17636812645814964
+            },
+            "inh": {
+              "arrived_mV": -3581054.685735468,
+              "during_refractory_mV": -645898.6254238005,
+              "accepted_mV": -2935156.060311667,
+              "refractory_fraction": 0.18036547389142915
+            },
+            "gaba_ln": {
+              "arrived_mV": -2678093.3693902497,
+              "during_refractory_mV": -482445.3408002774,
+              "accepted_mV": -2195648.0285899723,
+              "refractory_fraction": 0.18014507870206217
+            },
+            "exc_ln": {
+              "arrived_mV": 8015044.104181898,
+              "during_refractory_mV": 1429415.6191093905,
+              "accepted_mV": 6585628.4850725075,
+              "refractory_fraction": 0.17834157872738146
+            },
+            "glut_ln": {
+              "arrived_mV": -93237.962793709,
+              "during_refractory_mV": -15263.283188104988,
+              "accepted_mV": -77974.679605604,
+              "refractory_fraction": 0.16370245263590036
+            }
+          }
+        },
+        "reoff_0_1": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 47.1574344024,
+          "GABA_LN_hz": 79.63333333335,
+          "exc_LN_hz": 110.3177083333,
+          "glut_LN_hz": 24.91666666675,
+          "cohort_PN_mean_hz": 81.56284153005464,
+          "cohort_PN_at_least_100hz": 109,
+          "connected_GABA_LN_mean_hz": 80.30252100840336,
+          "connected_GABA_LN_active": 80,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.17831718415847,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9345865.159009097,
+              "during_refractory_mV": 1580133.1445120645,
+              "accepted_mV": 7765732.014497032,
+              "refractory_fraction": 0.169072966239928
+            },
+            "inh": {
+              "arrived_mV": -3484474.2761784866,
+              "during_refractory_mV": -619203.2074568188,
+              "accepted_mV": -2865271.068721668,
+              "refractory_fraction": 0.17770348074887068
+            },
+            "gaba_ln": {
+              "arrived_mV": -2591643.0796424113,
+              "during_refractory_mV": -461767.3626326332,
+              "accepted_mV": -2129875.717009778,
+              "refractory_fraction": 0.17817552357415928
+            },
+            "exc_ln": {
+              "arrived_mV": 7941782.167227147,
+              "during_refractory_mV": 1382307.3090138435,
+              "accepted_mV": 6559474.858213304,
+              "refractory_fraction": 0.17405505211640332
+            },
+            "glut_ln": {
+              "arrived_mV": -93912.20776784298,
+              "during_refractory_mV": -15460.980701687,
+              "accepted_mV": -78451.22706615597,
+              "refractory_fraction": 0.16463227805172614
+            }
+          }
+        },
+        "reoff_1_2": {
+          "ORN_hz": 0.0,
+          "ALPN_hz": 47.0932944608,
+          "GABA_LN_hz": 79.5,
+          "exc_LN_hz": 110.2656250001,
+          "glut_LN_hz": 24.77777777775,
+          "cohort_PN_mean_hz": 81.4535519125683,
+          "cohort_PN_at_least_100hz": 110,
+          "connected_GABA_LN_mean_hz": 80.16806722689076,
+          "connected_GABA_LN_active": 80,
+          "cohort_PN_receiving_GABA_LN": 356,
+          "cohort_PN_mean_adaptation_mV": 8.173941797379781,
+          "cohort_inputs": {
+            "exc": {
+              "arrived_mV": 9335037.91605079,
+              "during_refractory_mV": 1579016.1369669451,
+              "accepted_mV": 7756021.779083844,
+              "refractory_fraction": 0.16914940797958233
+            },
+            "inh": {
+              "arrived_mV": -3480775.93911123,
+              "during_refractory_mV": -613483.207960498,
+              "accepted_mV": -2867292.731150732,
+              "refractory_fraction": 0.17624897973672585
+            },
+            "gaba_ln": {
+              "arrived_mV": -2588215.548412924,
+              "during_refractory_mV": -456275.2691676678,
+              "accepted_mV": -2131940.2792452564,
+              "refractory_fraction": 0.17628951709507062
+            },
+            "exc_ln": {
+              "arrived_mV": 7936089.160156009,
+              "during_refractory_mV": 1381342.9535399647,
+              "accepted_mV": 6554746.206616044,
+              "refractory_fraction": 0.1740583964801134
+            },
+            "glut_ln": {
+              "arrived_mV": -92918.000292419,
+              "during_refractory_mV": -15234.1469152,
+              "accepted_mV": -77683.853377219,
+              "refractory_fraction": 0.16395259117993444
+            }
+          }
+        }
+      },
+      "reodor_minus_preceding_off_PN_hz": 0.517492711300001
+    }
+  ],
+  "units": "Inputs are sums of signed synaptic g increments, not measured membrane voltage or conductance. Input categories overlap: GABA/glutamate LN subset of all inhibition; excitatory LN subset of all excitation.",
+  "limits": "The cohort is chosen from baseline first-seed OFF 1-2s, not independently localized causal neurons. Late phase means and LN activity do not prove causation. Adaptation is not calibrated to biology."
+}

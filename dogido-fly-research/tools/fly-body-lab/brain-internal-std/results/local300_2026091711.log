@@ -1,0 +1,8 @@
+targets=192 ACh=144 unknown=46 PN=686 GABA=120 edges=37660 contacts=819907 use=0.200 tau_ms=300.0
+source_mode=local all_orn_count=2635
+local300_2026091711 t=1.5s eLN=0.833 PN=1.895 wall=1.6s
+local300_2026091711 t=3.5s eLN=15.313 PN=10.729 wall=5.2s
+local300_2026091711 t=21.5s eLN=0.000 PN=0.087 wall=34.2s
+local300_2026091711 t=22.5s eLN=21.146 PN=11.720 wall=36.0s
+local300_2026091711 t=24.5s eLN=32.188 PN=23.382 wall=39.6s
+DONE local300_2026091711 wall_seconds=39.644

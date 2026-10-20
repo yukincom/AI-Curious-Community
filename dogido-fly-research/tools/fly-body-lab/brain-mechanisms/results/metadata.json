@@ -1,0 +1,12 @@
+{
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "source_sha256": {
+    "src/main/java/com/fruitfly/brain/Connectome.java": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+    "src/main/java/com/fruitfly/brain/PopulationIndex.java": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+    "src/main/java/com/fruitfly/brain/LifConfig.java": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+    "src/main/java/com/fruitfly/brain/LifNetwork.java": "33c30cc556213ded9ca12b9074811d42ae5cf1ab5905caf50f145ce91fa4aaf0"
+  },
+  "data_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3",
+  "wrapper_sha256": "d6d5053be6acdaab82c1f08559ed03c6f1904bc8b01d6a9f41745a2fc4e3b1c0",
+  "scope": "isolated mechanism assertions; no whole-network washout intervention"
+}

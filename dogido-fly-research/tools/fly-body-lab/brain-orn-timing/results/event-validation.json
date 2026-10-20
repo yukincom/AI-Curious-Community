@@ -1,0 +1,516 @@
+{
+  "hungry_2026091701": {
+    "all_nonzero_source_spikes_emit_once_to_every_original_target_edge": true,
+    "all_OFF_natural_spikes_match_1ms_individual_counts": true,
+    "max_signed_weight_error_mV": 4.632568284534955e-08,
+    "nonzero_arrival_events": {
+      "OFF_all": {
+        "LN_neg": 319342,
+        "LN_pos": 572977,
+        "PN_pos": 118867,
+        "PN_neg": 7389,
+        "other_pos": 45130,
+        "other_neg": 1872
+      },
+      "OFF_last1s": {
+        "LN_neg": 15974,
+        "LN_pos": 28660,
+        "PN_pos": 5945,
+        "other_pos": 2268,
+        "other_neg": 93,
+        "PN_neg": 363
+      },
+      "reOFF_all": {
+        "LN_neg": 31929,
+        "PN_pos": 11893,
+        "LN_pos": 57324,
+        "other_neg": 188,
+        "other_pos": 4519,
+        "PN_neg": 742
+      }
+    },
+    "first_OFF_ORN_source_emission_exceptions": [],
+    "all_ORN_arrivals_in_both_OFF_periods": []
+  },
+  "satiated_2026091701": {
+    "all_nonzero_source_spikes_emit_once_to_every_original_target_edge": true,
+    "all_OFF_natural_spikes_match_1ms_individual_counts": true,
+    "max_signed_weight_error_mV": 4.632568284534955e-08,
+    "nonzero_arrival_events": {
+      "OFF_all": {
+        "LN_neg": 319209,
+        "LN_pos": 573948,
+        "PN_pos": 118598,
+        "other_pos": 44838,
+        "PN_neg": 7288,
+        "other_neg": 1871
+      },
+      "OFF_last1s": {
+        "LN_neg": 15961,
+        "LN_pos": 28690,
+        "PN_pos": 5929,
+        "other_pos": 2253,
+        "PN_neg": 363,
+        "other_neg": 93
+      },
+      "reOFF_all": {
+        "LN_neg": 31921,
+        "PN_pos": 11853,
+        "LN_pos": 57391,
+        "PN_neg": 725,
+        "other_pos": 4485,
+        "other_neg": 188,
+        "ORN_other_pos": 1
+      }
+    },
+    "first_OFF_ORN_source_emission_exceptions": [],
+    "all_ORN_arrivals_in_both_OFF_periods": [
+      {
+        "emit_step": "46243",
+        "arrival_step": "46247",
+        "pre_body_id": "648510281",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "2.68124986",
+        "forced": "0",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 2,
+        "emitted_before_OFF": false,
+        "arrival_after_OFF_ms": 623.5
+      }
+    ]
+  },
+  "hungry_2026091711": {
+    "all_nonzero_source_spikes_emit_once_to_every_original_target_edge": true,
+    "all_OFF_natural_spikes_match_1ms_individual_counts": true,
+    "max_signed_weight_error_mV": 4.632568284534955e-08,
+    "nonzero_arrival_events": {
+      "OFF_all": {
+        "LN_neg": 319296,
+        "LN_pos": 566454,
+        "PN_pos": 117129,
+        "ORN_other_pos": 1,
+        "other_pos": 44822,
+        "PN_neg": 7257,
+        "other_neg": 1864
+      },
+      "OFF_last1s": {
+        "LN_neg": 15964,
+        "LN_pos": 28316,
+        "PN_pos": 5856,
+        "PN_neg": 362,
+        "other_pos": 2241,
+        "other_neg": 92
+      },
+      "reOFF_all": {
+        "LN_neg": 31927,
+        "LN_pos": 56644,
+        "PN_pos": 11735,
+        "PN_neg": 727,
+        "other_pos": 4485,
+        "other_neg": 186
+      }
+    },
+    "first_OFF_ORN_source_emission_exceptions": [],
+    "all_ORN_arrivals_in_both_OFF_periods": [
+      {
+        "emit_step": "2997",
+        "arrival_step": "3001",
+        "pre_body_id": "821459348",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "1.07249999",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 1,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 0.5
+      }
+    ]
+  },
+  "satiated_2026091711": {
+    "all_nonzero_source_spikes_emit_once_to_every_original_target_edge": true,
+    "all_OFF_natural_spikes_match_1ms_individual_counts": true,
+    "max_signed_weight_error_mV": 4.632568284534955e-08,
+    "nonzero_arrival_events": {
+      "OFF_all": {
+        "LN_neg": 319305,
+        "LN_pos": 573831,
+        "PN_pos": 119013,
+        "ORN_other_pos": 1,
+        "PN_neg": 7390,
+        "other_pos": 44562,
+        "other_neg": 1871
+      },
+      "OFF_last1s": {
+        "LN_neg": 15963,
+        "LN_pos": 28684,
+        "PN_pos": 5949,
+        "PN_neg": 370,
+        "other_neg": 94,
+        "other_pos": 2222
+      },
+      "reOFF_all": {
+        "PN_pos": 11896,
+        "LN_neg": 31925,
+        "LN_pos": 57346,
+        "other_pos": 4466,
+        "PN_neg": 741,
+        "other_neg": 186
+      }
+    },
+    "first_OFF_ORN_source_emission_exceptions": [],
+    "all_ORN_arrivals_in_both_OFF_periods": [
+      {
+        "emit_step": "2997",
+        "arrival_step": "3001",
+        "pre_body_id": "821459348",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "1.07249999",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 1,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 0.5
+      }
+    ]
+  },
+  "hungry_2026091721": {
+    "all_nonzero_source_spikes_emit_once_to_every_original_target_edge": true,
+    "all_OFF_natural_spikes_match_1ms_individual_counts": true,
+    "max_signed_weight_error_mV": 4.632568284534955e-08,
+    "nonzero_arrival_events": {
+      "OFF_all": {
+        "ORN_other_pos": 2,
+        "LN_neg": 319455,
+        "LN_pos": 575805,
+        "PN_pos": 119139,
+        "other_pos": 44886,
+        "other_neg": 1872,
+        "PN_neg": 7430
+      },
+      "OFF_last1s": {
+        "LN_neg": 15972,
+        "LN_pos": 28779,
+        "PN_pos": 5960,
+        "PN_neg": 376,
+        "other_pos": 2241,
+        "other_neg": 94
+      },
+      "reOFF_all": {
+        "LN_neg": 31941,
+        "LN_pos": 57568,
+        "PN_pos": 11929,
+        "other_pos": 4493,
+        "PN_neg": 747,
+        "ORN_other_pos": 1,
+        "other_neg": 189
+      }
+    },
+    "first_OFF_ORN_source_emission_exceptions": [],
+    "all_ORN_arrivals_in_both_OFF_periods": [
+      {
+        "emit_step": "2996",
+        "arrival_step": "3000",
+        "pre_body_id": "160643",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "1.25124991",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 1,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 0.0
+      },
+      {
+        "emit_step": "2998",
+        "arrival_step": "3002",
+        "pre_body_id": "821459348",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "1.07249999",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 1,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 1.0
+      },
+      {
+        "emit_step": "45001",
+        "arrival_step": "45005",
+        "pre_body_id": "648510281",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "2.68124986",
+        "forced": "0",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 2,
+        "emitted_before_OFF": false,
+        "arrival_after_OFF_ms": 2.5
+      }
+    ]
+  },
+  "satiated_2026091721": {
+    "all_nonzero_source_spikes_emit_once_to_every_original_target_edge": true,
+    "all_OFF_natural_spikes_match_1ms_individual_counts": true,
+    "max_signed_weight_error_mV": 4.632568284534955e-08,
+    "nonzero_arrival_events": {
+      "OFF_all": {
+        "ORN_other_pos": 2,
+        "LN_pos": 574345,
+        "LN_neg": 319169,
+        "other_pos": 45056,
+        "PN_pos": 119270,
+        "PN_neg": 7416,
+        "other_neg": 1876
+      },
+      "OFF_last1s": {
+        "LN_pos": 28709,
+        "LN_neg": 15961,
+        "other_pos": 2248,
+        "PN_pos": 5955,
+        "PN_neg": 372,
+        "other_neg": 94
+      },
+      "reOFF_all": {
+        "LN_pos": 57494,
+        "LN_neg": 31922,
+        "PN_pos": 11917,
+        "PN_neg": 743,
+        "other_pos": 4513,
+        "other_neg": 188
+      }
+    },
+    "first_OFF_ORN_source_emission_exceptions": [
+      {
+        "emit_step": "4061",
+        "arrival_step": "4065",
+        "pre_body_id": "648510281",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "2.68124986",
+        "forced": "0",
+        "pre_type": "ORN_DM1",
+        "emit_after_OFF_ms": 530.5,
+        "arrival_after_OFF_ms": 532.5
+      }
+    ],
+    "all_ORN_arrivals_in_both_OFF_periods": [
+      {
+        "emit_step": "2996",
+        "arrival_step": "3000",
+        "pre_body_id": "160643",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "1.25124991",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 1,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 0.0
+      },
+      {
+        "emit_step": "4061",
+        "arrival_step": "4065",
+        "pre_body_id": "648510281",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "2.68124986",
+        "forced": "0",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 1,
+        "emitted_before_OFF": false,
+        "arrival_after_OFF_ms": 532.5
+      }
+    ]
+  },
+  "hungry_2026091731": {
+    "all_nonzero_source_spikes_emit_once_to_every_original_target_edge": true,
+    "all_OFF_natural_spikes_match_1ms_individual_counts": true,
+    "max_signed_weight_error_mV": 4.632568284534955e-08,
+    "nonzero_arrival_events": {
+      "OFF_all": {
+        "LN_neg": 319123,
+        "LN_pos": 574925,
+        "PN_pos": 118410,
+        "other_pos": 44414,
+        "other_neg": 1870,
+        "PN_neg": 7424,
+        "ORN_other_pos": 1
+      },
+      "OFF_last1s": {
+        "LN_neg": 15950,
+        "LN_pos": 28721,
+        "PN_pos": 5914,
+        "PN_neg": 370,
+        "other_pos": 2220,
+        "other_neg": 93
+      },
+      "reOFF_all": {
+        "ORN_other_pos": 4,
+        "LN_neg": 31903,
+        "LN_pos": 57507,
+        "PN_pos": 11825,
+        "PN_neg": 741,
+        "other_pos": 4458,
+        "other_neg": 186
+      }
+    },
+    "first_OFF_ORN_source_emission_exceptions": [
+      {
+        "emit_step": "31810",
+        "arrival_step": "31814",
+        "pre_body_id": "648510281",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "2.68124986",
+        "forced": "0",
+        "pre_type": "ORN_DM1",
+        "emit_after_OFF_ms": 14405.0,
+        "arrival_after_OFF_ms": 14407.0
+      }
+    ],
+    "all_ORN_arrivals_in_both_OFF_periods": [
+      {
+        "emit_step": "31810",
+        "arrival_step": "31814",
+        "pre_body_id": "648510281",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "2.68124986",
+        "forced": "0",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 1,
+        "emitted_before_OFF": false,
+        "arrival_after_OFF_ms": 14407.0
+      },
+      {
+        "emit_step": "44996",
+        "arrival_step": "45000",
+        "pre_body_id": "821459348",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "1.07249999",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 2,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 0.0
+      },
+      {
+        "emit_step": "44997",
+        "arrival_step": "45001",
+        "pre_body_id": "802014155",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "0.893749952",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 2,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 0.5
+      },
+      {
+        "emit_step": "44999",
+        "arrival_step": "45003",
+        "pre_body_id": "160643",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "1.25124991",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 2,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 1.5
+      },
+      {
+        "emit_step": "44999",
+        "arrival_step": "45003",
+        "pre_body_id": "192631",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "0.893749952",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 2,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 1.5
+      }
+    ]
+  },
+  "satiated_2026091731": {
+    "all_nonzero_source_spikes_emit_once_to_every_original_target_edge": true,
+    "all_OFF_natural_spikes_match_1ms_individual_counts": true,
+    "max_signed_weight_error_mV": 4.632568284534955e-08,
+    "nonzero_arrival_events": {
+      "OFF_all": {
+        "LN_neg": 319186,
+        "LN_pos": 565828,
+        "PN_pos": 117279,
+        "PN_neg": 7357,
+        "other_pos": 44431,
+        "other_neg": 1869
+      },
+      "OFF_last1s": {
+        "LN_pos": 28334,
+        "LN_neg": 15963,
+        "PN_pos": 5859,
+        "other_pos": 2222,
+        "PN_neg": 362,
+        "other_neg": 94
+      },
+      "reOFF_all": {
+        "LN_pos": 56585,
+        "LN_neg": 31913,
+        "PN_pos": 11733,
+        "PN_neg": 733,
+        "other_pos": 4445,
+        "ORN_other_pos": 3,
+        "other_neg": 186
+      }
+    },
+    "first_OFF_ORN_source_emission_exceptions": [],
+    "all_ORN_arrivals_in_both_OFF_periods": [
+      {
+        "emit_step": "44997",
+        "arrival_step": "45001",
+        "pre_body_id": "802014155",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "0.893749952",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 2,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 0.5
+      },
+      {
+        "emit_step": "44999",
+        "arrival_step": "45003",
+        "pre_body_id": "160643",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "1.25124991",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 2,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 1.5
+      },
+      {
+        "emit_step": "44999",
+        "arrival_step": "45003",
+        "pre_body_id": "192631",
+        "post_body_id": "222974",
+        "source_group": "ORN_other_pos",
+        "jump_mV": "0.893749952",
+        "forced": "1",
+        "pre_type": "ORN_DM1",
+        "OFF_number": 2,
+        "emitted_before_OFF": true,
+        "arrival_after_OFF_ms": 1.5
+      }
+    ]
+  }
+}

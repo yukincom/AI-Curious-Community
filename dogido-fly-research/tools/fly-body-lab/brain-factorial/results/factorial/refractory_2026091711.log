@@ -1,0 +1,6 @@
+refractory_2026091711 t=1.5s PN=110.058 GABA_LN=173.667 exc_LN=234.167 wall=2.8s
+refractory_2026091711 t=3.5s PN=108.601 GABA_LN=168.167 exc_LN=230.313 wall=8.5s
+refractory_2026091711 t=21.5s PN=109.825 GABA_LN=171.500 exc_LN=233.438 wall=59.9s
+refractory_2026091711 t=22.5s PN=109.038 GABA_LN=173.333 exc_LN=233.333 wall=62.8s
+refractory_2026091711 t=24.5s PN=109.329 GABA_LN=168.167 exc_LN=232.917 wall=68.5s
+DONE refractory_2026091711 wall_seconds=68.568

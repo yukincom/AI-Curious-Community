@@ -1,0 +1,96 @@
+{
+  "means": [
+    3.0281401323574415,
+    0.4429812149535002,
+    0.0,
+    0.0,
+    1.6713755487447242,
+    1.413359990554592,
+    1.4319386390309863,
+    1.548796504168746
+  ],
+  "scales": [
+    2.3876352806723373,
+    0.3545752046349582,
+    1e-06,
+    1e-06,
+    1.5070103384543996,
+    1.1150386621171855,
+    1.1310874237673538,
+    1.223335597189118
+  ],
+  "weights": [
+    0.1958689056847039,
+    2.172485489762636,
+    0.0,
+    0.0,
+    0.5509803612787436,
+    0.0288783876689103,
+    -0.30945264322535304,
+    -0.09703910989032519
+  ],
+  "bias": -1.356021161701039,
+  "training_loss": [
+    {
+      "epoch": 0,
+      "weighted_cross_entropy": 0.6931471805599425
+    },
+    {
+      "epoch": 100,
+      "weighted_cross_entropy": 0.459463930319643
+    },
+    {
+      "epoch": 200,
+      "weighted_cross_entropy": 0.43652172629311914
+    },
+    {
+      "epoch": 300,
+      "weighted_cross_entropy": 0.42197617524146674
+    },
+    {
+      "epoch": 400,
+      "weighted_cross_entropy": 0.41080250472632673
+    },
+    {
+      "epoch": 500,
+      "weighted_cross_entropy": 0.40150128900062587
+    },
+    {
+      "epoch": 600,
+      "weighted_cross_entropy": 0.39345333759550455
+    },
+    {
+      "epoch": 700,
+      "weighted_cross_entropy": 0.3863413780945972
+    },
+    {
+      "epoch": 799,
+      "weighted_cross_entropy": 0.3800357148205329
+    }
+  ],
+  "threshold": 0.5,
+  "readout_trained": true,
+  "fixed_circuit_trained": false,
+  "schema_version": 1,
+  "id": "continuous-odor-current_only-01",
+  "features_hz": [
+    "class:ALPN",
+    "prefix:KC",
+    "DNp01",
+    "DNp09",
+    "DNa02",
+    "superclass:descending_neuron",
+    "superclass:vnc_motor",
+    "superclass:cb_motor"
+  ],
+  "feature_count": 8,
+  "dataset_sha256": "caea659b10f9c66f66ff9c356ef29263de0dd8107d44f910cbfbc5722f8431f5",
+  "protocol_sha256": "c3d1428475b2a15cc2bb348278224b064a1fe62cf5e1a891426d8b06d268e798",
+  "train_seeds": [
+    2026091701,
+    2026091702,
+    2026091703,
+    2026091704
+  ],
+  "scope": "experimental binary synthetic odor stimulation present vs absent; no loom classification"
+}

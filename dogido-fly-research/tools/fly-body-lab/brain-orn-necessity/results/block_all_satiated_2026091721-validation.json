@@ -1,0 +1,17 @@
+{
+  "all_210_original_edges_match": true,
+  "ON_arrivals_all_delivered": true,
+  "OFF_gate_predicate_all_events_match": true,
+  "all_490000_arrival_rows_reconstructed": true,
+  "max_arrival_reconstruction_error_mV": 4.958496191420636e-08,
+  "max_weight_error_mV": 4.632568284534955e-08,
+  "blocked_by_source_class_nt_sign": {
+    "ALLN_acetylcholine_1": 409550,
+    "ALLN_gaba_-1": 351057,
+    "ALLN_unclear_1": 221984,
+    "ALPN_acetylcholine_1": 129880,
+    "ALPN_gaba_-1": 8136
+  },
+  "blocked_events": 1120607,
+  "original_trajectory_equal_through_ms": 1500
+}

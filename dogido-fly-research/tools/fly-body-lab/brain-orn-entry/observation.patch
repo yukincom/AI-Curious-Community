@@ -1,0 +1,52 @@
+--- upstream/LifNetwork.java
++++ observed/LifNetwork.java
+@@ -73,6 +73,23 @@
+     private double simTimeMs;
+ 
+     private final SplittableRandom rng;
++    // Read-only observation of the original forced and integrated spike paths.
++    public int[] observedTotal, observedForced;
++    private boolean[] observedOrn, observedStim;
++    private byte[] observedTarget;
++    public double[] observedOrnJump = new double[6];
++    public void configureObservation(int[] orn, int[] stim, int[] pn, int[] eln) {
++        if(observedTotal!=null)throw new IllegalStateException("Configure once");
++        observedTotal=new int[n];observedForced=new int[n];
++        observedOrn=new boolean[n];observedStim=new boolean[n];observedTarget=new byte[n];
++        for(int i:orn)observedOrn[i]=true;
++        for(int i:stim)observedStim[i]=true;
++        // 0=other, 1=PN, 2=eLN. Overlap is checked by the trial wrapper.
++        for(int i:pn)observedTarget[i]=1;
++        for(int i:eln)observedTarget[i]=2;
++    }
++    public void clearObservedJumps(){Arrays.fill(observedOrnJump,0);}
++
+ 
+     public LifNetwork(Connectome c, LifConfig cfg) {
+         this.c = c;
+@@ -241,6 +258,7 @@
+                 if (p <= 0f) { inStim[i] = false; continue; }
+                 stimList[w++] = i;
+                 if (rng.nextFloat() < p) {
++                    if(observedForced!=null)observedForced[i]++;
+                     emitSpike(i);
+                     v[i] = vReset;
+                     refUntil[i] = step + refSteps;
+@@ -382,6 +400,7 @@
+     }
+ 
+     private void emitSpike(int i) {
++        if(observedTotal!=null)observedTotal[i]++;
+         totalSpikes++;
+         spikeCountTick[i]++;
+         // reservoir sample of this tick's spikes (uniform over the whole tick, not just the first spikes)
+@@ -415,6 +434,9 @@
+             if (norm != null) jump *= norm[j];
+             if (cap > 0f) {
+                 if (jump > cap) jump = cap; else if (jump < -cap) jump = -cap;
++            }
++            if(observedOrn!=null&&observedOrn[i]) {
++                observedOrnJump[(observedStim[i]?0:3)+observedTarget[j]]+=Math.abs(jump);
+             }
+             if (out[j] == 0f) pending[j]++;
+             out[j] += jump;

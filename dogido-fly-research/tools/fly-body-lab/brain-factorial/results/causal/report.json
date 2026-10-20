@@ -1,0 +1,341 @@
+{
+  "trials": [
+    {
+      "trial": "sham_2026091701",
+      "phases": {
+        "off_1_2": {
+          "ALPN_hz": 134.2580174927,
+          "ORN_hz": 0.21019108275,
+          "GABA_LN_hz": 219.92500000005,
+          "exc_LN_hz": 267.4479166667,
+          "glut_LN_hz": 86.39814814815
+        },
+        "postcut_0_1": {
+          "ALPN_hz": 134.3994169097,
+          "ORN_hz": 0.21019108275,
+          "GABA_LN_hz": 220.0249999999,
+          "exc_LN_hz": 267.5833333334,
+          "glut_LN_hz": 86.4537037036
+        },
+        "postcut_1_2": {
+          "ALPN_hz": 134.23615160345,
+          "ORN_hz": 0.21019108275,
+          "GABA_LN_hz": 219.94166666665,
+          "exc_LN_hz": 267.453125,
+          "glut_LN_hz": 86.51851851855
+        },
+        "reodor": {
+          "ALPN_hz": 135.56413994175,
+          "ORN_hz": 61.02547770695,
+          "GABA_LN_hz": 221.5166666667,
+          "exc_LN_hz": 268.73437500005,
+          "glut_LN_hz": 86.5740740741
+        },
+        "reoff_1_2": {
+          "ALPN_hz": 134.1749271137,
+          "ORN_hz": 0.21019108275,
+          "GABA_LN_hz": 219.90833333335,
+          "exc_LN_hz": 267.24999999995,
+          "glut_LN_hz": 86.17592592605
+        }
+      },
+      "first_window_end_below_half_and_stays_to_reodor_ms": null,
+      "prefix_70_windows_identical_to_sham": true
+    },
+    {
+      "trial": "exc_ln_to_pn_2026091701",
+      "phases": {
+        "off_1_2": {
+          "ALPN_hz": 134.2580174927,
+          "ORN_hz": 0.21019108275,
+          "GABA_LN_hz": 219.92500000005,
+          "exc_LN_hz": 267.4479166667,
+          "glut_LN_hz": 86.39814814815
+        },
+        "postcut_0_1": {
+          "ALPN_hz": 4.18513119535,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 145.12499999995,
+          "exc_LN_hz": 226.04166666665,
+          "glut_LN_hz": 52.29629629645
+        },
+        "postcut_1_2": {
+          "ALPN_hz": 3.7915451896,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 144.4833333333,
+          "exc_LN_hz": 226.03124999995,
+          "glut_LN_hz": 51.90740740745
+        },
+        "reodor": {
+          "ALPN_hz": 4.55393586005,
+          "ORN_hz": 60.6624203821,
+          "GABA_LN_hz": 148.9583333333,
+          "exc_LN_hz": 227.96875,
+          "glut_LN_hz": 51.2592592593
+        },
+        "reoff_1_2": {
+          "ALPN_hz": 3.70262390675,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 144.425,
+          "exc_LN_hz": 224.99479166679998,
+          "glut_LN_hz": 52.2222222222
+        }
+      },
+      "first_window_end_below_half_and_stays_to_reodor_ms": 50,
+      "prefix_70_windows_identical_to_sham": true
+    },
+    {
+      "trial": "exc_ln_to_ln_2026091701",
+      "phases": {
+        "off_1_2": {
+          "ALPN_hz": 134.2580174927,
+          "ORN_hz": 0.21019108275,
+          "GABA_LN_hz": 219.92500000005,
+          "exc_LN_hz": 267.4479166667,
+          "glut_LN_hz": 86.39814814815
+        },
+        "postcut_0_1": {
+          "ALPN_hz": 157.2157434402,
+          "ORN_hz": 11.19108280265,
+          "GABA_LN_hz": 159.29166666665,
+          "exc_LN_hz": 218.61458333335,
+          "glut_LN_hz": 42.62037037035
+        },
+        "postcut_1_2": {
+          "ALPN_hz": 157.24635568515,
+          "ORN_hz": 11.388535032,
+          "GABA_LN_hz": 158.9666666667,
+          "exc_LN_hz": 218.68749999995,
+          "glut_LN_hz": 42.69444444435
+        },
+        "reodor": {
+          "ALPN_hz": 155.5510204082,
+          "ORN_hz": 63.2038216561,
+          "GABA_LN_hz": 158.7666666666,
+          "exc_LN_hz": 219.14062500005,
+          "glut_LN_hz": 43.2129629629
+        },
+        "reoff_1_2": {
+          "ALPN_hz": 157.32069970835,
+          "ORN_hz": 7.17197452215,
+          "GABA_LN_hz": 158.0916666666,
+          "exc_LN_hz": 221.8854166667,
+          "glut_LN_hz": 44.1388888889
+        }
+      },
+      "first_window_end_below_half_and_stays_to_reodor_ms": null,
+      "prefix_70_windows_identical_to_sham": true
+    },
+    {
+      "trial": "unknown_ln_out_2026091701",
+      "phases": {
+        "off_1_2": {
+          "ALPN_hz": 134.2580174927,
+          "ORN_hz": 0.21019108275,
+          "GABA_LN_hz": 219.92500000005,
+          "exc_LN_hz": 267.4479166667,
+          "glut_LN_hz": 86.39814814815
+        },
+        "postcut_0_1": {
+          "ALPN_hz": 99.13848396495,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 193.56666666665,
+          "exc_LN_hz": 240.32291666665,
+          "glut_LN_hz": 60.6574074074
+        },
+        "postcut_1_2": {
+          "ALPN_hz": 99.0451895043,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 193.38333333330002,
+          "exc_LN_hz": 240.20312500005,
+          "glut_LN_hz": 60.4722222222
+        },
+        "reodor": {
+          "ALPN_hz": 99.29591836735,
+          "ORN_hz": 60.6624203821,
+          "GABA_LN_hz": 195.0916666666,
+          "exc_LN_hz": 240.3489583334,
+          "glut_LN_hz": 60.2592592592
+        },
+        "reoff_1_2": {
+          "ALPN_hz": 99.09037900865,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 193.30833333335,
+          "exc_LN_hz": 240.1666666667,
+          "glut_LN_hz": 60.4814814814
+        }
+      },
+      "first_window_end_below_half_and_stays_to_reodor_ms": null,
+      "prefix_70_windows_identical_to_sham": true
+    },
+    {
+      "trial": "sham_2026091711",
+      "phases": {
+        "off_1_2": {
+          "ALPN_hz": 132.70116618075,
+          "ORN_hz": 0.19108280249999998,
+          "GABA_LN_hz": 218.6833333333,
+          "exc_LN_hz": 266.35416666665,
+          "glut_LN_hz": 85.71296296285
+        },
+        "postcut_0_1": {
+          "ALPN_hz": 132.83381924195,
+          "ORN_hz": 0.19745222925,
+          "GABA_LN_hz": 218.67499999985,
+          "exc_LN_hz": 266.24479166665,
+          "glut_LN_hz": 85.8055555556
+        },
+        "postcut_1_2": {
+          "ALPN_hz": 132.3731778426,
+          "ORN_hz": 0.19745222925,
+          "GABA_LN_hz": 218.6000000001,
+          "exc_LN_hz": 266.20312500005,
+          "glut_LN_hz": 85.5092592593
+        },
+        "reodor": {
+          "ALPN_hz": 134.2040816327,
+          "ORN_hz": 60.5477707006,
+          "GABA_LN_hz": 220.57499999995,
+          "exc_LN_hz": 267.828125,
+          "glut_LN_hz": 85.94444444435
+        },
+        "reoff_1_2": {
+          "ALPN_hz": 132.609329446,
+          "ORN_hz": 0.19108280249999998,
+          "GABA_LN_hz": 218.81666666665,
+          "exc_LN_hz": 266.39062500005,
+          "glut_LN_hz": 85.63888888885
+        }
+      },
+      "first_window_end_below_half_and_stays_to_reodor_ms": null,
+      "prefix_70_windows_identical_to_sham": true
+    },
+    {
+      "trial": "exc_ln_to_pn_2026091711",
+      "phases": {
+        "off_1_2": {
+          "ALPN_hz": 132.70116618075,
+          "ORN_hz": 0.19108280249999998,
+          "GABA_LN_hz": 218.6833333333,
+          "exc_LN_hz": 266.35416666665,
+          "glut_LN_hz": 85.71296296285
+        },
+        "postcut_0_1": {
+          "ALPN_hz": 4.1093294462,
+          "ORN_hz": 0.00636942675,
+          "GABA_LN_hz": 144.525,
+          "exc_LN_hz": 225.2760416667,
+          "glut_LN_hz": 51.91666666665
+        },
+        "postcut_1_2": {
+          "ALPN_hz": 3.7186588922,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 144.2,
+          "exc_LN_hz": 225.42708333335,
+          "glut_LN_hz": 51.9814814815
+        },
+        "reodor": {
+          "ALPN_hz": 4.5072886297,
+          "ORN_hz": 60.21656050955,
+          "GABA_LN_hz": 149.01666666665,
+          "exc_LN_hz": 227.52604166665,
+          "glut_LN_hz": 51.21296296295
+        },
+        "reoff_1_2": {
+          "ALPN_hz": 3.69241982525,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 144.16666666655001,
+          "exc_LN_hz": 225.05729166665,
+          "glut_LN_hz": 51.787037037
+        }
+      },
+      "first_window_end_below_half_and_stays_to_reodor_ms": 50,
+      "prefix_70_windows_identical_to_sham": true
+    },
+    {
+      "trial": "exc_ln_to_ln_2026091711",
+      "phases": {
+        "off_1_2": {
+          "ALPN_hz": 132.70116618075,
+          "ORN_hz": 0.19108280249999998,
+          "GABA_LN_hz": 218.6833333333,
+          "exc_LN_hz": 266.35416666665,
+          "glut_LN_hz": 85.71296296285
+        },
+        "postcut_0_1": {
+          "ALPN_hz": 156.9854227406,
+          "ORN_hz": 11.0891719746,
+          "GABA_LN_hz": 158.95000000005,
+          "exc_LN_hz": 218.48437499995,
+          "glut_LN_hz": 42.7314814815
+        },
+        "postcut_1_2": {
+          "ALPN_hz": 157.71865889225,
+          "ORN_hz": 11.5095541402,
+          "GABA_LN_hz": 159.55833333335,
+          "exc_LN_hz": 219.015625,
+          "glut_LN_hz": 42.8703703704
+        },
+        "reodor": {
+          "ALPN_hz": 155.46209912525,
+          "ORN_hz": 62.98089171975,
+          "GABA_LN_hz": 158.48333333325002,
+          "exc_LN_hz": 218.8072916667,
+          "glut_LN_hz": 43.2407407408
+        },
+        "reoff_1_2": {
+          "ALPN_hz": 157.1734693877,
+          "ORN_hz": 5.68152866225,
+          "GABA_LN_hz": 157.73333333335,
+          "exc_LN_hz": 223.6354166666,
+          "glut_LN_hz": 44.58333333335
+        }
+      },
+      "first_window_end_below_half_and_stays_to_reodor_ms": null,
+      "prefix_70_windows_identical_to_sham": true
+    },
+    {
+      "trial": "unknown_ln_out_2026091711",
+      "phases": {
+        "off_1_2": {
+          "ALPN_hz": 132.70116618075,
+          "ORN_hz": 0.19108280249999998,
+          "GABA_LN_hz": 218.6833333333,
+          "exc_LN_hz": 266.35416666665,
+          "glut_LN_hz": 85.71296296285
+        },
+        "postcut_0_1": {
+          "ALPN_hz": 98.6282798834,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 192.74999999995,
+          "exc_LN_hz": 240.04687499995,
+          "glut_LN_hz": 60.33333333335
+        },
+        "postcut_1_2": {
+          "ALPN_hz": 98.31924198245,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 192.5000000001,
+          "exc_LN_hz": 240.12499999995,
+          "glut_LN_hz": 60.2407407408
+        },
+        "reodor": {
+          "ALPN_hz": 99.02186588925,
+          "ORN_hz": 60.21656050955,
+          "GABA_LN_hz": 195.125,
+          "exc_LN_hz": 240.56770833325,
+          "glut_LN_hz": 60.28703703705
+        },
+        "reoff_1_2": {
+          "ALPN_hz": 97.9650145772,
+          "ORN_hz": 0.0,
+          "GABA_LN_hz": 192.37500000005,
+          "exc_LN_hz": 239.86458333344999,
+          "glut_LN_hz": 60.20370370375
+        }
+      },
+      "first_window_end_below_half_and_stays_to_reodor_ms": null,
+      "prefix_70_windows_identical_to_sham": true
+    }
+  ],
+  "limits": "Exploratory in-model edge-class ablation. Times are 50ms windows, not exact neural cessation. Low residual response does not mean odor recognition or restored physiology."
+}

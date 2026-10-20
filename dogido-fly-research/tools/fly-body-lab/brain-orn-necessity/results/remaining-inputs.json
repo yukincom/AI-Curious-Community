@@ -1,0 +1,290 @@
+{
+  "block_all_hungry_2026091701": {
+    "scope": "post-hoc descriptive input inventory, not necessity or sufficiency",
+    "remaining_rates_hz": {
+      "153948": 19
+    },
+    "delivered_input_edges": [
+      {
+        "edge": {
+          "pre_body_id": "10378",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "12",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 330,
+        "sum_signed_jump_mV": 707.8499933999991
+      },
+      {
+        "edge": {
+          "pre_body_id": "10593",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "16",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 301,
+        "sum_signed_jump_mV": 860.8599699000048
+      }
+    ]
+  },
+  "block_all_satiated_2026091701": {
+    "scope": "post-hoc descriptive input inventory, not necessity or sufficiency",
+    "remaining_rates_hz": {
+      "153948": 20
+    },
+    "delivered_input_edges": [
+      {
+        "edge": {
+          "pre_body_id": "10378",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "12",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 327,
+        "sum_signed_jump_mV": 701.4149934599992
+      },
+      {
+        "edge": {
+          "pre_body_id": "10593",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "16",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 302,
+        "sum_signed_jump_mV": 863.7199698000048
+      }
+    ]
+  },
+  "block_all_hungry_2026091711": {
+    "scope": "post-hoc descriptive input inventory, not necessity or sufficiency",
+    "remaining_rates_hz": {
+      "153948": 19
+    },
+    "delivered_input_edges": [
+      {
+        "edge": {
+          "pre_body_id": "10378",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "12",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 326,
+        "sum_signed_jump_mV": 699.2699934799992
+      },
+      {
+        "edge": {
+          "pre_body_id": "10593",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "16",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 301,
+        "sum_signed_jump_mV": 860.8599699000048
+      }
+    ]
+  },
+  "block_all_satiated_2026091711": {
+    "scope": "post-hoc descriptive input inventory, not necessity or sufficiency",
+    "remaining_rates_hz": {
+      "153948": 19
+    },
+    "delivered_input_edges": [
+      {
+        "edge": {
+          "pre_body_id": "10378",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "12",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 326,
+        "sum_signed_jump_mV": 699.2699934799992
+      },
+      {
+        "edge": {
+          "pre_body_id": "10593",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "16",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 300,
+        "sum_signed_jump_mV": 857.9999700000047
+      }
+    ]
+  },
+  "block_all_hungry_2026091721": {
+    "scope": "post-hoc descriptive input inventory, not necessity or sufficiency",
+    "remaining_rates_hz": {
+      "153948": 19
+    },
+    "delivered_input_edges": [
+      {
+        "edge": {
+          "pre_body_id": "10378",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "12",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 326,
+        "sum_signed_jump_mV": 699.2699934799992
+      },
+      {
+        "edge": {
+          "pre_body_id": "10593",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "16",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 302,
+        "sum_signed_jump_mV": 863.7199698000048
+      }
+    ]
+  },
+  "block_all_satiated_2026091721": {
+    "scope": "post-hoc descriptive input inventory, not necessity or sufficiency",
+    "remaining_rates_hz": {
+      "153948": 20
+    },
+    "delivered_input_edges": [
+      {
+        "edge": {
+          "pre_body_id": "10378",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "12",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 331,
+        "sum_signed_jump_mV": 709.9949933799991
+      },
+      {
+        "edge": {
+          "pre_body_id": "10593",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "16",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 303,
+        "sum_signed_jump_mV": 866.5799697000049
+      }
+    ]
+  },
+  "block_all_hungry_2026091731": {
+    "scope": "post-hoc descriptive input inventory, not necessity or sufficiency",
+    "remaining_rates_hz": {
+      "153948": 19
+    },
+    "delivered_input_edges": [
+      {
+        "edge": {
+          "pre_body_id": "10378",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "12",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 324,
+        "sum_signed_jump_mV": 694.9799935199993
+      },
+      {
+        "edge": {
+          "pre_body_id": "10593",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "16",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 298,
+        "sum_signed_jump_mV": 852.2799702000046
+      }
+    ]
+  },
+  "block_all_satiated_2026091731": {
+    "scope": "post-hoc descriptive input inventory, not necessity or sufficiency",
+    "remaining_rates_hz": {
+      "153948": 19
+    },
+    "delivered_input_edges": [
+      {
+        "edge": {
+          "pre_body_id": "10378",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "12",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 325,
+        "sum_signed_jump_mV": 697.1249934999993
+      },
+      {
+        "edge": {
+          "pre_body_id": "10593",
+          "post_body_id": "153948",
+          "pre_class": "ALIN",
+          "pre_nt": "acetylcholine",
+          "pre_sign": "1",
+          "contacts": "16",
+          "eligible": "0",
+          "unclear_edge": "0"
+        },
+        "events_in_1s": 298,
+        "sum_signed_jump_mV": 852.2799702000046
+      }
+    ]
+  }
+}

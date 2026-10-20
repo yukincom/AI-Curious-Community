@@ -1,0 +1,2 @@
+PASS drop=false delay_ms=2.0 expected_inhibition_mV=-4.111249924
+PASS drop=true delay_ms=2.0 expected_inhibition_mV=-4.111249924

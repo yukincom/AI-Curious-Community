@@ -1,0 +1,5 @@
+{
+  "method": "NumPy valid convolution and independent array slices; thresholds read from pre-run protocol",
+  "trials": 12,
+  "both_peaks_both_pulses_both_late_values_all_requested_OFF_values_and_all_criteria_match": true
+}

@@ -1,0 +1,689 @@
+{
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "data_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3",
+  "java_version": "openjdk version \"25.0.2\" 2026-01-20 LTS\nOpenJDK Runtime Environment Temurin-25.0.2+10 (build 25.0.2+10-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.2+10 (build 25.0.2+10-LTS, mixed mode, sharing)",
+  "neurons": 176422,
+  "edges": 6287749,
+  "dt_ms": 0.5,
+  "profile": "game-default",
+  "kenyon_input_gain": 0.25,
+  "gain": 0.65,
+  "seed": 20260903,
+  "threads": 1,
+  "input_rate_hz": 150,
+  "stimulus_ms": 200,
+  "washout_ms": 100,
+  "wall_seconds_including_load": 2.3323007079889067,
+  "deterministic_spike_counts_repeated": true,
+  "trained": false,
+  "motor_decoder_used": false,
+  "sensory_encoder_used": false,
+  "conditions": {
+    "zero_0": {
+      "phase_spikes": {
+        "stimulus": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 0,
+            "mean_hz": 0.0
+          }
+        },
+        "washout": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 0,
+            "mean_hz": 0.0
+          }
+        }
+      },
+      "sampled_nonfinite_membranes": 0,
+      "step_wall_ms": 0.07454100000000001,
+      "max_sampled_active": 0
+    },
+    "odor_0": {
+      "phase_spikes": {
+        "stimulus": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 4701,
+            "mean_hz": 149.71337579617833
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 10,
+            "mean_hz": 25.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 2097,
+            "mean_hz": 7.97945205479452
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 1007,
+            "mean_hz": 7.111581920903955
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 205,
+            "mean_hz": 9.579439252336448
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 856,
+            "mean_hz": 1.0531496062992125
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 104133,
+            "mean_hz": 2.951247576832821
+          }
+        },
+        "washout": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 4,
+            "mean_hz": 0.25477707006369427
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 2,
+            "mean_hz": 10.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 1130,
+            "mean_hz": 8.599695585996955
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 603,
+            "mean_hz": 8.516949152542374
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 118,
+            "mean_hz": 11.028037383177569
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 386,
+            "mean_hz": 0.9498031496062991
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 54106,
+            "mean_hz": 3.0668510729954312
+          }
+        }
+      },
+      "sampled_nonfinite_membranes": 0,
+      "step_wall_ms": 746.058916,
+      "max_sampled_active": 101231
+    },
+    "loom_0": {
+      "phase_spikes": {
+        "stimulus": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 9410,
+            "mean_hz": 151.2861736334405
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 188,
+            "mean_hz": 470.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 3107,
+            "mean_hz": 11.822678843226788
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 2638,
+            "mean_hz": 18.629943502824858
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 255,
+            "mean_hz": 11.91588785046729
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 46444,
+            "mean_hz": 1.3162757479225946
+          }
+        },
+        "washout": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 7,
+            "mean_hz": 35.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 190,
+            "mean_hz": 1.4459665144596652
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 361,
+            "mean_hz": 5.098870056497176
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 34,
+            "mean_hz": 3.1775700934579434
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 3017,
+            "mean_hz": 0.17101041820181156
+          }
+        }
+      },
+      "sampled_nonfinite_membranes": 0,
+      "step_wall_ms": 391.90066700000006,
+      "max_sampled_active": 70950
+    },
+    "zero_1": {
+      "phase_spikes": {
+        "stimulus": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 0,
+            "mean_hz": 0.0
+          }
+        },
+        "washout": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 0,
+            "mean_hz": 0.0
+          }
+        }
+      },
+      "sampled_nonfinite_membranes": 0,
+      "step_wall_ms": 0.0027099999999999997,
+      "max_sampled_active": 0
+    },
+    "odor_1": {
+      "phase_spikes": {
+        "stimulus": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 4701,
+            "mean_hz": 149.71337579617833
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 10,
+            "mean_hz": 25.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 2097,
+            "mean_hz": 7.97945205479452
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 1007,
+            "mean_hz": 7.111581920903955
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 205,
+            "mean_hz": 9.579439252336448
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 856,
+            "mean_hz": 1.0531496062992125
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 104133,
+            "mean_hz": 2.951247576832821
+          }
+        },
+        "washout": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 4,
+            "mean_hz": 0.25477707006369427
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 2,
+            "mean_hz": 10.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 1130,
+            "mean_hz": 8.599695585996955
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 603,
+            "mean_hz": 8.516949152542374
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 118,
+            "mean_hz": 11.028037383177569
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 386,
+            "mean_hz": 0.9498031496062991
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 54106,
+            "mean_hz": 3.0668510729954312
+          }
+        }
+      },
+      "sampled_nonfinite_membranes": 0,
+      "step_wall_ms": 577.753583,
+      "max_sampled_active": 101231
+    },
+    "loom_1": {
+      "phase_spikes": {
+        "stimulus": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 9410,
+            "mean_hz": 151.2861736334405
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 188,
+            "mean_hz": 470.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 3107,
+            "mean_hz": 11.822678843226788
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 2638,
+            "mean_hz": 18.629943502824858
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 255,
+            "mean_hz": 11.91588785046729
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 46444,
+            "mean_hz": 1.3162757479225946
+          }
+        },
+        "washout": {
+          "prefix:ORN_DM1,prefix:ORN_VA2": {
+            "neurons": 157,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "LC4,LPLC2": {
+            "neurons": 311,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNp01": {
+            "neurons": 2,
+            "spikes": 7,
+            "mean_hz": 35.0
+          },
+          "DNp09": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "DNa02": {
+            "neurons": 2,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "superclass:descending_neuron": {
+            "neurons": 1314,
+            "spikes": 190,
+            "mean_hz": 1.4459665144596652
+          },
+          "superclass:vnc_motor": {
+            "neurons": 708,
+            "spikes": 361,
+            "mean_hz": 5.098870056497176
+          },
+          "superclass:cb_motor": {
+            "neurons": 107,
+            "spikes": 34,
+            "mean_hz": 3.1775700934579434
+          },
+          "prefix:KC": {
+            "neurons": 4064,
+            "spikes": 0,
+            "mean_hz": 0.0
+          },
+          "all": {
+            "neurons": 176422,
+            "spikes": 3017,
+            "mean_hz": 0.17101041820181156
+          }
+        }
+      },
+      "sampled_nonfinite_membranes": 0,
+      "step_wall_ms": 343.748874,
+      "max_sampled_active": 70950
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "all_40_PN_OFF20_means_match_individual_counters_and_independent_population_sum": true,
+  "only_decision_endpoint": "PN mean OFF19.9-20.0s",
+  "3Hz_is_recorded_reference_not_zero_activity": true
+}

@@ -1,0 +1,17 @@
+{
+  "matched_windows": 70,
+  "features": [
+    "class:ALPN",
+    "prefix:KC",
+    "DNp01",
+    "DNp09",
+    "DNa02",
+    "superclass:descending_neuron",
+    "superclass:vnc_motor",
+    "superclass:cb_motor"
+  ],
+  "all_560_rates_exactly_equal": true,
+  "through_ms": 3500,
+  "old_trial": "2026091701_A",
+  "new_trial": "2026091701_60"
+}

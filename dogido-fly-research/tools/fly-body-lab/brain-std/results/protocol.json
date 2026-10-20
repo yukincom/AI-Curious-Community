@@ -1,0 +1,57 @@
+{
+  "conditions_U_tau_ms": {
+    "baseline": [
+      0,
+      100
+    ],
+    "std100": [
+      0.2,
+      100
+    ],
+    "std300": [
+      0.2,
+      300
+    ]
+  },
+  "seeds": [
+    2026091701,
+    2026091711
+  ],
+  "odor_hz": 60,
+  "dt_ms": 0.5,
+  "gain": 0.65,
+  "kc_gain": 0.25,
+  "target": "positive presynaptic sign to ALLN positive postsynaptic sign (192 model eLNs)",
+  "schedule_ms": {
+    "quiet": [
+      0,
+      500
+    ],
+    "odor": [
+      500,
+      1500
+    ],
+    "off": [
+      1500,
+      21500
+    ],
+    "reodor": [
+      21500,
+      22500
+    ],
+    "off_again": [
+      22500,
+      24500
+    ]
+  },
+  "analysis": {
+    "reference": "each population mean during final 500ms of preceding odor",
+    "filter": "trailing 10ms rate from 1ms spike counts",
+    "half_time": "first post-OFF <=50% reference sustained for at least 20ms; report null if reference <1Hz",
+    "silence_time": "first <=1Hz sustained for at least 100ms; report null if reference <1Hz",
+    "limits": "1ms sampling, 10ms causal filter and population-averaged thresholds; temporal order alone does not prove causation"
+  },
+  "unchanged": "original refractory handling; no threshold adaptation; original 50ms endTick; no odor-OFF reset",
+  "normalization": "first spike amplitude unchanged; resource R recovers toward 1, release scales jump by R, then R *= (1-U)",
+  "parameters": "engineering hypotheses, not fly-eLN physiological fits"
+}

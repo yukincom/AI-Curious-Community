@@ -1,0 +1,13 @@
+{
+  "pilot_passed": true,
+  "no_procedure_change_after_pilot": true,
+  "file_sha256": {
+    "build.py": "fcec82c609c3a7c1404eba83ed0929a49b9c20ab358f0d6cb42592524a3c3e7d",
+    "run.py": "2a7c2be20b32ed75d7211c7652d9d95f8b25a195b2b701c40478902863875c99",
+    "validate.py": "6a48e87e4358aac9832c3e92bd84bdce3986ee2d119937c12c8f7d6848e67f5c",
+    "GateTrial.java": "473a30412e0e7dd5bb7b70a68d12f9feb5c471cba5445b7e9a5ab4bc612e102b",
+    "ArrivalGate.java": "16cb18f2d15e98ae67854b06ffc70ea6dc13883afb0e829a0c47835680cb9b3b",
+    "metadata.json": "f0d2aebedd272dc81c2471779987a9325ac74d5bbf0f83a73b33311808e06a34",
+    "protocol.json": "afde23f7c860c5ab5dbf5ae06a03a7d2efa13fae532ea083c1957cff8c30acfa"
+  }
+}

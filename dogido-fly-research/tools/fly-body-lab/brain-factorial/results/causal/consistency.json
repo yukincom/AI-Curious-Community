@@ -1,0 +1,7 @@
+{
+  "trials": 8,
+  "checked_phase_populations": 80,
+  "source_hashes_valid": true,
+  "PN_spikes_and_signed_arrival_conservation": true,
+  "all_finite": true
+}

@@ -1,0 +1,122 @@
+"""Render the audit report from fixed trial summaries."""
+import json,csv
+from pathlib import Path
+import sys
+import numpy as np
+lab=Path(sys.argv[1]);root=lab/'results';r=json.loads((root/'report.json').read_text());ev=json.loads((root/'event-validation.json').read_text());validation=json.loads((root/'validation.json').read_text())
+ids=sorted(next(iter(r.values()))['OFF_last1s'],key=int);types=dict(zip(ids,['DC1','D','VL1','DL1','VL1','VA6','DM1（刺激対象）','VA4','DL1','DM4']))
+lines=[]
+for body in ids:
+ values=[v['OFF_last1s'][body] for v in r.values()];rate=[int(v['rate_hz']) for v in values];fractions=[np.mean([v['mean_positive_voltage_fraction'][g] for v in values])*100 for g in ('PN_pos','LN_pos','other_pos')];inh=[v['mean_signed_voltage_mV']['LN_neg'] for v in values]
+ lines.append(f"| {body} / {types[body]} | {min(rate)}–{max(rate)} | "+' / '.join(f'{x:.1f}' for x in fractions)+f" | {min(inh):.2f}〜{max(inh):.2f} |")
+body_table='\n'.join(lines)
+exceptions=[(name,x) for name,v in ev.items() for x in v['first_OFF_ORN_source_emission_exceptions']]
+exception_table='\n'.join(f"| {name} | {x['pre_body_id']} → {x['post_body_id']} | {x['emit_after_OFF_ms']:.1f} | {x['arrival_after_OFF_ms']:.1f} |" for name,x in exceptions)
+first=[x for v in ev.values() for x in v['all_ORN_arrivals_in_both_OFF_periods'] if x['OFF_number']==1];second=[x for v in ev.values() for x in v['all_ORN_arrivals_in_both_OFF_periods'] if x['OFF_number']==2]
+text=f'''# 残留ORN 10細胞の入力・発火タイミング監査
+
+## 結論
+
+**このモデルでは、PN／LNからORNへ戻る入力が実際に届き、残留ORNの発火前の電位上昇に反映されている。** 前回と同じ8試行のOFF19〜20秒では、10細胞すべてに正のLN入力があり、9細胞には正のPN入力もある。この区間の別ORNからの入力と自己入力は0。10細胞だけで互いに駆動し続ける配線も存在しない。
+
+「センサーだけの自己持続」より、**モデル内のPN／LN→ORNという再突入経路を支持する観測**になった。ただし、どの閉ループが活動を維持する必要条件／十分条件かは未確定。今回、その経路を切断する試験は行っていない。
+
+[入力成分の図](results/input-components.png) · [実際の30 ms時系列](results/timing-example.png) · [全10細胞×3時間窓×8試行](results/timing-summary.csv)
+
+## 実施範囲
+
+前回の `brain-orn-entry`（回復点 `5a800f6`）で残った10細胞を固定した観測のみ。ALの切断、重み、抑圧、適応、空腹生理を追加していない。ラボの実行系・移動・UI・本体LLMも変更していない。
+
+- 無刺激0.5秒 → 匂い1秒 → OFF20秒 → 再刺激1秒 → 再OFF2秒。
+- 前回と同じ4seed: 2026091701、2026091711、2026091721、2026091731。
+- 前回の `hungry` / `satiated` ラベルと入力利得1.0 / 0.5をそのまま維持。空腹生理を実装した状態名ではなく、同じ軌跡を再現する実験条件名。
+- dt=0.5 ms、gain=0.65、KC gain=0.25、1 worker、50 ms endTick。閾値適応と短期抑圧はなし。
+- 10細胞への全210入力辺、152個の送り元を観測。全24.5秒の送り元発火・各辺の送出と到来を保存し、両OFF全期間の10細胞の膜電位・入力・不応期・発火を0.5 msごとに保存。
+- 評価窓はOFF0〜1秒、OFF19〜20秒、再OFF0〜1秒。プロトコルは実行前に固定。
+
+## 時間的な関係
+
+全送出イベントで、実際の送り元スパイクと到来が一致した。伝達遅延は設定値1.8 msを0.5 ms刻みへ丸めた**4ステップ＝2.0 ms**。
+
+3評価窓・全8試行・全10細胞の各発火に対して、直近の正のLN到来は**0〜1.5 ms前**、したがってその送り元の発火は**2.0〜3.5 ms前**だった。細胞／試行ごとの到来→発火の中央値は0〜0.5 ms。正のPN入力がある9細胞では到来→発火の最大3.5 ms、中央値0〜2 msだった。
+
+ここで時刻は各0.5 ms計算ステップの先頭を表す。同じステップで「入力を受け取る→膜電位を積分する→発火を決める」ため、到来→発火0 msは順序逆転ではない。直前入力だけでなく、以前に届いて残っているシナプス成分も追跡した。
+
+ただし入力頻度が高ければ偶然にも直前到来は増える。近い時刻という事実だけを因果確定とせず、入力の符号・膜電位への反映と合わせて読む。
+
+## 細胞別の観測
+
+OFF19〜20秒、全8試行。Hzは試行間の範囲。割合は各試行で発火時ごとに正の電位成分を正規化し、試行内平均→8試行の等重み平均。PN / LN / その他の順に表示する。
+
+| body ID / ORN型 | 発火 Hz | 正の電位成分の割合 PN / LN / その他（%） | LN由来の負の電位成分、発火時平均 mV（試行間範囲） |
+|---|---:|---:|---:|
+{body_table}
+
+- 全10細胞で、この窓のORN由来・自己入力の正の電位成分は0。正の成分中のPN＋LNは約92〜100%。
+- 最大発火の153948はPN約61%、LN約31%、その他約8%。刺激したDM1の222974はPN約12%、LN約82%、その他約6%。
+- 抑制性LN入力と負の電位成分は8細胞で観測された。669738951と688942939にはこの窓で負のLN成分がない。「全細胞で抑制性LNが静か」という結果ではない。
+- `その他` はALINやclass未記入の入力。PN／LNだけへ無理に合算しない。
+
+割合は、実際の発火・リセット時刻を固定した**電位成分の帳簿上の内訳**であり、辺を切ったときに発火が何%減るかを表さない。負の成分は割合の分母に入れず、別列と元JSONに保持した。
+
+PN／LNの正負は、固定データの `ntSign` に従ったモデル上の分類。正のLN入力65辺にはacetylcholine表記43辺と **unclear表記22辺** が含まれる。生体で興奮性と確認された細胞だけの集合ではない。元の伝達物質表記と符号は前回の `active-ORN-incoming.csv` にある。
+
+## 別ORN・自己入力を区別する
+
+元の210辺に自己入力は0本。さらに、対象10細胞のどれからも他の対象細胞へ辺がない。したがって、この10細胞の直接的な相互駆動は配線上成立しない。ただし、他の細胞を経由するループはこの事実だけでは否定できない。
+
+OFF19〜20秒には、全8試行で別ORN由来の到来は0だった。一方、最初のOFF20秒の**全体**では、OFF中に新たに発火したORNからの送出が次の2件ある。どちらも対象10細胞以外のORN_DM1 648510281から、対象ORN_DM1 222974への1回の入力（2.68124986 mV）。
+
+| 試行 | 送り元 → 対象 | OFF後の送り元発火 ms | OFF後の到来 ms |
+|---|---|---:|---:|
+{exception_table}
+
+最初のOFF期間へ届いた別ORN入力は全8試行合計{len(first)}件。このうち{sum(x['emitted_before_OFF'] for x in first)}件はON末尾の送出が遅延してOFF直後に届いたもの、残る2件が上表。再OFF2秒には合計{len(second)}件（うちON中送出{sum(x['emitted_before_OFF'] for x in second)}件）が届く。全件を `event-validation.json` に保存した。
+
+このため「OFFになればORN由来入力は常に完全0」とは結論しない。ただし持続発火を評価したOFF19〜20秒では0であり、10細胞の活動に伴って反復して届く主な正の入力はPN／LN由来だった。
+
+## 観測の検証
+
+- 記録追加後も、前回と同じ8試行の全24.5秒・4集団（刺激ORN、全ORN、ALPN、正のLN）の**毎1 ms発火数が完全一致**。10細胞それぞれの前回の全保存境界の累積発火数も一致。
+- 無入力2.5秒対照は発火0。短い照合試験後に本試験を実施。
+- 全{sum(v['edge_events'] for v in validation.values()):,}入力辺イベントを実際の送り元発火・元の辺と照合。送り元の全発火が全該当辺へ1回ずつ送出されていることも逆向きに確認。
+- 辺重みは元データのcontacts、符号、元の単位重みとgainから別計算して照合。到来は全件2 ms遅延。
+- OFF全期間の**3,520,000細胞ステップ**で、入力イベントの和と記録入力、膜電位計算、自然発火の記録を検証。OFFの個別毎1 ms発火数とも一致。
+- 送り元別のシナプス変数と電位成分の和を元の実行値と毎0.5 ms照合。全試行の最大誤差は入力4.53e-6 mV、シナプス変数1.52e-5 mV、膜電位3.35e-5 mVで、事前許容0.02 mV以内。
+- 別のPython計算でも、不応期中のシナプス変数保持と自然発火時リセットを含めて電位を再構成。各OFFの最初の自然発火以降は成分別の履歴も再演算し、Java観測値と一致（最大成分誤差1.84e-7 mV）。
+- 図のデータと表示を確認。観測パッチと実行ソース、ハッシュ、生ログを保存。
+
+元のモデルには、不応期中にシナプス変数を減衰させず保持し、自然発火で0へ戻す実装がある。今回はそれも変更せず追跡した。観測追加がこの残留を新しく作ったわけではない。
+
+## 到達点と未確定のこと
+
+今回確認できたのは、**「匂いOFF後もPN／LN→ORNの経路にスパイクが流れ、ORNの電位上昇と反復発火に関わる成分として残る」**ところまで。
+
+ORN終末への入力を単一のLIF膜電位へ足すモデル表現が、今回の再突入をどう生んでいるかは次のモデル監査の焦点になる。しかし、特定の閉ループの同定・必要性、実ハエの感覚終末との対応、空腹生理が原因かどうかは未確定。AL切断や空腹機構を追加して結論を先取りしていない。
+
+## 再現とファイル
+
+元コードは `6cfa30175003ef25da68a237d5eda958f8047b82`、データSHA256は `e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3`。Java 25、Python 3、NumPy、Matplotlibを使用。研究worktreeルートで、未作成の出力先を指定する。
+
+```sh
+LAB=tools/fly-body-lab/brain-orn-timing
+PREVIOUS=tools/fly-body-lab/brain-orn-entry/results
+UPSTREAM=.fly-research/upstream/blendi-remade--fly-brain-minecraft
+JDK=/path/to/jdk/bin
+python3 "$LAB/build.py" --upstream "$UPSTREAM" --output /tmp/orn-timing-build-new --jdk "$JDK"
+python3 "$LAB/run.py" --build /tmp/orn-timing-build-new --data "$UPSTREAM/src/main/resources/connectome/malecns-v1.0.flyb.gz" --java "$JDK/java" --previous "$PREVIOUS" --out /tmp/orn-timing-results-new
+python3 "$LAB/analyze.py" /tmp/orn-timing-results-new "$PREVIOUS"
+python3 "$LAB/validate_events.py" /tmp/orn-timing-results-new "$PREVIOUS"
+python3 "$LAB/plot.py" /tmp/orn-timing-results-new
+```
+
+- `*-edges.csv.gz`: 全入力辺の送出／到来ステップ、送り元・対象ID、符号別分類、増分、強制発火かどうか。
+- `*-sources.csv.gz`: 全入力元の実スパイク。`*-topology.csv`: 元の全入力辺。
+- `*-trace.csv.gz`: 両OFF全期間・対象10細胞の0.5 ms記録。`v_candidate`は成分別再構成値、`v_after`は元solverの実測値。
+- `*-spike-state.csv.gz`: 全24.5秒の対象自然発火時の電位／シナプス成分。ON中の強制発火はここに混ぜない。
+- `*-populations.csv`: 4集団と10細胞の1 ms発火数。
+- `report.json` / `timing-summary.csv`: 全窓・全試行の集計。`example-spike-sequences.json`: 最初のseedの各細胞の例。
+- `equivalence.json` / `validation.json` / `event-validation.json` / `*-checks.json`: 独立照合と観測誤差。
+- `build-metadata.json` / `observation.patch` / `provenance/`: 実行に用いたソースと元コード・データの識別情報。
+'''
+(lab/'README.md').write_text(text)

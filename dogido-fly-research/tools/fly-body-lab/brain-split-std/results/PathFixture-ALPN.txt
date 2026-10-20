@@ -1,0 +1,5 @@
+t_ms=0.0 resource_before=1.000000000 eLN_jump=1.787499905 PN_jump=1.787499905
+t_ms=10.0 resource_before=0.806556780 eLN_jump=1.441720128 PN_jump=1.787499905
+t_ms=20.0 resource_before=0.656875662 eLN_jump=1.174165249 PN_jump=1.787499905
+t_ms=520.0 resource_before=0.910378627 eLN_jump=1.627301693 PN_jump=1.787499905
+PASS selected path depression and recovery, protected repeated ORN input, untouched PN and inhibition

@@ -1,0 +1,25 @@
+{
+  "current_upstream_data_and_four_source_hashes_verified": true,
+  "trials_verified": 40,
+  "total_PN_cell_steps_bitwise_checked": 1344560000,
+  "max_per_step_group_double_vs_original_float_difference_mV": 0.000158429145813,
+  "topology_decompressed_sha256_all_40_identical": "0176ef8601c8c8664043a2d17b088b2ebdc3e609023ea738e421659507e89147",
+  "incoming_edges_by_group": {
+    "other_neg": 4863,
+    "PN_pos": 5954,
+    "other_pos": 3939,
+    "eLN_unclear_pos": 1769,
+    "iLN_GABA_neg": 6325,
+    "eLN_ACh_pos": 10944,
+    "ALIN_pos": 426,
+    "PN_neg": 375,
+    "iLN_other_neg": 1287,
+    "other_ORN_pos": 16180,
+    "ALIN_neg": 293,
+    "eLN_other_pos": 125,
+    "residual_ORN_pos": 54
+  },
+  "executed_source_hashes_unchanged": true,
+  "audit_report_reviewed_before_prespecified_gates": true,
+  "gate_scope_and_negative_glutamate_retention_verified": true
+}

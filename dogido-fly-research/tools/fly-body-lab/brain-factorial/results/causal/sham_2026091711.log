@@ -1,0 +1,7 @@
+sham_2026091711 t=1.5s PN=133.703 GABA_LN=221.167 exc_LN=268.229 wall=3.1s
+sham_2026091711 t=3.5s PN=132.915 GABA_LN=219.333 exc_LN=265.729 wall=9.2s
+INTERVENTION sham at_ms=3500 removed_edges=0 removed_synapses=0 no_state_reset=true
+sham_2026091711 t=5.5s PN=132.157 GABA_LN=218.667 exc_LN=265.938 wall=15.3s
+sham_2026091711 t=6.5s PN=135.015 GABA_LN=222.333 exc_LN=268.021 wall=18.3s
+sham_2026091711 t=8.5s PN=132.391 GABA_LN=218.667 exc_LN=266.875 wall=24.4s
+DONE sham_2026091711 wall_seconds=24.482

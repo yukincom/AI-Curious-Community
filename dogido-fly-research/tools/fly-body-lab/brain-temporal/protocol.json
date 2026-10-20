@@ -1,0 +1,104 @@
+{
+  "experiment": "continuous-odor-readout-01",
+  "selected_before_test_evaluation": true,
+  "fixed_circuit_trained": false,
+  "train_seeds": [
+    2026091701,
+    2026091702,
+    2026091703,
+    2026091704
+  ],
+  "test_seeds": [
+    2026091705,
+    2026091706,
+    2026091707,
+    2026091708
+  ],
+  "train_input_hz": [
+    60,
+    120,
+    180
+  ],
+  "test_input_hz": [
+    90,
+    150
+  ],
+  "window_ms": 50,
+  "history_previous_windows": 4,
+  "features": "8 current log1p rates; difference from previous window; difference from mean of previous four log1p windows; zero padding at fresh trial only",
+  "excluded_features": [
+    "split",
+    "seed",
+    "trial",
+    "profile",
+    "phase",
+    "input_hz",
+    "active",
+    "end_ms",
+    "body_position",
+    "world_sensor"
+  ],
+  "comparison": "binary logistic regression using current rates only, same train rows and optimizer; frozen original live readout at odor threshold 0.65",
+  "optimizer": {
+    "epochs": 800,
+    "learning_rate": 0.08,
+    "l2": 0.002,
+    "class_balance": true,
+    "threshold": 0.5
+  },
+  "adoption": {
+    "test_balanced_accuracy_min": 0.9,
+    "active_recall_min": 0.9,
+    "washout_specificity_min": 0.9,
+    "balanced_gain_over_current_only_min": 0.02,
+    "washout_gain_over_frozen_min": 0.2
+  },
+  "failure_action": "archive measured result; keep existing live controller and sensor gate unchanged; no test-driven tuning",
+  "schedule_phases": [
+    "quiet",
+    "odor_1",
+    "washout_1",
+    "odor_2",
+    "washout_2"
+  ],
+  "durations_ms": {
+    "train": {
+      "A": [
+        500,
+        1000,
+        2000,
+        500,
+        1000
+      ],
+      "B": [
+        250,
+        1500,
+        1500,
+        750,
+        1000
+      ],
+      "Q": [
+        5000
+      ]
+    },
+    "test": {
+      "A": [
+        400,
+        1250,
+        1750,
+        600,
+        1000
+      ],
+      "B": [
+        700,
+        800,
+        2000,
+        500,
+        1000
+      ],
+      "Q": [
+        5000
+      ]
+    }
+  }
+}

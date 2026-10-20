@@ -1,0 +1,7 @@
+{
+  "reran_java_and_fit": true,
+  "rows_matched_excluding_wall_ms": 228,
+  "weights_exact_match": true,
+  "evaluation_exact_match": true,
+  "rerun_generation_seconds": 17.44011829199735
+}

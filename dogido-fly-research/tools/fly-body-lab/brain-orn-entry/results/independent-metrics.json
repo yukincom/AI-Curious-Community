@@ -1,0 +1,6 @@
+{
+  "all_trials": 8,
+  "all_population_peaks_late_OFF_for_both_pulses_and_forced_counts_recalculated": true,
+  "individual_ORN_mean_max_active_counts_recalculated": true,
+  "method": "NumPy convolutions and independent array slices"
+}

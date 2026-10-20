@@ -1,0 +1,21 @@
+{
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "source_sha256": {
+    "Connectome": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+    "PopulationIndex": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+    "LifConfig": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+    "LifNetwork": "33c30cc556213ded9ca12b9074811d42ae5cf1ab5905caf50f145ce91fa4aaf0"
+  },
+  "patched_sha256": {
+    "Connectome": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+    "PopulationIndex": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+    "LifConfig": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+    "LifNetwork": "66f331556d87ae1fa36d89e7f70f904d5c5bfb0c7101fc5c34f2dcb4911c2db8"
+  },
+  "data_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3",
+  "wrappers": {
+    "StdTrial.java": "b571d6311e2b19d769cafe8dacba826039ecf6452ea3948f9bbc784741e1200d",
+    "StdFixture.java": "ec38ccb7d9e4db1b0fdecf69d694462a666c43c0dc105c9e3247e39f6b2dbc31",
+    "InternalFixture.java": "d3fa464746d72abe3fc28bd16dd68de917af3c622b070f93abb80ade4100afcb"
+  }
+}

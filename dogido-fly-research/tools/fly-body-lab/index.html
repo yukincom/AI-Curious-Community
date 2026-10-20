@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ドギドの飛行ラボ</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div class="brand"><span class="mark">◌</span><div><small>DOGIDO · BODY LAB / 01</small><h1>ドギドの飛行ラボ</h1></div></div><div class="status"><i></i> 独立した実験室 <span>LLM 未接続</span></div></header>
+<main><section class="scene-panel"><div class="scene-heading"><div><span class="eyebrow">まずは、浮くことから。</span><p>風を感じて、からだを動かす。</p></div><button id="camera" class="quiet">視点を戻す</button></div>
+<div id="viewport" role="img" aria-label="プレイヤー、他のプレイヤー、村人と匂い源がある3D飛行実験室"><div id="labels"></div><div id="error" hidden></div></div>
+<div class="scene-caption"><span><b class="dot mint"></b> プレイヤーの気流</span><span><b class="dot amber"></b> 甘い匂い</span><span>ドラッグで視点を回す · ホイールで拡大</span></div>
+<div class="metrics"><div><small>高さ</small><strong id="height">—</strong><span> m</span></div><div><small>上向きの助け</small><strong id="lift">—</strong><span> / 2.6</span></div><div><small>推進の強さ</small><strong id="effort">—</strong><span> %</span></div><div><small>飛行時間</small><strong id="time">—</strong><span> 秒</span></div></div>
+<div class="bottom-note"><span id="mode-note">基準制御で浮いています。まだ学習した動きではありません。</span><span id="collision">接触 0 回</span></div></section>
+<aside><section class="card"><div class="section-title"><h2>からだを動かす</h2><span class="tag">STEP 01</span></div>
+<label for="mode">飛び方</label><select id="mode"><option id="moving-option" value="learned-moving" disabled>一緒に散歩する飛行［第3段階］</option><option id="pillar-option" value="learned-pillar" disabled>柱をよける飛行［第2段階］</option><option id="learned-option" value="learned" disabled>学習した飛行［第1段階］</option><option value="hover">その場で浮く［コードによる基準］</option><option value="manual">ハエ君を自分で操縦する</option><option value="follow">プレイヤーに追従［コードによる基準］</option></select>
+<label for="player-control">プレイヤーの動き</label><select id="player-control"><option value="still">その場で待つ</option><option value="manual">自分で動かす</option><option value="auto" selected>自動で散歩する</option></select>
+<div id="player-help" hidden><p class="hint">W A S D / 矢印キー：移動 · Shift：走る<br>画面の奥が前。3D画面をクリックして操作します。ハエ君はプレイヤーについてきます。</p><div class="pad"><button data-key="ArrowUp" aria-label="プレイヤーを前へ">↑</button><button data-key="ArrowLeft" aria-label="プレイヤーを左へ">←</button><button data-key="ArrowDown" aria-label="プレイヤーを後ろへ">↓</button><button data-key="ArrowRight" aria-label="プレイヤーを右へ">→</button></div></div>
+<p class="hint">村人と他のプレイヤーは、のんびり散歩します。</p><p id="training-status" class="result" aria-live="polite">学習モデルを読み込み中…</p><p class="hint">第3段階の飛行で姿勢を保ち、神経の反応で時々寄り道します。プレイヤーは自動で散歩します。</p>
+<div class="button-row"><button id="pause">一時停止</button><button id="reset" class="quiet">最初から</button></div>
+<div id="manual" hidden><label for="thrust">上向き推進 <output id="thrust-value">60%</output></label><input id="thrust" type="range" min="0" max="100" value="60"><p class="hint">W A S D：水平移動 / Q E：向き<br>Space：上昇 / Shift：推進を止める</p><div class="pad"><button data-key="KeyW" aria-label="奥へ">↑</button><button data-key="KeyA" aria-label="左へ">←</button><button data-key="KeyS" aria-label="手前へ">↓</button><button data-key="KeyD" aria-label="右へ">→</button></div></div></section>
+<section class="card"><div class="section-title"><h2>ハエ回路とつながる</h2><span class="tag">LIVE</span></div>
+<label for="neural-mode">神経の使い方</label><select id="neural-mode"><option value="steer">反応で寄り道する</option><option value="observe">神経活動だけ観察する</option><option value="off">接続しない</option></select>
+<p id="brain-status" class="result" aria-live="polite">実回路を準備しています…</p><p id="brain-state" class="hint">新しい神経信号を待っています</p><div id="brain-metrics"></div>
+<label class="toggle"><input id="odor-on" type="checkbox" checked> 甘い匂いを出す</label><button id="brain-reset" class="wide quiet">神経をリセット</button>
+<p class="hint">身体の匂い → 実際のハエ由来回路 → 寄り道のきっかけ。姿勢と柱回避は第3段階の制御器が担当します。匂いを切った後の残り活動も表示します。身体と神経は別の速さで進みます。</p></section>
+<section class="card"><div class="section-title"><h2>実験室の環境</h2><span class="tag">調整できる</span></div>
+<label for="obstacles">障害物</label><select id="obstacles"><option value="none">なし</option><option value="pillar" selected>柱1本［第2段階の練習］</option><option value="wall">低い壁［未評価］</option></select><button id="pillar-trial" class="wide quiet" disabled>柱の向こうへ呼ぶ</button><p id="trial-status" class="hint" aria-live="polite">呼ぶと、人物とハエ君の位置・飛行記録をリセットします。自動散歩・手動操作の選択と室温・気流はそのままです。</p>
+<label class="toggle"><input id="wind" type="checkbox" checked> 上昇気流を発生させる</label>
+<label for="owner-lift">プレイヤーの気流 <output id="owner-lift-value">1.9</output></label><input id="owner-lift" type="range" min="0" max="2.6" step="0.1" value="1.9">
+<div class="pair"><div><label for="player-lift">他のプレイヤー</label><input id="player-lift" type="number" min="0" max="2.6" step="0.1" value="1.3"></div><div><label for="villager-lift">村人</label><input id="villager-lift" type="number" min="0" max="2.6" step="0.1" value="1.3"></div></div>
+
+<label for="temperature">室温 <output id="temperature-value">22°C</output></label><input id="temperature" type="range" min="2" max="32" value="22"><p class="hint">低温では推進力が下がります。実験用の設定です。</p>
+<button id="compare" class="wide quiet">気流あり・なしを30秒ずつ比較</button><p id="comparison" class="result" aria-live="polite">同じ高さを保つための労力を比べます。</p></section>
+<section class="card senses"><div class="section-title"><h2>ハエ君が感じたこと</h2><span class="tag">身体が起点</span></div><div id="observation" aria-live="off"></div><div class="signal-header"><span>観測信号</span><button id="export" class="link">記録を保存 ↓</button></div><div id="signals" class="signals"></div><p class="hint">ここの観測信号は身体センサー由来。上の神経欄は実回路の応答です。</p></section>
+</aside></main><footer><span>浮遊身体 → 感覚 → 観測記録</span><span>飛行の第3段階を学習済み · 神経の反応で寄り道 · Minecraftは未接続</span></footer>
+<script type="module" src="viewer.mjs"></script></body></html>

@@ -1,0 +1,63 @@
+{
+  "seeds": [
+    2026091701,
+    2026091711,
+    2026091721,
+    2026091731
+  ],
+  "conditions_U_preserve_ORN": {
+    "baseline": [
+      0,
+      false
+    ],
+    "all300": [
+      0.2,
+      false
+    ],
+    "internal300": [
+      0.2,
+      true
+    ]
+  },
+  "tau_recovery_ms": 300,
+  "target": "positive presynaptic sources to positive ALLN (model eLN); internal excludes union of class:ORN and prefix:ORN_",
+  "not_proven": "non-ORN is an operational source partition, not graph-theoretic proof that every selected edge is recurrent",
+  "odor_hz": 60,
+  "dt_ms": 0.5,
+  "gain": 0.65,
+  "kc_gain": 0.25,
+  "threads_per_trial": 1,
+  "max_concurrent_trials": 2,
+  "finish_ms": 24500,
+  "schedule_ms": {
+    "quiet": [
+      0,
+      500
+    ],
+    "odor": [
+      500,
+      1500
+    ],
+    "off": [
+      1500,
+      21500
+    ],
+    "reodor": [
+      21500,
+      22500
+    ],
+    "off_again": [
+      22500,
+      24500
+    ]
+  },
+  "metrics": {
+    "PN_peak": "maximum trailing 50ms average with window fully within 1s odor; secondary trailing 10ms peak",
+    "PN_off_1s": "mean in OFF +900 to +1000ms (same 100ms observation width as 20s)",
+    "PN_off_20s": "mean in OFF +19900 to +20000ms",
+    "secondary": "last500ms during odor; full odor mean; OFF 0-1s and 19-20s means; same metrics for second pulse where available; eLN and ACh/unclear/GABA; ORN transmission raw vs sent"
+  },
+  "success_interpretation": "Report paired peak ratios and residuals without a post-hoc success threshold. Near-zero descriptive threshold <=1Hz; a retained onset peak alone does not establish avoidance of excessive suppression if sustained odor response disappears.",
+  "unchanged": "original refractory handling, adaptation disabled, first spike amplitude, no OFF-triggered reset, 50ms endTick",
+  "parameters": "U=.2 and 300ms are the preceding engineering probe, not physiologically calibrated values"
+}

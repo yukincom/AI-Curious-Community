@@ -1,0 +1,60 @@
+input_ORN neurons=157
+class:ALPN neurons=686
+prefix:KC neurons=4064
+DNp01 neurons=2
+DNp09 neurons=2
+DNa02 neurons=2
+superclass:descending_neuron neurons=1314
+superclass:vnc_motor neurons=708
+superclass:cb_motor neurons=107
+all_neurons neurons=176422
+Connectome[male-cns:v1.0, 176422 neurons, 6287749 edges, 9619 retina entries]
+progress 2026091701_60 off_seconds=5 ALPN=134.577259
+progress 2026091701_60 off_seconds=10 ALPN=134.606414
+progress 2026091701_60 off_seconds=15 ALPN=133.994169
+progress 2026091701_60 off_seconds=20 ALPN=134.402332
+progress 2026091701_60 off_seconds=25 ALPN=134.169096
+progress 2026091701_60 off_seconds=30 ALPN=133.935860
+extend 2026091701_60 to 60 s: ALPN not <=1 Hz throughout last 5 s
+progress 2026091701_60 off_seconds=35 ALPN=133.819242
+progress 2026091701_60 off_seconds=40 ALPN=134.373178
+progress 2026091701_60 off_seconds=45 ALPN=133.906706
+progress 2026091701_60 off_seconds=50 ALPN=134.897959
+progress 2026091701_60 off_seconds=55 ALPN=134.460641
+progress 2026091701_60 off_seconds=60 ALPN=134.897959
+completed 2026091701_60 sim_ms=61500 wall_seconds=192.006
+progress 2026091711_60 off_seconds=5 ALPN=132.361516
+progress 2026091711_60 off_seconds=10 ALPN=132.128280
+progress 2026091711_60 off_seconds=15 ALPN=132.798834
+progress 2026091711_60 off_seconds=20 ALPN=133.061224
+progress 2026091711_60 off_seconds=25 ALPN=133.061224
+progress 2026091711_60 off_seconds=30 ALPN=133.411079
+extend 2026091711_60 to 60 s: ALPN not <=1 Hz throughout last 5 s
+progress 2026091711_60 off_seconds=35 ALPN=132.594752
+progress 2026091711_60 off_seconds=40 ALPN=133.440233
+progress 2026091711_60 off_seconds=45 ALPN=132.973761
+progress 2026091711_60 off_seconds=50 ALPN=133.032070
+progress 2026091711_60 off_seconds=55 ALPN=133.673469
+progress 2026091711_60 off_seconds=60 ALPN=132.857143
+completed 2026091711_60 sim_ms=61500 wall_seconds=188.343
+progress 2026091712_150 off_seconds=5 ALPN=134.810496
+progress 2026091712_150 off_seconds=10 ALPN=135.102041
+progress 2026091712_150 off_seconds=15 ALPN=134.781341
+progress 2026091712_150 off_seconds=20 ALPN=135.131195
+progress 2026091712_150 off_seconds=25 ALPN=135.247813
+progress 2026091712_150 off_seconds=30 ALPN=135.131195
+extend 2026091712_150 to 60 s: ALPN not <=1 Hz throughout last 5 s
+progress 2026091712_150 off_seconds=35 ALPN=135.247813
+progress 2026091712_150 off_seconds=40 ALPN=135.306122
+progress 2026091712_150 off_seconds=45 ALPN=135.160350
+progress 2026091712_150 off_seconds=50 ALPN=134.868805
+progress 2026091712_150 off_seconds=55 ALPN=134.985423
+progress 2026091712_150 off_seconds=60 ALPN=135.189504
+completed 2026091712_150 sim_ms=61500 wall_seconds=187.502
+progress 2026091713_0 off_seconds=5 ALPN=0.000000
+progress 2026091713_0 off_seconds=10 ALPN=0.000000
+progress 2026091713_0 off_seconds=15 ALPN=0.000000
+progress 2026091713_0 off_seconds=20 ALPN=0.000000
+progress 2026091713_0 off_seconds=25 ALPN=0.000000
+progress 2026091713_0 off_seconds=30 ALPN=0.000000
+completed 2026091713_0 sim_ms=31500 wall_seconds=0.098

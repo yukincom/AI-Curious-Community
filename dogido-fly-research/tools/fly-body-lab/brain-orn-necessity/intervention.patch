@@ -1,0 +1,28 @@
+--- upstream/LifNetwork.java
++++ arrival-gated/LifNetwork.java
+@@ -73,6 +73,7 @@
+     private double simTimeMs;
+ 
+     private final SplittableRandom rng;
++    public ArrivalGate arrivalGate;
+ 
+     public LifNetwork(Connectome c, LifConfig cfg) {
+         this.c = c;
+@@ -231,6 +232,9 @@
+         final int step = (int) stepIndex;
+         final int readSlot = (int) (stepIndex % slots);
+         final float[] in = delayBuf[readSlot];
++        if(arrivalGate!=null && arrivalGate.start(step,in,pending)) {
++            for(int i:arrivalGate.targets) if(in[i]!=0f && !active[i]) activate(i);
++        }
+ 
+         // Poisson-driven neurons: spike generators
+         if (stimCount > 0) {
+@@ -416,6 +420,7 @@
+             if (cap > 0f) {
+                 if (jump > cap) jump = cap; else if (jump < -cap) jump = -cap;
+             }
++            if(arrivalGate!=null) arrivalGate.edge((int)stepIndex,i,j,jump);
+             if (out[j] == 0f) pending[j]++;
+             out[j] += jump;
+             if (out[j] == 0f) pending[j]--; // exact cancellation: keep counter consistent

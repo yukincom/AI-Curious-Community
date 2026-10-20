@@ -1,0 +1,11 @@
+ALLN_transmitter_sign_counts	{acetylcholine:1=144, gaba:-1=120, glutamate:-1=108, octopamine:1=2, unclear:1=46}
+selected_GABA_ALLN_body_id	23854
+selected_ALPN_body_id	13389
+selected_synapse_count	594
+leak_20ms_mV	-49.792720795
+leak_expected_mV	-49.792723353
+leak_200ms_mV	-52.0
+one_GABA_spike_target_10ms_mV	-68.578674
+isolated_1s_spikes_adapt_0.0	100
+isolated_1s_spikes_adapt_1.0	54
+PASS	isolated leak, inhibitory sign, and optional adaptation checks

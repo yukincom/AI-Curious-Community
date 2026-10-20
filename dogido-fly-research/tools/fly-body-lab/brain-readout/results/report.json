@@ -1,0 +1,234 @@
+{
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "neural_weights_changed": false,
+  "test_used_for_fit_or_tuning": false,
+  "train_seeds": [
+    2026091601,
+    2026091602,
+    2026091603,
+    2026091604
+  ],
+  "test_seeds": [
+    2026091605,
+    2026091606
+  ],
+  "labels_order": [
+    "none",
+    "odor",
+    "loom"
+  ],
+  "train": {
+    "rows": 168,
+    "accuracy": 0.8571428571428571,
+    "balanced_accuracy": 0.8888888888888888,
+    "confusion_rows_actual_cols_predicted": [
+      [
+        48,
+        24,
+        0
+      ],
+      [
+        0,
+        48,
+        0
+      ],
+      [
+        0,
+        0,
+        48
+      ]
+    ],
+    "per_class_recall": {
+      "none": 0.6666666666666666,
+      "odor": 1.0,
+      "loom": 1.0
+    }
+  },
+  "test": {
+    "rows": 60,
+    "accuracy": 0.8666666666666667,
+    "balanced_accuracy": 0.9047619047619048,
+    "confusion_rows_actual_cols_predicted": [
+      [
+        20,
+        8,
+        0
+      ],
+      [
+        0,
+        16,
+        0
+      ],
+      [
+        0,
+        0,
+        16
+      ]
+    ],
+    "per_class_recall": {
+      "none": 0.7142857142857143,
+      "odor": 1.0,
+      "loom": 1.0
+    }
+  },
+  "test_by_phase": {
+    "quiet": {
+      "rows": 12,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_rows_actual_cols_predicted": [
+        [
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class_recall": {
+        "none": 1.0,
+        "odor": null,
+        "loom": null
+      }
+    },
+    "stimulus": {
+      "rows": 32,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_rows_actual_cols_predicted": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0
+        ],
+        [
+          0,
+          0,
+          16
+        ]
+      ],
+      "per_class_recall": {
+        "none": null,
+        "odor": 1.0,
+        "loom": 1.0
+      }
+    },
+    "washout": {
+      "rows": 16,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "confusion_rows_actual_cols_predicted": [
+        [
+          8,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class_recall": {
+        "none": 0.5,
+        "odor": null,
+        "loom": null
+      }
+    }
+  },
+  "test_washout_by_previous_stimulus": {
+    "odor": {
+      "rows": 8,
+      "accuracy": 0.0,
+      "balanced_accuracy": 0.0,
+      "confusion_rows_actual_cols_predicted": [
+        [
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class_recall": {
+        "none": 0.0,
+        "odor": null,
+        "loom": null
+      }
+    },
+    "loom": {
+      "rows": 8,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_rows_actual_cols_predicted": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class_recall": {
+        "none": 1.0,
+        "odor": null,
+        "loom": null
+      }
+    }
+  },
+  "train_input_hz": [
+    0,
+    60,
+    120,
+    180
+  ],
+  "test_input_hz": [
+    0,
+    90,
+    150
+  ],
+  "majority_train_class_test_accuracy": 0.4666666666666667,
+  "sample_window_ms": 50,
+  "independent_test_seeds": 2,
+  "limitations": [
+    "Synthetic forced population stimulation, not environmental smell recognition",
+    "50 ms windows within trial are correlated; only two independent heldout seeds",
+    "None includes 100 ms post-stimulus residual activity",
+    "Fixed readout hyperparameters; no test-driven tuning",
+    "Not connected to LLM, body motion, or Minecraft"
+  ]
+}

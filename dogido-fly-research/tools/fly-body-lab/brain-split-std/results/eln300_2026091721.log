@@ -1,0 +1,8 @@
+targets=192 ACh=144 unknown=46 PN=686 GABA=120 edges=37660 contacts=819907 use=0.200 tau_ms=300.0
+source_mode=ALLN all_orn_count=2635
+eln300_2026091721 t=1.5s eLN=144.688 PN=98.484 wall=2.1s
+eln300_2026091721 t=3.5s eLN=144.479 PN=98.659 wall=6.4s
+eln300_2026091721 t=21.5s eLN=145.521 PN=98.659 wall=45.5s
+eln300_2026091721 t=22.5s eLN=146.146 PN=97.464 wall=47.7s
+eln300_2026091721 t=24.5s eLN=146.042 PN=98.805 wall=52.1s
+DONE eln300_2026091721 wall_seconds=52.089

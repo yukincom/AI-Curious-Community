@@ -1,0 +1,29 @@
+{
+  "baseline": {
+    "first_peak_retained": 4,
+    "late_response_retained": 4,
+    "OFF1s_quiet": 0,
+    "OFF20s_quiet": 0,
+    "second_peak_retained": 4,
+    "second_response_rises": 4,
+    "second_OFF1s_quiet": 0
+  },
+  "pn300": {
+    "first_peak_retained": 4,
+    "late_response_retained": 4,
+    "OFF1s_quiet": 0,
+    "OFF20s_quiet": 0,
+    "second_peak_retained": 4,
+    "second_response_rises": 4,
+    "second_OFF1s_quiet": 0
+  },
+  "eln300": {
+    "first_peak_retained": 4,
+    "late_response_retained": 4,
+    "OFF1s_quiet": 0,
+    "OFF20s_quiet": 0,
+    "second_peak_retained": 4,
+    "second_response_rises": 4,
+    "second_OFF1s_quiet": 0
+  }
+}

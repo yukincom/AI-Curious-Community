@@ -1,0 +1,5 @@
+{
+  "method": "NumPy valid convolution and independent array slices",
+  "trials": 16,
+  "PN_peak50_peak10_OFF1s_OFF20s_match": true
+}

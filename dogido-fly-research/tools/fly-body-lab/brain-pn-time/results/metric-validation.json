@@ -1,0 +1,6 @@
+{
+  "trials": 16,
+  "each_cell_and_four_cell_mean_10_50ms_peaks_match_independent_convolution": true,
+  "late_and_OFF1_means_match_independent_array_slices": true,
+  "last_spike_times_are_1ms_bin_upper_bounds_not_exact_spike_times": true
+}

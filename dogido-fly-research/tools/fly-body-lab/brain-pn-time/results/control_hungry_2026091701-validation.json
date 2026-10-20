@@ -1,0 +1,17 @@
+{
+  "original_replay_files_byte_identical": {
+    "control_hungry_2026091701-populations.csv": "11a3f5278af9175d9a9b5cc989415226cafe80bf490e457b13e475a8a08bc684",
+    "control_hungry_2026091701-PN-cells.csv": "cb7ab92de3802bb27e6c386524de0d2e149a6fdb525d4ec25926559c573be543",
+    "control_hungry_2026091701-topology.csv.gz": "4b89e63adcff72f240eeac7d0017c08a5a690e7aee0ed0449ad0eafe336ab9c5",
+    "control_hungry_2026091701-phase-edges.csv.gz": "6ebb4bdffb61145253d94164617275c4ab35f933e12a4e2072fcdf5afcd76f77",
+    "control_hungry_2026091701-source-spikes.csv.gz": "4bf74a1967ce3a776df75611d88ace1091e27659c4ff23fd5a6edad58208d2f6",
+    "control_hungry_2026091701-late-inputs.csv": "af35aad568acf2c0f4260f21afa4c0e7d8a29216df2d62020419a6e2582b65c6",
+    "control_hungry_2026091701-late-steps.csv.gz": "7251a413813eeaef95c1a6ca077e4cd2f07809f8d3ea88b74ec46421d09d14dc",
+    "control_hungry_2026091701-boundaries.csv.gz": "07eb55088f611c213255d6baec949d221bc0646158b8eb9542de24a8857aa04f",
+    "control_hungry_2026091701-checks.json": "78abb6607e9c30d3beb81180d96c4ff793e1b21e62c3b4a28a0ec40fc6f5cafb"
+  },
+  "trace_rows": 24500,
+  "each_1ms_time_and_input_match": true,
+  "four_cell_cumulative_counts_match_all_4_saved_snapshots": true,
+  "no_model_change_from_recording": true
+}

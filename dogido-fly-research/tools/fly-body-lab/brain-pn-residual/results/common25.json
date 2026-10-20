@@ -1,0 +1,200 @@
+[
+  {
+    "trial": "all_positive_hungry_2026091701",
+    "positive_sum_mV": 350114.93069803715,
+    "signed_class_percent_of_positive": {
+      "|gaba|-1": -0.7138973242451305,
+      "ALLN|gaba|-1": -5.710157571939643,
+      "|glutamate|-1": -0.2781457992793393,
+      "ALIN|acetylcholine|1": 0.11538353352755921,
+      "ALIN|gaba|-1": -1.4956463245175078,
+      "|octopamine|1": 0.14688426096942103,
+      "ALLN|glutamate|-1": -2.7153421697056492,
+      "|acetylcholine|1": 2.529452140844215,
+      "ALPN|acetylcholine|1": 16.062409234167614,
+      "DAN|dopamine|1": 0.003369607766105465,
+      "ALON|acetylcholine|1": 0.367031957947451,
+      "ALPN|glutamate|-1": -0.06351199870026612,
+      "thermosensory|acetylcholine|1": 77.74093332760873,
+      "hygrosensory|acetylcholine|1": 3.0345359371689042
+    },
+    "PN_signed_sum_by_membership": {
+      "within_common25": 56010.59546852112,
+      "outside_common25": 3.932499885559082
+    },
+    "OFF20_hz_contribution_of_common25": 3.848396501457726
+  },
+  {
+    "trial": "all_positive_satiated_2026091701",
+    "positive_sum_mV": 346006.7196048498,
+    "signed_class_percent_of_positive": {
+      "|gaba|-1": -0.7222702567548248,
+      "ALLN|gaba|-1": -5.753003294742396,
+      "|glutamate|-1": -0.29198709572434356,
+      "ALIN|acetylcholine|1": 0.11804502775986461,
+      "ALIN|gaba|-1": -1.5134044502235195,
+      "|octopamine|1": 0.14614852841899734,
+      "ALLN|glutamate|-1": -2.7175670521536324,
+      "|acetylcholine|1": 2.587795004655921,
+      "ALPN|acetylcholine|1": 16.31687110454777,
+      "DAN|dopamine|1": 0.003719580908791891,
+      "ALON|acetylcholine|1": 0.3666886693635597,
+      "ALPN|glutamate|-1": -0.06586757628484659,
+      "thermosensory|acetylcholine|1": 77.39223289268483,
+      "hygrosensory|acetylcholine|1": 3.0684991916602717
+    },
+    "PN_signed_sum_by_membership": {
+      "within_common25": 56223.665461182594,
+      "outside_common25": 5.898749828338623
+    },
+    "OFF20_hz_contribution_of_common25": 3.8338192419825075
+  },
+  {
+    "trial": "all_positive_hungry_2026091711",
+    "positive_sum_mV": 346856.67583334446,
+    "signed_class_percent_of_positive": {
+      "|gaba|-1": -0.7207065041895969,
+      "ALLN|gaba|-1": -5.739833442893686,
+      "|glutamate|-1": -0.287767265570594,
+      "ALIN|acetylcholine|1": 0.11672507886047018,
+      "ALIN|gaba|-1": -1.5259292121632642,
+      "|octopamine|1": 0.14542965846397604,
+      "ALLN|glutamate|-1": -2.714669780295429,
+      "|acetylcholine|1": 2.5769187180220556,
+      "ALPN|acetylcholine|1": 16.424378397837998,
+      "DAN|dopamine|1": 0.0027828496859628226,
+      "ALON|acetylcholine|1": 0.375169349490176,
+      "ALPN|glutamate|-1": -0.06364480079200119,
+      "thermosensory|acetylcholine|1": 77.30761361605794,
+      "hygrosensory|acetylcholine|1": 3.0509823315814297
+    },
+    "PN_signed_sum_by_membership": {
+      "within_common25": 56740.431696891785,
+      "outside_common25": 7.864999771118164
+    },
+    "OFF20_hz_contribution_of_common25": 3.7900874635568513
+  },
+  {
+    "trial": "all_positive_satiated_2026091711",
+    "positive_sum_mV": 349172.91824162006,
+    "signed_class_percent_of_positive": {
+      "|gaba|-1": -0.7204306204400932,
+      "ALLN|gaba|-1": -5.65885896327179,
+      "|glutamate|-1": -0.2856535885559948,
+      "ALIN|acetylcholine|1": 0.11646270574240584,
+      "ALIN|gaba|-1": -1.5158069438870247,
+      "|octopamine|1": 0.15347481143974676,
+      "ALLN|glutamate|-1": -2.7232308435655144,
+      "|acetylcholine|1": 2.5730835313467293,
+      "ALPN|acetylcholine|1": 16.125298531017773,
+      "DAN|dopamine|1": 0.003685852829128438,
+      "ALON|acetylcholine|1": 0.3587051347381366,
+      "ALPN|glutamate|-1": -0.062096379517123095,
+      "thermosensory|acetylcholine|1": 77.66342533257559,
+      "hygrosensory|acetylcholine|1": 3.005864100310495
+    },
+    "PN_signed_sum_by_membership": {
+      "within_common25": 56086.38546550274,
+      "outside_common25": 1.966249942779541
+    },
+    "OFF20_hz_contribution_of_common25": 3.746355685131195
+  },
+  {
+    "trial": "all_positive_hungry_2026091721",
+    "positive_sum_mV": 347549.5108113289,
+    "signed_class_percent_of_positive": {
+      "|gaba|-1": -0.7178297032538135,
+      "ALLN|gaba|-1": -5.729265502669375,
+      "|glutamate|-1": -0.28642213286788987,
+      "ALIN|acetylcholine|1": 0.11726386186095615,
+      "ALIN|gaba|-1": -1.5228872941077707,
+      "|octopamine|1": 0.1472484387867333,
+      "ALLN|glutamate|-1": -2.710801070439218,
+      "|acetylcholine|1": 2.5164413534807535,
+      "ALPN|acetylcholine|1": 16.184110452799146,
+      "DAN|dopamine|1": 0.0021601238671627213,
+      "ALON|acetylcholine|1": 0.3603806502054382,
+      "ALPN|glutamate|-1": -0.061923548709201484,
+      "thermosensory|acetylcholine|1": 77.63587821482496,
+      "hygrosensory|acetylcholine|1": 3.0365169041748463
+    },
+    "PN_signed_sum_by_membership": {
+      "within_common25": 56032.58171725273
+    },
+    "OFF20_hz_contribution_of_common25": 3.760932944606414
+  },
+  {
+    "trial": "all_positive_satiated_2026091721",
+    "positive_sum_mV": 346485.4120875597,
+    "signed_class_percent_of_positive": {
+      "|gaba|-1": -0.7245225292859124,
+      "ALLN|gaba|-1": -5.735665856537002,
+      "|glutamate|-1": -0.2905519065743316,
+      "ALIN|acetylcholine|1": 0.11710809869509124,
+      "ALIN|gaba|-1": -1.5113135820127719,
+      "|octopamine|1": 0.13304924663511017,
+      "ALLN|glutamate|-1": -2.712935532843717,
+      "|acetylcholine|1": 2.5976330570937933,
+      "ALPN|acetylcholine|1": 16.14507992743254,
+      "DAN|dopamine|1": 0.0021667578695479368,
+      "ALON|acetylcholine|1": 0.36618206474646586,
+      "ALPN|glutamate|-1": -0.06531227065419622,
+      "thermosensory|acetylcholine|1": 77.56647303275697,
+      "hygrosensory|acetylcholine|1": 3.0723078147704754
+    },
+    "PN_signed_sum_by_membership": {
+      "within_common25": 55710.116728425026,
+      "outside_common25": 3.932499885559082
+    },
+    "OFF20_hz_contribution_of_common25": 3.717201166180758
+  },
+  {
+    "trial": "all_positive_hungry_2026091731",
+    "positive_sum_mV": 341866.512267828,
+    "signed_class_percent_of_positive": {
+      "|gaba|-1": -0.7297625046468904,
+      "ALLN|gaba|-1": -5.766519906710052,
+      "|glutamate|-1": -0.28945800076344663,
+      "ALIN|acetylcholine|1": 0.1186903261334082,
+      "ALIN|gaba|-1": -1.5317326806405078,
+      "|octopamine|1": 0.15178767440404622,
+      "ALLN|glutamate|-1": -2.7170150579606345,
+      "|acetylcholine|1": 2.555920381629916,
+      "ALPN|acetylcholine|1": 16.404362799372016,
+      "DAN|dopamine|1": 0.0025097515011895163,
+      "ALON|acetylcholine|1": 0.35685527675558004,
+      "ALPN|glutamate|-1": -0.05971116906350633,
+      "thermosensory|acetylcholine|1": 77.38452528975026,
+      "hygrosensory|acetylcholine|1": 3.0253485004535836
+    },
+    "PN_signed_sum_by_membership": {
+      "within_common25": 55876.89047086239
+    },
+    "OFF20_hz_contribution_of_common25": 3.6443148688046647
+  },
+  {
+    "trial": "all_positive_satiated_2026091731",
+    "positive_sum_mV": 348394.8195234537,
+    "signed_class_percent_of_positive": {
+      "|gaba|-1": -0.714497528006982,
+      "ALLN|gaba|-1": -5.719212617703193,
+      "|glutamate|-1": -0.2876768440209597,
+      "ALIN|acetylcholine|1": 0.11672281145286474,
+      "ALIN|gaba|-1": -1.5030306994044427,
+      "|octopamine|1": 0.13575760995092498,
+      "ALLN|glutamate|-1": -2.724028264908544,
+      "|acetylcholine|1": 2.52624080981577,
+      "ALPN|acetylcholine|1": 16.29229856841295,
+      "DAN|dopamine|1": 0.003386244350944382,
+      "ALON|acetylcholine|1": 0.3595062603286985,
+      "ALPN|glutamate|-1": -0.06495432120072035,
+      "thermosensory|acetylcholine|1": 77.52626647818325,
+      "hygrosensory|acetylcholine|1": 3.0398212175046027
+    },
+    "PN_signed_sum_by_membership": {
+      "within_common25": 56531.29420363903,
+      "outside_common25": 3.932499885559082
+    },
+    "OFF20_hz_contribution_of_common25": 3.731778425655977
+  }
+]

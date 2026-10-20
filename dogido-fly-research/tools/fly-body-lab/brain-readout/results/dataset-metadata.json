@@ -1,0 +1,16 @@
+{
+  "generation_seconds": 17.415391333022853,
+  "upstream_sha": "6cfa30175003ef25da68a237d5eda958f8047b82",
+  "data_sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3",
+  "java": "openjdk version \"25.0.2\" 2026-01-20 LTS\nOpenJDK Runtime Environment Temurin-25.0.2+10 (build 25.0.2+10-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.2+10 (build 25.0.2+10-LTS, mixed mode, sharing)",
+  "dataset_sha256": "a9f40822f63deefa52fcad7039f87a075dccd8de8994ae04c5335b6509b86997",
+  "generator_sha256": "b0d3da138a2d829ce24cca4b52f8c02ac216502951ffc36dfdbbc1f382b892d0",
+  "dt_ms": 0.5,
+  "global_gain": 0.65,
+  "kenyon_input_gain": 0.25,
+  "threads": 1,
+  "stimulus_ms": 200,
+  "washout_ms": 100,
+  "window_ms": 50,
+  "fresh_network_per_trial": true
+}

@@ -1,0 +1,12 @@
+{
+  "keep_unclear": {
+    "ten_ORNs_and_PN_quiet": 0,
+    "ten_ORNs_quiet_PN_remains_active": 0,
+    "ten_ORNs_not_all_quiet": 8
+  },
+  "block_all": {
+    "ten_ORNs_and_PN_quiet": 0,
+    "ten_ORNs_quiet_PN_remains_active": 0,
+    "ten_ORNs_not_all_quiet": 8
+  }
+}

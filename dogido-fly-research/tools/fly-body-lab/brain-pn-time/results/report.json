@@ -1,0 +1,3266 @@
+{
+  "control_hungry_2026091701": {
+    "condition": "control",
+    "seed": 2026091701,
+    "gain_label": "hungry",
+    "first": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 837,
+        "end_ms": 847
+      },
+      "peak50": {
+        "hz": 445.0,
+        "start_ms": 560,
+        "end_ms": 610
+      },
+      "late500_hz": 426.5,
+      "OFF1_hz": 347.5,
+      "OFF_tail_after1s_spikes_per_cell": 6581.5,
+      "OFF20_hz": 350.0,
+      "last_OFF_spike_bin_end_ms": 20000
+    },
+    "second": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 21692,
+        "end_ms": 21702
+      },
+      "peak50": {
+        "hz": 445.0,
+        "start_ms": 21624,
+        "end_ms": 21674
+      },
+      "late500_hz": 430.0,
+      "OFF1_hz": 347.5,
+      "OFF_tail_after1s_spikes_per_cell": 346.0,
+      "last_OFF_spike_bin_end_ms": 2000
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 514,
+            "end_ms": 524
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 560,
+            "end_ms": 610
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 320.0,
+          "OFF_tail_after1s_spikes_per_cell": 6186.0,
+          "OFF20_hz": 330.0,
+          "last_OFF_spike_bin_end_ms": 19998
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21500,
+            "end_ms": 21510
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21500,
+            "end_ms": 21550
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 330.0,
+          "OFF_tail_after1s_spikes_per_cell": 325.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 507,
+            "end_ms": 517
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 558,
+            "end_ms": 608
+          },
+          "late500_hz": 464.0,
+          "OFF1_hz": 400.0,
+          "OFF_tail_after1s_spikes_per_cell": 7513.0,
+          "OFF20_hz": 400.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21500,
+            "end_ms": 21510
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 21899,
+            "end_ms": 21949
+          },
+          "late500_hz": 464.0,
+          "OFF1_hz": 400.0,
+          "OFF_tail_after1s_spikes_per_cell": 394.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 508,
+            "end_ms": 518
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 508,
+            "end_ms": 558
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 310.0,
+          "OFF_tail_after1s_spikes_per_cell": 5883.0,
+          "OFF20_hz": 310.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21502,
+            "end_ms": 21512
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21502,
+            "end_ms": 21552
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 310.0,
+          "OFF_tail_after1s_spikes_per_cell": 310.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 507,
+            "end_ms": 517
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 568,
+            "end_ms": 618
+          },
+          "late500_hz": 418.0,
+          "OFF1_hz": 360.0,
+          "OFF_tail_after1s_spikes_per_cell": 6744.0,
+          "OFF20_hz": 360.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21517,
+            "end_ms": 21527
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21543,
+            "end_ms": 21593
+          },
+          "late500_hz": 424.0,
+          "OFF1_hz": 350.0,
+          "OFF_tail_after1s_spikes_per_cell": 355.0,
+          "last_OFF_spike_bin_end_ms": 1997
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": false,
+      "OFF20_quiet": false,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": false
+    },
+    "all_reference_criteria_pass": false,
+    "every_cell_exactly_zero_in_OFF_endpoints": false,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": false
+  },
+  "control_satiated_2026091701": {
+    "condition": "control",
+    "seed": 2026091701,
+    "gain_label": "satiated",
+    "first": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 661,
+        "end_ms": 671
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 1283,
+        "end_ms": 1333
+      },
+      "late500_hz": 393.5,
+      "OFF1_hz": 340.0,
+      "OFF_tail_after1s_spikes_per_cell": 6522.25,
+      "OFF20_hz": 345.0,
+      "last_OFF_spike_bin_end_ms": 20000
+    },
+    "second": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 21574,
+        "end_ms": 21584
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 21842,
+        "end_ms": 21892
+      },
+      "late500_hz": 392.5,
+      "OFF1_hz": 345.0,
+      "OFF_tail_after1s_spikes_per_cell": 345.25,
+      "last_OFF_spike_bin_end_ms": 2000
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 661,
+            "end_ms": 671
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 515,
+            "end_ms": 565
+          },
+          "late500_hz": 378.0,
+          "OFF1_hz": 330.0,
+          "OFF_tail_after1s_spikes_per_cell": 6267.0,
+          "OFF20_hz": 330.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21549,
+            "end_ms": 21559
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21507,
+            "end_ms": 21557
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 330.0,
+          "OFF_tail_after1s_spikes_per_cell": 334.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 519,
+            "end_ms": 529
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 531,
+            "end_ms": 581
+          },
+          "late500_hz": 418.0,
+          "OFF1_hz": 390.0,
+          "OFF_tail_after1s_spikes_per_cell": 7463.0,
+          "OFF20_hz": 390.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21503,
+            "end_ms": 21513
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21534,
+            "end_ms": 21584
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 400.0,
+          "OFF_tail_after1s_spikes_per_cell": 393.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 911,
+            "end_ms": 921
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 742,
+            "end_ms": 792
+          },
+          "late500_hz": 380.0,
+          "OFF1_hz": 280.0,
+          "OFF_tail_after1s_spikes_per_cell": 5555.0,
+          "OFF20_hz": 300.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21574,
+            "end_ms": 21584
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21501,
+            "end_ms": 21551
+          },
+          "late500_hz": 378.0,
+          "OFF1_hz": 290.0,
+          "OFF_tail_after1s_spikes_per_cell": 297.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 1223,
+            "end_ms": 1233
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 1183,
+            "end_ms": 1233
+          },
+          "late500_hz": 398.0,
+          "OFF1_hz": 360.0,
+          "OFF_tail_after1s_spikes_per_cell": 6804.0,
+          "OFF20_hz": 360.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 22065,
+            "end_ms": 22075
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 22025,
+            "end_ms": 22075
+          },
+          "late500_hz": 398.0,
+          "OFF1_hz": 360.0,
+          "OFF_tail_after1s_spikes_per_cell": 357.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": false,
+      "OFF20_quiet": false,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": false
+    },
+    "all_reference_criteria_pass": false,
+    "every_cell_exactly_zero_in_OFF_endpoints": false,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": false
+  },
+  "control_hungry_2026091711": {
+    "condition": "control",
+    "seed": 2026091711,
+    "gain_label": "hungry",
+    "first": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 560,
+        "end_ms": 570
+      },
+      "peak50": {
+        "hz": 445.0,
+        "start_ms": 537,
+        "end_ms": 587
+      },
+      "late500_hz": 428.5,
+      "OFF1_hz": 337.5,
+      "OFF_tail_after1s_spikes_per_cell": 6418.75,
+      "OFF20_hz": 342.5,
+      "last_OFF_spike_bin_end_ms": 20000
+    },
+    "second": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 21522,
+        "end_ms": 21532
+      },
+      "peak50": {
+        "hz": 450.0,
+        "start_ms": 21696,
+        "end_ms": 21746
+      },
+      "late500_hz": 430.0,
+      "OFF1_hz": 335.0,
+      "OFF_tail_after1s_spikes_per_cell": 337.0,
+      "last_OFF_spike_bin_end_ms": 2000
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 523,
+            "end_ms": 533
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 518,
+            "end_ms": 568
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 310.0,
+          "OFF_tail_after1s_spikes_per_cell": 6165.0,
+          "OFF20_hz": 330.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21503,
+            "end_ms": 21513
+          },
+          "peak50": {
+            "hz": 460.0,
+            "start_ms": 21730,
+            "end_ms": 21780
+          },
+          "late500_hz": 418.0,
+          "OFF1_hz": 340.0,
+          "OFF_tail_after1s_spikes_per_cell": 324.0,
+          "last_OFF_spike_bin_end_ms": 1998
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 507,
+            "end_ms": 517
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 625,
+            "end_ms": 675
+          },
+          "late500_hz": 464.0,
+          "OFF1_hz": 390.0,
+          "OFF_tail_after1s_spikes_per_cell": 7343.0,
+          "OFF20_hz": 390.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21503,
+            "end_ms": 21513
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 21641,
+            "end_ms": 21691
+          },
+          "late500_hz": 466.0,
+          "OFF1_hz": 380.0,
+          "OFF_tail_after1s_spikes_per_cell": 388.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 514,
+            "end_ms": 524
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 616,
+            "end_ms": 666
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 300.0,
+          "OFF_tail_after1s_spikes_per_cell": 5588.0,
+          "OFF20_hz": 300.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21522,
+            "end_ms": 21532
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21684,
+            "end_ms": 21734
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 280.0,
+          "OFF_tail_after1s_spikes_per_cell": 293.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 510,
+            "end_ms": 520
+          },
+          "peak50": {
+            "hz": 460.0,
+            "start_ms": 1029,
+            "end_ms": 1079
+          },
+          "late500_hz": 422.0,
+          "OFF1_hz": 350.0,
+          "OFF_tail_after1s_spikes_per_cell": 6579.0,
+          "OFF20_hz": 350.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21522,
+            "end_ms": 21532
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21527,
+            "end_ms": 21577
+          },
+          "late500_hz": 420.0,
+          "OFF1_hz": 340.0,
+          "OFF_tail_after1s_spikes_per_cell": 343.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0112359550561798
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": false,
+      "OFF20_quiet": false,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": false
+    },
+    "all_reference_criteria_pass": false,
+    "every_cell_exactly_zero_in_OFF_endpoints": false,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": false
+  },
+  "control_satiated_2026091711": {
+    "condition": "control",
+    "seed": 2026091711,
+    "gain_label": "satiated",
+    "first": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 746,
+        "end_ms": 756
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 1032,
+        "end_ms": 1082
+      },
+      "late500_hz": 394.0,
+      "OFF1_hz": 350.0,
+      "OFF_tail_after1s_spikes_per_cell": 6531.75,
+      "OFF20_hz": 345.0,
+      "last_OFF_spike_bin_end_ms": 20000
+    },
+    "second": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 21792,
+        "end_ms": 21802
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 21706,
+        "end_ms": 21756
+      },
+      "late500_hz": 394.5,
+      "OFF1_hz": 337.5,
+      "OFF_tail_after1s_spikes_per_cell": 343.75,
+      "last_OFF_spike_bin_end_ms": 2000
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 739,
+            "end_ms": 749
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 706,
+            "end_ms": 756
+          },
+          "late500_hz": 386.0,
+          "OFF1_hz": 330.0,
+          "OFF_tail_after1s_spikes_per_cell": 6212.0,
+          "OFF20_hz": 330.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21574,
+            "end_ms": 21584
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21502,
+            "end_ms": 21552
+          },
+          "late500_hz": 386.0,
+          "OFF1_hz": 320.0,
+          "OFF_tail_after1s_spikes_per_cell": 328.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 509,
+            "end_ms": 519
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 567,
+            "end_ms": 617
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 380.0,
+          "OFF_tail_after1s_spikes_per_cell": 7351.0,
+          "OFF20_hz": 390.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21509,
+            "end_ms": 21519
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21516,
+            "end_ms": 21566
+          },
+          "late500_hz": 414.0,
+          "OFF1_hz": 380.0,
+          "OFF_tail_after1s_spikes_per_cell": 387.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 1116,
+            "end_ms": 1126
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 532,
+            "end_ms": 582
+          },
+          "late500_hz": 378.0,
+          "OFF1_hz": 320.0,
+          "OFF_tail_after1s_spikes_per_cell": 5742.0,
+          "OFF20_hz": 300.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 400.0,
+            "start_ms": 21501,
+            "end_ms": 21511
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21522,
+            "end_ms": 21572
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 300.0,
+          "OFF_tail_after1s_spikes_per_cell": 304.0,
+          "last_OFF_spike_bin_end_ms": 1998
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 746,
+            "end_ms": 756
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 1032,
+            "end_ms": 1082
+          },
+          "late500_hz": 396.0,
+          "OFF1_hz": 370.0,
+          "OFF_tail_after1s_spikes_per_cell": 6822.0,
+          "OFF20_hz": 360.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 22263,
+            "end_ms": 22273
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 22223,
+            "end_ms": 22273
+          },
+          "late500_hz": 396.0,
+          "OFF1_hz": 350.0,
+          "OFF_tail_after1s_spikes_per_cell": 356.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": false,
+      "OFF20_quiet": false,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": false
+    },
+    "all_reference_criteria_pass": false,
+    "every_cell_exactly_zero_in_OFF_endpoints": false,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": false
+  },
+  "control_hungry_2026091721": {
+    "condition": "control",
+    "seed": 2026091721,
+    "gain_label": "hungry",
+    "first": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 529,
+        "end_ms": 539
+      },
+      "peak50": {
+        "hz": 455.0,
+        "start_ms": 512,
+        "end_ms": 562
+      },
+      "late500_hz": 429.0,
+      "OFF1_hz": 350.0,
+      "OFF_tail_after1s_spikes_per_cell": 6658.5,
+      "OFF20_hz": 352.5,
+      "last_OFF_spike_bin_end_ms": 20000
+    },
+    "second": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 21719,
+        "end_ms": 21729
+      },
+      "peak50": {
+        "hz": 450.0,
+        "start_ms": 21646,
+        "end_ms": 21696
+      },
+      "late500_hz": 432.0,
+      "OFF1_hz": 352.5,
+      "OFF_tail_after1s_spikes_per_cell": 350.25,
+      "last_OFF_spike_bin_end_ms": 1999
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 512,
+            "end_ms": 522
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 512,
+            "end_ms": 562
+          },
+          "late500_hz": 414.0,
+          "OFF1_hz": 340.0,
+          "OFF_tail_after1s_spikes_per_cell": 6329.0,
+          "OFF20_hz": 340.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21505,
+            "end_ms": 21515
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21502,
+            "end_ms": 21552
+          },
+          "late500_hz": 420.0,
+          "OFF1_hz": 330.0,
+          "OFF_tail_after1s_spikes_per_cell": 334.0,
+          "last_OFF_spike_bin_end_ms": 1998
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 509,
+            "end_ms": 519
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 512,
+            "end_ms": 562
+          },
+          "late500_hz": 466.0,
+          "OFF1_hz": 380.0,
+          "OFF_tail_after1s_spikes_per_cell": 7480.0,
+          "OFF20_hz": 400.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21500,
+            "end_ms": 21510
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 21613,
+            "end_ms": 21663
+          },
+          "late500_hz": 472.0,
+          "OFF1_hz": 400.0,
+          "OFF_tail_after1s_spikes_per_cell": 393.0,
+          "last_OFF_spike_bin_end_ms": 1998
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 515,
+            "end_ms": 525
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 515,
+            "end_ms": 565
+          },
+          "late500_hz": 418.0,
+          "OFF1_hz": 320.0,
+          "OFF_tail_after1s_spikes_per_cell": 5977.0,
+          "OFF20_hz": 310.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21504,
+            "end_ms": 21514
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21548,
+            "end_ms": 21598
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 320.0,
+          "OFF_tail_after1s_spikes_per_cell": 316.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 515,
+            "end_ms": 525
+          },
+          "peak50": {
+            "hz": 460.0,
+            "start_ms": 510,
+            "end_ms": 560
+          },
+          "late500_hz": 418.0,
+          "OFF1_hz": 360.0,
+          "OFF_tail_after1s_spikes_per_cell": 6848.0,
+          "OFF20_hz": 360.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21502,
+            "end_ms": 21512
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21519,
+            "end_ms": 21569
+          },
+          "late500_hz": 420.0,
+          "OFF1_hz": 360.0,
+          "OFF_tail_after1s_spikes_per_cell": 358.0,
+          "last_OFF_spike_bin_end_ms": 1998
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 0.989010989010989
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": false,
+      "OFF20_quiet": false,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": false
+    },
+    "all_reference_criteria_pass": false,
+    "every_cell_exactly_zero_in_OFF_endpoints": false,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": false
+  },
+  "control_satiated_2026091721": {
+    "condition": "control",
+    "seed": 2026091721,
+    "gain_label": "satiated",
+    "first": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 676,
+        "end_ms": 686
+      },
+      "peak50": {
+        "hz": 415.0,
+        "start_ms": 1362,
+        "end_ms": 1412
+      },
+      "late500_hz": 396.0,
+      "OFF1_hz": 342.5,
+      "OFF_tail_after1s_spikes_per_cell": 6547.5,
+      "OFF20_hz": 342.5,
+      "last_OFF_spike_bin_end_ms": 20000
+    },
+    "second": {
+      "peak10": {
+        "hz": 425.0,
+        "start_ms": 21504,
+        "end_ms": 21514
+      },
+      "peak50": {
+        "hz": 415.0,
+        "start_ms": 22303,
+        "end_ms": 22353
+      },
+      "late500_hz": 394.5,
+      "OFF1_hz": 342.5,
+      "OFF_tail_after1s_spikes_per_cell": 344.25,
+      "last_OFF_spike_bin_end_ms": 2000
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 671,
+            "end_ms": 681
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 1378,
+            "end_ms": 1428
+          },
+          "late500_hz": 386.0,
+          "OFF1_hz": 340.0,
+          "OFF_tail_after1s_spikes_per_cell": 6194.0,
+          "OFF20_hz": 320.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 22390,
+            "end_ms": 22400
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21501,
+            "end_ms": 21551
+          },
+          "late500_hz": 384.0,
+          "OFF1_hz": 330.0,
+          "OFF_tail_after1s_spikes_per_cell": 327.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 516,
+            "end_ms": 526
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 516,
+            "end_ms": 566
+          },
+          "late500_hz": 420.0,
+          "OFF1_hz": 400.0,
+          "OFF_tail_after1s_spikes_per_cell": 7572.0,
+          "OFF20_hz": 400.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21502,
+            "end_ms": 21512
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21502,
+            "end_ms": 21552
+          },
+          "late500_hz": 420.0,
+          "OFF1_hz": 400.0,
+          "OFF_tail_after1s_spikes_per_cell": 399.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 400.0,
+            "start_ms": 508,
+            "end_ms": 518
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 512,
+            "end_ms": 562
+          },
+          "late500_hz": 380.0,
+          "OFF1_hz": 280.0,
+          "OFF_tail_after1s_spikes_per_cell": 5630.0,
+          "OFF20_hz": 290.0,
+          "last_OFF_spike_bin_end_ms": 19998
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21678,
+            "end_ms": 21688
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21504,
+            "end_ms": 21554
+          },
+          "late500_hz": 376.0,
+          "OFF1_hz": 280.0,
+          "OFF_tail_after1s_spikes_per_cell": 293.0,
+          "last_OFF_spike_bin_end_ms": 1997
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 548,
+            "end_ms": 558
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 513,
+            "end_ms": 563
+          },
+          "late500_hz": 398.0,
+          "OFF1_hz": 350.0,
+          "OFF_tail_after1s_spikes_per_cell": 6794.0,
+          "OFF20_hz": 360.0,
+          "last_OFF_spike_bin_end_ms": 19998
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21559,
+            "end_ms": 21569
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 21539,
+            "end_ms": 21589
+          },
+          "late500_hz": 398.0,
+          "OFF1_hz": 360.0,
+          "OFF_tail_after1s_spikes_per_cell": 358.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0,
+      "second_vs_own_first_peak10": 0.9444444444444444,
+      "second_vs_own_first_peak50": 1.0
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": false,
+      "OFF20_quiet": false,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": false
+    },
+    "all_reference_criteria_pass": false,
+    "every_cell_exactly_zero_in_OFF_endpoints": false,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": false
+  },
+  "control_hungry_2026091731": {
+    "condition": "control",
+    "seed": 2026091731,
+    "gain_label": "hungry",
+    "first": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 541,
+        "end_ms": 551
+      },
+      "peak50": {
+        "hz": 440.0,
+        "start_ms": 659,
+        "end_ms": 709
+      },
+      "late500_hz": 429.5,
+      "OFF1_hz": 347.5,
+      "OFF_tail_after1s_spikes_per_cell": 6540.75,
+      "OFF20_hz": 342.5,
+      "last_OFF_spike_bin_end_ms": 20000
+    },
+    "second": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 21570,
+        "end_ms": 21580
+      },
+      "peak50": {
+        "hz": 445.0,
+        "start_ms": 21504,
+        "end_ms": 21554
+      },
+      "late500_hz": 426.0,
+      "OFF1_hz": 347.5,
+      "OFF_tail_after1s_spikes_per_cell": 341.75,
+      "last_OFF_spike_bin_end_ms": 2000
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 510,
+            "end_ms": 520
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 720,
+            "end_ms": 770
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 330.0,
+          "OFF_tail_after1s_spikes_per_cell": 6127.0,
+          "OFF20_hz": 310.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21517,
+            "end_ms": 21527
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21761,
+            "end_ms": 21811
+          },
+          "late500_hz": 408.0,
+          "OFF1_hz": 320.0,
+          "OFF_tail_after1s_spikes_per_cell": 319.0,
+          "last_OFF_spike_bin_end_ms": 1999
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 509,
+            "end_ms": 519
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 657,
+            "end_ms": 707
+          },
+          "late500_hz": 472.0,
+          "OFF1_hz": 400.0,
+          "OFF_tail_after1s_spikes_per_cell": 7456.0,
+          "OFF20_hz": 390.0,
+          "last_OFF_spike_bin_end_ms": 19998
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21500,
+            "end_ms": 21510
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 21529,
+            "end_ms": 21579
+          },
+          "late500_hz": 462.0,
+          "OFF1_hz": 400.0,
+          "OFF_tail_after1s_spikes_per_cell": 392.0,
+          "last_OFF_spike_bin_end_ms": 1998
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 509,
+            "end_ms": 519
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 735,
+            "end_ms": 785
+          },
+          "late500_hz": 414.0,
+          "OFF1_hz": 300.0,
+          "OFF_tail_after1s_spikes_per_cell": 5784.0,
+          "OFF20_hz": 310.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21504,
+            "end_ms": 21514
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21504,
+            "end_ms": 21554
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 310.0,
+          "OFF_tail_after1s_spikes_per_cell": 298.0,
+          "last_OFF_spike_bin_end_ms": 1997
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 512,
+            "end_ms": 522
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 534,
+            "end_ms": 584
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 360.0,
+          "OFF_tail_after1s_spikes_per_cell": 6796.0,
+          "OFF20_hz": 360.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21502,
+            "end_ms": 21512
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21502,
+            "end_ms": 21552
+          },
+          "late500_hz": 422.0,
+          "OFF1_hz": 360.0,
+          "OFF_tail_after1s_spikes_per_cell": 358.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0113636363636365
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": false,
+      "OFF20_quiet": false,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": false
+    },
+    "all_reference_criteria_pass": false,
+    "every_cell_exactly_zero_in_OFF_endpoints": false,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": false
+  },
+  "control_satiated_2026091731": {
+    "condition": "control",
+    "seed": 2026091731,
+    "gain_label": "satiated",
+    "first": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 1001,
+        "end_ms": 1011
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 947,
+        "end_ms": 997
+      },
+      "late500_hz": 391.5,
+      "OFF1_hz": 330.0,
+      "OFF_tail_after1s_spikes_per_cell": 6378.25,
+      "OFF20_hz": 335.0,
+      "last_OFF_spike_bin_end_ms": 20000
+    },
+    "second": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 22161,
+        "end_ms": 22171
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 21863,
+        "end_ms": 21913
+      },
+      "late500_hz": 394.0,
+      "OFF1_hz": 332.5,
+      "OFF_tail_after1s_spikes_per_cell": 335.0,
+      "last_OFF_spike_bin_end_ms": 2000
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 512,
+            "end_ms": 522
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 512,
+            "end_ms": 562
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 320.0,
+          "OFF_tail_after1s_spikes_per_cell": 6170.0,
+          "OFF20_hz": 320.0,
+          "last_OFF_spike_bin_end_ms": 19999
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 22161,
+            "end_ms": 22171
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21504,
+            "end_ms": 21554
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 320.0,
+          "OFF_tail_after1s_spikes_per_cell": 321.0,
+          "last_OFF_spike_bin_end_ms": 1998
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 516,
+            "end_ms": 526
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 570,
+            "end_ms": 620
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 370.0,
+          "OFF_tail_after1s_spikes_per_cell": 7157.0,
+          "OFF20_hz": 380.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21517,
+            "end_ms": 21527
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21674,
+            "end_ms": 21724
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 380.0,
+          "OFF_tail_after1s_spikes_per_cell": 381.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 400.0,
+            "start_ms": 508,
+            "end_ms": 518
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 537,
+            "end_ms": 587
+          },
+          "late500_hz": 378.0,
+          "OFF1_hz": 290.0,
+          "OFF_tail_after1s_spikes_per_cell": 5622.0,
+          "OFF20_hz": 290.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 400.0,
+            "start_ms": 21501,
+            "end_ms": 21511
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21537,
+            "end_ms": 21587
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 280.0,
+          "OFF_tail_after1s_spikes_per_cell": 291.0,
+          "last_OFF_spike_bin_end_ms": 1997
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 1408,
+            "end_ms": 1418
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 1368,
+            "end_ms": 1418
+          },
+          "late500_hz": 394.0,
+          "OFF1_hz": 340.0,
+          "OFF_tail_after1s_spikes_per_cell": 6564.0,
+          "OFF20_hz": 350.0,
+          "last_OFF_spike_bin_end_ms": 20000
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21706,
+            "end_ms": 21716
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 22145,
+            "end_ms": 22195
+          },
+          "late500_hz": 396.0,
+          "OFF1_hz": 350.0,
+          "OFF_tail_after1s_spikes_per_cell": 347.0,
+          "last_OFF_spike_bin_end_ms": 2000
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": false,
+      "OFF20_quiet": false,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": false
+    },
+    "all_reference_criteria_pass": false,
+    "every_cell_exactly_zero_in_OFF_endpoints": false,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": false
+  },
+  "known_positive_hungry_2026091701": {
+    "condition": "known_positive",
+    "seed": 2026091701,
+    "gain_label": "hungry",
+    "first": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 837,
+        "end_ms": 847
+      },
+      "peak50": {
+        "hz": 445.0,
+        "start_ms": 560,
+        "end_ms": 610
+      },
+      "late500_hz": 426.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "OFF20_hz": 0.0,
+      "last_OFF_spike_bin_end_ms": 1
+    },
+    "second": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 21652,
+        "end_ms": 21662
+      },
+      "peak50": {
+        "hz": 450.0,
+        "start_ms": 22085,
+        "end_ms": 22135
+      },
+      "late500_hz": 428.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "last_OFF_spike_bin_end_ms": 2
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 514,
+            "end_ms": 524
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 560,
+            "end_ms": 610
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21508,
+            "end_ms": 21518
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21508,
+            "end_ms": 21558
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 507,
+            "end_ms": 517
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 558,
+            "end_ms": 608
+          },
+          "late500_hz": 464.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21506,
+            "end_ms": 21516
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 22019,
+            "end_ms": 22069
+          },
+          "late500_hz": 468.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 508,
+            "end_ms": 518
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 508,
+            "end_ms": 558
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21504,
+            "end_ms": 21514
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21537,
+            "end_ms": 21587
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 507,
+            "end_ms": 517
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 568,
+            "end_ms": 618
+          },
+          "late500_hz": 418.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21504,
+            "end_ms": 21514
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21533,
+            "end_ms": 21583
+          },
+          "late500_hz": 422.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 2
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0112359550561798,
+      "second_late500": 0.9965116279069768,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0112359550561798
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": true,
+      "OFF20_quiet": true,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": true
+    },
+    "all_reference_criteria_pass": true,
+    "every_cell_exactly_zero_in_OFF_endpoints": true,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": true
+  },
+  "known_positive_satiated_2026091701": {
+    "condition": "known_positive",
+    "seed": 2026091701,
+    "gain_label": "satiated",
+    "first": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 661,
+        "end_ms": 671
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 1283,
+        "end_ms": 1333
+      },
+      "late500_hz": 393.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "OFF20_hz": 0.0,
+      "last_OFF_spike_bin_end_ms": null
+    },
+    "second": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 21925,
+        "end_ms": 21935
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 22088,
+        "end_ms": 22138
+      },
+      "late500_hz": 395.0,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "last_OFF_spike_bin_end_ms": null
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 661,
+            "end_ms": 671
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 515,
+            "end_ms": 565
+          },
+          "late500_hz": 378.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21535,
+            "end_ms": 21545
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21508,
+            "end_ms": 21558
+          },
+          "late500_hz": 384.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 519,
+            "end_ms": 529
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 531,
+            "end_ms": 581
+          },
+          "late500_hz": 418.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21509,
+            "end_ms": 21519
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21509,
+            "end_ms": 21559
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 911,
+            "end_ms": 921
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 742,
+            "end_ms": 792
+          },
+          "late500_hz": 380.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 400.0,
+            "start_ms": 21503,
+            "end_ms": 21513
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21521,
+            "end_ms": 21571
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 1223,
+            "end_ms": 1233
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 1183,
+            "end_ms": 1233
+          },
+          "late500_hz": 398.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21574,
+            "end_ms": 21584
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 21569,
+            "end_ms": 21619
+          },
+          "late500_hz": 398.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0063694267515924,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": true,
+      "OFF20_quiet": true,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": true
+    },
+    "all_reference_criteria_pass": true,
+    "every_cell_exactly_zero_in_OFF_endpoints": true,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": true
+  },
+  "known_positive_hungry_2026091711": {
+    "condition": "known_positive",
+    "seed": 2026091711,
+    "gain_label": "hungry",
+    "first": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 560,
+        "end_ms": 570
+      },
+      "peak50": {
+        "hz": 445.0,
+        "start_ms": 537,
+        "end_ms": 587
+      },
+      "late500_hz": 428.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "OFF20_hz": 0.0,
+      "last_OFF_spike_bin_end_ms": 3
+    },
+    "second": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 22264,
+        "end_ms": 22274
+      },
+      "peak50": {
+        "hz": 445.0,
+        "start_ms": 21534,
+        "end_ms": 21584
+      },
+      "late500_hz": 430.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "last_OFF_spike_bin_end_ms": 2
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 523,
+            "end_ms": 533
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 518,
+            "end_ms": 568
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21509,
+            "end_ms": 21519
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21509,
+            "end_ms": 21559
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 2
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 507,
+            "end_ms": 517
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 625,
+            "end_ms": 675
+          },
+          "late500_hz": 464.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21507,
+            "end_ms": 21517
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 21702,
+            "end_ms": 21752
+          },
+          "late500_hz": 470.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 514,
+            "end_ms": 524
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 616,
+            "end_ms": 666
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21522,
+            "end_ms": 21532
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21903,
+            "end_ms": 21953
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 510,
+            "end_ms": 520
+          },
+          "peak50": {
+            "hz": 460.0,
+            "start_ms": 1029,
+            "end_ms": 1079
+          },
+          "late500_hz": 422.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 3
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21517,
+            "end_ms": 21527
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21534,
+            "end_ms": 21584
+          },
+          "late500_hz": 420.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 2
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 0.9888888888888889,
+      "second_late500": 1.0011627906976743,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": true,
+      "OFF20_quiet": true,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": true
+    },
+    "all_reference_criteria_pass": true,
+    "every_cell_exactly_zero_in_OFF_endpoints": true,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": true
+  },
+  "known_positive_satiated_2026091711": {
+    "condition": "known_positive",
+    "seed": 2026091711,
+    "gain_label": "satiated",
+    "first": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 746,
+        "end_ms": 756
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 1032,
+        "end_ms": 1082
+      },
+      "late500_hz": 394.0,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "OFF20_hz": 0.0,
+      "last_OFF_spike_bin_end_ms": 2
+    },
+    "second": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 21539,
+        "end_ms": 21549
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 21713,
+        "end_ms": 21763
+      },
+      "late500_hz": 394.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "last_OFF_spike_bin_end_ms": 2
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 739,
+            "end_ms": 749
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 706,
+            "end_ms": 756
+          },
+          "late500_hz": 386.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21539,
+            "end_ms": 21549
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21509,
+            "end_ms": 21559
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 509,
+            "end_ms": 519
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 567,
+            "end_ms": 617
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21508,
+            "end_ms": 21518
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21508,
+            "end_ms": 21558
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 2
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 1116,
+            "end_ms": 1126
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 532,
+            "end_ms": 582
+          },
+          "late500_hz": 378.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21942,
+            "end_ms": 21952
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21659,
+            "end_ms": 21709
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 746,
+            "end_ms": 756
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 1032,
+            "end_ms": 1082
+          },
+          "late500_hz": 396.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 2
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21640,
+            "end_ms": 21650
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 21776,
+            "end_ms": 21826
+          },
+          "late500_hz": 398.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": true,
+      "OFF20_quiet": true,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": true
+    },
+    "all_reference_criteria_pass": true,
+    "every_cell_exactly_zero_in_OFF_endpoints": true,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": true
+  },
+  "known_positive_hungry_2026091721": {
+    "condition": "known_positive",
+    "seed": 2026091721,
+    "gain_label": "hungry",
+    "first": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 529,
+        "end_ms": 539
+      },
+      "peak50": {
+        "hz": 455.0,
+        "start_ms": 512,
+        "end_ms": 562
+      },
+      "late500_hz": 429.0,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "OFF20_hz": 0.0,
+      "last_OFF_spike_bin_end_ms": 2
+    },
+    "second": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 21616,
+        "end_ms": 21626
+      },
+      "peak50": {
+        "hz": 450.0,
+        "start_ms": 21585,
+        "end_ms": 21635
+      },
+      "late500_hz": 432.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "last_OFF_spike_bin_end_ms": null
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 512,
+            "end_ms": 522
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 512,
+            "end_ms": 562
+          },
+          "late500_hz": 414.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21508,
+            "end_ms": 21518
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21508,
+            "end_ms": 21558
+          },
+          "late500_hz": 420.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 509,
+            "end_ms": 519
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 512,
+            "end_ms": 562
+          },
+          "late500_hz": 466.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21507,
+            "end_ms": 21517
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 21637,
+            "end_ms": 21687
+          },
+          "late500_hz": 472.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 515,
+            "end_ms": 525
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 515,
+            "end_ms": 565
+          },
+          "late500_hz": 418.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21503,
+            "end_ms": 21513
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21585,
+            "end_ms": 21635
+          },
+          "late500_hz": 414.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 515,
+            "end_ms": 525
+          },
+          "peak50": {
+            "hz": 460.0,
+            "start_ms": 510,
+            "end_ms": 560
+          },
+          "late500_hz": 418.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 2
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21504,
+            "end_ms": 21514
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21518,
+            "end_ms": 21568
+          },
+          "late500_hz": 424.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0011574074074074,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 0.989010989010989
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": true,
+      "OFF20_quiet": true,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": true
+    },
+    "all_reference_criteria_pass": true,
+    "every_cell_exactly_zero_in_OFF_endpoints": true,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": true
+  },
+  "known_positive_satiated_2026091721": {
+    "condition": "known_positive",
+    "seed": 2026091721,
+    "gain_label": "satiated",
+    "first": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 676,
+        "end_ms": 686
+      },
+      "peak50": {
+        "hz": 415.0,
+        "start_ms": 1362,
+        "end_ms": 1412
+      },
+      "late500_hz": 396.0,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "OFF20_hz": 0.0,
+      "last_OFF_spike_bin_end_ms": 1
+    },
+    "second": {
+      "peak10": {
+        "hz": 475.0,
+        "start_ms": 22474,
+        "end_ms": 22484
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 21603,
+        "end_ms": 21653
+      },
+      "late500_hz": 394.0,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "last_OFF_spike_bin_end_ms": 3
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 671,
+            "end_ms": 681
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 1378,
+            "end_ms": 1428
+          },
+          "late500_hz": 386.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21621,
+            "end_ms": 21631
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21509,
+            "end_ms": 21559
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 516,
+            "end_ms": 526
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 516,
+            "end_ms": 566
+          },
+          "late500_hz": 420.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21511,
+            "end_ms": 21521
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21508,
+            "end_ms": 21558
+          },
+          "late500_hz": 420.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 400.0,
+            "start_ms": 508,
+            "end_ms": 518
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 512,
+            "end_ms": 562
+          },
+          "late500_hz": 380.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21647,
+            "end_ms": 21657
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 21777,
+            "end_ms": 21827
+          },
+          "late500_hz": 378.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 548,
+            "end_ms": 558
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 513,
+            "end_ms": 563
+          },
+          "late500_hz": 398.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21522,
+            "end_ms": 21532
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 21507,
+            "end_ms": 21557
+          },
+          "late500_hz": 396.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 3
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.1176470588235294,
+      "second_peak50": 0.9879518072289156,
+      "second_late500": 0.9987325728770595,
+      "second_vs_own_first_peak10": 1.0555555555555556,
+      "second_vs_own_first_peak50": 0.9879518072289156
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": true,
+      "OFF20_quiet": true,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": true
+    },
+    "all_reference_criteria_pass": true,
+    "every_cell_exactly_zero_in_OFF_endpoints": true,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": true
+  },
+  "known_positive_hungry_2026091731": {
+    "condition": "known_positive",
+    "seed": 2026091731,
+    "gain_label": "hungry",
+    "first": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 541,
+        "end_ms": 551
+      },
+      "peak50": {
+        "hz": 440.0,
+        "start_ms": 659,
+        "end_ms": 709
+      },
+      "late500_hz": 429.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "OFF20_hz": 0.0,
+      "last_OFF_spike_bin_end_ms": 2
+    },
+    "second": {
+      "peak10": {
+        "hz": 500.0,
+        "start_ms": 21911,
+        "end_ms": 21921
+      },
+      "peak50": {
+        "hz": 445.0,
+        "start_ms": 22039,
+        "end_ms": 22089
+      },
+      "late500_hz": 427.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "last_OFF_spike_bin_end_ms": 1
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 510,
+            "end_ms": 520
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 720,
+            "end_ms": 770
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21509,
+            "end_ms": 21519
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21509,
+            "end_ms": 21559
+          },
+          "late500_hz": 410.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 509,
+            "end_ms": 519
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 657,
+            "end_ms": 707
+          },
+          "late500_hz": 472.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 2
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21508,
+            "end_ms": 21518
+          },
+          "peak50": {
+            "hz": 500.0,
+            "start_ms": 21683,
+            "end_ms": 21733
+          },
+          "late500_hz": 466.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 509,
+            "end_ms": 519
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 735,
+            "end_ms": 785
+          },
+          "late500_hz": 414.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21504,
+            "end_ms": 21514
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21985,
+            "end_ms": 22035
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 512,
+            "end_ms": 522
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 534,
+            "end_ms": 584
+          },
+          "late500_hz": 416.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21504,
+            "end_ms": 21514
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21509,
+            "end_ms": 21559
+          },
+          "late500_hz": 422.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 1.0035211267605635,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0113636363636365
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": true,
+      "OFF20_quiet": true,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": true
+    },
+    "all_reference_criteria_pass": true,
+    "every_cell_exactly_zero_in_OFF_endpoints": true,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": true
+  },
+  "known_positive_satiated_2026091731": {
+    "condition": "known_positive",
+    "seed": 2026091731,
+    "gain_label": "satiated",
+    "first": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 1001,
+        "end_ms": 1011
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 947,
+        "end_ms": 997
+      },
+      "late500_hz": 391.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "OFF20_hz": 0.0,
+      "last_OFF_spike_bin_end_ms": null
+    },
+    "second": {
+      "peak10": {
+        "hz": 450.0,
+        "start_ms": 21882,
+        "end_ms": 21892
+      },
+      "peak50": {
+        "hz": 410.0,
+        "start_ms": 22246,
+        "end_ms": 22296
+      },
+      "late500_hz": 393.5,
+      "OFF1_hz": 0.0,
+      "OFF_tail_after1s_spikes_per_cell": 0.0,
+      "last_OFF_spike_bin_end_ms": 1
+    },
+    "cells": {
+      "10176": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 512,
+            "end_ms": 522
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 512,
+            "end_ms": 562
+          },
+          "late500_hz": 382.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21882,
+            "end_ms": 21892
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 22233,
+            "end_ms": 22283
+          },
+          "late500_hz": 386.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        }
+      },
+      "10208": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 516,
+            "end_ms": 526
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 570,
+            "end_ms": 620
+          },
+          "late500_hz": 412.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21509,
+            "end_ms": 21519
+          },
+          "peak50": {
+            "hz": 440.0,
+            "start_ms": 21528,
+            "end_ms": 21578
+          },
+          "late500_hz": 414.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        }
+      },
+      "10390": {
+        "first": {
+          "peak10": {
+            "hz": 400.0,
+            "start_ms": 508,
+            "end_ms": 518
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 537,
+            "end_ms": 587
+          },
+          "late500_hz": 378.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 400.0,
+            "start_ms": 21502,
+            "end_ms": 21512
+          },
+          "peak50": {
+            "hz": 400.0,
+            "start_ms": 21560,
+            "end_ms": 21610
+          },
+          "late500_hz": 376.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        }
+      },
+      "10561": {
+        "first": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 1408,
+            "end_ms": 1418
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 1368,
+            "end_ms": 1418
+          },
+          "late500_hz": 394.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "OFF20_hz": 0.0,
+          "last_OFF_spike_bin_end_ms": null
+        },
+        "second": {
+          "peak10": {
+            "hz": 500.0,
+            "start_ms": 21715,
+            "end_ms": 21725
+          },
+          "peak50": {
+            "hz": 420.0,
+            "start_ms": 21705,
+            "end_ms": 21755
+          },
+          "late500_hz": 398.0,
+          "OFF1_hz": 0.0,
+          "OFF_tail_after1s_spikes_per_cell": 0.0,
+          "last_OFF_spike_bin_end_ms": 1
+        }
+      }
+    },
+    "ratios": {
+      "first_peak10": 1.0,
+      "first_peak50": 1.0,
+      "first_late500": 1.0,
+      "second_peak10": 1.0,
+      "second_peak50": 1.0,
+      "second_late500": 0.998730964467005,
+      "second_vs_own_first_peak10": 1.0,
+      "second_vs_own_first_peak50": 1.0
+    },
+    "criteria": {
+      "first_peaks_retained": true,
+      "first_late_retained": true,
+      "OFF1_quiet": true,
+      "OFF20_quiet": true,
+      "second_peaks_retained_vs_control": true,
+      "second_peaks_retained_vs_own_first": true,
+      "second_late_retained": true,
+      "second_rises_from_OFF20": true,
+      "reOFF1_quiet": true
+    },
+    "all_reference_criteria_pass": true,
+    "every_cell_exactly_zero_in_OFF_endpoints": true,
+    "every_cell_silent_after_OFF1_until_next_ON_or_end": true
+  }
+}

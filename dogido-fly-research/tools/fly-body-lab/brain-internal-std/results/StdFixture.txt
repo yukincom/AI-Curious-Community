@@ -1,0 +1,5 @@
+t_ms=0.0 resource_before=1.000000000 eLN_jump=1.787499905 PN_jump=1.787499905
+t_ms=10.0 resource_before=0.819032516 eLN_jump=1.464020491 PN_jump=1.787499905
+t_ms=20.0 resource_before=0.688035596 eLN_jump=1.229863524 PN_jump=1.787499905
+t_ms=520.0 resource_before=0.996970811 eLN_jump=1.782085299 PN_jump=1.787499905
+PASS repeated-spike depression, exponential recovery, equal fanout resources, untouched PN and inhibition

@@ -1,0 +1,8 @@
+{
+  "unchanged_conditions_exact_match": {
+    "baseline": true,
+    "all300": true,
+    "internal300": true
+  },
+  "local_zero_control_passed": true
+}

@@ -1,0 +1,83 @@
+{
+  "seeds": [
+    2026091701,
+    2026091711,
+    2026091721,
+    2026091731
+  ],
+  "states": {
+    "hungry": 1.0,
+    "satiated": 0.5
+  },
+  "conditions": {
+    "control": "No gate",
+    "keep_unclear": "OFF arrival gate on 94 PN/LN edges, retain 22 unclear edges",
+    "block_all": "OFF arrival gate on all 116 PN/LN edges, including 22 unclear"
+  },
+  "target_ids": [
+    "111689",
+    "140755",
+    "153948",
+    "189046",
+    "211611",
+    "222974",
+    "513746",
+    "669738951",
+    "688942939",
+    "76504"
+  ],
+  "pilot": {
+    "seed": 2026091701,
+    "state": "hungry",
+    "all_three_conditions": true,
+    "purpose": "Verify scope, ON preservation, OFF windows, restoration, and control equivalence; no efficacy-based parameter search"
+  },
+  "schedule_ms": {
+    "quiet": [
+      0,
+      500
+    ],
+    "ON": [
+      500,
+      1500
+    ],
+    "OFF": [
+      1500,
+      21500
+    ],
+    "reON": [
+      21500,
+      22500
+    ],
+    "reOFF": [
+      22500,
+      24500
+    ]
+  },
+  "gate_time": "ARRIVAL time, not source emission. Full arrival input is reconstructed before integration. Both OFF periods only. No v/g reset, weight edit, or suppression of other edges. All ON arrivals pass, including those emitted in preceding OFF. ReON trajectory may differ because OFF history changed.",
+  "primary_endpoints": {
+    "each_target_ORN_hz": [
+      20500,
+      21500
+    ],
+    "PN_population_mean_hz": [
+      21400,
+      21500
+    ]
+  },
+  "secondary_endpoint": {
+    "PN_population_mean_last1s_hz": [
+      20500,
+      21500
+    ]
+  },
+  "PN_neurons": 686,
+  "quiet_reference_hz": 3,
+  "interpretation": "Report paired absolute and relative changes continuously. Do not equate tiny PN changes with quiescence. All ten ORNs <=3Hz and PN <=3Hz indicates quiet in this protocol; ORN silence with persistently high PN means this return path is not necessary for sustained PN. Incomplete ORN silencing does not meet that discriminator. No sufficiency claim.",
+  "dt_ms": 0.5,
+  "delay_steps": 4,
+  "gain": 0.65,
+  "KC_gain": 0.25,
+  "no_new_hunger_physiology": true,
+  "parent_checkpoint": "dd50cd88e2ecfa8c3399c91a620eee73a3cc11fb"
+}

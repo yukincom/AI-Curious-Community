@@ -1,0 +1,992 @@
+{
+  "baseline_2026091701": {
+    "ORN": {
+      "first": {
+        "pre_off_hz": 59.69426751592356,
+        "pre_off_last50_hz": 58.216560509554135,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 5,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.21019108280254778,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.6369426751592356
+      },
+      "second": {
+        "pre_off_hz": 60.72611464968153,
+        "pre_off_last50_hz": 65.85987261146497,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 5,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.21656050955414013,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.6369426751592356
+      },
+      "odor_full_hz": 59.50955414012739,
+      "reodor_full_hz": 61.02547770700637,
+      "reodor_to_odor_ratio": 1.0254736166113667,
+      "off_1_to_2s_hz": 0.21019108280254778
+    },
+    "eLN": {
+      "first": {
+        "pre_off_hz": 268.5416666666667,
+        "pre_off_last50_hz": 268.8541666666667,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 267.5208333333333,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 268.96875,
+        "pre_off_last50_hz": 268.6458333333333,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 267.6666666666667,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 264.8177083333333,
+      "reodor_full_hz": 268.9635416666667,
+      "reodor_to_odor_ratio": 1.0156554233454618,
+      "off_1_to_2s_hz": 267.4479166666667
+    },
+    "ACh_eLN": {
+      "first": {
+        "pre_off_hz": 297.0138888888889,
+        "pre_off_last50_hz": 297.3611111111111,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 296.2708333333333,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 297.43055555555554,
+        "pre_off_last50_hz": 296.9444444444444,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 296.4861111111111,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 293.02777777777777,
+      "reodor_full_hz": 297.4236111111111,
+      "reodor_to_odor_ratio": 1.0150014219357284,
+      "off_1_to_2s_hz": 296.2708333333333
+    },
+    "unknown_eLN": {
+      "first": {
+        "pre_off_hz": 182.04347826086956,
+        "pre_off_last50_hz": 181.7391304347826,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 180.1304347826087,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 182.56521739130434,
+        "pre_off_last50_hz": 183.04347826086956,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 180.06521739130434,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 179.17391304347825,
+      "reodor_full_hz": 182.52173913043478,
+      "reodor_to_odor_ratio": 1.0186847852462995,
+      "off_1_to_2s_hz": 179.80434782608697
+    },
+    "ALPN": {
+      "first": {
+        "pre_off_hz": 135.51895043731778,
+        "pre_off_last50_hz": 135.7725947521866,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 134.41690962099125,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 135.46647230320698,
+        "pre_off_last50_hz": 135.1020408163265,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 134.42274052478135,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 133.29154518950438,
+      "reodor_full_hz": 135.50437317784255,
+      "reodor_to_odor_ratio": 1.0166014129792864,
+      "off_1_to_2s_hz": 134.25801749271136
+    },
+    "GABA_LN": {
+      "first": {
+        "pre_off_hz": 221.45,
+        "pre_off_last50_hz": 221.66666666666666,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 220.13333333333333,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 221.4,
+        "pre_off_last50_hz": 221.49999999999997,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 220.08333333333334,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 218.19166666666666,
+      "reodor_full_hz": 221.50833333333333,
+      "reodor_to_odor_ratio": 1.0152007027460566,
+      "off_1_to_2s_hz": 219.925
+    },
+    "first_PN_minus_eLN_half_ms": null,
+    "second_PN_minus_eLN_half_ms": null,
+    "transmitted_fraction": {
+      "odor_tail": 1.0,
+      "off_tail": 1.0,
+      "reodor_tail": 1.0
+    }
+  },
+  "std100_2026091701": {
+    "ORN": {
+      "first": {
+        "pre_off_hz": 59.32484076433121,
+        "pre_off_last50_hz": 57.83439490445859,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 5,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "second": {
+        "pre_off_hz": 60.382165605095544,
+        "pre_off_last50_hz": 65.47770700636943,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 5,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "odor_full_hz": 59.15923566878981,
+      "reodor_full_hz": 60.66242038216561,
+      "reodor_to_odor_ratio": 1.0254091300602928,
+      "off_1_to_2s_hz": 0.0
+    },
+    "eLN": {
+      "first": {
+        "pre_off_hz": 53.552083333333336,
+        "pre_off_last50_hz": 53.541666666666664,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 60.182291666666664,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 54.479166666666664,
+        "pre_off_last50_hz": 54.0625,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 60.28125,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 55.546875,
+      "reodor_full_hz": 53.979166666666664,
+      "reodor_to_odor_ratio": 0.9717768401312704,
+      "off_1_to_2s_hz": 60.052083333333336
+    },
+    "ACh_eLN": {
+      "first": {
+        "pre_off_hz": 69.5,
+        "pre_off_last50_hz": 69.72222222222221,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 77.90277777777777,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 70.65277777777777,
+        "pre_off_last50_hz": 70.27777777777777,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 78.07638888888889,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 71.69444444444444,
+      "reodor_full_hz": 70.0625,
+      "reodor_to_odor_ratio": 0.9772375048430841,
+      "off_1_to_2s_hz": 77.77083333333333
+    },
+    "unknown_eLN": {
+      "first": {
+        "pre_off_hz": 5.956521739130435,
+        "pre_off_last50_hz": 5.217391304347825,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 7.326086956521739,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 6.217391304347826,
+        "pre_off_last50_hz": 5.652173913043478,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 7.195652173913044,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 7.369565217391305,
+      "reodor_full_hz": 5.978260869565218,
+      "reodor_to_odor_ratio": 0.8112094395280236,
+      "off_1_to_2s_hz": 7.195652173913044
+    },
+    "ALPN": {
+      "first": {
+        "pre_off_hz": 37.7667638483965,
+        "pre_off_last50_hz": 38.075801749271136,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 44.81049562682216,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 38.475218658892125,
+        "pre_off_last50_hz": 37.113702623906704,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 44.572886297376094,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 38.39650145772595,
+      "reodor_full_hz": 38.13411078717201,
+      "reodor_to_odor_ratio": 0.9931662870159453,
+      "off_1_to_2s_hz": 44.432944606414
+    },
+    "GABA_LN": {
+      "first": {
+        "pre_off_hz": 90.56666666666666,
+        "pre_off_last50_hz": 91.5,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 95.35833333333333,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 91.68333333333334,
+        "pre_off_last50_hz": 88.66666666666667,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 94.78333333333333,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 91.45833333333333,
+      "reodor_full_hz": 91.075,
+      "reodor_to_odor_ratio": 0.9958086560364465,
+      "off_1_to_2s_hz": 94.5
+    },
+    "first_PN_minus_eLN_half_ms": null,
+    "second_PN_minus_eLN_half_ms": null,
+    "transmitted_fraction": {
+      "odor_tail": 0.20947181530120515,
+      "off_tail": 0.21049375737905351,
+      "reodor_tail": 0.20941708131591394
+    }
+  },
+  "std300_2026091701": {
+    "ORN": {
+      "first": {
+        "pre_off_hz": 59.32484076433121,
+        "pre_off_last50_hz": 57.83439490445859,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 5,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "second": {
+        "pre_off_hz": 60.382165605095544,
+        "pre_off_last50_hz": 65.47770700636943,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 5,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "odor_full_hz": 59.15923566878981,
+      "reodor_full_hz": 60.66242038216561,
+      "reodor_to_odor_ratio": 1.0254091300602928,
+      "off_1_to_2s_hz": 0.0
+    },
+    "eLN": {
+      "first": {
+        "pre_off_hz": 9.5625,
+        "pre_off_last50_hz": 10.520833333333332,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 88,
+        "low_1hz_time_ms": 99,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "second": {
+        "pre_off_hz": 0.0,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": null,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": true,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 13.505208333333334,
+      "reodor_full_hz": 4.588541666666667,
+      "reodor_to_odor_ratio": 0.3397608947165445,
+      "off_1_to_2s_hz": 0.0
+    },
+    "ACh_eLN": {
+      "first": {
+        "pre_off_hz": 12.75,
+        "pre_off_last50_hz": 14.027777777777777,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 88,
+        "low_1hz_time_ms": 99,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "second": {
+        "pre_off_hz": 0.0,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": null,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": true,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 17.4375,
+      "reodor_full_hz": 5.5625,
+      "reodor_to_odor_ratio": 0.31899641577060933,
+      "off_1_to_2s_hz": 0.0
+    },
+    "unknown_eLN": {
+      "first": {
+        "pre_off_hz": 0.0,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": null,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": true,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 0.0,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": null,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": true,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 1.7391304347826086,
+      "reodor_full_hz": 1.7173913043478262,
+      "reodor_to_odor_ratio": 0.9875,
+      "off_1_to_2s_hz": 0.0
+    },
+    "ALPN": {
+      "first": {
+        "pre_off_hz": 6.052478134110787,
+        "pre_off_last50_hz": 6.793002915451894,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 92,
+        "low_1hz_time_ms": 98,
+        "last_1s_hz": 0.029154518950437316,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.5830903790087464
+      },
+      "second": {
+        "pre_off_hz": 1.793002915451895,
+        "pre_off_last50_hz": 1.8658892128279883,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 8,
+        "low_1hz_time_ms": 8,
+        "last_1s_hz": 0.03644314868804665,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.43731778425655976
+      },
+      "odor_full_hz": 8.416909620991254,
+      "reodor_full_hz": 4.430029154518951,
+      "reodor_to_odor_ratio": 0.5263249047454105,
+      "off_1_to_2s_hz": 0.029154518950437316
+    },
+    "GABA_LN": {
+      "first": {
+        "pre_off_hz": 39.8,
+        "pre_off_last50_hz": 41.833333333333336,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 83,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 3.4833333333333334,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 27.266666666666666,
+        "pre_off_last50_hz": 28.833333333333332,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 60,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 2.6416666666666666,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 42.4,
+      "reodor_full_hz": 31.116666666666667,
+      "reodor_to_odor_ratio": 0.7338836477987422,
+      "off_1_to_2s_hz": 2.6333333333333333
+    },
+    "first_PN_minus_eLN_half_ms": 4,
+    "second_PN_minus_eLN_half_ms": null,
+    "transmitted_fraction": {
+      "odor_tail": 0.12681414793010623,
+      "off_tail": 0.2945659311659417,
+      "reodor_tail": 0.09341268567801748
+    }
+  },
+  "baseline_2026091711": {
+    "ORN": {
+      "first": {
+        "pre_off_hz": 59.031847133757964,
+        "pre_off_last50_hz": 60.509554140127385,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 4,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.19745222929936307,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.6369426751592356
+      },
+      "second": {
+        "pre_off_hz": 60.560509554140125,
+        "pre_off_last50_hz": 59.23566878980891,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 6,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.1910828025477707,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.6369426751592356
+      },
+      "odor_full_hz": 59.71974522292994,
+      "reodor_full_hz": 60.547770700636946,
+      "reodor_to_odor_ratio": 1.0138651877133107,
+      "off_1_to_2s_hz": 0.1910828025477707
+    },
+    "eLN": {
+      "first": {
+        "pre_off_hz": 267.9270833333333,
+        "pre_off_last50_hz": 268.2291666666667,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 266.2916666666667,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 267.8645833333333,
+        "pre_off_last50_hz": 268.4375,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 266.1458333333333,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 264.1666666666667,
+      "reodor_full_hz": 267.9739583333333,
+      "reodor_to_odor_ratio": 1.0144124605678233,
+      "off_1_to_2s_hz": 266.3541666666667
+    },
+    "ACh_eLN": {
+      "first": {
+        "pre_off_hz": 296.47222222222223,
+        "pre_off_last50_hz": 296.38888888888886,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 295.09722222222223,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 296.34722222222223,
+        "pre_off_last50_hz": 296.80555555555554,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 294.97222222222223,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 292.43055555555554,
+      "reodor_full_hz": 296.50694444444446,
+      "reodor_to_odor_ratio": 1.013939681785799,
+      "off_1_to_2s_hz": 295.19444444444446
+    },
+    "unknown_eLN": {
+      "first": {
+        "pre_off_hz": 181.17391304347825,
+        "pre_off_last50_hz": 182.17391304347822,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 178.7391304347826,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 181.30434782608697,
+        "pre_off_last50_hz": 181.7391304347826,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 178.58695652173913,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 178.30434782608697,
+      "reodor_full_hz": 181.30434782608697,
+      "reodor_to_odor_ratio": 1.0168251645940014,
+      "off_1_to_2s_hz": 178.67391304347825
+    },
+    "ALPN": {
+      "first": {
+        "pre_off_hz": 134.12536443148687,
+        "pre_off_last50_hz": 133.70262390670553,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 132.67638483965015,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 134.07871720116617,
+        "pre_off_last50_hz": 134.40233236151605,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 132.74489795918367,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 131.98542274052477,
+      "reodor_full_hz": 134.2725947521866,
+      "reodor_to_odor_ratio": 1.0173289743986218,
+      "off_1_to_2s_hz": 132.701166180758
+    },
+    "GABA_LN": {
+      "first": {
+        "pre_off_hz": 220.63333333333333,
+        "pre_off_last50_hz": 221.16666666666666,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 218.775,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 220.6,
+        "pre_off_last50_hz": 220.5,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 218.55,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 217.36666666666667,
+      "reodor_full_hz": 220.625,
+      "reodor_to_odor_ratio": 1.0149900322036498,
+      "off_1_to_2s_hz": 218.68333333333334
+    },
+    "first_PN_minus_eLN_half_ms": null,
+    "second_PN_minus_eLN_half_ms": null,
+    "transmitted_fraction": {
+      "odor_tail": 1.0,
+      "off_tail": 1.0,
+      "reodor_tail": 1.0
+    }
+  },
+  "std100_2026091711": {
+    "ORN": {
+      "first": {
+        "pre_off_hz": 58.76433121019108,
+        "pre_off_last50_hz": 60.12738853503185,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 4,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "second": {
+        "pre_off_hz": 60.22929936305732,
+        "pre_off_last50_hz": 58.98089171974522,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 6,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "odor_full_hz": 59.45859872611465,
+      "reodor_full_hz": 60.21656050955414,
+      "reodor_to_odor_ratio": 1.012747723620782,
+      "off_1_to_2s_hz": 0.0
+    },
+    "eLN": {
+      "first": {
+        "pre_off_hz": 53.416666666666664,
+        "pre_off_last50_hz": 49.479166666666664,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 60.572916666666664,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 53.0,
+        "pre_off_last50_hz": 53.125,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 60.072916666666664,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 55.5,
+      "reodor_full_hz": 53.265625,
+      "reodor_to_odor_ratio": 0.959740990990991,
+      "off_1_to_2s_hz": 60.223958333333336
+    },
+    "ACh_eLN": {
+      "first": {
+        "pre_off_hz": 69.34722222222223,
+        "pre_off_last50_hz": 64.44444444444444,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 78.39583333333333,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 68.83333333333333,
+        "pre_off_last50_hz": 69.02777777777777,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 77.70138888888889,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 71.61111111111111,
+      "reodor_full_hz": 69.20138888888889,
+      "reodor_to_odor_ratio": 0.9663498836307214,
+      "off_1_to_2s_hz": 77.94444444444444
+    },
+    "unknown_eLN": {
+      "first": {
+        "pre_off_hz": 5.869565217391305,
+        "pre_off_last50_hz": 4.782608695652174,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 7.413043478260869,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 5.739130434782608,
+        "pre_off_last50_hz": 5.652173913043478,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 7.5,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 7.413043478260869,
+      "reodor_full_hz": 5.695652173913044,
+      "reodor_to_odor_ratio": 0.7683284457478007,
+      "off_1_to_2s_hz": 7.369565217391305
+    },
+    "ALPN": {
+      "first": {
+        "pre_off_hz": 37.822157434402335,
+        "pre_off_last50_hz": 35.947521865889215,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 45.059766763848394,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 37.31778425655977,
+        "pre_off_last50_hz": 38.367346938775505,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 44.80174927113703,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 38.440233236151606,
+      "reodor_full_hz": 37.427113702623906,
+      "reodor_to_odor_ratio": 0.9736442927569207,
+      "off_1_to_2s_hz": 44.63848396501458
+    },
+    "GABA_LN": {
+      "first": {
+        "pre_off_hz": 90.61666666666666,
+        "pre_off_last50_hz": 86.83333333333333,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 95.55,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 90.13333333333334,
+        "pre_off_last50_hz": 90.99999999999999,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 94.76666666666667,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 91.68333333333334,
+      "reodor_full_hz": 89.95,
+      "reodor_to_odor_ratio": 0.9810943464824577,
+      "off_1_to_2s_hz": 94.44166666666666
+    },
+    "first_PN_minus_eLN_half_ms": null,
+    "second_PN_minus_eLN_half_ms": null,
+    "transmitted_fraction": {
+      "odor_tail": 0.20749855841870235,
+      "off_tail": 0.2106425991003916,
+      "reodor_tail": 0.20913523780360388
+    }
+  },
+  "std300_2026091711": {
+    "ORN": {
+      "first": {
+        "pre_off_hz": 58.76433121019108,
+        "pre_off_last50_hz": 60.12738853503185,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 4,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "second": {
+        "pre_off_hz": 60.22929936305732,
+        "pre_off_last50_hz": 58.98089171974522,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 6,
+        "low_1hz_time_ms": 10,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "odor_full_hz": 59.45859872611465,
+      "reodor_full_hz": 60.21656050955414,
+      "reodor_to_odor_ratio": 1.012747723620782,
+      "off_1_to_2s_hz": 0.0
+    },
+    "eLN": {
+      "first": {
+        "pre_off_hz": 0.0,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": null,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": true,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 1.1979166666666667,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": true,
+        "half_time_ms": 1,
+        "low_1hz_time_ms": 1,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "odor_full_hz": 8.546875,
+      "reodor_full_hz": 9.0625,
+      "reodor_to_odor_ratio": 1.0603290676416819,
+      "off_1_to_2s_hz": 0.0
+    },
+    "ACh_eLN": {
+      "first": {
+        "pre_off_hz": 0.0,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": null,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": true,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 1.5972222222222223,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": true,
+        "half_time_ms": 1,
+        "low_1hz_time_ms": 1,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.0
+      },
+      "odor_full_hz": 10.777777777777779,
+      "reodor_full_hz": 11.555555555555555,
+      "reodor_to_odor_ratio": 1.0721649484536082,
+      "off_1_to_2s_hz": 0.0
+    },
+    "unknown_eLN": {
+      "first": {
+        "pre_off_hz": 0.0,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": null,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": true,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 0.0,
+        "pre_off_last50_hz": 0.0,
+        "below_half_for_last20ms_before_off": null,
+        "half_time_ms": null,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 0.0,
+        "reference_below_1hz": true,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 1.8695652173913044,
+      "reodor_full_hz": 1.6304347826086956,
+      "reodor_to_odor_ratio": 0.8720930232558138,
+      "off_1_to_2s_hz": 0.0
+    },
+    "ALPN": {
+      "first": {
+        "pre_off_hz": 1.7580174927113703,
+        "pre_off_last50_hz": 1.8950437317784257,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 8,
+        "low_1hz_time_ms": 8,
+        "last_1s_hz": 0.03644314868804665,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.5830903790087464
+      },
+      "second": {
+        "pre_off_hz": 2.4402332361516037,
+        "pre_off_last50_hz": 1.8075801749271136,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 6,
+        "low_1hz_time_ms": 9,
+        "last_1s_hz": 0.03498542274052478,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": 0.43731778425655976
+      },
+      "odor_full_hz": 6.196793002915452,
+      "reodor_full_hz": 6.377551020408164,
+      "reodor_to_odor_ratio": 1.0291696071512586,
+      "off_1_to_2s_hz": 0.037900874635568516
+    },
+    "GABA_LN": {
+      "first": {
+        "pre_off_hz": 26.983333333333334,
+        "pre_off_last50_hz": 28.333333333333332,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 32,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 3.275,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "second": {
+        "pre_off_hz": 29.083333333333332,
+        "pre_off_last50_hz": 27.5,
+        "below_half_for_last20ms_before_off": false,
+        "half_time_ms": 13,
+        "low_1hz_time_ms": null,
+        "last_1s_hz": 3.475,
+        "reference_below_1hz": false,
+        "max_trailing_10ms_hz_after_first_100ms_low": null
+      },
+      "odor_full_hz": 36.30833333333333,
+      "reodor_full_hz": 36.708333333333336,
+      "reodor_to_odor_ratio": 1.0110167546476936,
+      "off_1_to_2s_hz": 3.725
+    },
+    "first_PN_minus_eLN_half_ms": null,
+    "second_PN_minus_eLN_half_ms": 5,
+    "transmitted_fraction": {
+      "odor_tail": 0.09402682834869709,
+      "off_tail": 0.32650083169410854,
+      "reodor_tail": 0.10649293427093338
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "condition": "local300",
+  "U": 0.2,
+  "tau_ms": 300,
+  "seeds": [
+    2026091701,
+    2026091711,
+    2026091721,
+    2026091731
+  ],
+  "added_after": "Initial non-ORN partition and its first runs; topology audit revealed additional sensory classes among non-ORN inputs. This follow-up is distinguished from the first protocol. No U/tau tuning.",
+  "target": "positive ALLN",
+  "source": "positive ALLN or ALPN only",
+  "metrics": "identical to protocol.json",
+  "note": "anatomical class restriction, not proof of a strongly connected path for every edge"
+}
