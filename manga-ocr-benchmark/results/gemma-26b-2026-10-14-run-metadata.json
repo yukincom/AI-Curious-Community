@@ -55,5 +55,6 @@
     "equal": 2
   },
   "rerun_sampled_peak_process_rss_gib": 17.73284912109375,
-  "matching_saved_crop_hashes_between_runs": 239
+  "matching_saved_crop_hashes_between_runs": 239,
+  "model_display_name": "Gemma4 26B-A4B"
 }

@@ -1,33 +1,45 @@
-experiment,configuration,exact_raw,raw_cer_percent,exact_normalized,normalized_cer_percent,recorded_runtime_seconds
-baberu-paddle-e2bdirect-combination,Baberu+Paddle+E2Bocr->E2B,9/26,23.5%,14/26,15.3%,25.40s
-baberu-paddle-e4bdirect-combination,Baberu+Paddle+E4Bocr->E2B,9/26,26.5%,14/26,18.4%,26.19s
-baberu-paddle-e4bneighbor-contextual,Baberu+Paddle+E4Bneighbor->E2B,11/26,21.4%,16/26,12.8%,25.07s
-baberu-paddle-e4bneighbor-verbatim,Baberu+Paddle+E4Bneighbor->E2B,11/26,21.4%,16/26,13.3%,25.07s
-baberu-paddle-e4bwindow3-contextual,Baberu+Paddle+E4Bwindow3->E2B,9/26,24.0%,13/26,15.3%,25.66s
-baberu-paddle-e4bwindow3-verbatim,Baberu+Paddle+E4Bwindow3->E2B,9/26,26.5%,14/26,18.4%,25.66s
-constrained-repair-comparison,Standard,11/26,21.4%,16/26,13.3%,25.01s
-constrained-repair-comparison,E2B_JA,11/26,21.4%,16/26,13.3%,10.55s
-constrained-repair-comparison,E2B_EN,11/26,19.4%,17/26,11.2%,10.14s
-constrained-repair-comparison,E4B_EN,12/26,14.3%,18/26,7.7%,16.65s
-constrained-repair-comparison,E2B_then_E4B,12/26,15.3%,19/26,7.1%,25.32s
-e4b-neighbor-text-candidate,E4B-neighbor-text,11/26,20.9%,15/26,13.8%,20.19s
-e4b-ocr-context-window-comparison,E4B-single-default,1/26,58.7%,1/26,58.7%,15.32s
-e4b-ocr-context-window-comparison,E4B-single-rough-name,0/26,62.2%,0/26,62.2%,16.74s
-e4b-ocr-context-window-comparison,E4B-window3,1/26,74.0%,1/26,74.0%,30.19s
-e4b-prompt-language-candidate,JP_vertical,8/26,31.6%,11/26,23.5%,19.51s
-e4b-prompt-language-candidate,EN_vertical,9/26,23.5%,14/26,15.3%,20.03s
-gated-and-baberu-e4b-contextual,Baberu_Paddle_E2B,11/26,22.4%,15/26,13.8%,25.01s
-gated-and-baberu-e4b-contextual,Gated_E4B,11/26,22.4%,15/26,13.8%,24.80s
-gated-and-baberu-e4b-contextual,Baberu_E4B_JP_E2B,8/26,28.6%,12/26,20.4%,25.04s
-gated-and-baberu-e4b-contextual,Baberu_E4B_EN_E2B,9/26,28.1%,13/26,19.9%,25.50s
-gated-and-baberu-e4b-verbatim,Baberu_Paddle_E2B,11/26,21.4%,16/26,13.3%,25.01s
-gated-and-baberu-e4b-verbatim,Gated_E4B,11/26,21.4%,16/26,13.3%,24.80s
-gated-and-baberu-e4b-verbatim,Baberu_E4B_JP_E2B,8/26,27.6%,12/26,19.4%,25.04s
-gated-and-baberu-e4b-verbatim,Baberu_E4B_EN_E2B,9/26,26.5%,14/26,18.4%,25.50s
-ndlocr-threeway-combinations,NDLOCR+Paddle+E2Bocr->E2B,3/26,60.2%,3/26,58.7%,25.09s
-ndlocr-threeway-combinations,NDLOCR+Baberu+Paddle->E2B,11/26,21.4%,15/26,12.8%,25.32s
-ocr-combinations,Baberu,9/26,22.4%,14/26,14.3%,2.40s
-ocr-combinations,YomiToku,10/26,22.4%,10/26,22.4%,3.60s
-ocr-combinations,Baberu+YomiToku->E2B,10/26,21.4%,15/26,13.3%,25.22s
-ocr-combinations,Baberu+E2Bocr->E2B,7/26,34.2%,12/26,26.0%,26.47s
-ocr-combinations,Baberu+Paddle->E2B,11/26,21.4%,16/26,13.3%,25.01s
+experiment,configuration,exact_raw,raw_cer_percent,exact_normalized,normalized_cer_percent,recorded_runtime_seconds,evaluation_unit,page_count,input_regions,reference_chars,evaluation_subset,page_edit_distance,page_micro_cer,page_normalization,timing_scope
+baberu-paddle-e2bdirect-combination,Baberu+Paddle+E2Bocr->E2B,9/26,23.5%,14/26,15.3%,25.40s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+baberu-paddle-e4bdirect-combination,Baberu+Paddle+E4Bocr->E2B,9/26,26.5%,14/26,18.4%,26.19s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+baberu-paddle-e4bneighbor-contextual,Baberu+Paddle+E4Bneighbor->E2B,11/26,21.4%,16/26,12.8%,25.07s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+baberu-paddle-e4bneighbor-verbatim,Baberu+Paddle+E4Bneighbor->E2B,11/26,21.4%,16/26,13.3%,25.07s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+baberu-paddle-e4bwindow3-contextual,Baberu+Paddle+E4Bwindow3->E2B,9/26,24.0%,13/26,15.3%,25.66s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+baberu-paddle-e4bwindow3-verbatim,Baberu+Paddle+E4Bwindow3->E2B,9/26,26.5%,14/26,18.4%,25.66s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+constrained-repair-comparison,Standard,11/26,21.4%,16/26,13.3%,25.01s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+constrained-repair-comparison,E2B_JA,11/26,21.4%,16/26,13.3%,10.55s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+constrained-repair-comparison,E2B_EN,11/26,19.4%,17/26,11.2%,10.14s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+constrained-repair-comparison,E4B_EN,12/26,14.3%,18/26,7.7%,16.65s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+constrained-repair-comparison,E2B_then_E4B,12/26,15.3%,19/26,7.1%,25.32s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+e4b-neighbor-text-candidate,E4B-neighbor-text,11/26,20.9%,15/26,13.8%,20.19s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+e4b-ocr-context-window-comparison,E4B-single-default,1/26,58.7%,1/26,58.7%,15.32s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+e4b-ocr-context-window-comparison,E4B-single-rough-name,0/26,62.2%,0/26,62.2%,16.74s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+e4b-ocr-context-window-comparison,E4B-window3,1/26,74.0%,1/26,74.0%,30.19s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+e4b-prompt-language-candidate,JP_vertical,8/26,31.6%,11/26,23.5%,19.51s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+e4b-prompt-language-candidate,EN_vertical,9/26,23.5%,14/26,15.3%,20.03s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+gated-and-baberu-e4b-contextual,Baberu_Paddle_E2B,11/26,22.4%,15/26,13.8%,25.01s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+gated-and-baberu-e4b-contextual,Gated_E4B,11/26,22.4%,15/26,13.8%,24.80s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+gated-and-baberu-e4b-contextual,Baberu_E4B_JP_E2B,8/26,28.6%,12/26,20.4%,25.04s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+gated-and-baberu-e4b-contextual,Baberu_E4B_EN_E2B,9/26,28.1%,13/26,19.9%,25.50s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+gated-and-baberu-e4b-verbatim,Baberu_Paddle_E2B,11/26,21.4%,16/26,13.3%,25.01s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+gated-and-baberu-e4b-verbatim,Gated_E4B,11/26,21.4%,16/26,13.3%,24.80s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+gated-and-baberu-e4b-verbatim,Baberu_E4B_JP_E2B,8/26,27.6%,12/26,19.4%,25.04s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+gated-and-baberu-e4b-verbatim,Baberu_E4B_EN_E2B,9/26,26.5%,14/26,18.4%,25.50s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+ndlocr-threeway-combinations,NDLOCR+Paddle+E2Bocr->E2B,3/26,60.2%,3/26,58.7%,25.09s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+ndlocr-threeway-combinations,NDLOCR+Baberu+Paddle->E2B,11/26,21.4%,15/26,12.8%,25.32s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+ocr-combinations,Baberu,9/26,22.4%,14/26,14.3%,2.40s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+ocr-combinations,YomiToku,10/26,22.4%,10/26,22.4%,3.60s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+ocr-combinations,Baberu+YomiToku->E2B,10/26,21.4%,15/26,13.3%,25.22s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+ocr-combinations,Baberu+E2Bocr->E2B,7/26,34.2%,12/26,26.0%,26.47s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+ocr-combinations,Baberu+Paddle->E2B,11/26,21.4%,16/26,13.3%,25.01s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
+gemma4-26b-a4b-initial-marker,Gemma4 26B-A4B,,,,,198.8424713355489s,page,28,229,3480,normal,3184,0.9149425287356322,NFKC_both_and_whitespace_removal,HTTP_round_trip
+gemma4-26b-a4b-initial-marker,Baberu (saved),,,,,19.8902s,page,28,229,3480,normal,2104,0.6045977011494252,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
+gemma4-26b-a4b-initial-marker,Gemma4 26B-A4B,,,,,8.360681124031544s,page,1,10,161,stress,93,0.577639751552795,NFKC_both_and_whitespace_removal,HTTP_round_trip
+gemma4-26b-a4b-initial-marker,Baberu (saved),,,,,0.8837s,page,1,10,161,stress,90,0.5590062111801242,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
+gemma4-26b-a4b-initial-marker,Gemma4 26B-A4B,,,,,207.20315245958045s,page,29,239,3641,all_including_stress,3277,0.9000274649821478,NFKC_both_and_whitespace_removal,HTTP_round_trip
+gemma4-26b-a4b-initial-marker,Baberu (saved),,,,,20.7739s,page,29,239,3641,all_including_stress,2194,0.6025817083218896,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
+gemma4-26b-a4b-rerun-no-marker,Gemma4 26B-A4B,,,,,185.709165756125s,page,28,229,3480,normal,1933,0.5554597701149425,NFKC_both_and_whitespace_removal,HTTP_round_trip
+gemma4-26b-a4b-rerun-no-marker,Baberu (saved),,,,,19.8902s,page,28,229,3480,normal,2104,0.6045977011494252,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
+gemma4-26b-a4b-rerun-no-marker,Gemma4 26B-A4B,,,,,8.270932249259204s,page,1,10,161,stress,101,0.6273291925465838,NFKC_both_and_whitespace_removal,HTTP_round_trip
+gemma4-26b-a4b-rerun-no-marker,Baberu (saved),,,,,0.8837s,page,1,10,161,stress,90,0.5590062111801242,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
+gemma4-26b-a4b-rerun-no-marker,Gemma4 26B-A4B,,,,,193.9800980053842s,page,29,239,3641,all_including_stress,2034,0.558637736885471,NFKC_both_and_whitespace_removal,HTTP_round_trip
+gemma4-26b-a4b-rerun-no-marker,Baberu (saved),,,,,20.7739s,page,29,239,3641,all_including_stress,2194,0.6025817083218896,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
