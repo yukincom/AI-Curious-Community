@@ -1,38 +1,27 @@
-experiment,stage,exact_items,character_edits_over_reference_chars,cer_percent
-gemma4-bubbles,ndlocr_ocr_only,2/6,12/53,22.6%
-gemma4-bubbles,yomitoku_ocr_only,2/6,7/53,13.2%
-gemma4-bubbles,gemma_ocr_only,0/6,17/53,32.1%
-gemma4-bubbles,gemma_context_verbatim,4/6,2/53,3.8%
-gemma4-bubbles,gemma_contextual_candidate,3/6,6/53,11.3%
-gemma4-e2b-bubbles,ndlocr_ocr_only,2/6,12/53,22.6%
-gemma4-e2b-bubbles,yomitoku_ocr_only,2/6,7/53,13.2%
-gemma4-e2b-bubbles,gemma_ocr_only,0/6,208/53,392.5%
-gemma4-e2b-bubbles,gemma_context_verbatim,5/6,3/53,5.7%
-gemma4-e2b-bubbles,gemma_contextual_candidate,4/6,4/53,7.5%
-ndlocr-baberu-e2b-integrated-by-e2b,ndlocr_ocr_only,2/6,12/53,22.6%
-ndlocr-baberu-e2b-integrated-by-e2b,gemma_context_verbatim,3/6,6/53,11.3%
-ndlocr-baberu-e2b-integrated-by-e2b,gemma_contextual_candidate,3/6,6/53,11.3%
-ndlocr-baberu-paddle-integrated-by-e2b,ndlocr_ocr_only,2/6,12/53,22.6%
-ndlocr-baberu-paddle-integrated-by-e2b,gemma_context_verbatim,3/6,6/53,11.3%
-ndlocr-baberu-paddle-integrated-by-e2b,gemma_contextual_candidate,3/6,6/53,11.3%
-ndlocr-dual-gemma-integrated-by-e2b,ndlocr_ocr_only,2/6,12/53,22.6%
-ndlocr-dual-gemma-integrated-by-e2b,gemma_context_verbatim,4/6,6/53,11.3%
-ndlocr-dual-gemma-integrated-by-e2b,gemma_contextual_candidate,4/6,6/53,11.3%
-ndlocr-dual-gemma-integrated-by-e4b,ndlocr_ocr_only,2/6,12/53,22.6%
-ndlocr-dual-gemma-integrated-by-e4b,gemma_context_verbatim,4/6,9/53,17.0%
-ndlocr-dual-gemma-integrated-by-e4b,gemma_contextual_candidate,3/6,9/53,17.0%
-ndlocr-gemma4-e2b,ndlocr_ocr_only,2/6,12/53,22.6%
-ndlocr-gemma4-e2b,gemma_context_verbatim,2/6,12/53,22.6%
-ndlocr-gemma4-e2b,gemma_contextual_candidate,2/6,12/53,22.6%
-ndlocr-gemma4-e4b,ndlocr_ocr_only,2/6,12/53,22.6%
-ndlocr-gemma4-e4b,gemma_context_verbatim,3/6,9/53,17.0%
-ndlocr-gemma4-e4b,gemma_contextual_candidate,2/6,12/53,22.6%
-ndlocr-paddle-e2b-integrated-by-e2b,ndlocr_ocr_only,2/6,12/53,22.6%
-ndlocr-paddle-e2b-integrated-by-e2b,gemma_context_verbatim,5/6,5/53,9.4%
-ndlocr-paddle-e2b-integrated-by-e2b,gemma_contextual_candidate,4/6,6/53,11.3%
-yomitoku-gemma4-e2b,yomitoku_ocr_only,2/6,7/53,13.2%
-yomitoku-gemma4-e2b,gemma_context_verbatim,2/6,7/53,13.2%
-yomitoku-gemma4-e2b,gemma_contextual_candidate,2/6,7/53,13.2%
-yomitoku-gemma4-e4b,yomitoku_ocr_only,2/6,7/53,13.2%
-yomitoku-gemma4-e4b,gemma_context_verbatim,2/6,7/53,13.2%
-yomitoku-gemma4-e4b,gemma_contextual_candidate,2/6,9/53,17.0%
+stage,scope,pages,bubbles,truth_chars,output_chars,edit_distance,exact_items,micro_cer
+NDLOCR-Lite,共通OCR結果（再利用）,1,6,53,52,12,2,0.22641509433962265
+YomiToku,共通OCR結果（再利用）,1,6,53,53,7,2,0.1320754716981132
+Gemma4 E4B,直接OCR,1,6,53,55,17,0,0.32075471698113206
+NDLOCR＋YomiToku＋E4B→Gemma4 E4B,忠実転記,1,6,53,52,2,4,0.03773584905660377
+NDLOCR＋YomiToku＋E4B→Gemma4 E4B,文脈修正候補,1,6,53,54,6,3,0.11320754716981132
+Gemma4 E2B,直接OCR,1,6,53,226,208,0,3.9245283018867925
+NDLOCR＋YomiToku＋E2B→Gemma4 E2B,忠実転記,1,6,53,53,3,5,0.05660377358490566
+NDLOCR＋YomiToku＋E2B→Gemma4 E2B,文脈修正候補,1,6,53,53,4,4,0.07547169811320754
+NDLOCR＋Baberu＋E2B→Gemma4 E2B,忠実転記,1,6,53,54,6,3,0.11320754716981132
+NDLOCR＋Baberu＋E2B→Gemma4 E2B,文脈修正候補,1,6,53,54,6,3,0.11320754716981132
+NDLOCR＋Baberu＋Paddle→Gemma4 E2B,忠実転記,1,6,53,54,6,3,0.11320754716981132
+NDLOCR＋Baberu＋Paddle→Gemma4 E2B,文脈修正候補,1,6,53,54,6,3,0.11320754716981132
+NDLOCR＋E2B＋E4B→Gemma4 E2B,忠実転記,1,6,53,53,6,4,0.11320754716981132
+NDLOCR＋E2B＋E4B→Gemma4 E2B,文脈修正候補,1,6,53,53,6,4,0.11320754716981132
+NDLOCR＋E2B＋E4B→Gemma4 E4B,忠実転記,1,6,53,55,9,4,0.16981132075471697
+NDLOCR＋E2B＋E4B→Gemma4 E4B,文脈修正候補,1,6,53,54,9,3,0.16981132075471697
+NDLOCR→Gemma4 E2B,忠実転記,1,6,53,49,12,2,0.22641509433962265
+NDLOCR→Gemma4 E2B,文脈修正候補,1,6,53,49,12,2,0.22641509433962265
+NDLOCR→Gemma4 E4B,忠実転記,1,6,53,47,9,3,0.16981132075471697
+NDLOCR→Gemma4 E4B,文脈修正候補,1,6,53,49,12,2,0.22641509433962265
+NDLOCR＋Paddle＋E2B→Gemma4 E2B,忠実転記,1,6,53,52,5,5,0.09433962264150944
+NDLOCR＋Paddle＋E2B→Gemma4 E2B,文脈修正候補,1,6,53,52,6,4,0.11320754716981132
+YomiToku→Gemma4 E2B,忠実転記,1,6,53,53,7,2,0.1320754716981132
+YomiToku→Gemma4 E2B,文脈修正候補,1,6,53,52,7,2,0.1320754716981132
+YomiToku→Gemma4 E4B,忠実転記,1,6,53,53,7,2,0.1320754716981132
+YomiToku→Gemma4 E4B,文脈修正候補,1,6,53,54,9,2,0.16981132075471697

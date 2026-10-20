@@ -17,7 +17,7 @@ CERは低いほど良好です。上記は評価単位・正規化・入力条�
 
 - [8月：ページ全体の比較（通常32ページ＋別集計のストレス1ページ）](results/page-level-summary.csv)
 - [吹き出し入力の構成比較（8月4ページ＋10月Gemma4 26B-A4B追記）](results/bubble-configuration-comparisons.csv) — [26B-A4Bの条件・結果](docs/2026-10-14-gemma-26b.md)
-- [上記4ページのうち1ページ・6吹き出しの段階別比較](results/single-page-stage-comparisons.csv)（同じ資料を再利用）
+- [上記4ページのうち1ページ・6吹き出しの段階別比較](results/single-page-stage-comparisons.csv)（共通結果の重複を整理した26行）
 - [5ページの合成OCR比較](results/composite-five-page-summary.csv)
 - [8月の実験条件・指標・制約](docs/2026-08-experiment-conditions.md)
 - [数値だけを出力する評価コード](scripts/evaluate.py)と[使い方](docs/evaluation-code.md)
