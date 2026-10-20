@@ -1,0 +1,18 @@
+diff --git a/common/speculative.cpp b/common/speculative.cpp
+index 0f12a8a..a261e23 100644
+--- a/common/speculative.cpp
++++ b/common/speculative.cpp
+@@ -1989,6 +1989,13 @@ struct common_speculative_impl_draft_mtp : public common_speculative_impl {
+             sr.reset_request();
+         }
+ 
++        // Gemma shares target KV and uses per-request EV calibration: a preceding
++        // request must not train the next request's draft-length decisions. The
++        // target sampler still verifies every proposed token as before.
++        if (ev.enabled && is_mem_shared) {
++            ev.init();
++        }
++
+         // LLAMA_SPEC_DEPTH_RESET=1: the depth controller starts from its priors for every request
+         if (dctl.enabled && getenv("LLAMA_SPEC_DEPTH_RESET") && atoi(getenv("LLAMA_SPEC_DEPTH_RESET")) != 0) {
+             dctl.init(params.n_max);

@@ -1,0 +1,133 @@
+diff --git a/ggml/src/ggml-metal/ggml-metal-device.h b/ggml/src/ggml-metal/ggml-metal-device.h
+index f1aed06..4f0532c 100644
+--- a/ggml/src/ggml-metal/ggml-metal-device.h
++++ b/ggml/src/ggml-metal/ggml-metal-device.h
+@@ -82,6 +82,7 @@ typedef struct ggml_metal_encoder * ggml_metal_encoder_t;
+
+ ggml_metal_encoder_t ggml_metal_encoder_init(ggml_metal_cmd_buf_t cmd_buf_raw, bool concurrent);
+ void ggml_metal_encoder_free(ggml_metal_encoder_t encoder);
++void ggml_metal_encoder_profile_begin(ggml_metal_encoder_t encoder, const char * key);
+
+ void ggml_metal_encoder_debug_group_push(ggml_metal_encoder_t encoder, const char * name);
+ void ggml_metal_encoder_debug_group_pop (ggml_metal_encoder_t encoder);
+diff --git a/ggml/src/ggml-metal/ggml-metal-device.m b/ggml/src/ggml-metal/ggml-metal-device.m
+index d3cf8ff..5be62a2 100644
+--- a/ggml/src/ggml-metal/ggml-metal-device.m
++++ b/ggml/src/ggml-metal/ggml-metal-device.m
+@@ -841,14 +841,59 @@ struct ggml_metal_pipeline_with_params ggml_metal_library_compile_pipeline(ggml_
+
+ struct ggml_metal_encoder {
+     id<MTLComputeCommandEncoder> obj;
++    // Opt-in diagnostic: encoder boundaries serialize operations, so these
++    // measurements locate expensive operations, not normal inference throughput.
++    id<MTLCommandBuffer> profile_cmd;
++    id<MTLCounterSampleBuffer> profile_samples;
++    NSMutableArray * profile_labels;
++    bool profile_concurrent;
+ };
+
++static id<MTLComputeCommandEncoder> ggml_metal_profile_encoder(ggml_metal_encoder_t e, NSUInteger index) {
++    MTLComputePassDescriptor * desc = [MTLComputePassDescriptor computePassDescriptor];
++    desc.dispatchType = e->profile_concurrent ? MTLDispatchTypeConcurrent : MTLDispatchTypeSerial;
++    desc.sampleBufferAttachments[0].sampleBuffer = e->profile_samples;
++    desc.sampleBufferAttachments[0].startOfEncoderSampleIndex = 2*index;
++    desc.sampleBufferAttachments[0].endOfEncoderSampleIndex = 2*index + 1;
++    return [e->profile_cmd computeCommandEncoderWithDescriptor:desc];
++}
++
++void ggml_metal_encoder_profile_begin(ggml_metal_encoder_t e, const char * key) {
++    if (!e->profile_samples) return;
++    if (e->profile_labels.count >= 2048) GGML_ABORT("Metal diagnostic sample capacity exceeded");
++    if (e->profile_labels.count) {
++        [e->obj endEncoding];
++        [e->obj release];
++        e->obj = [ggml_metal_profile_encoder(e, e->profile_labels.count) retain];
++    }
++    [e->profile_labels addObject:[NSString stringWithUTF8String:key]];
++}
++
+ ggml_metal_encoder_t ggml_metal_encoder_init(ggml_metal_cmd_buf_t cmd_buf_raw, bool concurrent) {
+     ggml_metal_encoder_t res = calloc(1, sizeof(struct ggml_metal_encoder));
+
+     id<MTLCommandBuffer> cmd_buf = (id<MTLCommandBuffer>) cmd_buf_raw;
+
+-    if (concurrent) {
++    if (getenv("GGML_METAL_OP_TIMING") && [cmd_buf.device supportsCounterSampling:MTLCounterSamplingPointAtStageBoundary]) {
++        for (id<MTLCounterSet> set in cmd_buf.device.counterSets) {
++            if (![set.name isEqualToString:MTLCommonCounterSetTimestamp]) continue;
++            MTLCounterSampleBufferDescriptor * desc = [[MTLCounterSampleBufferDescriptor alloc] init];
++            desc.counterSet = set;
++            desc.storageMode = MTLStorageModeShared;
++            desc.sampleCount = 4096;
++            NSError * error = nil;
++            res->profile_samples = [cmd_buf.device newCounterSampleBufferWithDescriptor:desc error:&error];
++            [desc release];
++            if (!res->profile_samples) GGML_ABORT("Metal diagnostic counter allocation failed");
++            res->profile_cmd = cmd_buf;
++            res->profile_labels = [[NSMutableArray alloc] init];
++            res->profile_concurrent = concurrent;
++            break;
++        }
++    }
++    if (res->profile_samples) {
++        res->obj = ggml_metal_profile_encoder(res, 0);
++    } else if (concurrent) {
+         res->obj = [cmd_buf computeCommandEncoderWithDispatchType: MTLDispatchTypeConcurrent];
+     } else {
+         res->obj = [cmd_buf computeCommandEncoder];
+@@ -860,6 +905,35 @@ ggml_metal_encoder_t ggml_metal_encoder_init(ggml_metal_cmd_buf_t cmd_buf_raw, b
+ }
+
+ void ggml_metal_encoder_free(ggml_metal_encoder_t encoder) {
++    if (encoder->profile_samples) {
++        id<MTLCounterSampleBuffer> samples = encoder->profile_samples;
++        NSArray * labels = encoder->profile_labels;
++        [encoder->profile_cmd addCompletedHandler:^(id<MTLCommandBuffer> cb) {
++            @autoreleasepool {
++                if (cb.status == MTLCommandBufferStatusCompleted && labels.count) {
++                    NSData * data = [samples resolveCounterRange:NSMakeRange(0, 2*labels.count)];
++                    if (data.length >= 2*labels.count*sizeof(MTLCounterResultTimestamp)) {
++                        const MTLCounterResultTimestamp * values = data.bytes;
++                        NSMutableDictionary * sums = [NSMutableDictionary dictionary];
++                        NSMutableDictionary * counts = [NSMutableDictionary dictionary];
++                        for (NSUInteger i = 0; i < labels.count; ++i) {
++                            uint64_t a = values[2*i].timestamp, b = values[2*i+1].timestamp;
++                            if (a == MTLCounterErrorValue || b == MTLCounterErrorValue || b < a) continue;
++                            NSString * label = labels[i];
++                            sums[label] = @([sums[label] unsignedLongLongValue] + b-a);
++                            counts[label] = @([counts[label] unsignedLongLongValue] + 1);
++                        }
++                        for (NSString * label in sums) {
++                            fprintf(stderr, "op-timing: key=%s count=%llu gpu_ns=%llu\n", label.UTF8String,
++                                    [counts[label] unsignedLongLongValue], [sums[label] unsignedLongLongValue]);
++                        }
++                    }
++                }
++                [samples release];
++                [labels release];
++            }
++        }];
++    }
+     [encoder->obj release];
+     free(encoder);
+ }
+diff --git a/ggml/src/ggml-metal/ggml-metal-ops.cpp b/ggml/src/ggml-metal/ggml-metal-ops.cpp
+index 20a10c5..ddbf738 100644
+--- a/ggml/src/ggml-metal/ggml-metal-ops.cpp
++++ b/ggml/src/ggml-metal/ggml-metal-ops.cpp
+@@ -400,6 +400,15 @@ static int ggml_metal_op_encode_impl(ggml_metal_op_t ctx, int idx) {
+         }
+         snprintf(key, sizeof(key), "%s.%s.%s", ggml_op_desc(node), node->src[0] ? ggml_type_name(node->src[0]->type) : "-", nm);
+         ggml_metal_prof_dispatch_set_op(key);
++        static const bool op_timing = getenv("GGML_METAL_OP_TIMING") != nullptr;
++        if (op_timing) {
++            char detailed[192];
++            snprintf(detailed, sizeof(detailed), "%s.k%lld.m%lld.e%lld.n%lld", key,
++                     (long long) (node->src[0] ? node->src[0]->ne[0] : 0),
++                     (long long) (node->src[0] ? node->src[0]->ne[1] : 0),
++                     (long long) (node->src[0] ? node->src[0]->ne[2] : 0), (long long) node->ne[1]);
++            ggml_metal_encoder_profile_begin(ctx->enc, detailed);
++        }
+     }
+
+     int n_fuse = 1;

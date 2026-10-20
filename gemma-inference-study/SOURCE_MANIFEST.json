@@ -1,0 +1,83 @@
+{
+  "published": "2026-10-20",
+  "scope": "Selected saved reports and referenced supporting files. No model rerun for publication.",
+  "files": [
+    {
+      "path": "docs/2026-10-17-gemma-mtp.md",
+      "bytes": 3911,
+      "sha256": "f42a311282626e439eda5ccd7c3b7bbb43a490e0867da0b1689ce2b4d0697672",
+      "git_blob_sha1": "c77f7936ae857b770003123b6bb80d595efea6b8",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "docs/2026-10-17-gemma-qat-optimization.md",
+      "bytes": 6907,
+      "sha256": "2616feaf4b40a092c96904ffd7bb96567bcbb3eb1784fd7217ad684eb63bf03c",
+      "git_blob_sha1": "2b2e1cbe5e431b8f3b2a241a05f733aa908712e0",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "docs/2026-10-17-gemma-e2e-profile.md",
+      "bytes": 6049,
+      "sha256": "11092e98a5acd2ce2b92303fadb07584542669c6ebde3f0890acb54757ce7c7b",
+      "git_blob_sha1": "e40b0eb25ab5f96c86650337c1f1e3099cee5b76",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "experiments/gemma-qat-2026-10-17/results.json",
+      "bytes": 25604,
+      "sha256": "aa32ae091e652b04b50ece92b5aeb44cd2453e9aac6374855df77285fe592f10",
+      "git_blob_sha1": "0774eff81b6e5573739ad2035ee2fbb29220af49",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "experiments/gemma-qat-2026-10-17/request-reset.patch",
+      "bytes": 865,
+      "sha256": "107915aac36406bfabc7ebae90da144cc68060e28a0efe341d433334077a3c58",
+      "git_blob_sha1": "5b93280d2f855b53801c632689f321c860fae746",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "experiments/gemma-qat-2026-10-17/rejected-kernel-and-readout-trials.patch",
+      "bytes": 17844,
+      "sha256": "79590a54517e9712e5212596b736aa61d3645feaf69bfb03c0d47a8b16575b4c",
+      "git_blob_sha1": "9979ef1d3d208492a40dffae79692e57793457ac",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "experiments/gemma-qat-2026-10-17/rejected-short-row-and-readout.patch",
+      "bytes": 9784,
+      "sha256": "0a903bdb053dce702ef0b48fff6d0172f3cfb147fb372c4525b67edd94fef9fc",
+      "git_blob_sha1": "64936d78ba08ef2cca5d5307749a24c517acb4bf",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "experiments/gemma-e2e-2026-10-17/results.json",
+      "bytes": 10800,
+      "sha256": "a34b46f7d58c9fef8bb4d6f3cba5317702ea560c99ebd64a07b31200a0eef4d4",
+      "git_blob_sha1": "c369d7609b420706ca50622b10c07af0e55c7ec9",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "experiments/gemma-e2e-2026-10-17/diagnostic-stage-timing.patch",
+      "bytes": 7132,
+      "sha256": "538ea3371bb104e8db8b1fba8b09431db1bafe36456628d895322c7756ee228f",
+      "git_blob_sha1": "065d2656d4ca7da004d1e5901ccec6ee38f9f9fc",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "experiments/gemma-e2e-2026-10-17/unmeasured-optimization-drafts.patch",
+      "bytes": 3182,
+      "sha256": "60267e27a95c7ef0d4bf143f3f30e200cf75594f7b429f6fd5672626b806912f",
+      "git_blob_sha1": "ef8e8a0b5fcc8f37deed735061d1844a3471ff63",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "gemma4-qat-manifest.json",
+      "bytes": 1012,
+      "sha256": "52a3777c7ceff16fa85b208d72baeb9d185098140b0669e85cd7cd9b84bbdaff",
+      "git_blob_sha1": "9369b8d984c0f6ef5a633551c3aeb31e7f5ea770",
+      "content": "unchanged saved source"
+    }
+  ]
+}

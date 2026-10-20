@@ -1,0 +1,20 @@
+{
+  "published": "2026-10-20",
+  "scope": "Selected saved reports and referenced supporting files. No model rerun for publication.",
+  "files": [
+    {
+      "path": "docs/2026-10-16-haiku-internal-representations.md",
+      "bytes": 24232,
+      "sha256": "683bd77555932068a24b6cd626b11552996eb3b43a31fa8ae92bdb8e50577ebc",
+      "git_blob_sha1": "1674c4379fc259068e92f4a989562cab5ad5c58b",
+      "content": "unchanged saved source"
+    },
+    {
+      "path": "docs/2026-10-17-qat-jacobian-optimization.md",
+      "bytes": 8552,
+      "sha256": "a97c6acddeb29c58870646e4915e5f80d409885c728db774dc41a297f5ef1ae2",
+      "git_blob_sha1": "afcaec11c05f37bedd2926bb723815f192cf6edb",
+      "content": "unchanged saved source"
+    }
+  ]
+}
