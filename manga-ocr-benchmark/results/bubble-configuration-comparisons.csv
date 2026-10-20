@@ -1,45 +1,77 @@
-experiment,configuration,exact_raw,raw_cer_percent,exact_normalized,normalized_cer_percent,recorded_runtime_seconds,evaluation_unit,page_count,input_regions,reference_chars,evaluation_subset,page_edit_distance,page_micro_cer,page_normalization,timing_scope
-baberu-paddle-e2bdirect-combination,Baberu+Paddle+E2Bocr->E2B,9/26,23.5%,14/26,15.3%,25.40s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-baberu-paddle-e4bdirect-combination,Baberu+Paddle+E4Bocr->E2B,9/26,26.5%,14/26,18.4%,26.19s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-baberu-paddle-e4bneighbor-contextual,Baberu+Paddle+E4Bneighbor->E2B,11/26,21.4%,16/26,12.8%,25.07s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-baberu-paddle-e4bneighbor-verbatim,Baberu+Paddle+E4Bneighbor->E2B,11/26,21.4%,16/26,13.3%,25.07s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-baberu-paddle-e4bwindow3-contextual,Baberu+Paddle+E4Bwindow3->E2B,9/26,24.0%,13/26,15.3%,25.66s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-baberu-paddle-e4bwindow3-verbatim,Baberu+Paddle+E4Bwindow3->E2B,9/26,26.5%,14/26,18.4%,25.66s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-constrained-repair-comparison,Standard,11/26,21.4%,16/26,13.3%,25.01s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-constrained-repair-comparison,E2B_JA,11/26,21.4%,16/26,13.3%,10.55s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-constrained-repair-comparison,E2B_EN,11/26,19.4%,17/26,11.2%,10.14s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-constrained-repair-comparison,E4B_EN,12/26,14.3%,18/26,7.7%,16.65s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-constrained-repair-comparison,E2B_then_E4B,12/26,15.3%,19/26,7.1%,25.32s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-e4b-neighbor-text-candidate,E4B-neighbor-text,11/26,20.9%,15/26,13.8%,20.19s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-e4b-ocr-context-window-comparison,E4B-single-default,1/26,58.7%,1/26,58.7%,15.32s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-e4b-ocr-context-window-comparison,E4B-single-rough-name,0/26,62.2%,0/26,62.2%,16.74s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-e4b-ocr-context-window-comparison,E4B-window3,1/26,74.0%,1/26,74.0%,30.19s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-e4b-prompt-language-candidate,JP_vertical,8/26,31.6%,11/26,23.5%,19.51s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-e4b-prompt-language-candidate,EN_vertical,9/26,23.5%,14/26,15.3%,20.03s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-gated-and-baberu-e4b-contextual,Baberu_Paddle_E2B,11/26,22.4%,15/26,13.8%,25.01s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-gated-and-baberu-e4b-contextual,Gated_E4B,11/26,22.4%,15/26,13.8%,24.80s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-gated-and-baberu-e4b-contextual,Baberu_E4B_JP_E2B,8/26,28.6%,12/26,20.4%,25.04s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-gated-and-baberu-e4b-contextual,Baberu_E4B_EN_E2B,9/26,28.1%,13/26,19.9%,25.50s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-gated-and-baberu-e4b-verbatim,Baberu_Paddle_E2B,11/26,21.4%,16/26,13.3%,25.01s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-gated-and-baberu-e4b-verbatim,Gated_E4B,11/26,21.4%,16/26,13.3%,24.80s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-gated-and-baberu-e4b-verbatim,Baberu_E4B_JP_E2B,8/26,27.6%,12/26,19.4%,25.04s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-gated-and-baberu-e4b-verbatim,Baberu_E4B_EN_E2B,9/26,26.5%,14/26,18.4%,25.50s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-ndlocr-threeway-combinations,NDLOCR+Paddle+E2Bocr->E2B,3/26,60.2%,3/26,58.7%,25.09s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-ndlocr-threeway-combinations,NDLOCR+Baberu+Paddle->E2B,11/26,21.4%,15/26,12.8%,25.32s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-ocr-combinations,Baberu,9/26,22.4%,14/26,14.3%,2.40s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-ocr-combinations,YomiToku,10/26,22.4%,10/26,22.4%,3.60s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-ocr-combinations,Baberu+YomiToku->E2B,10/26,21.4%,15/26,13.3%,25.22s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-ocr-combinations,Baberu+E2Bocr->E2B,7/26,34.2%,12/26,26.0%,26.47s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-ocr-combinations,Baberu+Paddle->E2B,11/26,21.4%,16/26,13.3%,25.01s,bubble,4,26,196,four_page_matched_bubbles,,,,see_experiment_conditions
-gemma4-26b-a4b-initial-marker,Gemma4 26B-A4B,,,,,198.8424713355489s,page,28,229,3480,normal,3184,0.9149425287356322,NFKC_both_and_whitespace_removal,HTTP_round_trip
-gemma4-26b-a4b-initial-marker,Baberu (saved),,,,,19.8902s,page,28,229,3480,normal,2104,0.6045977011494252,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
-gemma4-26b-a4b-initial-marker,Gemma4 26B-A4B,,,,,8.360681124031544s,page,1,10,161,stress,93,0.577639751552795,NFKC_both_and_whitespace_removal,HTTP_round_trip
-gemma4-26b-a4b-initial-marker,Baberu (saved),,,,,0.8837s,page,1,10,161,stress,90,0.5590062111801242,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
-gemma4-26b-a4b-initial-marker,Gemma4 26B-A4B,,,,,207.20315245958045s,page,29,239,3641,all_including_stress,3277,0.9000274649821478,NFKC_both_and_whitespace_removal,HTTP_round_trip
-gemma4-26b-a4b-initial-marker,Baberu (saved),,,,,20.7739s,page,29,239,3641,all_including_stress,2194,0.6025817083218896,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
-gemma4-26b-a4b-rerun-no-marker,Gemma4 26B-A4B,,,,,185.709165756125s,page,28,229,3480,normal,1933,0.5554597701149425,NFKC_both_and_whitespace_removal,HTTP_round_trip
-gemma4-26b-a4b-rerun-no-marker,Baberu (saved),,,,,19.8902s,page,28,229,3480,normal,2104,0.6045977011494252,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
-gemma4-26b-a4b-rerun-no-marker,Gemma4 26B-A4B,,,,,8.270932249259204s,page,1,10,161,stress,101,0.6273291925465838,NFKC_both_and_whitespace_removal,HTTP_round_trip
-gemma4-26b-a4b-rerun-no-marker,Baberu (saved),,,,,0.8837s,page,1,10,161,stress,90,0.5590062111801242,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
-gemma4-26b-a4b-rerun-no-marker,Gemma4 26B-A4B,,,,,193.9800980053842s,page,29,239,3641,all_including_stress,2034,0.558637736885471,NFKC_both_and_whitespace_removal,HTTP_round_trip
-gemma4-26b-a4b-rerun-no-marker,Baberu (saved),,,,,20.7739s,page,29,239,3641,all_including_stress,2194,0.6025817083218896,NFKC_both_and_whitespace_removal,historical_inference_excluding_load
+stage,scope,pages,bubbles,truth_chars,output_chars,edit_distance,exact_items,micro_cer,recorded_seconds
+Baberu＋Paddle＋E2B直接OCR→Gemma4 E2B,3候補統合・忠実転記／吹き出し：空白除去,4,26,196,194,46,9,0.23469387755102042,25.40
+Baberu＋Paddle＋E2B直接OCR→Gemma4 E2B,3候補統合・忠実転記／吹き出し：出力正規化,4,26,196,194,30,14,0.15306122448979592,25.40
+Baberu＋Paddle＋E4B直接OCR→Gemma4 E2B,3候補統合・忠実転記／吹き出し：空白除去,4,26,196,196,52,9,0.2653061224489796,26.19
+Baberu＋Paddle＋E4B直接OCR→Gemma4 E2B,3候補統合・忠実転記／吹き出し：出力正規化,4,26,196,196,36,14,0.1836734693877551,26.19
+Baberu＋Paddle＋E4B隣接候補→Gemma4 E2B,隣接候補の統合・文脈修正候補／吹き出し：空白除去,4,26,196,195,42,11,0.21428571428571427,25.07
+Baberu＋Paddle＋E4B隣接候補→Gemma4 E2B,隣接候補の統合・文脈修正候補／吹き出し：出力正規化,4,26,196,195,25,16,0.12755102040816327,25.07
+Baberu＋Paddle＋E4B隣接候補→Gemma4 E2B,隣接候補の統合・忠実転記／吹き出し：空白除去,4,26,196,195,42,11,0.21428571428571427,25.07
+Baberu＋Paddle＋E4B隣接候補→Gemma4 E2B,隣接候補の統合・忠実転記／吹き出し：出力正規化,4,26,196,195,26,16,0.1326530612244898,25.07
+Baberu＋Paddle＋E4Bの3吹き出し窓→Gemma4 E2B,3吹き出し窓の統合・文脈修正候補／吹き出し：空白除去,4,26,196,195,47,9,0.23979591836734693,25.66
+Baberu＋Paddle＋E4Bの3吹き出し窓→Gemma4 E2B,3吹き出し窓の統合・文脈修正候補／吹き出し：出力正規化,4,26,196,195,30,13,0.15306122448979592,25.66
+Baberu＋Paddle＋E4Bの3吹き出し窓→Gemma4 E2B,3吹き出し窓の統合・忠実転記／吹き出し：空白除去,4,26,196,195,52,9,0.2653061224489796,25.66
+Baberu＋Paddle＋E4Bの3吹き出し窓→Gemma4 E2B,3吹き出し窓の統合・忠実転記／吹き出し：出力正規化,4,26,196,195,36,14,0.1836734693877551,25.66
+Baberu＋Paddle→Gemma4 E2B,限定補正比較・追加補正前／吹き出し：空白除去,4,26,196,193,42,11,0.21428571428571427,25.01
+Baberu＋Paddle→Gemma4 E2B,限定補正比較・追加補正前／吹き出し：出力正規化,4,26,196,193,26,16,0.1326530612244898,25.01
+Gemma4 E2B（限定補正・日本語）,限定候補による追加補正／吹き出し：空白除去,4,26,196,193,42,11,0.21428571428571427,10.55
+Gemma4 E2B（限定補正・日本語）,限定候補による追加補正／吹き出し：出力正規化,4,26,196,193,26,16,0.1326530612244898,10.55
+Gemma4 E2B（限定補正・英語）,限定候補による追加補正／吹き出し：空白除去,4,26,196,195,38,11,0.19387755102040816,10.14
+Gemma4 E2B（限定補正・英語）,限定候補による追加補正／吹き出し：出力正規化,4,26,196,195,22,17,0.11224489795918367,10.14
+Gemma4 E4B（限定補正・英語）,限定候補による追加補正／吹き出し：空白除去,4,26,196,201,28,12,0.14285714285714285,16.65
+Gemma4 E4B（限定補正・英語）,限定候補による追加補正／吹き出し：出力正規化,4,26,196,201,15,18,0.07653061224489796,16.65
+Gemma4 E2B→E4B（段階的な限定補正）,限定候補による追加補正／吹き出し：空白除去,4,26,196,201,30,12,0.15306122448979592,25.32
+Gemma4 E2B→E4B（段階的な限定補正）,限定候補による追加補正／吹き出し：出力正規化,4,26,196,201,14,19,0.07142857142857142,25.32
+Gemma4 E4B（隣接本文候補）,隣接文脈を使う候補生成／吹き出し：空白除去,4,26,196,189,41,11,0.20918367346938777,20.19
+Gemma4 E4B（隣接本文候補）,隣接文脈を使う候補生成／吹き出し：出力正規化,4,26,196,189,27,15,0.1377551020408163,20.19
+Gemma4 E4B（単独切り抜き・標準指示）,直接OCR／吹き出し：空白除去,4,26,196,208,115,1,0.5867346938775511,15.32
+Gemma4 E4B（単独切り抜き・標準指示）,直接OCR／吹き出し：出力正規化,4,26,196,208,115,1,0.5867346938775511,15.32
+Gemma4 E4B（単独切り抜き・ラフネーム向け）,直接OCR／吹き出し：空白除去,4,26,196,213,122,0,0.6224489795918368,16.74
+Gemma4 E4B（単独切り抜き・ラフネーム向け）,直接OCR／吹き出し：出力正規化,4,26,196,213,122,0,0.6224489795918368,16.74
+Gemma4 E4B（3吹き出し窓）,直接OCR／吹き出し：空白除去,4,26,196,130,145,1,0.7397959183673469,30.19
+Gemma4 E4B（3吹き出し窓）,直接OCR／吹き出し：出力正規化,4,26,196,130,145,1,0.7397959183673469,30.19
+Gemma4 E4B（縦書き・日本語指示）,候補生成／吹き出し：空白除去,4,26,196,192,62,8,0.3163265306122449,19.51
+Gemma4 E4B（縦書き・日本語指示）,候補生成／吹き出し：出力正規化,4,26,196,192,46,11,0.23469387755102042,19.51
+Gemma4 E4B（縦書き・英語指示）,候補生成／吹き出し：空白除去,4,26,196,195,46,9,0.23469387755102042,20.03
+Gemma4 E4B（縦書き・英語指示）,候補生成／吹き出し：出力正規化,4,26,196,195,30,14,0.15306122448979592,20.03
+Baberu＋Paddle→Gemma4 E2B,追加処理比較・文脈修正候補／吹き出し：空白除去,4,26,196,193,44,11,0.22448979591836735,25.01
+Baberu＋Paddle→Gemma4 E2B,追加処理比較・文脈修正候補／吹き出し：出力正規化,4,26,196,193,27,15,0.1377551020408163,25.01
+Gemma4 E4B（疑わしい候補だけ追加処理）,追加処理比較・文脈修正候補／吹き出し：空白除去,4,26,196,195,44,11,0.22448979591836735,24.80
+Gemma4 E4B（疑わしい候補だけ追加処理）,追加処理比較・文脈修正候補／吹き出し：出力正規化,4,26,196,195,27,15,0.1377551020408163,24.80
+Baberu＋E4B日本語候補→Gemma4 E2B,追加処理比較・文脈修正候補／吹き出し：空白除去,4,26,196,194,56,8,0.2857142857142857,25.04
+Baberu＋E4B日本語候補→Gemma4 E2B,追加処理比較・文脈修正候補／吹き出し：出力正規化,4,26,196,194,40,12,0.20408163265306123,25.04
+Baberu＋E4B英語候補→Gemma4 E2B,追加処理比較・文脈修正候補／吹き出し：空白除去,4,26,196,188,55,9,0.28061224489795916,25.50
+Baberu＋E4B英語候補→Gemma4 E2B,追加処理比較・文脈修正候補／吹き出し：出力正規化,4,26,196,188,39,13,0.1989795918367347,25.50
+Baberu＋Paddle→Gemma4 E2B,追加処理比較・忠実転記／吹き出し：空白除去,4,26,196,193,42,11,0.21428571428571427,25.01
+Baberu＋Paddle→Gemma4 E2B,追加処理比較・忠実転記／吹き出し：出力正規化,4,26,196,193,26,16,0.1326530612244898,25.01
+Gemma4 E4B（疑わしい候補だけ追加処理）,追加処理比較・忠実転記／吹き出し：空白除去,4,26,196,195,42,11,0.21428571428571427,24.80
+Gemma4 E4B（疑わしい候補だけ追加処理）,追加処理比較・忠実転記／吹き出し：出力正規化,4,26,196,195,26,16,0.1326530612244898,24.80
+Baberu＋E4B日本語候補→Gemma4 E2B,追加処理比較・忠実転記／吹き出し：空白除去,4,26,196,192,54,8,0.2755102040816326,25.04
+Baberu＋E4B日本語候補→Gemma4 E2B,追加処理比較・忠実転記／吹き出し：出力正規化,4,26,196,192,38,12,0.19387755102040816,25.04
+Baberu＋E4B英語候補→Gemma4 E2B,追加処理比較・忠実転記／吹き出し：空白除去,4,26,196,189,52,9,0.2653061224489796,25.50
+Baberu＋E4B英語候補→Gemma4 E2B,追加処理比較・忠実転記／吹き出し：出力正規化,4,26,196,189,36,14,0.1836734693877551,25.50
+NDLOCR＋Paddle＋E2B直接OCR→Gemma4 E2B,3候補統合・忠実転記／吹き出し：空白除去,4,26,196,181,118,3,0.6020408163265306,25.09
+NDLOCR＋Paddle＋E2B直接OCR→Gemma4 E2B,3候補統合・忠実転記／吹き出し：出力正規化,4,26,196,181,115,3,0.5867346938775511,25.09
+NDLOCR＋Baberu＋Paddle→Gemma4 E2B,3候補統合・忠実転記／吹き出し：空白除去,4,26,196,191,42,11,0.21428571428571427,25.32
+NDLOCR＋Baberu＋Paddle→Gemma4 E2B,3候補統合・忠実転記／吹き出し：出力正規化,4,26,196,191,25,15,0.12755102040816327,25.32
+Baberu OCR,基本構成・単体OCR／吹き出し：空白除去,4,26,196,197,44,9,0.22448979591836735,2.40
+Baberu OCR,基本構成・単体OCR／吹き出し：出力正規化,4,26,196,197,28,14,0.14285714285714285,2.40
+YomiToku,基本構成・単体OCR／吹き出し：空白除去,4,26,196,193,44,10,0.22448979591836735,3.60
+YomiToku,基本構成・単体OCR／吹き出し：出力正規化,4,26,196,193,44,10,0.22448979591836735,3.60
+Baberu＋YomiToku→Gemma4 E2B,基本構成・忠実転記／吹き出し：空白除去,4,26,196,193,42,10,0.21428571428571427,25.22
+Baberu＋YomiToku→Gemma4 E2B,基本構成・忠実転記／吹き出し：出力正規化,4,26,196,193,26,15,0.1326530612244898,25.22
+Baberu＋E2B直接OCR→Gemma4 E2B,基本構成・忠実転記／吹き出し：空白除去,4,26,196,179,67,7,0.34183673469387754,26.47
+Baberu＋E2B直接OCR→Gemma4 E2B,基本構成・忠実転記／吹き出し：出力正規化,4,26,196,179,51,12,0.2602040816326531,26.47
+Baberu＋Paddle→Gemma4 E2B,基本構成・忠実転記／吹き出し：空白除去,4,26,196,193,42,11,0.21428571428571427,25.01
+Baberu＋Paddle→Gemma4 E2B,基本構成・忠実転記／吹き出し：出力正規化,4,26,196,193,26,16,0.1326530612244898,25.01
+Gemma4 26B-A4B,初回・未知文字マーカー指定／通常評価／ページ：両側NFKC,28,229,3480,3819,3184,1,0.9149425287356322,198.8424713355489
+Baberu OCR（保存済み）,初回の比較基準／通常評価／ページ：両側NFKC,28,229,3480,2628,2104,1,0.6045977011494252,19.8902
+Gemma4 26B-A4B,初回・未知文字マーカー指定／ストレステスト／ページ：両側NFKC,1,10,161,138,93,0,0.577639751552795,8.360681124031544
+Baberu OCR（保存済み）,初回の比較基準／ストレステスト／ページ：両側NFKC,1,10,161,149,90,0,0.5590062111801242,0.8837
+Gemma4 26B-A4B,初回・未知文字マーカー指定／全件（ストレス含む）／ページ：両側NFKC,29,239,3641,3957,3277,1,0.9000274649821478,207.20315245958045
+Baberu OCR（保存済み）,初回の比較基準／全件（ストレス含む）／ページ：両側NFKC,29,239,3641,2777,2194,1,0.6025817083218896,20.7739
+Gemma4 26B-A4B,再測定・マーカー指定なし／通常評価／ページ：両側NFKC,28,229,3480,2540,1933,1,0.5554597701149425,185.709165756125
+Baberu OCR（保存済み）,再測定の比較基準（再掲）／通常評価／ページ：両側NFKC,28,229,3480,2628,2104,1,0.6045977011494252,19.8902
+Gemma4 26B-A4B,再測定・マーカー指定なし／ストレステスト／ページ：両側NFKC,1,10,161,135,101,0,0.6273291925465838,8.270932249259204
+Baberu OCR（保存済み）,再測定の比較基準（再掲）／ストレステスト／ページ：両側NFKC,1,10,161,149,90,0,0.5590062111801242,0.8837
+Gemma4 26B-A4B,再測定・マーカー指定なし／全件（ストレス含む）／ページ：両側NFKC,29,239,3641,2675,2034,1,0.558637736885471,193.9800980053842
+Baberu OCR（保存済み）,再測定の比較基準（再掲）／全件（ストレス含む）／ページ：両側NFKC,29,239,3641,2777,2194,1,0.6025817083218896,20.7739
