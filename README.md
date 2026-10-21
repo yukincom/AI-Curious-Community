@@ -17,6 +17,12 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 | 2026-10-17 | Gemma QATの生成時間・MTP・追加最適化 | 生成のどこに時間がかかるかを計測。MTPの効果とMoAD固有の効果を区別し、追加最適化を採用しなかった結果も記録 | [3本のレポート・集計・試作差分](gemma-inference-study/) |
 | 2026-10-11 | ローカルモデルの生成方式 | Gemma 26Bの量子化・生成方式とJSON / native形式を比較。用途と条件を固定して読む | [QAT比較](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/2026-10-11-gemma26b-qat-comparison.md)・[JSON / native比較](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/2026-10-11-gemma26b-json-vs-native.md) |
 
+## AIの知覚・モデルの追加学習
+
+| 学習・資料の時期 | テーマ | 内容・位置づけ | 資料 |
+|---|---|---|---|
+| 2026-01-05（資料作成日） | AIエージェントを迷わせる仕組み | AIの知覚・判断やモデルの追加学習を理解するための試作。循環依存を題材に、エージェントの状況把握と行動の継続を考える [🗒️](https://note.com/yukin_co/n/n9a8b17260d2a) [🗒️](https://note.com/yukin_co/n/n61ae6eadafa1) | [morew-circulation](https://github.com/yukincom/morew-circulation) |
+
 ## 神経回路・身体・エージェントの行動
 
 | 研究・実験の時期 | テーマ | 調べたこと・読むポイント | 資料 |
@@ -35,11 +41,22 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 
 現行仕様、過去の記録、今後の構想は[ドギドのドキュメント案内](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/README.md)から確認できます。
 
-## 読み取り・翻訳
+## 漫画制作ツール
+
+漫画制作に関わるOCR、画像生成、フキダシ配置、制作支援の試行をまとめています。
+
+| 開発・実験の時期 | テーマ | 内容・位置づけ | 資料 |
+|---|---|---|---|
+| 2026-07〜08（開発）、2026-10-21（中止） | 漫画フキダシ配置ツール | ニャムル側の制作パイプラインへ一本化して開発終了。コード・素材・ローカル試験出力を公開保存 | [manga-babble-maker](https://github.com/yukincom/manga-babble-maker) |
+| 2026-08-23〜24、2026-10-14 | 手書き漫画ネームのOCR | ページ、フキダシ、処理段階ごとの集計比較。原稿画像・正解本文・作家や作品の識別情報は含まない [🗒️](https://note.com/yukin_co/n/n3bb589b006b9) [🗒️](https://note.com/yukin_co/n/n30b31dc5eadd) | [概要](manga-ocr-benchmark/)・[実験条件と日付](manga-ocr-benchmark/docs/2026-08-experiment-conditions.md)・[ページ比較](manga-ocr-benchmark/results/page-level-summary.csv)・[フキダシ条件](manga-ocr-benchmark/results/bubble-configuration-comparisons.csv)・[段階比較](manga-ocr-benchmark/results/single-page-stage-comparisons.csv) |
+| 2026-10-13（試行）、2026-10-21（中止記録整理） | Gemmaによる人物ラフの調整英文 | 俯きと黒い袖の個別調整。メモリ保護での停止と、汎用性を検証する目的から方法がずれていたための中止を区別 | [試みた調整と中止理由](gemma-sketch-refinement-study/) |
+| 2026-10-14（試行）、2026-10-21（記録整理） | Hermesによる2ページ漫画の制作 | 1ページの途中で中止。コマ数・文字除去・画像評価の失敗と、工程を絞って進んだ範囲を画像4枚で記録 | [失敗と部分的な改善](nyamuru-hermes-manga-study/) |
+| 2026-10-17（試行）、2026-10-21（中止） | Hermesによるフキダシ自律配置 | 起動引数と画像添付で停止。自律配置の品質評価には至らず、試作経路を中止 | [失敗と中止の記録](nyamuru-hermes-bubble-placement/) |
+
+## 翻訳
 
 | 研究・実験の時期 | テーマ | 調べたこと・読むポイント | 資料 |
 |---|---|---|---|
-| 2026-08-23〜24、2026-10-14 | 手書き漫画ネームのOCR | ページ、フキダシ、処理段階ごとの集計比較。原稿画像・正解本文・作家や作品の識別情報は含まない [🗒️](https://note.com/yukin_co/n/n3bb589b006b9) [🗒️](https://note.com/yukin_co/n/n30b31dc5eadd) | [概要](manga-ocr-benchmark/)・[実験条件と日付](manga-ocr-benchmark/docs/2026-08-experiment-conditions.md)・[ページ比較](manga-ocr-benchmark/results/page-level-summary.csv)・[フキダシ条件](manga-ocr-benchmark/results/bubble-configuration-comparisons.csv)・[段階比較](manga-ocr-benchmark/results/single-page-stage-comparisons.csv) |
 | 2026-09-26（旧比較の公開記録）、2026-10-20（追加照合） | AIコンパニオン報告書の翻訳比較 | GPT / Gemini / Grok / Claude / Qwenの保存出力を原文と照合。責任主体、統計の単位、限定の脱落などを確認。生成条件を統一したモデル順位ではない | [翻訳比較](translationbenchmark-qwen-gpt/)・[原文を読む案内](translationbenchmark-qwen-gpt/reading-guide.md)・[追加評価](translationbenchmark-qwen-gpt/review-2026-10-20.md) |
 
 ## AIと哲学
@@ -48,15 +65,11 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 |---|---|---|---|
 | 2026-09-03 | 理由の管轄権 | **GPTに哲学エッセイを生成させた実験。本文の考え・主張はGPTの生成物であり、公開者本人の考えを示すものではない。** 生成過程は方法論レポートに記録 | [日本語・英語の論考と方法論レポート](ai-philosophy-essay/) |
 
-## 知識整理・その他の試作
+## 論文・知識整理
 
 | 開発・資料の時期 | テーマ | 内容・位置づけ | 資料 |
 |---|---|---|---|
-| 2026-10-13（試行）、2026-10-21（中止記録整理） | Gemmaによる人物ラフの調整英文 | 俯きと黒い袖の個別調整。メモリ保護での停止と、汎用性を検証する目的から方法がずれていたための中止を区別 | [試みた調整と中止理由](gemma-sketch-refinement-study/) |
-| 2026-10-14（試行）、2026-10-21（記録整理） | Hermesによる2ページ漫画の制作 | 1ページの途中で中止。コマ数・文字除去・画像評価の失敗と、工程を絞って進んだ範囲を画像4枚で記録 | [失敗と部分的な改善](nyamuru-hermes-manga-study/) |
-| 2026-10-17（試行）、2026-10-21（中止） | Hermesによるフキダシ自律配置 | 起動引数と画像添付で停止。自律配置の品質評価には至らず、試作経路を中止 | [失敗と中止の記録](nyamuru-hermes-bubble-placement/) |
 | 2025-11-24〜2026-01-03（公開開発記録） | 論文から知識グラフへ | 構造化した論文テキストから関係を抽出し、グラフへ格納するAlpha版 [🗒️](https://note.com/yukin_co/n/n8dac8d215d25) [🗒️](https://note.com/yukin_co/n/n8525ca4f70f4) [🗒️](https://note.com/yukin_co/n/n6f448f89e901) | [Crystal-Evoluder](https://github.com/yukincom/Crystal-Evoluder) |
-| 2026-01-05（資料作成日） | AIエージェントを迷わせる仕組み | 循環依存を使う実験的ハニーポットの構想・デモ。防御効果を確立した成果ではない [🗒️](https://note.com/yukin_co/n/n9a8b17260d2a) [🗒️](https://note.com/yukin_co/n/n61ae6eadafa1) | [morew-circulation](https://github.com/yukincom/morew-circulation) |
 
 ## 資料について
 
