@@ -1,0 +1,65 @@
+{
+  "experiment_date_jst": "2026-10-14",
+  "review_date_jst": "2026-10-21",
+  "status": "abandoned_incomplete",
+  "requested_pages": 2,
+  "generated_pages": 1,
+  "panels_requested_per_page": 3,
+  "settings": {
+    "agent_model": "lmstudio-community/gemma-4-26B-A4B-it-QAT-MLX-4bit",
+    "image_model": "Qwen-Image-2.1 Turbo INT8",
+    "width": 864,
+    "height": 1216,
+    "steps": 8,
+    "cfg": 1,
+    "seed": 260921
+  },
+  "images": [
+    {
+      "path": "images/01-initial-render.png",
+      "sha256": "8439d4651cd67f81dbae9912cc7451f1cf282af55c4b2171f0c3b71868c8ab07",
+      "bytes": 1995663,
+      "job": "883735e4-77aa-4bd0-914f-7a3c27178006",
+      "actor": "Hermes executed generation; Codex had repaired the input storyboard",
+      "width": 864,
+      "height": 1216,
+      "unchanged_from_saved_png": true
+    },
+    {
+      "path": "images/02-frame-guide-render.png",
+      "sha256": "4dea3973eed85ec82e151fed59a93fe7c8b8f81ce20c0c90d0d57a9a13906fc3",
+      "bytes": 1905907,
+      "job": "9e159b40-f30c-46a4-8045-c4d5eb37c9d3",
+      "actor": "Codex frame-guide trial",
+      "width": 864,
+      "height": 1216,
+      "unchanged_from_saved_png": true
+    },
+    {
+      "path": "images/03-hermes-render.png",
+      "sha256": "16b20c41276117570473aac2992f4b2717e6ae3ae93d54699e4f61ab6c014e52",
+      "bytes": 1881573,
+      "job": "743d7c99-fb87-4eb8-8b33-30843ed199d2",
+      "actor": "Hermes generation after Hermes storyboard repair",
+      "width": 864,
+      "height": 1216,
+      "unchanged_from_saved_png": true
+    },
+    {
+      "path": "images/04-hermes-clean.png",
+      "sha256": "26e8510a7202d93606156c66e7d9e703f79bf1ebac9da43303c1b499c5ba98c1",
+      "bytes": 1722811,
+      "job": "15e71fdd-0915-43c4-b8aa-3b9a4baad0b3",
+      "actor": "Hermes text and balloon removal trial",
+      "width": 864,
+      "height": 1216,
+      "unchanged_from_saved_png": true
+    }
+  ],
+  "limits": [
+    "Not a controlled model comparison.",
+    "CLI success is not visual-quality validation.",
+    "The later VLM call received only the render image, not the clean image.",
+    "No second-page output or ordinary application import/UI verification was completed."
+  ]
+}
