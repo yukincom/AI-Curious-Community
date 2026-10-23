@@ -6,7 +6,7 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 
 このREADMEでは、その研究と関連する実験・開発の記録をテーマ別に案内します。うまくいった結果だけでなく、失敗、比較条件、まだ分からないことも残しています。他の研究者の論文を使う追試・翻訳と、この場所で行った実験・考察は区別して記載しています。
 
-日付は実験・調査の時期を優先しています。日まで分からないものは年月とし、公開記録や資料作成日を使った項目にはその旨を記載しています。目次の更新日：**2026-10-21**。
+日付は実験・調査の時期を優先しています。日まで分からないものは年月とし、公開記録や資料作成日を使った項目にはその旨を記載しています。目次の更新日：**2026-10-23**。
 
 ## LLMの内部表現・生成の仕組み
 
@@ -37,7 +37,7 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 |---|---|---|---|
 | 2026-06-07（紹介記事） | ドギドの実況・川柳 | Minecraftの状況を受け取って会話・川柳を行う相棒の開発記録 [🗒️](https://note.com/yukin_co/n/n6f7f1f6bfdf7) | [プロジェクト](https://github.com/yukincom/DokiDoki_Dogido) |
 | 2026-10-13 | 身体から見えるものと会話のずれ | 現在の観測と過去の発話が食い違う場面の実機・再生比較。小規模な比較と未解決点 | [視認と会話履歴の比較](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/2026-10-13-body-vision-live-analysis.md) |
-| 2026-10-14 | 日本語の依頼分類 | ModernBERT-Jaの3 seed比較。平均だけでなく、ばらつき、誤分類、誤操作の誘導を確認 | [比較レポート](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/2026-10-14-modernbert-ja-request-classifier-v17-multiseed.md)・[コード・データ・評価](https://github.com/yukincom/DokiDoki_Dogido/tree/main/dev_tools/request_classifier) |
+| 2026-10-14〜23 | 日本語の依頼分類 | ModernBERT-Jaの教材・23分類の作り直し、重み・層の合成、3シードの差。改善と悪化、採用までの経緯を記録 | [試行錯誤](modernbert-request-classifier-study/試行錯誤.md)・[詳細資料](modernbert-request-classifier-study/資料一覧.md)・[コード・データ・評価](https://github.com/yukincom/DokiDoki_Dogido/tree/main/dev_tools/request_classifier) |
 
 現行仕様、過去の記録、今後の構想は[ドギドのドキュメント案内](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/README.md)から確認できます。
 

@@ -1,0 +1,933 @@
+{
+  "publication_date": "2026-10-23",
+  "source_repository": "colab-modernbert-ja-30m-2026-10-14 (local experiment repository)",
+  "source_git_commit": "637e35f1c216fdb2848f8187d28b5988b7d4399d",
+  "source_selection": "Committed Markdown: all dated docs, comparison reports, diagnostic summary reports, and their linked Markdown. Uncommitted edits are excluded.",
+  "public_edits": [
+    "Add a common historical-status note linking to the consolidated summary.",
+    "Replace personal absolute filesystem paths with experiment-relative paths or $DOGIDO_ROOT, $DOWNLOADS, $HOME placeholders.",
+    "Keep links between included Markdown files; display references to omitted local files as text with source paths.",
+    "Keep historical results and claims unchanged; explain later corrections in the consolidated summary."
+  ],
+  "omitted_artifacts": [
+    "model weights",
+    "prediction JSONL",
+    "JSON data",
+    "source code",
+    "notebooks",
+    "ZIP archives"
+  ],
+  "files": [
+    {
+      "source_path": "comparison-colab/comparison.md",
+      "published_path": "archive/comparison-colab/comparison.md",
+      "title": "ModernBERT-Ja 30M：Mac / Colab CUDA比較（2026-10-14）",
+      "source_sha256": "566aec367b294300aabb5a48af4c558736d56317f2e06d9e84ec6fe4ddd98cf3",
+      "published_sha256": "7b3a5e769e0075dd91e3f0c62274e55d35518d7ee882fce9ffee2a42c03d1489",
+      "source_bytes": 8903,
+      "published_bytes": 9233
+    },
+    {
+      "source_path": "comparison-gemma-e2b-20261015/errors.md",
+      "published_path": "archive/comparison-gemma-e2b-20261015/errors.md",
+      "title": "全誤分類",
+      "source_sha256": "9159f174bfef51d527994204a0658bdfbb8bb7ae6688f8b765cfae537b81dc50",
+      "published_sha256": "d6a159727da28f990b604afef1cf2b7309ca53ea73324f59a73026a6e3d725d3",
+      "source_bytes": 19458,
+      "published_bytes": 19788
+    },
+    {
+      "source_path": "comparison-gemma-e2b-20261015/prompt-preview.md",
+      "published_path": "archive/comparison-gemma-e2b-20261015/prompt-preview.md",
+      "title": "E2B分類用の指示文",
+      "source_sha256": "4d58be63b00d6dcbf338263df1fd5d2c661758f9f81e92d12ad4ea5a914151ae",
+      "published_sha256": "93efc4bd850c45aadfff1bdfcb686fffa35a9e77f1bfafd2e459ad4c4c5cccfa",
+      "source_bytes": 1872,
+      "published_bytes": 2202
+    },
+    {
+      "source_path": "comparison-gemma-e2b-20261015/report.md",
+      "published_path": "archive/comparison-gemma-e2b-20261015/report.md",
+      "title": "Gemma 4 E2Bと採用ModernBERTの199件比較",
+      "source_sha256": "a3b7a88c721bb4fc957effc958f7f4068712184d6c9d21062ea22f59a32d2628",
+      "published_sha256": "6bd9875da5a24a181f2084729b63fe41ddd73d883f7039ae4f722d40fa23484d",
+      "source_bytes": 6752,
+      "published_bytes": 7082
+    },
+    {
+      "source_path": "comparison-jev-20261015/errors.md",
+      "published_path": "archive/comparison-jev-20261015/errors.md",
+      "title": "両モデルの誤分類一覧",
+      "source_sha256": "b0d4ce10b9a87b84c58ddc6dc2e7f42752d3b22bf01a7219154a3d9508c1a9dc",
+      "published_sha256": "c7bc5911943fc1ffbf941c4e0e0bb0ced6225fc0879d61f42d40606c58687622",
+      "source_bytes": 17069,
+      "published_bytes": 17399
+    },
+    {
+      "source_path": "comparison-jev-20261015/report.md",
+      "published_path": "archive/comparison-jev-20261015/report.md",
+      "title": "日本語Jev風BERTと現行30Mの199件比較",
+      "source_sha256": "1edf60df9fdeab19fc46d7edaf06667dadd46ff35c09e576342753ea874dfa50",
+      "published_sha256": "17a67e348145a4c6e9384f710a02af169b5a3342bbdd955e7d18bf98d1c85ced",
+      "source_bytes": 7173,
+      "published_bytes": 7503
+    },
+    {
+      "source_path": "comparison-v18/comparison.md",
+      "published_path": "archive/comparison-v18/comparison.md",
+      "title": "ModernBERT-Ja 30M：v1.8再学習の比較（2026-10-14）",
+      "source_sha256": "ebf85fc4f6f9530c3d59f0f60789334d1b06b2b06764bdb05c1f0b5578892a21",
+      "published_sha256": "c0f31d721b3ba60e0ff8f67536dbde9a3da1f07484087122bf936228853f886f",
+      "source_bytes": 31208,
+      "published_bytes": 31538
+    },
+    {
+      "source_path": "comparison-v19-cpu/errors.md",
+      "published_path": "archive/comparison-v19-cpu/errors.md",
+      "title": "旧採用モデルとv1.9の全誤分類",
+      "source_sha256": "bd896c74dded0ad98b13a80af122e856dd92882c015d16e689cbcc1f31a8c762",
+      "published_sha256": "4545cd8483035761dc85daae3fa239801d34a6f40ad5ddf67bce98130d3063ba",
+      "source_bytes": 24945,
+      "published_bytes": 25275
+    },
+    {
+      "source_path": "comparison-v19-cpu/report.md",
+      "published_path": "archive/comparison-v19-cpu/report.md",
+      "title": "v1.9 長文150件追加後の比較",
+      "source_sha256": "3bc811d1232528f28e4b686e6de83bd2159514161ff5ae13336d7903eb0dd49c",
+      "published_sha256": "5f4a0285dda93b750f10a60abbb26eb485d89a4b671560df019db3ce97c296d3",
+      "source_bytes": 5795,
+      "published_bytes": 6191
+    },
+    {
+      "source_path": "dev_tools/request_classifier/README.md",
+      "published_path": "archive/dev_tools/request_classifier/README.md",
+      "title": "依頼5分類データ v1.7",
+      "source_sha256": "57e5f7fd777570e20d1f8ff83a82d94ee970323f9329ff0e8dbe40e165598bef",
+      "published_sha256": "17cef7836df0a158eecadc3951d8907ef60fb41a994d92749bd729a19bfac514",
+      "source_bytes": 5543,
+      "published_bytes": 6173
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-15-long-history-draft/curated/README.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-15-long-history-draft/curated/README.md",
+      "title": "長文履歴の学習用素材150件",
+      "source_sha256": "c08da1ac9c2637480e3bcad7752e2968693ca5a3ae4ee21ef5bfa6c5e0304197",
+      "published_sha256": "36fcbe717a1e922625358d8ed66307ba40d82330136007d6684618162c36bba1",
+      "source_bytes": 1710,
+      "published_bytes": 2646
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-15-long-history-draft/curated/materials-review.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-15-long-history-draft/curated/materials-review.md",
+      "title": "長文履歴の学習追加150件",
+      "source_sha256": "332cb1947e4f69985238100329a9aea6fb0d1af57242d26b6ddd46bdac2ad13f",
+      "published_sha256": "c34a8b6108847eae8c239190a11dc7132c5dd6a8f5f9f97b1df39450565a7aa5",
+      "source_bytes": 171632,
+      "published_bytes": 171974
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-15-long-history-draft/materials-review.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-15-long-history-draft/materials-review.md",
+      "title": "実ログの会話構造を参考にした長文履歴の学習候補60件",
+      "source_sha256": "332339bd8bf0839bfb056b3aa97b6843a29c0f600f23620d08bd7b60b1a66746",
+      "published_sha256": "c35eb12c0d8b3c86e3febb09c027365c821fb105e9842b159036bdf3712001ec",
+      "source_bytes": 41594,
+      "published_bytes": 41933
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-15-long-history-draft/request-gemini.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-15-long-history-draft/request-gemini.md",
+      "title": "Geminiへの依頼文：ドギドの長文履歴を使う学習素材",
+      "source_sha256": "d00348ea0a6d1e3cc0701eacde6c27d341a621c862f055d774168d5b02ee07c7",
+      "published_sha256": "b514a32f653405220b22f33e6df35717f66dd9eb8605bc939d768984d59665cc",
+      "source_bytes": 12394,
+      "published_bytes": 12733
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-15-long-history-draft/request-grok.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-15-long-history-draft/request-grok.md",
+      "title": "Grokへの依頼文：ドギドの長文履歴を使う学習素材",
+      "source_sha256": "0bd108b493b74d2961f1e21983cab7dedb635890bca7bc2255fc352b5873eae3",
+      "published_sha256": "30e835cc1be735f852a0b822e3aa9a3f577596b4ec68c95b3364a76593a3cc1c",
+      "source_bytes": 12388,
+      "published_bytes": 12727
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-16-short-runtime-failures/README.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-16-short-runtime-failures/README.md",
+      "title": "次回学習用：短い実機・診断失敗例と正解対照例",
+      "source_sha256": "e51106b4f23b946ac5c89cc096743bee54f06f09b24a1da372bcb81953eb269e",
+      "published_sha256": "7d859cd0bea9466d2a09f3d6053c88d1ef78a10fba43ff43644860e393191b62",
+      "source_bytes": 26703,
+      "published_bytes": 27075
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-16-short-runtime-failures/not-request-review.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-16-short-runtime-failures/not-request-review.md",
+      "title": "not_request 実データ一覧",
+      "source_sha256": "d02c348b93335f4f6d1dcf1b822afd10d1d077d08854e0d32849aebe928dd07e",
+      "published_sha256": "21c83a50892073a02fd2e979cc6902a4d503da060f1973e2da1adf1e032ea6ac",
+      "source_bytes": 30908,
+      "published_bytes": 31313
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-16-short-runtime-failures/requested-labels-review.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-16-short-runtime-failures/requested-labels-review.md",
+      "title": "指定ラベルの実データ",
+      "source_sha256": "a2d097c3e74bdd488764b69a5e84eb9a656dce652c0e6676c964eccee87711c2",
+      "published_sha256": "fc41914e536fedaabc92050722eb046f612b0a244583aea1ad468c20fa42e55a",
+      "source_bytes": 35923,
+      "published_bytes": 36361
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-mount-enemy-search/additions-review.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-mount-enemy-search/additions-review.md",
+      "title": "乗り物・敵サーチの追加96件（2026-10-22）",
+      "source_sha256": "d218b796810bede5ab4beef8d289c6e815bc41e2b3bb6781a5ce300625126263",
+      "published_sha256": "6ff21aba7a687af33a71243bb1d46266b221aa7bee9dcc0140edbefd19c99537",
+      "source_bytes": 13892,
+      "published_bytes": 14363
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-named-mount-enemy-alias-diagnostic/README.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-named-mount-enemy-alias-diagnostic/README.md",
+      "title": "名前付き乗り物と敵呼称の診断20件（2026-10-22）",
+      "source_sha256": "6346a6c1289c7f8baa51dfecd9a00dcf4adff031690489a2141b7603b5972852",
+      "published_sha256": "23f24aa4685a1cb7dedeb5768e35da59be3395c33cf5636e5fb3184dd5d86a63",
+      "source_bytes": 3211,
+      "published_bytes": 3616
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/README.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/README.md",
+      "title": "次回学習の素材 — 2026-10-22",
+      "source_sha256": "659ef293dba0990405d06de0532ba9d26c4c9cd945c9d8a019d42faeb6b47d35",
+      "published_sha256": "44023b12cb279552245cce6bf56620987bc80a083055ad83cb5315f9777384c6",
+      "source_bytes": 4516,
+      "published_bytes": 5350
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/action-contrast-examples.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/action-contrast-examples.md",
+      "title": "剣の復帰と、ドギドの呼び寄せ・乗り物の召喚",
+      "source_sha256": "024c88c96c3d55e4c14b8439fc339f8626ae5f18e1d4f0533f20069ed28a3c85",
+      "published_sha256": "9440b55f9cb86a60c1169b35336666c3e6851fe497c7abb9098ccd2c253b635e",
+      "source_bytes": 11717,
+      "published_bytes": 12089
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/action-contrast-user-edits-2026-10-22.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/action-contrast-user-edits-2026-10-22.md",
+      "title": "剣の復帰と、ドギドの呼び寄せ・乗り物の召喚",
+      "source_sha256": "91f2ebf543f5e04f0e4144c249c13a017ddcc50f22c38d1f5bcba4e531eb7acc",
+      "published_sha256": "dfceebb3614783d651367635964f6f9837952807b2c33e41d1ffb4ef60ee8d9e",
+      "source_bytes": 11409,
+      "published_bytes": 11781
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/gaze-examples.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/gaze-examples.md",
+      "title": "視線関連の教材 — 4種類",
+      "source_sha256": "ddbb9580bb759ef9263f4683a3145415c55b44637f6c83495bdd980a5ef39d07",
+      "published_sha256": "5c4785725c6bf2ef77e35493754afe1123eb0bc33ef4739cd2e6eced9dc641f0",
+      "source_bytes": 14007,
+      "published_bytes": 14346
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/materials-review-v3.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/materials-review-v3.md",
+      "title": "単文学習候補の全件一覧",
+      "source_sha256": "401651252331d04f2551574623482de068308fbd2189479de2054d0aa94e28f6",
+      "published_sha256": "d213af793f75b88d4780346db773732c64ef043e992f1546c8b5e57848db76ae",
+      "source_bytes": 57508,
+      "published_bytes": 57847
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/materials-review.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/materials-review.md",
+      "title": "単文学習候補の全件一覧",
+      "source_sha256": "8bf9a6db4f6700ee8d605ee6dcdaf0b646ab71734ef49db8048bf15366b125da",
+      "published_sha256": "b349172b70b33bf49b6e8ef4e794d9d857a763b68b2fe3cb53662a6344cc960f",
+      "source_bytes": 35784,
+      "published_bytes": 36123
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/not-target-representatives-v2.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/not-target-representatives-v2.md",
+      "title": "not_target の代表例と呼び寄せ・召喚の追加対照",
+      "source_sha256": "af48679de704c1972c23d04ec464bb60dd1a56469fdb297b7b1c1dbed13f5470",
+      "published_sha256": "85ea6133049800a69202d7d267bf8c2b17bf07ca726cbb906a5d5500d445ff87",
+      "source_bytes": 7878,
+      "published_bytes": 8217
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/not-target-representatives.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/not-target-representatives.md",
+      "title": "not_target の代表例",
+      "source_sha256": "c14fc60d9b3ffa66e41782e8f892d2f1855933f5cf2b08cf78aca996b9932d2f",
+      "published_sha256": "3f152608650cc1efc6e841b3e4ee0148adff781a87c57336d4a4cb96ca11b9d7",
+      "source_bytes": 6623,
+      "published_bytes": 6962
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/quality-review.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/quality-review.md",
+      "title": "人工例を中心とした品質見直し — 2026-10-22",
+      "source_sha256": "55b2f35d3cdbeb2ca6c1582cd4b245b3a51f315c16691c4efda516160b1f991d",
+      "published_sha256": "118377d4bce6787b028a7fbe5a28240b77e2ff08de080cf1ec9ab36dbc381bf5",
+      "source_bytes": 261344,
+      "published_bytes": 261683
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/review-needed.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/review-needed.md",
+      "title": "境界・ASRの確認待ち",
+      "source_sha256": "2452b8f7ce2da34f17a6434e67d46a5dc3f235350f9ee87c2e33c468ad4ec0f5",
+      "published_sha256": "927036a9270f949da1ff084f055ec1d6fa2cdc80a5883e21f0f2089aa2d729bc",
+      "source_bytes": 18096,
+      "published_bytes": 18435
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/verse-line-examples.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/verse-line-examples.md",
+      "title": "句行指定とチェンジの教材",
+      "source_sha256": "eb021919cbf812d4261a8d5b3fd397cab8a38412e2dd909863cea7d26595a062",
+      "published_sha256": "76f7fd9ad31d6cf0a3555a21de9711978e00c4545fe9f7cfc0c011a6c6f5c9aa",
+      "source_bytes": 22013,
+      "published_bytes": 22352
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-23-verse-variety/README.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-23-verse-variety/README.md",
+      "title": "川柳の行指定と具体変更：言い回しの補強",
+      "source_sha256": "eb4ae8d3d9f5c6f31333b3abbd57f512035e090bde489ecbd38be1798c19e65e",
+      "published_sha256": "0295d5ec580ae965c87b1e962e1ae0a1e8b64f90df8501a8d999c88ca51e4e54",
+      "source_bytes": 2488,
+      "published_bytes": 2926
+    },
+    {
+      "source_path": "dev_tools/request_classifier/curation/2026-10-23-verse-variety/additions-review.md",
+      "published_path": "archive/dev_tools/request_classifier/curation/2026-10-23-verse-variety/additions-review.md",
+      "title": "川柳教材の追加144件：全文一覧",
+      "source_sha256": "3a7c2eb64f2de058addd1b8a5b9c8f0f5cc5d0bd107522fec6fb42a82a79a7b4",
+      "published_sha256": "651d32a738e94da17bb9c92080383e84f710e4b669e334d1b22d7c677933c3ed",
+      "source_bytes": 15219,
+      "published_bytes": 15624
+    },
+    {
+      "source_path": "dev_tools/request_classifier/releases/v2-pilot-448/README.md",
+      "published_path": "archive/dev_tools/request_classifier/releases/v2-pilot-448/README.md",
+      "title": "11分類448件：初回Colab試行",
+      "source_sha256": "aaab5ee1d12940ac89867482d8118460a32994827d6755d8d4d4169018196584",
+      "published_sha256": "2ad87f435d8238fd312c99a8728f2ccf8895d7a4e46302a6092a0fd01c34a729",
+      "source_bytes": 1272,
+      "published_bytes": 1611
+    },
+    {
+      "source_path": "dev_tools/request_classifier/releases/v3-pilot-536/README.md",
+      "published_path": "archive/dev_tools/request_classifier/releases/v3-pilot-536/README.md",
+      "title": "23分類536件：Colab学習",
+      "source_sha256": "14ac7d9cc44ee6f7f43c50a4cceb53fd4c9b16f25137814533ccfc8cf273e0d6",
+      "published_sha256": "4b64c2bdfae1fc96c2e3b9a46c2416a0867675ae53199deae158a108c07f5edc",
+      "source_bytes": 1724,
+      "published_bytes": 2063
+    },
+    {
+      "source_path": "dev_tools/request_classifier/releases/v4-pilot-650/README.md",
+      "published_path": "archive/dev_tools/request_classifier/releases/v4-pilot-650/README.md",
+      "title": "23分類650件：Colab学習",
+      "source_sha256": "97a9e098d1a3a079298446c2aa7535a5ecb9d1a09d01422b93037443d76cdf07",
+      "published_sha256": "d7cce58144483599e92a888c7e086217e0102248310f345c7db9c677f11014dc",
+      "source_bytes": 1994,
+      "published_bytes": 2333
+    },
+    {
+      "source_path": "dev_tools/request_classifier/releases/v5-pilot-746/README.md",
+      "published_path": "archive/dev_tools/request_classifier/releases/v5-pilot-746/README.md",
+      "title": "23分類746件：Colab学習",
+      "source_sha256": "ded55a08a83ef80d913e1e25e8ca51220312ae44ed1c81cc19c0005c015dcbe2",
+      "published_sha256": "7f4a02f7c580de99bf83ea864f9eee9c7d3665ce7410b5657b767b08c1e68491",
+      "source_bytes": 2042,
+      "published_bytes": 2381
+    },
+    {
+      "source_path": "dev_tools/request_classifier/releases/v6-intent-scope-746/README.md",
+      "published_path": "archive/dev_tools/request_classifier/releases/v6-intent-scope-746/README.md",
+      "title": "23分類746件：召喚・周囲モブ情報の意図分類",
+      "source_sha256": "b8e467de6b8650d54bdc52093a1b1caed753e545f60a93f85fff233635de6674",
+      "published_sha256": "1f92d06d647b6042e9a11cd16fa69d3664603c46d4d79c98b748db4e7286ed7f",
+      "source_bytes": 2588,
+      "published_bytes": 3026
+    },
+    {
+      "source_path": "dev_tools/request_classifier/releases/v7-verse-variety-890/README.md",
+      "published_path": "archive/dev_tools/request_classifier/releases/v7-verse-variety-890/README.md",
+      "title": "23分類890件：川柳の言い回しを補強",
+      "source_sha256": "9e1a89ac95b5b865bd7c0586eb545e48a0dc0354da9b76880242bb8d61473070",
+      "published_sha256": "a6d44b4f2145a358ec7672655c95d2ffd9c3afc38cf5b76d4afb409013fd5fb5",
+      "source_bytes": 1978,
+      "published_bytes": 2416
+    },
+    {
+      "source_path": "dev_tools/request_classifier/reports/2026-10-14-modernbert-ja-30m-v1.7/comparison.md",
+      "published_path": "archive/dev_tools/request_classifier/reports/2026-10-14-modernbert-ja-30m-v1.7/comparison.md",
+      "title": "ModernBERT-Ja：旧モデルと各seedの誤分類比較",
+      "source_sha256": "7f410f19bdc56e913d8ae196f9bb7368d4834c452071e26f60724273d847b3b3",
+      "published_sha256": "c4e9bcd89bfdd3cf18c487cb4d62530cb21b5180bd3955f977d96540117fd042",
+      "source_bytes": 16755,
+      "published_bytes": 17094
+    },
+    {
+      "source_path": "diagnostics-moving-v18-cpu/report.md",
+      "published_path": "archive/diagnostics-moving-v18-cpu/report.md",
+      "title": "移動中の観測発話60件：現行v1.8の評価（2026-10-14）",
+      "source_sha256": "a32cbc91391a23ac0b8c08c5418f004fe418f11a79529820fee51181430cd4d0",
+      "published_sha256": "d6628505b77083a6bfe6a05153c4c10f039004daab0b685368aa609735e5dee8",
+      "source_bytes": 14376,
+      "published_bytes": 14772
+    },
+    {
+      "source_path": "diagnostics/v2-pilot448-weak-classes/cases.md",
+      "published_path": "archive/diagnostics/v2-pilot448-weak-classes/cases.md",
+      "title": "その他の依頼・周囲の観測：個票監査（2026-10-22）",
+      "source_sha256": "2754401bdcebbdd2e7a60ecb1209050203b94bee79e8818b4b132cf78dd3f1ca",
+      "published_sha256": "9b8439a9fc911d16b5e62d5919d03a9904df809c4af1642faf245f650cf7609e",
+      "source_bytes": 11978,
+      "published_bytes": 12377
+    },
+    {
+      "source_path": "diagnostics/v4-pilot650-layer-combinations/report.md",
+      "published_path": "archive/diagnostics/v4-pilot650-layer-combinations/report.md",
+      "title": "層ごとの重み交換：dev79件",
+      "source_sha256": "efb35be973985505a28670ff06cd52efc73e7d685e0cb6dcd6991c2b9f206a73",
+      "published_sha256": "5946af6eba942108c24ec3a40d284d8cb9841fc8bb3326b5a73aa47cf3a80fa7",
+      "source_bytes": 1471,
+      "published_bytes": 1936
+    },
+    {
+      "source_path": "diagnostics/v4-pilot650-layer-swaps/report.md",
+      "published_path": "archive/diagnostics/v4-pilot650-layer-swaps/report.md",
+      "title": "層ごとの重み交換：dev79件",
+      "source_sha256": "2db373880b7190745a0af41fa115f7f88de0c99584042ef26a5d998660fd20f2",
+      "published_sha256": "367a490b15cbd8853735e5c90f621a0534b999a32f534fcf2fd025b7219ca76c",
+      "source_bytes": 8692,
+      "published_bytes": 9157
+    },
+    {
+      "source_path": "diagnostics/v4-pilot650-layer8-test/report.md",
+      "published_path": "archive/diagnostics/v4-pilot650-layer8-test/report.md",
+      "title": "第8層交換版と新モデル：test78件",
+      "source_sha256": "af5cf14f0e6980734c5e91b5cd2f956e9bc139c2567f62680e3b94f8c781fa6c",
+      "published_sha256": "2554385cf6b2cb824615e8d2f1a6fcd8dc41ff360b3c20d223a2d48d9185a725",
+      "source_bytes": 2632,
+      "published_bytes": 3097
+    },
+    {
+      "source_path": "diagnostics/v4-pilot650-layer8-test/reports/layer-08-swap/misclassifications.md",
+      "published_path": "archive/diagnostics/v4-pilot650-layer8-test/reports/layer-08-swap/misclassifications.md",
+      "title": "ModernBERT-Ja-30M：誤分類一覧",
+      "source_sha256": "3efabf6364004327bd00605bb511788c2e1e2f0eb1d70febc4bad3ba8cec5228",
+      "published_sha256": "3e27605d32b63dd2c7a755135eb7c44eaf7ce418f93f0f779ead588d406937b9",
+      "source_bytes": 3098,
+      "published_bytes": 3437
+    },
+    {
+      "source_path": "diagnostics/v4-pilot650-layer8-test/reports/new/misclassifications.md",
+      "published_path": "archive/diagnostics/v4-pilot650-layer8-test/reports/new/misclassifications.md",
+      "title": "ModernBERT-Ja-30M：誤分類一覧",
+      "source_sha256": "67bac0aa0979f639e51cb46def67f371b694f74c01d34566d67511a558e8c1b2",
+      "published_sha256": "a9f5a3a548e833d25664194056bdb31984d232b1dd7de570c49968792afd187c",
+      "source_bytes": 3106,
+      "published_bytes": 3445
+    },
+    {
+      "source_path": "diagnostics/v4-pilot650-named-mount-enemy-alias/report.md",
+      "published_path": "archive/diagnostics/v4-pilot650-named-mount-enemy-alias/report.md",
+      "title": "第8層交換版と新モデル：合成診断20件",
+      "source_sha256": "49085fe99f72a1a5d0d5e0cb8e35bb37a607c737437d6dffdce153f8aab3ddf6",
+      "published_sha256": "3e43e5448fa0d2960f7dde21b7c4aa00fe79753022a9df1022551847be9e9ce6",
+      "source_bytes": 3147,
+      "published_bytes": 3612
+    },
+    {
+      "source_path": "diagnostics/v4-pilot650-ties-fixed-classifier/report.md",
+      "published_path": "archive/diagnostics/v4-pilot650-ties-fixed-classifier/report.md",
+      "title": "最終層固定TIES：dev79件",
+      "source_sha256": "0f5994cb28ff78cf245b00f9e0604d2dc0648b503dc979dee71bb9731904051f",
+      "published_sha256": "176938febbc33c16a70607b6f1c69d7fd05e09635ae45e6810eb30d4bf271fb3",
+      "source_bytes": 5761,
+      "published_bytes": 6259
+    },
+    {
+      "source_path": "diagnostics/v4-pilot650-weight-merge/report.md",
+      "published_path": "archive/diagnostics/v4-pilot650-weight-merge/report.md",
+      "title": "新旧モデルの重み合成：dev79件の比較（2026-10-22）",
+      "source_sha256": "bb8f119944d18b397df0d0f6eafc609a506f80b5e3780e9d0f6b91d6d7644af2",
+      "published_sha256": "65587d28011d541e1fa7c22667e04b5f719f1fae9ff6efe0d76cdb582de9499b",
+      "source_bytes": 9760,
+      "published_bytes": 10258
+    },
+    {
+      "source_path": "diagnostics/v5-pilot746-evaluation/report.md",
+      "published_path": "archive/diagnostics/v5-pilot746-evaluation/report.md",
+      "title": "746件版：650件版との比較（2026-10-22）",
+      "source_sha256": "80c6794f611a4b024f4cbb5aba9c20447a334d842403de575fa8bc8ca3bd8324",
+      "published_sha256": "919bf50a3771c44d0d96e1fc843fec861025c605c5a10b6a6d0d0bf906ba6010",
+      "source_bytes": 10797,
+      "published_bytes": 11262
+    },
+    {
+      "source_path": "diagnostics/v5-pilot746-evaluation/reports/misclassifications.md",
+      "published_path": "archive/diagnostics/v5-pilot746-evaluation/reports/misclassifications.md",
+      "title": "ModernBERT-Ja-30M：誤分類一覧",
+      "source_sha256": "973c431ce0c8ed955bbb6607ed3908c7ccf510ea5e8cfb5f12482900770781c6",
+      "published_sha256": "108b5deef7b792d498a0b52c6c3695f19711188c61c9f9ae5e3b801b43fe6a6e",
+      "source_bytes": 6858,
+      "published_bytes": 7194
+    },
+    {
+      "source_path": "diagnostics/v7-pilot890-evaluation/report.md",
+      "published_path": "archive/diagnostics/v7-pilot890-evaluation/report.md",
+      "title": "890件3シード：保存予測の比較",
+      "source_sha256": "1cc4878d6ef3f8cd4374ab7e799044892d50bf0229f39a99255a90feb29cee99",
+      "published_sha256": "abaf4180daec6f3729a48da722e10b9172f5f5bb6e80b758c4179f40701d951d",
+      "source_bytes": 12620,
+      "published_bytes": 12953
+    },
+    {
+      "source_path": "diagnostics/v7-pilot890-layer-merging/report.md",
+      "published_path": "archive/diagnostics/v7-pilot890-layer-merging/report.md",
+      "title": "seed42を基準にした層合成",
+      "source_sha256": "6deac160c40ea3abf4d7baf9d246ab254a7493c80abd033b9802e88733f10441",
+      "published_sha256": "76942a4159824a9fba64d40b9fafcb30a534d7ad84f4b871bc21f7d2641ba228",
+      "source_bytes": 4494,
+      "published_bytes": 4827
+    },
+    {
+      "source_path": "docs/2026-10-14-colab-replication.md",
+      "published_path": "archive/docs/2026-10-14-colab-replication.md",
+      "title": "Colab再実験の作業記録（2026-10-14）",
+      "source_sha256": "6badc9661d66bad39d8481c27b8a8c8a83ce85d149211d7063ad9bd99fab7aa7",
+      "published_sha256": "8d697327ae34120e2a1208fdcc77c0f4cbd029335b90ef9730438d4693257a07",
+      "source_bytes": 8000,
+      "published_bytes": 8363
+    },
+    {
+      "source_path": "docs/2026-10-14-contrast-candidates-review.md",
+      "published_path": "archive/docs/2026-10-14-contrast-candidates-review.md",
+      "title": "学習追加の対照候補62件（2026-10-14・ユーザー指摘を反映した第3案）",
+      "source_sha256": "daf7ba73705c80dc4f78b575e106fe95f6289d0e6c11524aaa134b068c1da7dc",
+      "published_sha256": "119f80e11673bfebc593e7c20eeb066bb28bbc76c270ea8581d00457e377c3de",
+      "source_bytes": 46637,
+      "published_bytes": 47000
+    },
+    {
+      "source_path": "docs/2026-10-14-long-dialogue-eval-review.md",
+      "published_path": "archive/docs/2026-10-14-long-dialogue-eval-review.md",
+      "title": "長い会話の評価候補24件（2026-10-14・ユーザー指摘を反映した第3案）",
+      "source_sha256": "94f7216107d78b868e4ced4c0453769215f2f69aaca7cd88cae10f560036c975",
+      "published_sha256": "1c54370d37d919df7b61b69086f3a071ce9804e83ca31f7973ea90f35bf76eba",
+      "source_bytes": 33468,
+      "published_bytes": 33831
+    },
+    {
+      "source_path": "docs/2026-10-14-modernbert-ja-request-classifier-v17-multiseed.md",
+      "published_path": "archive/docs/2026-10-14-modernbert-ja-request-classifier-v17-multiseed.md",
+      "title": "ModernBERT-Ja-30M：v1.7再評価と3 seed比較（2026-10-14）",
+      "source_sha256": "2d3e06b6831ff8ab3780d6d2d2a4dd22be85bf816faca59b586fb3a520e1a580",
+      "published_sha256": "a475593277ac3017cfce891fc3700cdd2e4ce255b6e3522742f976e42ad9485d",
+      "source_bytes": 10748,
+      "published_bytes": 11210
+    },
+    {
+      "source_path": "docs/2026-10-14-moving-observation-eval-review.md",
+      "published_path": "archive/docs/2026-10-14-moving-observation-eval-review.md",
+      "title": "移動中の観測発話から短い依頼へ：評価60件（2026-10-14）",
+      "source_sha256": "e605d7e29359f2a88d8573e267749759194b12e2017da435f8e82cc9c898d52c",
+      "published_sha256": "fa9a88a4adce3e7d93f1d0aa0db0be927f531801e65e24699eac79749a21864a",
+      "source_bytes": 12585,
+      "published_bytes": 12915
+    },
+    {
+      "source_path": "docs/2026-10-14-runtime-contrast-basis.md",
+      "published_path": "archive/docs/2026-10-14-runtime-contrast-basis.md",
+      "title": "対照例・長い会話評価の実装経路照合（2026-10-14・第3案）",
+      "source_sha256": "ebc6b0187a6365f233aa94cd6386f66b2e72ceb309386b1fcc99acad632f3500",
+      "published_sha256": "724eadbec5849104769a65462ac7f947d3b71578466fe2f3ec12d3ad7932cb8a",
+      "source_bytes": 12739,
+      "published_bytes": 13168
+    },
+    {
+      "source_path": "docs/2026-10-14-seed44-adoption.md",
+      "published_path": "archive/docs/2026-10-14-seed44-adoption.md",
+      "title": "v1.8 seed 44の採用（2026-10-14）",
+      "source_sha256": "b3671528e1c8bbcc048d1bf582ada269849803386b0d91e49898f66b74810b5d",
+      "published_sha256": "6ad38901219bc860277c748c4ac7e1b40e529f9e291102aaec6467a8c1992b80",
+      "source_bytes": 2676,
+      "published_bytes": 3039
+    },
+    {
+      "source_path": "docs/2026-10-14-training-contrast-audit.md",
+      "published_path": "archive/docs/2026-10-14-training-contrast-audit.md",
+      "title": "v1.7 学習データの対照例点検（2026-10-14）",
+      "source_sha256": "8f654f9511905225f372018141b041971d864a35f65c14327f5370a922896a1f",
+      "published_sha256": "5b88ddfc4043fe819c0d019cc10d5101c1448e2318f56bb15175b6696f80011c",
+      "source_bytes": 14591,
+      "published_bytes": 14954
+    },
+    {
+      "source_path": "docs/2026-10-14-v18-retraining.md",
+      "published_path": "archive/docs/2026-10-14-v18-retraining.md",
+      "title": "ModernBERT-Ja 30M v1.8 再学習",
+      "source_sha256": "70f0b231d180de3c492449fa93dd3cc21a1401059de57a7f0f8d04f39e721adb",
+      "published_sha256": "a25b0ba2fbaa94ba3028e8a2b9ffd7e0a5649486d7d337967a52ef8fbb4be98e",
+      "source_bytes": 6193,
+      "published_bytes": 6589
+    },
+    {
+      "source_path": "docs/2026-10-15-gemma-e2b-comparison.md",
+      "published_path": "archive/docs/2026-10-15-gemma-e2b-comparison.md",
+      "title": "Gemma 4 E2B比較の実行記録（2026-10-15）",
+      "source_sha256": "e022be32c5cc1a04678d14e82f060d41044990b9502a5e80b074a0caa6f5b3db",
+      "published_sha256": "e8b82bb715357e7df7db339e4059209e117b4f3883eb937e33ab0aa1f27b5785",
+      "source_bytes": 2906,
+      "published_bytes": 3302
+    },
+    {
+      "source_path": "docs/2026-10-15-grok-long-history-curation.md",
+      "published_path": "archive/docs/2026-10-15-grok-long-history-curation.md",
+      "title": "Grok長文履歴30件の修正と学習用データへの統合",
+      "source_sha256": "ce4a17d463143192b3cd17177241d7acb80b5627fc5515dfb5ce9a9227b29c39",
+      "published_sha256": "ebb5bf0c98d0e9717d951874e9b0e75f6f0577b71a8c3403765e34dd44c07f39",
+      "source_bytes": 4581,
+      "published_bytes": 4911
+    },
+    {
+      "source_path": "docs/2026-10-15-long-history-curation.md",
+      "published_path": "archive/docs/2026-10-15-long-history-curation.md",
+      "title": "2026-10-15 長文履歴90件の学習用整理",
+      "source_sha256": "eade1c0450ae091d28d1203f44d8fcc05adc2e427a4277e5b098520e49b71dea",
+      "published_sha256": "8735922adff41abf5e0c1edb63f1a5e5070ef169a5b50a1dfe54e17ddf2c736d",
+      "source_bytes": 6910,
+      "published_bytes": 7277
+    },
+    {
+      "source_path": "docs/2026-10-15-long-history-training-draft.md",
+      "published_path": "archive/docs/2026-10-15-long-history-training-draft.md",
+      "title": "2026-10-15 実ログの会話構造を参考にした長文履歴の学習候補",
+      "source_sha256": "7388af145d9cebfc909d2918328d7c03460252b8d65bbc94183e50dfdf48260a",
+      "published_sha256": "f844924daf67a1727065066b58b524a5dc9e1fa32a485cb43ea058f834e0730d",
+      "source_bytes": 10633,
+      "published_bytes": 11165
+    },
+    {
+      "source_path": "docs/2026-10-15-opus-long-history-curation.md",
+      "published_path": "archive/docs/2026-10-15-opus-long-history-curation.md",
+      "title": "Opus長文履歴30件の修正と学習用データへの統合",
+      "source_sha256": "f8d2c404231e55b4cb807b72f631807f6ae8cfee0f03b405637aa4d1e5878ef0",
+      "published_sha256": "35727e152e9fbb0ad89b6a2a0fb09d1871ea6ddb42269a6084a115a48bb44043",
+      "source_bytes": 4562,
+      "published_bytes": 4892
+    },
+    {
+      "source_path": "docs/2026-10-15-v19-colab-retraining.md",
+      "published_path": "archive/docs/2026-10-15-v19-colab-retraining.md",
+      "title": "v1.9 長文履歴150件を追加するColab再学習",
+      "source_sha256": "8593ae15456fd2fdefe2d1c2447711382fcdd70898ca0409dacd64ae8aeb6d92",
+      "published_sha256": "80b27fc29104578d5a4b2824aa6fa6e2c80fb7d14b0ae4e3fb399598f1cb4b8b",
+      "source_bytes": 10014,
+      "published_bytes": 10579
+    },
+    {
+      "source_path": "docs/2026-10-21-request-classifier-label-expansion.md",
+      "published_path": "archive/docs/2026-10-21-request-classifier-label-expansion.md",
+      "title": "2026-10-21 request-classifier label expansion",
+      "source_sha256": "cf5c18d75441f22070c9d7e8ea552289d899f10a198d34ebaea64575928f2db0",
+      "published_sha256": "193cb44ea9dc97924a548cf1439e092bf884bedcd6ec6988c81bf4a343fb51ba",
+      "source_bytes": 5394,
+      "published_bytes": 5724
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-11class-pilot-results.md",
+      "published_path": "archive/docs/2026-10-22-colab-11class-pilot-results.md",
+      "title": "11分類448件：Colab初回試行の結果（2026-10-22）",
+      "source_sha256": "5391fde9bf3014d9ece0131498375c899e262527beb5890ac1afb15a8f86d3a9",
+      "published_sha256": "9b0f315c4ff8839f7aa539e195737f1113693c7a2afe0194a586510984fee3d7",
+      "source_bytes": 6942,
+      "published_bytes": 7389
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-11class-pilot.md",
+      "published_path": "archive/docs/2026-10-22-colab-11class-pilot.md",
+      "title": "11分類448件：Colab初回試行",
+      "source_sha256": "db5d215605023a5de13fedb86b1d79b2d15526e5bd1dd09a1e33d46d9fe81d7f",
+      "published_sha256": "5df69df3bc9a99c7ef6fe185592f29eee21e87f8ffe89238c8d7b491363ec081",
+      "source_bytes": 4801,
+      "published_bytes": 5197
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-536-results.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-536-results.md",
+      "title": "23分類536件：Colab学習結果（2026-10-22）",
+      "source_sha256": "6d015c0bf9d7b2896eed533473a2460122d175e4d65b3f0a1ffe97057601db83",
+      "published_sha256": "46f3f643ab6b468f5fec993ab1f00d3771ed7da4ae4541cd7864c98a890a4bf4",
+      "source_bytes": 9731,
+      "published_bytes": 10193
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-536.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-536.md",
+      "title": "23分類536件：Colab再学習（2026-10-22）",
+      "source_sha256": "872899951d4e6e1b58ca47192fc19eeb13133d0a70001a9072c3c865dd5f3021",
+      "published_sha256": "3dc11eb7b893a81ab6ec74a4bed65daabc39c1a49f4e6a69b9c7da81f9463ce9",
+      "source_bytes": 4624,
+      "published_bytes": 5020
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-650-results.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-650-results.md",
+      "title": "23分類650件：Colab学習結果（2026-10-22）",
+      "source_sha256": "c0b99baf67fefbe3f566e4563d77f73a759b0e6cee04ebb48071a1f13a60a907",
+      "published_sha256": "b28e402a11ce1402ce0142f24ef4735ed0827730a4013575c4c48823383efb91",
+      "source_bytes": 6058,
+      "published_bytes": 6619
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-650.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-650.md",
+      "title": "文面調整済み23分類650件：Colab再学習（2026-10-22）",
+      "source_sha256": "a3a82e886de3f3a5c88cf1382a1de0713085065a158ee3511c92b402dd4def29",
+      "published_sha256": "b45b6ac4e0a23f5323f427b221a4c062216513a88a0085a6e2d289fd94c493a4",
+      "source_bytes": 3487,
+      "published_bytes": 3850
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-746-results.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-746-results.md",
+      "title": "23分類746件：Colab学習結果（2026-10-22）",
+      "source_sha256": "234c9e7e03cc19e5711624436b163022d07ea91b666b5e5e81d708a5f2a86696",
+      "published_sha256": "a490d465966cf5777314a34a7b9581d89cf5abf0ec8b4ed9aad2fae2d706290b",
+      "source_bytes": 9025,
+      "published_bytes": 9553
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-action-error-investigation.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-action-error-investigation.md",
+      "title": "23分類：ドギド呼び寄せ・剣の誤分類調査（2026-10-22）",
+      "source_sha256": "e158075b15f757351e8b9e4816dcda6620ba549065decdcfe45d2c12f726353b",
+      "published_sha256": "34b46428aa8b1e97cf0caa82e8ceb70810c0b11b8b714c346b254a29b41f8491",
+      "source_bytes": 10812,
+      "published_bytes": 11472
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-layer-merging.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-layer-merging.md",
+      "title": "層を交換しながら分類への影響を調べる（2026-10-22）",
+      "source_sha256": "7fbfaf6a08ce7833345172e5678e0a0b09b05422ba1b6e9d12ce6138b65b127e",
+      "published_sha256": "9c7d8d888c3ce9f97899b3ef2127c4ec9c72eaad2c46e0da235a9ca513578ccd",
+      "source_bytes": 9927,
+      "published_bytes": 10397
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-layer8-test.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-layer8-test.md",
+      "title": "第8層交換版のtest評価（2026-10-22）",
+      "source_sha256": "9ff991ae51fff1ea5e6920f3642e3673ad99a5e5e60347fa29c7e3dcdf28ff42",
+      "published_sha256": "46590c36de9f963ead39f5505f47abe7afbce7b07c1b6012666e7e365975e701",
+      "source_bytes": 6339,
+      "published_bytes": 6805
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-named-mount-enemy-alias.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-named-mount-enemy-alias.md",
+      "title": "名前付き乗り物と敵の呼び方：新モデルと第8層版の比較（2026-10-22）",
+      "source_sha256": "e4a2480a829f31003cd45621c7dc0a87ce607ef7fd4197e2b29a2b14f024f4dd",
+      "published_sha256": "19e18e10516953318fe360251677c5a3926f011f97f3b6d351b2c87c9de7adbc",
+      "source_bytes": 9233,
+      "published_bytes": 9798
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-ties-merging.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-ties-merging.md",
+      "title": "最終23分類層を固定したTIES-Merging（2026-10-22）",
+      "source_sha256": "2137487fc611d00f1eaba3c3c164c555beff2fc4729700336f13411b05d1b6b7",
+      "published_sha256": "33469e065c4ccaf128ffbf91fe6a7219c061891d9ea9600fa7b83ca6e2ff6887",
+      "source_bytes": 10294,
+      "published_bytes": 10859
+    },
+    {
+      "source_path": "docs/2026-10-22-colab-23class-weight-merge.md",
+      "published_path": "archive/docs/2026-10-22-colab-23class-weight-merge.md",
+      "title": "23分類モデルの重み合成：devでの比較（2026-10-22）",
+      "source_sha256": "ef95b3f246903106e37cd0d225a8a5f49ec9a524269d9b96f138afb192741646",
+      "published_sha256": "90b5fe28604914bd63a3979578c0afdc88d473902e273f417c2b0fbda19c9ddd",
+      "source_bytes": 5725,
+      "published_bytes": 6129
+    },
+    {
+      "source_path": "docs/2026-10-22-request-classifier-action-augmentation.md",
+      "published_path": "archive/docs/2026-10-22-request-classifier-action-augmentation.md",
+      "title": "剣の復帰と呼び寄せ・召喚の対照追加（2026-10-22）",
+      "source_sha256": "c85092e7be86cec1c4dc5558f7d089ebeb61971168e6dcf35b070be319c3e0be",
+      "published_sha256": "29c3230677f48560a88195ac68d33fff623a65b46752f4e5b02b99b2a4d3a8d7",
+      "source_bytes": 4999,
+      "published_bytes": 5362
+    },
+    {
+      "source_path": "docs/2026-10-22-request-classifier-combined-materials.md",
+      "published_path": "archive/docs/2026-10-22-request-classifier-combined-materials.md",
+      "title": "依頼教材の統合とnot代表選別（2026-10-22）",
+      "source_sha256": "7b2d178de54a1fe56781f5632e149431801526e2807edaa143a64f502e55a38f",
+      "published_sha256": "686172952b802eaf3678373478758ff7489c8ac8e1cf0cbf8781a653383d7a01",
+      "source_bytes": 3448,
+      "published_bytes": 3844
+    },
+    {
+      "source_path": "docs/2026-10-22-request-classifier-gaze-rebuild.md",
+      "published_path": "archive/docs/2026-10-22-request-classifier-gaze-rebuild.md",
+      "title": "視線教材を4用途に分ける（2026-10-22）",
+      "source_sha256": "ae8a86898f6db1e1f26d90d6005be377bbb8791a28da68b5a4a93f02fe661637",
+      "published_sha256": "93cdcbe83db1f9a35ce816e474d1f6706f7b36f6c91ecf2cd819512dc9995c9a",
+      "source_bytes": 6798,
+      "published_bytes": 7128
+    },
+    {
+      "source_path": "docs/2026-10-22-request-classifier-mount-enemy-search.md",
+      "published_path": "archive/docs/2026-10-22-request-classifier-mount-enemy-search.md",
+      "title": "乗り物・敵サーチの学習教材追加（2026-10-22）",
+      "source_sha256": "3fe211ea03f96433421a040705a396f63b7c9037df8c562efbfba98d43bac20f",
+      "published_sha256": "f1cff860f1a2e947e0abe46a9310a57be3c0a9365a110ff1409bb6961369dbae",
+      "source_bytes": 6077,
+      "published_bytes": 6605
+    },
+    {
+      "source_path": "docs/2026-10-22-request-classifier-scope-correction.md",
+      "published_path": "archive/docs/2026-10-22-request-classifier-scope-correction.md",
+      "title": "学習対象を8用途＋それ以外へ整理（2026-10-22）",
+      "source_sha256": "5d45a84a9bb68b744412fe0e3eb5f44efb399dff88faa99ead26ac58ed99f062",
+      "published_sha256": "ab5d435e720af16d1d58470e977b781e3d5de364e63adef59b1cdaeea5f86a81",
+      "source_bytes": 8019,
+      "published_bytes": 8423
+    },
+    {
+      "source_path": "docs/2026-10-22-request-classifier-training-materials.md",
+      "published_path": "archive/docs/2026-10-22-request-classifier-training-materials.md",
+      "title": "2026-10-22 分類器の学習素材を統合・整理",
+      "source_sha256": "a810922590db3d5f84a2ed0f53eefad054d4cccbbd9350a5ae9c26d26d305a76",
+      "published_sha256": "29c5ebf9258536e13a69659df4398f2e6432dc3aa6e53c9ab63c4dc3b8bbb370",
+      "source_bytes": 11039,
+      "published_bytes": 11369
+    },
+    {
+      "source_path": "docs/2026-10-22-request-classifier-verse-rebuild.md",
+      "published_path": "archive/docs/2026-10-22-request-classifier-verse-rebuild.md",
+      "title": "川柳WSを解体し、句行指定とチェンジを作り直す（2026-10-22）",
+      "source_sha256": "77435f8930768bedb83856f9258de7a483fa69811b63376ab45a8754ae782079",
+      "published_sha256": "b3d02601dadde5d9903a07d709f943ae29c07156d1c04f7bfd37bb6a1c7aa705",
+      "source_bytes": 5491,
+      "published_bytes": 5887
+    },
+    {
+      "source_path": "docs/2026-10-22-request-classifier-weak-classes.md",
+      "published_path": "archive/docs/2026-10-22-request-classifier-weak-classes.md",
+      "title": "「その他の依頼」「周囲の観測」が弱い理由の調査（2026-10-22）",
+      "source_sha256": "23bed11afcffed9648f0e327dd9647d4e277bdc4b1d43731a2a38eaef8a98b86",
+      "published_sha256": "2b2ade2d96a0621f83dddba18a7ceae5b8a7d037ab959b82208b6ff915be753c",
+      "source_bytes": 16276,
+      "published_bytes": 16771
+    },
+    {
+      "source_path": "docs/2026-10-23-colab-23class-890-layer-merging.md",
+      "published_path": "archive/docs/2026-10-23-colab-23class-890-layer-merging.md",
+      "title": "890件版：seed42を保護した層合成",
+      "source_sha256": "b2e2eec81b9353938d4fec6b518786a1327a846ca16a81d663b3cd1a57ae96b3",
+      "published_sha256": "1d51f8c38dfeffc3ac1dc211c7d563ab330f8d01a2220ba4cb41cf3d8d29d854",
+      "source_bytes": 7686,
+      "published_bytes": 8247
+    },
+    {
+      "source_path": "docs/2026-10-23-colab-23class-890-results.md",
+      "published_path": "archive/docs/2026-10-23-colab-23class-890-results.md",
+      "title": "23分類890件：3シードのColab学習結果",
+      "source_sha256": "dabc424e29c343a9165e2eb4f05ba3cefc7e35dfb228c711bafe965f4ef392f8",
+      "published_sha256": "66f432481a8a2d33fb862d9df59d014d6382866441196d091bc7593e6c388134",
+      "source_bytes": 8106,
+      "published_bytes": 8586
+    },
+    {
+      "source_path": "docs/2026-10-23-colab-23class-890.md",
+      "published_path": "archive/docs/2026-10-23-colab-23class-890.md",
+      "title": "川柳の言い回しを補強した23分類890件：Colab再学習",
+      "source_sha256": "4b022d56902d82f3e8ee3fb83ac6132811413276fadad7871408db7b1dc32d5d",
+      "published_sha256": "82331e0f3fcfdbf4091fbd4a48fa1f4d436f4f9ca22e150328fbb61e623d443f",
+      "source_bytes": 4929,
+      "published_bytes": 5391
+    },
+    {
+      "source_path": "docs/2026-10-23-colab-two-row-results.md",
+      "published_path": "archive/docs/2026-10-23-colab-two-row-results.md",
+      "title": "650件版の2行限定学習：受領結果",
+      "source_sha256": "a0f75fc27f55a27fcd812a267c7d6c5e37e7489016374c124e1ef206ea62754b",
+      "published_sha256": "3a7f9896e9f28b6934364c6b777c1ac7ef9b097c44b4039d8660d2769d7cdb23",
+      "source_bytes": 6231,
+      "published_bytes": 6645
+    },
+    {
+      "source_path": "docs/2026-10-23-colab-two-row-training.md",
+      "published_path": "archive/docs/2026-10-23-colab-two-row-training.md",
+      "title": "650件版から乗り物・敵情報の2行だけ追加学習",
+      "source_sha256": "f4acbd9f448564f252b7f477d34ff8151a0afb9a8684b7fc5226e7c0330cc2b5",
+      "published_sha256": "232471d7c5b6ba27d9727dc0d288f1b10b99bdd1d3b5c1f4b8356b84a27e5301",
+      "source_bytes": 5799,
+      "published_bytes": 6228
+    },
+    {
+      "source_path": "docs/2026-10-23-intent-scope-and-accuracy.md",
+      "published_path": "archive/docs/2026-10-23-intent-scope-and-accuracy.md",
+      "title": "召喚・周囲モブ情報の意図整理と精度の調査",
+      "source_sha256": "fbfa5a94b83c28dc2d1cca5b3744e6c3abcc44c0996557e1dcc3d52313e8c2e6",
+      "published_sha256": "2305aee918a9067e0ec2911bd747cca615faa7256b7324e5b2f0a8cd3c1621bc",
+      "source_bytes": 7469,
+      "published_bytes": 7931
+    },
+    {
+      "source_path": "docs/2026-10-23-minecraft-world-label-audit.md",
+      "published_path": "archive/docs/2026-10-23-minecraft-world-label-audit.md",
+      "title": "Minecraftを現実世界とした教材・正解ラベルの再点検",
+      "source_sha256": "ac0c87b939a9964e710bc349913d8a648a0bbbd40f54a509310037f87be99f81",
+      "published_sha256": "04ab8753d4ccd2b781e00a54c573cfe940209fb2f7f7c9d326fe601e334e44ce",
+      "source_bytes": 9060,
+      "published_bytes": 9555
+    },
+    {
+      "source_path": "docs/2026-10-23-notebook-zip-cleanup.md",
+      "published_path": "archive/docs/2026-10-23-notebook-zip-cleanup.md",
+      "title": "古いNotebook・ZIPの整理",
+      "source_sha256": "00c6c5097de334c8c27d9bba923c0fd301a727d74bc3a537d6927e3a23f3e53d",
+      "published_sha256": "5b3799607e26328ac328d17262017a962bc6f87d7af45a42a75829311c85452b",
+      "source_bytes": 2749,
+      "published_bytes": 3112
+    },
+    {
+      "source_path": "docs/2026-10-23-seed42-adoption.md",
+      "published_path": "archive/docs/2026-10-23-seed42-adoption.md",
+      "title": "890件版の元seed42をドギドへ採用",
+      "source_sha256": "1dde7dbbbbbd517d9fe6742983897e59cd371349e88b8fd639a78e21ffcf52fd",
+      "published_sha256": "e7d5ae749dcaf6f60e5e005b5717959301bd216bd2c0f66bd46c102ac6efe2d0",
+      "source_bytes": 2379,
+      "published_bytes": 2709
+    },
+    {
+      "source_path": "docs/2026-10-23-senryu-wording-augmentation.md",
+      "published_path": "archive/docs/2026-10-23-senryu-wording-augmentation.md",
+      "title": "川柳の行指定と具体変更：言い回しの補強",
+      "source_sha256": "574c660bb00fcd99dba141cfa71a50f3fa44bc3b6a0f305b2b812645cb881900",
+      "published_sha256": "95a96774bafcdb1734dd1b21e583b24082bd2069bc65e764ab4002613ceeb9b6",
+      "source_bytes": 4777,
+      "published_bytes": 5140
+    }
+  ],
+  "markdown_count": 101,
+  "unpublished_reference_count": 256
+}
