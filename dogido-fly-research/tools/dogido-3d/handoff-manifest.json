@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-16",
+  "base_commit": "908f730983efa61fe795b10eb59499139f0faded",
+  "source_worktree_id": "d0af",
+  "source_bundle_path": "tools/dogido-3d",
+  "source_was_uncommitted": true,
+  "files": {
+    ".gitignore": {
+      "source_sha256": "ee5a18c53b1304db53164fa807dc6d16d6533c4abd6879f6b4d98a9b6aea468e",
+      "research_sha256": "ee5a18c53b1304db53164fa807dc6d16d6533c4abd6879f6b4d98a9b6aea468e"
+    },
+    "README.md": {
+      "source_sha256": "a8a88fcfcc5b263fdaf20fa8e55ecc2c1ca79fd56127e41176668d30049bf091",
+      "research_sha256": "dc521ff9ce3a67bf4b9347df531c013caca16b71a283c3e5dd71db25cf314b16"
+    },
+    "adjust_face.py": {
+      "source_sha256": "8bb9774b8f37c65ef7e76d05720e851c7fd3211fbc660d926cd7c898d9b12734",
+      "research_sha256": "8bb9774b8f37c65ef7e76d05720e851c7fd3211fbc660d926cd7c898d9b12734"
+    },
+    "build.py": {
+      "source_sha256": "b0515fc99db644088c0be698056a17d6f5dbc37c7366e0199889bad0fb9a2d29",
+      "research_sha256": "5cd4c1f9e579adbb6ce3c29f89fb4e0c3a94569b10d16adcfc23e27ac6d9dce5"
+    },
+    "day-v02.png": {
+      "source_sha256": "bb4b843ddbe1117e72cacec821ef1d70d413376eb7015a4ca412eaff616886ba",
+      "research_sha256": "bb4b843ddbe1117e72cacec821ef1d70d413376eb7015a4ca412eaff616886ba"
+    },
+    "day.png": {
+      "source_sha256": "62ad652676af38328b42c6bcb96eb7b6869f7bf6dbd0f49825e7e36952e810ea",
+      "research_sha256": "62ad652676af38328b42c6bcb96eb7b6869f7bf6dbd0f49825e7e36952e810ea"
+    },
+    "dogido-round-v01.blend": {
+      "source_sha256": "c0742656c1641ffe869e4eb7d01cf055ae000aa9c89d65b55b4894f7348e7167",
+      "research_sha256": "c0742656c1641ffe869e4eb7d01cf055ae000aa9c89d65b55b4894f7348e7167"
+    },
+    "dogido-round-v02.blend": {
+      "source_sha256": "b4701d632b8959cfc363f5ee107b6112120d91bdd9991b16d8b1394dffef6f1d",
+      "research_sha256": "b4701d632b8959cfc363f5ee107b6112120d91bdd9991b16d8b1394dffef6f1d"
+    },
+    "dogido-round-v03.blend": {
+      "source_sha256": "acb593affc3e66d6130d61a9de31ea842afa5406629afb8c8ec0fe0263dce3ad",
+      "research_sha256": "acb593affc3e66d6130d61a9de31ea842afa5406629afb8c8ec0fe0263dce3ad"
+    },
+    "front-v02.png": {
+      "source_sha256": "aeee9df853a0889f0785d1bdabbcc9ac214a10effec3021f549314730e4b1c5f",
+      "research_sha256": "aeee9df853a0889f0785d1bdabbcc9ac214a10effec3021f549314730e4b1c5f"
+    },
+    "hand-flap-v03.mp4": {
+      "source_sha256": "74864920b39daf7fa9ba5223fd9e1e599d74662cdf1177ce322aeec27558237e",
+      "research_sha256": "74864920b39daf7fa9ba5223fd9e1e599d74662cdf1177ce322aeec27558237e"
+    },
+    "hands-down-v03.png": {
+      "source_sha256": "dfca48d092c253a9cbb1c5b5b51836672361ab52d94d5edc724ad56ad583bed2",
+      "research_sha256": "dfca48d092c253a9cbb1c5b5b51836672361ab52d94d5edc724ad56ad583bed2"
+    },
+    "hands-up-v03.png": {
+      "source_sha256": "ed06b9ab21d704f2e576aff215cf3180b4223f0de0f77b442394134bbfd3da37",
+      "research_sha256": "ed06b9ab21d704f2e576aff215cf3180b4223f0de0f77b442394134bbfd3da37"
+    },
+    "index.html": {
+      "source_sha256": "2af54f3c3a4206e4737759edd7e5d39b2cfc37230e5be5be42b17ed2d64b7897",
+      "research_sha256": "2af54f3c3a4206e4737759edd7e5d39b2cfc37230e5be5be42b17ed2d64b7897"
+    },
+    "night-v02.png": {
+      "source_sha256": "ce28dfa7cc31447bb5ab18c245599925e010a133eb9f55a278e287232f6004c3",
+      "research_sha256": "ce28dfa7cc31447bb5ab18c245599925e010a133eb9f55a278e287232f6004c3"
+    },
+    "night.png": {
+      "source_sha256": "0c9de05afe64013549c13ec30ad58a3d2c3401fcb70d6fe479882dfb52a922f8",
+      "research_sha256": "0c9de05afe64013549c13ec30ad58a3d2c3401fcb70d6fe479882dfb52a922f8"
+    },
+    "rig_hands.py": {
+      "source_sha256": "9cfb2600e6b7006903ac70f0d384793f0bd0fce905210ce5ee1a7b3e04ce80b4",
+      "research_sha256": "9cfb2600e6b7006903ac70f0d384793f0bd0fce905210ce5ee1a7b3e04ce80b4"
+    },
+    "side-v02.png": {
+      "source_sha256": "db3224d581982022ce8de37f201cf106f8e10026c8040743f290ef58d838753f",
+      "research_sha256": "db3224d581982022ce8de37f201cf106f8e10026c8040743f290ef58d838753f"
+    },
+    "side.png": {
+      "source_sha256": "3f1589759f7a716d228fbeb713012327138843fea011e090f1dbb4dc73561984",
+      "research_sha256": "3f1589759f7a716d228fbeb713012327138843fea011e090f1dbb4dc73561984"
+    }
+  },
+  "source_art_path": "adapter/minecraft-fabric/src/main/resources/assets/dogido/textures/gui/character.png",
+  "copied_art_path": "assets/character.png",
+  "art_sha256": "c25016db04b1c20a3091859e91bf25c5f243feca3fe67b51f80c537b1364086c",
+  "report_sha256": "b3eca49b77b0f54b9432fb6bdcdf9adc126a84d161ddc21044dbb9c7ce01418c",
+  "intentional_changes": [
+    "build.py: read artwork from local assets/character.png",
+    "README.md: append handoff notes"
+  ],
+  "excluded_regenerable_files": [
+    "*.blend1",
+    "flap-frames-v03/"
+  ]
+}

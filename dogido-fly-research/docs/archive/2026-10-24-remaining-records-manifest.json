@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "archived_on": "2026-10-24",
+  "research_branch": "codex/fly-body-research",
+  "research_head": "84b2765a4a786dcdfad54c448116abe6f731d342",
+  "base_commit": "908f730983efa61fe795b10eb59499139f0faded",
+  "purpose": "Preserve remaining research records before retiring the independent local worktree.",
+  "preserved_files": [
+    {
+      "source_path": "docs/research/fly-body-workspace.md",
+      "published_path": "dogido-fly-research/docs/research/fly-body-workspace.md",
+      "bytes": 7313,
+      "sha256": "7b11f33551a59f4442a2c0a23bfe483d72b7d72d43001a41420e42c3f00ff7e1",
+      "transform": "none"
+    },
+    {
+      "source_path": "docs/research/fly-brain-landscape-2026-09-16.md",
+      "published_path": "dogido-fly-research/docs/research/fly-brain-landscape-2026-09-16.md",
+      "bytes": 23866,
+      "sha256": "b3eca49b77b0f54b9432fb6bdcdf9adc126a84d161ddc21044dbb9c7ce01418c",
+      "transform": "none"
+    },
+    {
+      "source_path": "docs/research/fly-odor-persistence-2026-09-16.md",
+      "published_path": "dogido-fly-research/docs/research/fly-odor-persistence-2026-09-16.md",
+      "bytes": 6011,
+      "sha256": "8706adabc33f8d333d6c716a2cd41c76327c42189c3e680c66ad9ede47009231",
+      "transform": "none"
+    },
+    {
+      "source_path": "docs/research/updates/2026-09-16-bootstrap.md",
+      "published_path": "dogido-fly-research/docs/research/updates/2026-09-16-bootstrap.md",
+      "bytes": 3118,
+      "sha256": "1c30d365321e728017060d926533938aa03ae3c4d28d1dd06204b6fe574f95b4",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/.gitignore",
+      "published_path": "dogido-fly-research/tools/dogido-3d/.gitignore",
+      "bytes": 26,
+      "sha256": "ee5a18c53b1304db53164fa807dc6d16d6533c4abd6879f6b4d98a9b6aea468e",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/README.md",
+      "published_path": "dogido-fly-research/tools/dogido-3d/README.md",
+      "bytes": 5522,
+      "sha256": "dc521ff9ce3a67bf4b9347df531c013caca16b71a283c3e5dd71db25cf314b16",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/adjust_face.py",
+      "published_path": "dogido-fly-research/tools/dogido-3d/adjust_face.py",
+      "bytes": 3059,
+      "sha256": "8bb9774b8f37c65ef7e76d05720e851c7fd3211fbc660d926cd7c898d9b12734",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/assets/character.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/assets/character.png",
+      "bytes": 170417,
+      "sha256": "c25016db04b1c20a3091859e91bf25c5f243feca3fe67b51f80c537b1364086c",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/build.py",
+      "published_path": "dogido-fly-research/tools/dogido-3d/build.py",
+      "bytes": 13514,
+      "sha256": "5cd4c1f9e579adbb6ce3c29f89fb4e0c3a94569b10d16adcfc23e27ac6d9dce5",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/day-v02.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/day-v02.png",
+      "bytes": 1106119,
+      "sha256": "bb4b843ddbe1117e72cacec821ef1d70d413376eb7015a4ca412eaff616886ba",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/day.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/day.png",
+      "bytes": 1106399,
+      "sha256": "62ad652676af38328b42c6bcb96eb7b6869f7bf6dbd0f49825e7e36952e810ea",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/dogido-round-v01.blend",
+      "published_path": "dogido-fly-research/tools/dogido-3d/dogido-round-v01.blend",
+      "bytes": 1813844,
+      "sha256": "c0742656c1641ffe869e4eb7d01cf055ae000aa9c89d65b55b4894f7348e7167",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/dogido-round-v02.blend",
+      "published_path": "dogido-fly-research/tools/dogido-3d/dogido-round-v02.blend",
+      "bytes": 1805971,
+      "sha256": "b4701d632b8959cfc363f5ee107b6112120d91bdd9991b16d8b1394dffef6f1d",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/dogido-round-v03.blend",
+      "published_path": "dogido-fly-research/tools/dogido-3d/dogido-round-v03.blend",
+      "bytes": 1926368,
+      "sha256": "acb593affc3e66d6130d61a9de31ea842afa5406629afb8c8ec0fe0263dce3ad",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/front-v02.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/front-v02.png",
+      "bytes": 1060484,
+      "sha256": "aeee9df853a0889f0785d1bdabbcc9ac214a10effec3021f549314730e4b1c5f",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/hand-flap-v03.mp4",
+      "published_path": "dogido-fly-research/tools/dogido-3d/hand-flap-v03.mp4",
+      "bytes": 181704,
+      "sha256": "74864920b39daf7fa9ba5223fd9e1e599d74662cdf1177ce322aeec27558237e",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/handoff-manifest.json",
+      "published_path": "dogido-fly-research/tools/dogido-3d/handoff-manifest.json",
+      "bytes": 4802,
+      "sha256": "e05e3d5cf480f45cf4adcf6c15158d50ddf46bbd571780dc0df7770c311de481",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/hands-down-v03.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/hands-down-v03.png",
+      "bytes": 1063072,
+      "sha256": "dfca48d092c253a9cbb1c5b5b51836672361ab52d94d5edc724ad56ad583bed2",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/hands-up-v03.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/hands-up-v03.png",
+      "bytes": 1061069,
+      "sha256": "ed06b9ab21d704f2e576aff215cf3180b4223f0de0f77b442394134bbfd3da37",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/index.html",
+      "published_path": "dogido-fly-research/tools/dogido-3d/index.html",
+      "bytes": 2403,
+      "sha256": "2af54f3c3a4206e4737759edd7e5d39b2cfc37230e5be5be42b17ed2d64b7897",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/night-v02.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/night-v02.png",
+      "bytes": 1006431,
+      "sha256": "ce28dfa7cc31447bb5ab18c245599925e010a133eb9f55a278e287232f6004c3",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/night.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/night.png",
+      "bytes": 1006618,
+      "sha256": "0c9de05afe64013549c13ec30ad58a3d2c3401fcb70d6fe479882dfb52a922f8",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/rig_hands.py",
+      "published_path": "dogido-fly-research/tools/dogido-3d/rig_hands.py",
+      "bytes": 4580,
+      "sha256": "9cfb2600e6b7006903ac70f0d384793f0bd0fce905210ce5ee1a7b3e04ce80b4",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/side-v02.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/side-v02.png",
+      "bytes": 1028828,
+      "sha256": "db3224d581982022ce8de37f201cf106f8e10026c8040743f290ef58d838753f",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/dogido-3d/side.png",
+      "published_path": "dogido-fly-research/tools/dogido-3d/side.png",
+      "bytes": 1029602,
+      "sha256": "3f1589759f7a716d228fbeb713012327138843fea011e090f1dbb4dc73561984",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/fly-research/README.md",
+      "published_path": "dogido-fly-research/tools/fly-research/README.md",
+      "bytes": 4271,
+      "sha256": "add9e62358baef4239980d719892562209c3fad1e1f3b26e21637e126beb9fd9",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/fly-research/download_sources.py",
+      "published_path": "dogido-fly-research/tools/fly-research/download_sources.py",
+      "bytes": 2120,
+      "sha256": "135002c318b9402757a49e4e99271e8ee423f704603c52a7c2d517e78bdd4b25",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/fly-research/grok-bot-brief.md",
+      "published_path": "dogido-fly-research/tools/fly-research/grok-bot-brief.md",
+      "bytes": 6183,
+      "sha256": "d9e1d6701b9224a24831f4415b7a659cda2c0a5f82df684b85f44c993b21272c",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/fly-research/initial-github-baseline.json",
+      "published_path": "dogido-fly-research/tools/fly-research/initial-github-baseline.json",
+      "bytes": 49402,
+      "sha256": "0b7f26a645047cae808e0c8f37c6d3b0f0a220279b3d9b5579697a63ec0aef79",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/fly-research/sources.json",
+      "published_path": "dogido-fly-research/tools/fly-research/sources.json",
+      "bytes": 2506,
+      "sha256": "7757ce34dfa967d7df84f454e79b68813b396109059d53d15732dda022ab9469",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/fly-research/test_watch.py",
+      "published_path": "dogido-fly-research/tools/fly-research/test_watch.py",
+      "bytes": 2934,
+      "sha256": "c9f39d6709c25765dd9cb0978e3f586a6bd79b95aa36adec4de6e3b9f3f1be07",
+      "transform": "none"
+    },
+    {
+      "source_path": "tools/fly-research/watch.py",
+      "published_path": "dogido-fly-research/tools/fly-research/watch.py",
+      "bytes": 8174,
+      "sha256": "2b75e5500d732090ef83a573c138c0ebf77c353b039845207b49ceadf527b422",
+      "transform": "none"
+    },
+    {
+      "source_path": ".fly-research/downloads.json",
+      "published_path": "dogido-fly-research/docs/archive/2026-09-16-downloads.json",
+      "bytes": 2065,
+      "sha256": "69e3ae466a93e799140ae8ae4ec6861963469487eef98b7fbc9a0a024c80d013",
+      "transform": "none"
+    },
+    {
+      "source_path": ".fly-research/latest.md",
+      "published_path": "dogido-fly-research/docs/archive/2026-09-16-github-snapshot.md",
+      "bytes": 2598,
+      "sha256": "2258297c68555e3b5d924737990befc290ba44e550065f798b756a4b1c0b827c",
+      "transform": "none"
+    }
+  ],
+  "identical_snapshot_aliases": [
+    {
+      "source_path": ".fly-research/latest.json",
+      "published_path": "dogido-fly-research/tools/fly-research/initial-github-baseline.json",
+      "sha256": "0b7f26a645047cae808e0c8f37c6d3b0f0a220279b3d9b5579697a63ec0aef79",
+      "reason": "byte-identical snapshot"
+    },
+    {
+      "source_path": ".fly-research/snapshots/20260916T013541576513Z.json",
+      "published_path": "dogido-fly-research/tools/fly-research/initial-github-baseline.json",
+      "sha256": "0b7f26a645047cae808e0c8f37c6d3b0f0a220279b3d9b5579697a63ec0aef79",
+      "reason": "byte-identical snapshot"
+    }
+  ],
+  "workspace_policy_delta": "dogido-fly-research/docs/archive/workspace-setup.patch",
+  "upstream_checkouts": [
+    {
+      "repo": "https://github.com/PtPavloTkachenko/fly-brain-spectacles.git",
+      "commit": "20413b4bb888f7ced63d42451250539a55d9e625",
+      "working_tree_clean": true,
+      "ignored_files": 0
+    },
+    {
+      "repo": "https://github.com/ben-gitdev/fly-gym.git",
+      "commit": "50a8e8f51bbd184fe2f55c30a9fdc8dca9891864",
+      "working_tree_clean": true,
+      "ignored_files": 0
+    },
+    {
+      "repo": "https://github.com/blendi-remade/fly-brain-minecraft.git",
+      "commit": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "working_tree_clean": true,
+      "ignored_files": 0
+    },
+    {
+      "repo": "https://github.com/joey-david/fly-fpv.git",
+      "commit": "2524f1d04e0000c1b90519b0baa1930c2cf2cecf",
+      "working_tree_clean": true,
+      "ignored_files": 0
+    },
+    {
+      "repo": "https://github.com/philshiu/Drosophila_brain_model.git",
+      "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+      "working_tree_clean": true,
+      "ignored_files": 0
+    },
+    {
+      "repo": "https://github.com/wavendis/ruby-project.git",
+      "commit": "693d97608d542209cd3cae8c0349f84e244b4ba5",
+      "working_tree_clean": true,
+      "ignored_files": 0
+    }
+  ],
+  "regenerable_live_cache_sources": [
+    {
+      "source_path": ".fly-research/live-brain/sources/Connectome.java",
+      "sha256": "3cf510dac20bac39b5c91a436942297db352491e5c86da6e154f06ebeb6d7e22",
+      "identical_source": {
+        "repo": "https://github.com/blendi-remade/fly-brain-minecraft",
+        "commit": "6cfa30175003ef25da68a237d5eda958f8047b82",
+        "path": "src/main/java/com/fruitfly/brain/Connectome.java"
+      }
+    },
+    {
+      "source_path": ".fly-research/live-brain/sources/LifConfig.java",
+      "sha256": "2e87c3dc5e12e73a102bb59ddf2c1760ab1209b20bf926560eceeb1bc5e2516c",
+      "identical_source": {
+        "repo": "https://github.com/blendi-remade/fly-brain-minecraft",
+        "commit": "6cfa30175003ef25da68a237d5eda958f8047b82",
+        "path": "src/main/java/com/fruitfly/brain/LifConfig.java"
+      }
+    },
+    {
+      "source_path": ".fly-research/live-brain/sources/LifNetwork.java",
+      "sha256": "33c30cc556213ded9ca12b9074811d42ae5cf1ab5905caf50f145ce91fa4aaf0",
+      "identical_source": {
+        "repo": "https://github.com/blendi-remade/fly-brain-minecraft",
+        "commit": "6cfa30175003ef25da68a237d5eda958f8047b82",
+        "path": "src/main/java/com/fruitfly/brain/LifNetwork.java"
+      }
+    },
+    {
+      "source_path": ".fly-research/live-brain/sources/LiveBrainWorker.java",
+      "sha256": "2a308e861a228660120d8f09b4fb962d81d6f58fccfc1caa144ab5462b790822",
+      "identical_source": {
+        "published_path": "dogido-fly-research/tools/fly-body-lab/brain-readout/LiveBrainWorker.java",
+        "github_blob_sha": "34b30bbb7959e1e6283cc02f85b4259ceb5bc6ee"
+      }
+    },
+    {
+      "source_path": ".fly-research/live-brain/sources/PopulationIndex.java",
+      "sha256": "e0d3cd729ce35844f31a3187d14353046856977bf6ffa4f70babf62e86c0124c",
+      "identical_source": {
+        "repo": "https://github.com/blendi-remade/fly-brain-minecraft",
+        "commit": "6cfa30175003ef25da68a237d5eda958f8047b82",
+        "path": "src/main/java/com/fruitfly/brain/PopulationIndex.java"
+      }
+    }
+  ],
+  "local_inventory": {
+    "regular_files": 1370,
+    "logical_bytes": 702045633
+  },
+  "excluded": [
+    "Unmodified Dogido base checkout files; retained in the original Git history.",
+    "Unmodified upstream clones and their .git directories; pinned revisions recorded above.",
+    "Byte-identical duplicate snapshots; canonical public file recorded above.",
+    "Five Java .class files, one Python bytecode cache, and an empty worker.log.",
+    "Main repository .git objects, branch references, and other worktrees are outside the deletion scope."
+  ],
+  "previous_publication": {
+    "source_manifest": "dogido-fly-research/SOURCE_MANIFEST.json",
+    "release_url": "https://github.com/yukincom/AI-Curious-Community/releases/tag/fly-research-2026-09",
+    "release_zip_sha256": "46eed1e4400e7823d545ac96da5f15cd26d6d2b20dbbf30d3a6faa6c11fe29e9"
+  }
+}

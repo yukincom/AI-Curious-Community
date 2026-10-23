@@ -1,0 +1,1332 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-16T01:35:41.576513+00:00",
+  "sources": {
+    "blendi-remade/fly-brain-minecraft": {
+      "repo": "blendi-remade/fly-brain-minecraft",
+      "role": "minecraft",
+      "download": true,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/blendi-remade/fly-brain-minecraft",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-06T03:14:27Z",
+      "license": "NOASSERTION",
+      "head": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "head_date": "2026-09-06T03:14:21Z",
+      "head_url": "https://github.com/blendi-remade/fly-brain-minecraft/commit/6cfa30175003ef25da68a237d5eda958f8047b82",
+      "head_subject": "Fly Brain Minecraft: the male fruit fly connectome as a spiking network driving a Minecraft fly",
+      "release": null,
+      "pulls": [],
+      "owner": {
+        "login": "blendi-remade",
+        "type": "User",
+        "html_url": "https://github.com/blendi-remade",
+        "blog": "",
+        "twitter_username": "BlendiByl"
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-06T03:14:27+00:00",
+      "days_since_public_code_activity": 9.9,
+      "x_review_due": true,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "philshiu/Drosophila_brain_model": {
+      "repo": "philshiu/Drosophila_brain_model",
+      "role": "primary",
+      "download": true,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/philshiu/Drosophila_brain_model",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2024-09-14T13:47:44Z",
+      "license": "MIT",
+      "head": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+      "head_date": "2024-09-14T13:47:44Z",
+      "head_url": "https://github.com/philshiu/Drosophila_brain_model/commit/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+      "head_subject": "Update Readme.md",
+      "release": null,
+      "pulls": [
+        {
+          "number": 8,
+          "title": "Generic refactoring",
+          "state": "closed",
+          "updated_at": "2025-07-08T20:15:44Z",
+          "merged_at": null,
+          "html_url": "https://github.com/philshiu/Drosophila_brain_model/pull/8"
+        },
+        {
+          "number": 5,
+          "title": "Merge colab",
+          "state": "closed",
+          "updated_at": "2023-11-30T21:40:54Z",
+          "merged_at": "2023-11-30T21:40:49Z",
+          "html_url": "https://github.com/philshiu/Drosophila_brain_model/pull/5"
+        },
+        {
+          "number": 3,
+          "title": "Update Readme.md - typo",
+          "state": "closed",
+          "updated_at": "2023-09-19T21:52:15Z",
+          "merged_at": "2023-07-04T18:47:42Z",
+          "html_url": "https://github.com/philshiu/Drosophila_brain_model/pull/3"
+        },
+        {
+          "number": 4,
+          "title": "Update conda_env.yml - missing openblas dependency",
+          "state": "closed",
+          "updated_at": "2023-09-19T21:51:38Z",
+          "merged_at": null,
+          "html_url": "https://github.com/philshiu/Drosophila_brain_model/pull/4"
+        },
+        {
+          "number": 2,
+          "title": "Code rewrite",
+          "state": "closed",
+          "updated_at": "2023-04-06T18:29:24Z",
+          "merged_at": "2023-04-06T18:29:16Z",
+          "html_url": "https://github.com/philshiu/Drosophila_brain_model/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Code rewrite",
+          "state": "closed",
+          "updated_at": "2023-03-03T22:16:32Z",
+          "merged_at": null,
+          "html_url": "https://github.com/philshiu/Drosophila_brain_model/pull/1"
+        }
+      ],
+      "owner": {
+        "login": "philshiu",
+        "type": "User",
+        "html_url": "https://github.com/philshiu",
+        "blog": "",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2024-09-14T13:47:44+00:00",
+      "days_since_public_code_activity": 731.5,
+      "x_review_due": true,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "PtPavloTkachenko/fly-brain-spectacles": {
+      "repo": "PtPavloTkachenko/fly-brain-spectacles",
+      "role": "embodiment",
+      "download": true,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/PtPavloTkachenko/fly-brain-spectacles",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-13T23:02:38Z",
+      "license": "MIT",
+      "head": "20413b4bb888f7ced63d42451250539a55d9e625",
+      "head_date": "2026-09-13T08:00:23Z",
+      "head_url": "https://github.com/PtPavloTkachenko/fly-brain-spectacles/commit/20413b4bb888f7ced63d42451250539a55d9e625",
+      "head_subject": "Demo video recorded on Spectacles, linked from the README",
+      "release": {
+        "id": 388061860,
+        "tag_name": "brain-v1",
+        "published_at": "2026-09-13T23:02:38Z",
+        "html_url": "https://github.com/PtPavloTkachenko/fly-brain-spectacles/releases/tag/brain-v1"
+      },
+      "pulls": [],
+      "owner": {
+        "login": "PtPavloTkachenko",
+        "type": "User",
+        "html_url": "https://github.com/PtPavloTkachenko",
+        "blog": "",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-13T23:02:38+00:00",
+      "days_since_public_code_activity": 2.1,
+      "x_review_due": false,
+      "activity_assessment": "recent_public_activity"
+    },
+    "ben-gitdev/fly-gym": {
+      "repo": "ben-gitdev/fly-gym",
+      "role": "learning",
+      "download": true,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/ben-gitdev/fly-gym",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-08-02T03:34:23Z",
+      "license": "MIT",
+      "head": "50a8e8f51bbd184fe2f55c30a9fdc8dca9891864",
+      "head_date": "2026-08-02T03:34:23Z",
+      "head_url": "https://github.com/ben-gitdev/fly-gym/commit/50a8e8f51bbd184fe2f55c30a9fdc8dca9891864",
+      "head_subject": "Merge pull request #3 from ben-gitdev/cleanup-for-publication",
+      "release": null,
+      "pulls": [
+        {
+          "number": 3,
+          "title": "Cleanup for publication",
+          "state": "closed",
+          "updated_at": "2026-08-02T03:34:23Z",
+          "merged_at": "2026-08-02T03:34:23Z",
+          "html_url": "https://github.com/ben-gitdev/fly-gym/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "Repo cleanup for publication: fix reproducibility gaps in §1",
+          "state": "closed",
+          "updated_at": "2026-07-30T17:49:24Z",
+          "merged_at": "2026-07-30T17:49:24Z",
+          "html_url": "https://github.com/ben-gitdev/fly-gym/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Add comprehensive README documentation for fly-gym project",
+          "state": "closed",
+          "updated_at": "2026-07-09T21:20:19Z",
+          "merged_at": "2026-07-09T21:20:19Z",
+          "html_url": "https://github.com/ben-gitdev/fly-gym/pull/1"
+        }
+      ],
+      "owner": {
+        "login": "ben-gitdev",
+        "type": "User",
+        "html_url": "https://github.com/ben-gitdev",
+        "blog": "",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-08-02T03:34:23+00:00",
+      "days_since_public_code_activity": 44.9,
+      "x_review_due": true,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "joey-david/fly-fpv": {
+      "repo": "joey-david/fly-fpv",
+      "role": "learning",
+      "download": true,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/joey-david/fly-fpv",
+      "default_branch": "master",
+      "archived": false,
+      "pushed_at": "2026-09-13T09:24:36Z",
+      "license": null,
+      "head": "2524f1d04e0000c1b90519b0baa1930c2cf2cecf",
+      "head_date": "2026-09-13T09:24:36Z",
+      "head_url": "https://github.com/joey-david/fly-fpv/commit/2524f1d04e0000c1b90519b0baa1930c2cf2cecf",
+      "head_subject": "Merge pull request #9 from joey-david/chatgpt/connectome-mask-network",
+      "release": null,
+      "pulls": [
+        {
+          "number": 9,
+          "title": "Train the connectome as a sparse neural-network mask",
+          "state": "closed",
+          "updated_at": "2026-09-13T09:24:37Z",
+          "merged_at": "2026-09-13T09:24:36Z",
+          "html_url": "https://github.com/joey-david/fly-fpv/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "Simplify training to a stateless connectome policy",
+          "state": "closed",
+          "updated_at": "2026-09-13T08:16:40Z",
+          "merged_at": "2026-09-13T08:16:40Z",
+          "html_url": "https://github.com/joey-david/fly-fpv/pull/8"
+        },
+        {
+          "number": 7,
+          "title": "Broaden the flight connectome without inventing edges",
+          "state": "closed",
+          "updated_at": "2026-09-12T21:47:34Z",
+          "merged_at": "2026-09-12T21:47:34Z",
+          "html_url": "https://github.com/joey-david/fly-fpv/pull/7"
+        },
+        {
+          "number": 6,
+          "title": "Integrate luminance over ommatidial area",
+          "state": "closed",
+          "updated_at": "2026-09-12T21:40:42Z",
+          "merged_at": "2026-09-12T21:40:42Z",
+          "html_url": "https://github.com/joey-david/fly-fpv/pull/6"
+        },
+        {
+          "number": 5,
+          "title": "Calibrate flight physics and add overnight mastery curriculum",
+          "state": "closed",
+          "updated_at": "2026-09-12T21:25:25Z",
+          "merged_at": "2026-09-12T21:25:24Z",
+          "html_url": "https://github.com/joey-david/fly-fpv/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "Calibrate flight physics and improve long-run training/visualization",
+          "state": "closed",
+          "updated_at": "2026-09-12T21:20:17Z",
+          "merged_at": "2026-09-12T20:46:37Z",
+          "html_url": "https://github.com/joey-david/fly-fpv/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "Repair missing connectome cache metadata",
+          "state": "closed",
+          "updated_at": "2026-09-12T20:18:49Z",
+          "merged_at": "2026-09-12T20:18:48Z",
+          "html_url": "https://github.com/joey-david/fly-fpv/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "Add resumable experiment management and clean the training stack",
+          "state": "closed",
+          "updated_at": "2026-09-12T20:13:25Z",
+          "merged_at": "2026-09-12T20:13:25Z",
+          "html_url": "https://github.com/joey-david/fly-fpv/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Persist connectome state with TBPTT and rebuild live flight monitor",
+          "state": "closed",
+          "updated_at": "2026-09-12T19:51:18Z",
+          "merged_at": "2026-09-12T19:51:18Z",
+          "html_url": "https://github.com/joey-david/fly-fpv/pull/1"
+        }
+      ],
+      "owner": {
+        "login": "joey-david",
+        "type": "User",
+        "html_url": "https://github.com/joey-david",
+        "blog": "joeydavid.fyi",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-13T09:24:36+00:00",
+      "days_since_public_code_activity": 2.7,
+      "x_review_due": false,
+      "activity_assessment": "recent_public_activity"
+    },
+    "wavendis/ruby-project": {
+      "repo": "wavendis/ruby-project",
+      "role": "minecraft-learning",
+      "download": true,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/wavendis/ruby-project",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-13T17:38:28Z",
+      "license": "MIT",
+      "head": "693d97608d542209cd3cae8c0349f84e244b4ba5",
+      "head_date": "2026-09-13T17:38:28Z",
+      "head_url": "https://github.com/wavendis/ruby-project/commit/693d97608d542209cd3cae8c0349f84e244b4ba5",
+      "head_subject": "Update output jar filename in README",
+      "release": {
+        "id": 379714589,
+        "tag_name": "Update",
+        "published_at": "2026-08-31T11:55:16Z",
+        "html_url": "https://github.com/wavendis/ruby-project/releases/tag/Update"
+      },
+      "pulls": [],
+      "owner": {
+        "login": "wavendis",
+        "type": "User",
+        "html_url": "https://github.com/wavendis",
+        "blog": "",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-13T17:38:28+00:00",
+      "days_since_public_code_activity": 2.3,
+      "x_review_due": false,
+      "activity_assessment": "recent_public_activity"
+    },
+    "NeLy-EPFL/flygym": {
+      "repo": "NeLy-EPFL/flygym",
+      "role": "primary",
+      "download": false,
+      "follow_author_on_stale": false,
+      "errors": {},
+      "url": "https://github.com/NeLy-EPFL/flygym",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-08-24T11:57:38Z",
+      "license": "Apache-2.0",
+      "head": "38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+      "head_date": "2026-06-28T23:43:47Z",
+      "head_url": "https://github.com/NeLy-EPFL/flygym/commit/38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+      "head_subject": "docs hotfix: pymjcf->mjspec",
+      "release": {
+        "id": 344201673,
+        "tag_name": "v2.1.0",
+        "published_at": "2026-06-24T15:26:40Z",
+        "html_url": "https://github.com/NeLy-EPFL/flygym/releases/tag/v2.1.0"
+      },
+      "pulls": [
+        {
+          "number": 1,
+          "title": "Basic untethered mujoco model on flat ground",
+          "state": "closed",
+          "updated_at": "2026-09-12T13:16:05Z",
+          "merged_at": "2023-04-01T12:38:14Z",
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/1"
+        },
+        {
+          "number": 305,
+          "title": "Features added for the `flycontrol` project",
+          "state": "open",
+          "updated_at": "2026-08-24T11:57:39Z",
+          "merged_at": null,
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/305"
+        },
+        {
+          "number": 304,
+          "title": "Update type hints to be PEP 484 compliant",
+          "state": "closed",
+          "updated_at": "2026-07-03T13:35:16Z",
+          "merged_at": "2026-07-03T13:33:52Z",
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/304"
+        },
+        {
+          "number": 303,
+          "title": "Improve lazy asset loading: use tarred files and checksums",
+          "state": "closed",
+          "updated_at": "2026-07-03T13:34:40Z",
+          "merged_at": "2026-07-03T13:24:46Z",
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/303"
+        },
+        {
+          "number": 295,
+          "title": "Version v2.1.1",
+          "state": "open",
+          "updated_at": "2026-07-03T13:33:53Z",
+          "merged_at": null,
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/295"
+        },
+        {
+          "number": 301,
+          "title": "Buffering optimization",
+          "state": "closed",
+          "updated_at": "2026-07-02T18:13:42Z",
+          "merged_at": "2026-07-02T18:10:53Z",
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/301"
+        },
+        {
+          "number": 302,
+          "title": "Reset mjw_data in place instead of rebuilding GPU structs",
+          "state": "closed",
+          "updated_at": "2026-07-02T18:13:30Z",
+          "merged_at": "2026-07-02T18:13:05Z",
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/302"
+        },
+        {
+          "number": 297,
+          "title": "Kinematic trajectory recording + post-hoc video replay (#296)",
+          "state": "open",
+          "updated_at": "2026-07-01T22:20:16Z",
+          "merged_at": null,
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/297"
+        },
+        {
+          "number": 300,
+          "title": "Add versioned docs via separate flygym-docs repo",
+          "state": "open",
+          "updated_at": "2026-06-29T22:59:01Z",
+          "merged_at": null,
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/300"
+        },
+        {
+          "number": 279,
+          "title": "Version 2̶.̶0̶.̶3̶ 2.1.0 (cont.)",
+          "state": "closed",
+          "updated_at": "2026-06-28T23:35:46Z",
+          "merged_at": "2026-06-24T15:23:37Z",
+          "html_url": "https://github.com/NeLy-EPFL/flygym/pull/279"
+        }
+      ],
+      "owner": {
+        "login": "NeLy-EPFL",
+        "type": "Organization",
+        "html_url": "https://github.com/NeLy-EPFL",
+        "blog": "https://ramdya-lab.epfl.ch/",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-08-24T11:57:38+00:00",
+      "days_since_public_code_activity": 22.6,
+      "x_review_due": false,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "TuragaLab/flybody": {
+      "repo": "TuragaLab/flybody",
+      "role": "primary",
+      "download": false,
+      "follow_author_on_stale": false,
+      "errors": {},
+      "url": "https://github.com/TuragaLab/flybody",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-02-07T03:55:45Z",
+      "license": "Apache-2.0",
+      "head": "d015e9bfe441bd90ae431bac24c55cb74bdbce26",
+      "head_date": "2025-07-30T22:49:01Z",
+      "head_url": "https://github.com/TuragaLab/flybody/commit/d015e9bfe441bd90ae431bac24c55cb74bdbce26",
+      "head_subject": "Update paper reference.",
+      "release": {
+        "id": 156150183,
+        "tag_name": "v0.1.0",
+        "published_at": "2024-05-16T19:18:50Z",
+        "html_url": "https://github.com/TuragaLab/flybody/releases/tag/v0.1.0"
+      },
+      "pulls": [
+        {
+          "number": 25,
+          "title": "Create The test of food an ability",
+          "state": "closed",
+          "updated_at": "2025-08-13T20:21:59Z",
+          "merged_at": null,
+          "html_url": "https://github.com/TuragaLab/flybody/pull/25"
+        },
+        {
+          "number": 21,
+          "title": "Transform wing kinematics to conventional representation",
+          "state": "closed",
+          "updated_at": "2025-03-03T15:39:38Z",
+          "merged_at": "2025-03-03T15:39:38Z",
+          "html_url": "https://github.com/TuragaLab/flybody/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "Ellipsoid fluid force model",
+          "state": "closed",
+          "updated_at": "2025-01-31T03:15:53Z",
+          "merged_at": "2025-01-31T03:15:53Z",
+          "html_url": "https://github.com/TuragaLab/flybody/pull/20"
+        },
+        {
+          "number": 19,
+          "title": "Inflate active zone of touch sensors",
+          "state": "closed",
+          "updated_at": "2025-01-24T17:38:19Z",
+          "merged_at": "2025-01-24T17:38:19Z",
+          "html_url": "https://github.com/TuragaLab/flybody/pull/19"
+        },
+        {
+          "number": 18,
+          "title": "Fast-forward dev branch",
+          "state": "closed",
+          "updated_at": "2024-12-24T03:58:03Z",
+          "merged_at": "2024-12-24T03:58:03Z",
+          "html_url": "https://github.com/TuragaLab/flybody/pull/18"
+        },
+        {
+          "number": 15,
+          "title": "Paper revision features",
+          "state": "closed",
+          "updated_at": "2024-12-05T02:08:33Z",
+          "merged_at": "2024-12-05T02:08:33Z",
+          "html_url": "https://github.com/TuragaLab/flybody/pull/15"
+        },
+        {
+          "number": 10,
+          "title": "Switch to pyproject.toml and use conda-forge channel",
+          "state": "closed",
+          "updated_at": "2024-09-26T19:41:50Z",
+          "merged_at": "2024-09-26T18:39:17Z",
+          "html_url": "https://github.com/TuragaLab/flybody/pull/10"
+        },
+        {
+          "number": 4,
+          "title": "Add preprint badge",
+          "state": "closed",
+          "updated_at": "2024-05-17T17:23:45Z",
+          "merged_at": "2024-05-17T17:23:45Z",
+          "html_url": "https://github.com/TuragaLab/flybody/pull/4"
+        }
+      ],
+      "owner": {
+        "login": "TuragaLab",
+        "type": "Organization",
+        "html_url": "https://github.com/TuragaLab",
+        "blog": "https://www.janelia.org/lab/turaga-lab",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-02-07T03:55:45+00:00",
+      "days_since_public_code_activity": 220.9,
+      "x_review_due": false,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "TuragaLab/flyvis": {
+      "repo": "TuragaLab/flyvis",
+      "role": "primary",
+      "download": false,
+      "follow_author_on_stale": false,
+      "errors": {},
+      "url": "https://github.com/TuragaLab/flyvis",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-08-18T21:25:52Z",
+      "license": "MIT",
+      "head": "92b3845cc426dd309a1a0e1b3890156c42e14021",
+      "head_date": "2026-08-06T04:09:38Z",
+      "head_url": "https://github.com/TuragaLab/flyvis/commit/92b3845cc426dd309a1a0e1b3890156c42e14021",
+      "head_subject": "ci: fix the wheel smoke test in the release workflow",
+      "release": {
+        "id": 365971936,
+        "tag_name": "v1.2.0",
+        "published_at": "2026-08-06T04:17:35Z",
+        "html_url": "https://github.com/TuragaLab/flyvis/releases/tag/v1.2.0"
+      },
+      "pulls": [
+        {
+          "number": 25,
+          "title": "Reliable release",
+          "state": "closed",
+          "updated_at": "2026-08-18T21:25:53Z",
+          "merged_at": "2026-08-06T04:02:02Z",
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/25"
+        },
+        {
+          "number": 21,
+          "title": "Fix EnsembleView FileNotFoundError in example notebooks by using explicit best_checkpoint_fn_kwargs",
+          "state": "closed",
+          "updated_at": "2026-08-18T21:25:39Z",
+          "merged_at": "2026-02-27T23:56:23Z",
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "Add pretrained model download step to example notebooks",
+          "state": "closed",
+          "updated_at": "2026-08-18T21:25:37Z",
+          "merged_at": "2026-02-27T23:43:33Z",
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/20"
+        },
+        {
+          "number": 19,
+          "title": "Fix NotFittedError in umap_embedding when fewer than 2 rows have nonzero variance",
+          "state": "closed",
+          "updated_at": "2026-08-18T21:25:34Z",
+          "merged_at": "2026-02-27T20:59:27Z",
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/19"
+        },
+        {
+          "number": 18,
+          "title": "Align `flash_response_index` labels with filtered FRI coordinate order",
+          "state": "closed",
+          "updated_at": "2026-08-18T21:25:33Z",
+          "merged_at": "2026-02-27T19:30:59Z",
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/18"
+        },
+        {
+          "number": 24,
+          "title": "Ship precomputed response normalization constants",
+          "state": "closed",
+          "updated_at": "2026-08-06T01:18:36Z",
+          "merged_at": "2026-08-06T01:13:05Z",
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/24"
+        },
+        {
+          "number": 22,
+          "title": "[WIP] Update ",
+          "state": "closed",
+          "updated_at": "2026-03-20T03:51:41Z",
+          "merged_at": null,
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/22"
+        },
+        {
+          "number": 15,
+          "title": "Support Python 3.13",
+          "state": "open",
+          "updated_at": "2026-02-27T04:14:07Z",
+          "merged_at": null,
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/15"
+        },
+        {
+          "number": 14,
+          "title": "Fix slurm OOM error",
+          "state": "closed",
+          "updated_at": "2025-09-11T10:31:54Z",
+          "merged_at": "2025-09-11T10:31:24Z",
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/14"
+        },
+        {
+          "number": 5,
+          "title": "fix file exists error",
+          "state": "closed",
+          "updated_at": "2024-11-22T15:24:48Z",
+          "merged_at": "2024-11-22T15:24:47Z",
+          "html_url": "https://github.com/TuragaLab/flyvis/pull/5"
+        }
+      ],
+      "owner": {
+        "login": "TuragaLab",
+        "type": "Organization",
+        "html_url": "https://github.com/TuragaLab",
+        "blog": "https://www.janelia.org/lab/turaga-lab",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-08-18T21:25:52+00:00",
+      "days_since_public_code_activity": 28.2,
+      "x_review_due": false,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "htem/BANC-project": {
+      "repo": "htem/BANC-project",
+      "role": "primary",
+      "download": false,
+      "follow_author_on_stale": false,
+      "errors": {},
+      "url": "https://github.com/htem/BANC-project",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-07-20T22:48:43Z",
+      "license": null,
+      "head": "e31a2e26b9937dca72e5ca1c1960df6454d76114",
+      "head_date": "2026-07-20T22:48:11Z",
+      "head_url": "https://github.com/htem/BANC-project/commit/e31a2e26b9937dca72e5ca1c1960df6454d76114",
+      "head_subject": "Restore vibratory super_cluster; fix numbers.R coverage and category counts",
+      "release": {
+        "id": 328214090,
+        "tag_name": "v2.0.5",
+        "published_at": "2026-05-23T03:05:35Z",
+        "html_url": "https://github.com/htem/BANC-project/releases/tag/v2.0.5"
+      },
+      "pulls": [],
+      "owner": {
+        "login": "htem",
+        "type": "Organization",
+        "html_url": "https://github.com/htem",
+        "blog": "https://lee.hms.harvard.edu/",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-07-20T22:48:43+00:00",
+      "days_since_public_code_activity": 57.1,
+      "x_review_due": false,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "dylankainth/flybrain": {
+      "repo": "dylankainth/flybrain",
+      "role": "drone",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/dylankainth/flybrain",
+      "default_branch": "evolutionary-behavior",
+      "archived": false,
+      "pushed_at": "2026-06-22T21:34:30Z",
+      "license": null,
+      "head": "97e02fb7c8d19fd5267c3fa9194f8001e08fb613",
+      "head_date": "2026-06-22T21:33:21Z",
+      "head_url": "https://github.com/dylankainth/flybrain/commit/97e02fb7c8d19fd5267c3fa9194f8001e08fb613",
+      "head_subject": "feat: added some guardrailed avoidance detection for the fly",
+      "release": null,
+      "pulls": [],
+      "owner": {
+        "login": "dylankainth",
+        "type": "User",
+        "html_url": "https://github.com/dylankainth",
+        "blog": "dylankainth.com",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-06-22T21:34:30+00:00",
+      "days_since_public_code_activity": 85.2,
+      "x_review_due": true,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "SpikeCalls/FlyDrones": {
+      "repo": "SpikeCalls/FlyDrones",
+      "role": "drone",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/SpikeCalls/FlyDrones",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-15T21:23:27Z",
+      "license": "MIT",
+      "head": "6e273a9eec704319fe2468e1d26b09bf06084328",
+      "head_date": "2026-09-15T21:23:12Z",
+      "head_url": "https://github.com/SpikeCalls/FlyDrones/commit/6e273a9eec704319fe2468e1d26b09bf06084328",
+      "head_subject": "Docs: README with live demo, guide, hardware, science, safety",
+      "release": null,
+      "pulls": [],
+      "owner": {
+        "login": "SpikeCalls",
+        "type": "User",
+        "html_url": "https://github.com/SpikeCalls",
+        "blog": "",
+        "twitter_username": "SpikeCalls"
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-15T21:23:27+00:00",
+      "days_since_public_code_activity": 0.2,
+      "x_review_due": false,
+      "activity_assessment": "recent_public_activity"
+    },
+    "evnsnclr/neurocraft-fly-public": {
+      "repo": "evnsnclr/neurocraft-fly-public",
+      "role": "minecraft-pending",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/evnsnclr/neurocraft-fly-public",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-06T18:21:06Z",
+      "license": "MIT",
+      "head": "d121466b3ba2f11498e6da498c74acb061bb00eb",
+      "head_date": "2026-09-06T18:21:05Z",
+      "head_url": "https://github.com/evnsnclr/neurocraft-fly-public/commit/d121466b3ba2f11498e6da498c74acb061bb00eb",
+      "head_subject": "Update README.md",
+      "release": null,
+      "pulls": [],
+      "owner": {
+        "login": "evnsnclr",
+        "type": "User",
+        "html_url": "https://github.com/evnsnclr",
+        "blog": "https://dsgt-arc.org/",
+        "twitter_username": "evnsnclr"
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-06T18:21:06+00:00",
+      "days_since_public_code_activity": 9.3,
+      "x_review_due": true,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "AbijahKaj/fruit-fly-brain-research": {
+      "repo": "AbijahKaj/fruit-fly-brain-research",
+      "role": "vision",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/AbijahKaj/fruit-fly-brain-research",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-05T11:00:37Z",
+      "license": "MIT",
+      "head": "c28066a5b9eff03efdb002f6779980d29f70634c",
+      "head_date": "2026-09-05T11:00:36Z",
+      "head_url": "https://github.com/AbijahKaj/fruit-fly-brain-research/commit/c28066a5b9eff03efdb002f6779980d29f70634c",
+      "head_subject": "Add the how-it-works diagram",
+      "release": null,
+      "pulls": [],
+      "owner": {
+        "login": "AbijahKaj",
+        "type": "User",
+        "html_url": "https://github.com/AbijahKaj",
+        "blog": "https://blog.abijah.me",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-05T11:00:37+00:00",
+      "days_since_public_code_activity": 10.6,
+      "x_review_due": true,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "ZeroXClem/closed-loop-fly": {
+      "repo": "ZeroXClem/closed-loop-fly",
+      "role": "vision",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/ZeroXClem/closed-loop-fly",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-10T15:38:16Z",
+      "license": "MIT",
+      "head": "0cbaa96cbac72cccad1fa04692b5f4d4a4e64673",
+      "head_date": "2026-09-10T14:29:05Z",
+      "head_url": "https://github.com/ZeroXClem/closed-loop-fly/commit/0cbaa96cbac72cccad1fa04692b5f4d4a4e64673",
+      "head_subject": "Follow-ups 10-11: gate on by default (readout artefact fix), LIF throughput tested",
+      "release": null,
+      "pulls": [],
+      "owner": {
+        "login": "ZeroXClem",
+        "type": "User",
+        "html_url": "https://github.com/ZeroXClem",
+        "blog": "https://zeroxclem.org",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-10T15:38:16+00:00",
+      "days_since_public_code_activity": 5.4,
+      "x_review_due": false,
+      "activity_assessment": "recent_public_activity"
+    },
+    "alextitonis/fly.ai": {
+      "repo": "alextitonis/fly.ai",
+      "role": "framework",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/alextitonis/fly.ai",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-15T21:24:36Z",
+      "license": "MIT",
+      "head": "373a8092c8c3ba9719a9b55f92a370252b88367e",
+      "head_date": "2026-09-15T21:24:33Z",
+      "head_url": "https://github.com/alextitonis/fly.ai/commit/373a8092c8c3ba9719a9b55f92a370252b88367e",
+      "head_subject": "simulation improvements",
+      "release": {
+        "id": 387870052,
+        "tag_name": "brain-v1",
+        "published_at": "2026-09-13T10:57:29Z",
+        "html_url": "https://github.com/alextitonis/fly.ai/releases/tag/brain-v1"
+      },
+      "pulls": [
+        {
+          "number": 7,
+          "title": "Created radio task and added it to the website",
+          "state": "closed",
+          "updated_at": "2026-09-15T20:16:17Z",
+          "merged_at": "2026-09-15T20:16:17Z",
+          "html_url": "https://github.com/alextitonis/fly.ai/pull/7"
+        },
+        {
+          "number": 5,
+          "title": "Use fly brain for a bachelor show with flies as contestants",
+          "state": "closed",
+          "updated_at": "2026-09-13T21:14:16Z",
+          "merged_at": "2026-09-13T21:14:16Z",
+          "html_url": "https://github.com/alextitonis/fly.ai/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "Add treasury/ — SHIT/5H1T treasury-backed token with fly connectome trader",
+          "state": "open",
+          "updated_at": "2026-09-13T20:07:32Z",
+          "merged_at": null,
+          "html_url": "https://github.com/alextitonis/fly.ai/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "Add treasury/ — SHIT/5H1T treasury-backed token with fly connectome trader",
+          "state": "closed",
+          "updated_at": "2026-09-13T17:37:47Z",
+          "merged_at": null,
+          "html_url": "https://github.com/alextitonis/fly.ai/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "Add treasury/ — SHIT/5H1T treasury-backed token with fly connectome trader",
+          "state": "closed",
+          "updated_at": "2026-09-13T17:01:30Z",
+          "merged_at": null,
+          "html_url": "https://github.com/alextitonis/fly.ai/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Add treasury/ — SHIT/5H1T treasury-backed token with fly connectome trader",
+          "state": "closed",
+          "updated_at": "2026-09-13T17:01:17Z",
+          "merged_at": null,
+          "html_url": "https://github.com/alextitonis/fly.ai/pull/1"
+        }
+      ],
+      "owner": {
+        "login": "alextitonis",
+        "type": "User",
+        "html_url": "https://github.com/alextitonis",
+        "blog": "",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-15T21:24:36+00:00",
+      "days_since_public_code_activity": 0.2,
+      "x_review_due": false,
+      "activity_assessment": "recent_public_activity"
+    },
+    "nftechie/doomfly": {
+      "repo": "nftechie/doomfly",
+      "role": "learning",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/nftechie/doomfly",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-09T15:11:47Z",
+      "license": "MIT",
+      "head": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+      "head_date": "2026-09-09T15:11:10Z",
+      "head_url": "https://github.com/nftechie/doomfly/commit/71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+      "head_subject": "Fix spectator pistol orientation and barrel-mounted flash",
+      "release": null,
+      "pulls": [
+        {
+          "number": 4,
+          "title": "Fix native kernel build on Windows",
+          "state": "open",
+          "updated_at": "2026-09-15T12:22:58Z",
+          "merged_at": null,
+          "html_url": "https://github.com/nftechie/doomfly/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "feat(fly-console): add WebGPU Grok Bot liveview cabinet",
+          "state": "open",
+          "updated_at": "2026-09-13T21:07:04Z",
+          "merged_at": null,
+          "html_url": "https://github.com/nftechie/doomfly/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "Add git connectome_data folder with a Readme",
+          "state": "open",
+          "updated_at": "2026-09-13T00:03:53Z",
+          "merged_at": null,
+          "html_url": "https://github.com/nftechie/doomfly/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Add optional single-life recording and 60 FPS replay",
+          "state": "open",
+          "updated_at": "2026-09-12T10:11:11Z",
+          "merged_at": null,
+          "html_url": "https://github.com/nftechie/doomfly/pull/1"
+        }
+      ],
+      "owner": {
+        "login": "nftechie",
+        "type": "User",
+        "html_url": "https://github.com/nftechie",
+        "blog": "https://www.alexwormuth.com/",
+        "twitter_username": "wormuth"
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-09T15:11:47+00:00",
+      "days_since_public_code_activity": 6.4,
+      "x_review_due": false,
+      "activity_assessment": "recent_public_activity"
+    },
+    "ornata/fly": {
+      "repo": "ornata/fly",
+      "role": "game",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/ornata/fly",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-08T12:35:15Z",
+      "license": null,
+      "head": "f2f4114e53eaa326e54129f27a5383f93c6957af",
+      "head_date": "2026-09-08T12:34:01Z",
+      "head_url": "https://github.com/ornata/fly/commit/f2f4114e53eaa326e54129f27a5383f93c6957af",
+      "head_subject": "Exclude unnamed game windows from demo recordings",
+      "release": null,
+      "pulls": [],
+      "owner": {
+        "login": "ornata",
+        "type": "User",
+        "html_url": "https://github.com/ornata",
+        "blog": "",
+        "twitter_username": "barrelshifter"
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-08T12:35:15+00:00",
+      "days_since_public_code_activity": 7.5,
+      "x_review_due": true,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "DenisSergeevitch/desktop-fly": {
+      "repo": "DenisSergeevitch/desktop-fly",
+      "role": "embodiment",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "default_branch": "master",
+      "archived": false,
+      "pushed_at": "2026-09-05T19:50:05Z",
+      "license": "NOASSERTION",
+      "head": "32b00011e83c3dc85fa3ea0b3934155b04f1635d",
+      "head_date": "2026-09-05T19:50:03Z",
+      "head_url": "https://github.com/DenisSergeevitch/desktop-fly/commit/32b00011e83c3dc85fa3ea0b3934155b04f1635d",
+      "head_subject": "Release v1.1.0: MaleCNS locomotion and smooth state transitions",
+      "release": null,
+      "pulls": [
+        {
+          "number": 18,
+          "title": "perf: cut CPU roughly in half (profile-driven, no model change)",
+          "state": "open",
+          "updated_at": "2026-09-12T08:18:29Z",
+          "merged_at": null,
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/18"
+        },
+        {
+          "number": 17,
+          "title": "perf: cut CPU roughly in half (profile-driven, no model change)",
+          "state": "closed",
+          "updated_at": "2026-09-12T08:15:06Z",
+          "merged_at": null,
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/17"
+        },
+        {
+          "number": 15,
+          "title": "Linux port: per-monitor Electron overlay + dGPU via EGL",
+          "state": "open",
+          "updated_at": "2026-09-03T19:55:17Z",
+          "merged_at": null,
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/15"
+        },
+        {
+          "number": 2,
+          "title": "Add an optional stag-beetle body (fly stays the default)",
+          "state": "closed",
+          "updated_at": "2026-08-27T02:07:47Z",
+          "merged_at": "2026-08-26T20:12:15Z",
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/2"
+        },
+        {
+          "number": 6,
+          "title": "The fly can now be squished",
+          "state": "closed",
+          "updated_at": "2026-08-26T20:23:11Z",
+          "merged_at": null,
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/6"
+        },
+        {
+          "number": 13,
+          "title": "Add courtship and reproduction",
+          "state": "closed",
+          "updated_at": "2026-08-26T20:17:33Z",
+          "merged_at": null,
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/13"
+        },
+        {
+          "number": 3,
+          "title": "Windows port: Electron + three.js, same connectome, same test suites",
+          "state": "closed",
+          "updated_at": "2026-08-26T20:06:17Z",
+          "merged_at": "2026-08-26T20:04:31Z",
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/3"
+        },
+        {
+          "number": 9,
+          "title": "Update .gitignore to exclude temporary and build files",
+          "state": "closed",
+          "updated_at": "2026-08-26T19:57:25Z",
+          "merged_at": null,
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/9"
+        },
+        {
+          "number": 12,
+          "title": "Walking turns as measured body saccades, and a constant-duration swing",
+          "state": "closed",
+          "updated_at": "2026-08-26T19:00:30Z",
+          "merged_at": "2026-08-26T19:00:20Z",
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/12"
+        },
+        {
+          "number": 11,
+          "title": "Make the body timestep frame-rate independent",
+          "state": "closed",
+          "updated_at": "2026-08-26T19:00:29Z",
+          "merged_at": "2026-08-26T19:00:20Z",
+          "html_url": "https://github.com/DenisSergeevitch/desktop-fly/pull/11"
+        }
+      ],
+      "owner": {
+        "login": "DenisSergeevitch",
+        "type": "User",
+        "html_url": "https://github.com/DenisSergeevitch",
+        "blog": "https://shir-man.com",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-05T19:50:05+00:00",
+      "days_since_public_code_activity": 10.2,
+      "x_review_due": true,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "eonsystemspbc/fly-brain": {
+      "repo": "eonsystemspbc/fly-brain",
+      "role": "primary",
+      "download": false,
+      "follow_author_on_stale": false,
+      "errors": {},
+      "url": "https://github.com/eonsystemspbc/fly-brain",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-08-29T12:48:26Z",
+      "license": "GPL-2.0",
+      "head": "a3db62f9436074e485c0278290c2164ed6150808",
+      "head_date": "2026-08-29T12:48:23Z",
+      "head_url": "https://github.com/eonsystemspbc/fly-brain/commit/a3db62f9436074e485c0278290c2164ed6150808",
+      "head_subject": "add LICENSE",
+      "release": null,
+      "pulls": [
+        {
+          "number": 5,
+          "title": "Pytorch firing parity",
+          "state": "closed",
+          "updated_at": "2026-07-10T16:41:19Z",
+          "merged_at": null,
+          "html_url": "https://github.com/eonsystemspbc/fly-brain/pull/5"
+        },
+        {
+          "number": 1,
+          "title": "Fix",
+          "state": "closed",
+          "updated_at": "2026-06-24T08:27:59Z",
+          "merged_at": null,
+          "html_url": "https://github.com/eonsystemspbc/fly-brain/pull/1"
+        }
+      ],
+      "owner": {
+        "login": "eonsystemspbc",
+        "type": "Organization",
+        "html_url": "https://github.com/eonsystemspbc",
+        "blog": "eon.systems",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-08-29T12:48:26+00:00",
+      "days_since_public_code_activity": 17.5,
+      "x_review_due": false,
+      "activity_assessment": "quiet_needs_context"
+    },
+    "townie/awesome-fruit-fly": {
+      "repo": "townie/awesome-fruit-fly",
+      "role": "discovery-index",
+      "download": false,
+      "follow_author_on_stale": true,
+      "errors": {},
+      "url": "https://github.com/townie/awesome-fruit-fly",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-16T00:46:21Z",
+      "license": "CC0-1.0",
+      "head": "7bf8f8ad5737f2896c1e2d0e04d1581557e511b6",
+      "head_date": "2026-09-16T00:46:20Z",
+      "head_url": "https://github.com/townie/awesome-fruit-fly/commit/7bf8f8ad5737f2896c1e2d0e04d1581557e511b6",
+      "head_subject": "Add GitHub-latest cool discovery shard for 15 Sep 2026. (#8)",
+      "release": null,
+      "pulls": [
+        {
+          "number": 8,
+          "title": "discoveries: GitHub latest cool Sep 15",
+          "state": "closed",
+          "updated_at": "2026-09-16T00:46:22Z",
+          "merged_at": "2026-09-16T00:46:20Z",
+          "html_url": "https://github.com/townie/awesome-fruit-fly/pull/8"
+        },
+        {
+          "number": 7,
+          "title": "Sep 15 cool-hunt: FlyDrones, Marksman, Space Program, flywalker",
+          "state": "closed",
+          "updated_at": "2026-09-16T00:46:19Z",
+          "merged_at": "2026-09-16T00:46:17Z",
+          "html_url": "https://github.com/townie/awesome-fruit-fly/pull/7"
+        },
+        {
+          "number": 6,
+          "title": "Sep 14 cool-hunt: FLM, Same Smell, ad-judging fly, honest controls",
+          "state": "closed",
+          "updated_at": "2026-09-14T20:02:04Z",
+          "merged_at": "2026-09-14T20:02:02Z",
+          "html_url": "https://github.com/townie/awesome-fruit-fly/pull/6"
+        },
+        {
+          "number": 5,
+          "title": "discoveries: github latest cool",
+          "state": "closed",
+          "updated_at": "2026-09-14T20:01:59Z",
+          "merged_at": "2026-09-14T20:01:57Z",
+          "html_url": "https://github.com/townie/awesome-fruit-fly/pull/5"
+        },
+        {
+          "number": 3,
+          "title": "Add awesome-list README of fruit-fly connectome demos",
+          "state": "closed",
+          "updated_at": "2026-09-13T21:53:34Z",
+          "merged_at": "2026-09-13T21:53:32Z",
+          "html_url": "https://github.com/townie/awesome-fruit-fly/pull/3"
+        },
+        {
+          "number": 4,
+          "title": "discoveries: trading/dopamine/wirehead shard",
+          "state": "closed",
+          "updated_at": "2026-09-13T21:49:43Z",
+          "merged_at": "2026-09-13T21:49:42Z",
+          "html_url": "https://github.com/townie/awesome-fruit-fly/pull/4"
+        },
+        {
+          "number": 2,
+          "title": "discoveries: science/embodied RL shard",
+          "state": "closed",
+          "updated_at": "2026-09-13T21:48:58Z",
+          "merged_at": "2026-09-13T21:48:56Z",
+          "html_url": "https://github.com/townie/awesome-fruit-fly/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "discoveries: games/media/art shard",
+          "state": "closed",
+          "updated_at": "2026-09-13T21:47:59Z",
+          "merged_at": "2026-09-13T21:47:58Z",
+          "html_url": "https://github.com/townie/awesome-fruit-fly/pull/1"
+        }
+      ],
+      "owner": {
+        "login": "townie",
+        "type": "User",
+        "html_url": "https://github.com/townie",
+        "blog": "www.keithwebber.com",
+        "twitter_username": null
+      },
+      "changes": [],
+      "baseline_only": true,
+      "head_change_observed_at": null,
+      "last_public_code_activity": "2026-09-16T00:46:21+00:00",
+      "days_since_public_code_activity": 0.0,
+      "x_review_due": false,
+      "activity_assessment": "recent_public_activity"
+    }
+  }
+}

@@ -10,6 +10,7 @@
 - [飛行学習：浮遊・追従](tools/fly-body-lab/training/README.md) → [柱回避](tools/fly-body-lab/training/STAGE2.md) → [動く相手への追従](tools/fly-body-lab/training/STAGE3.md)
 - [神経回路16テーマの目次・結果・限界](docs/research-index.md)
 - [起動と再現手順](docs/reproduce.md)・[公開時の確認記録](docs/2026-10-20-publication.md)
+- [3Dモデル試作](tools/dogido-3d/README.md)・[調査資料の追加保存とローカル整理](docs/2026-10-24-workspace-retirement.md)
 - [大きな生データのダウンロード](https://github.com/yukincom/AI-Curious-Community/releases/tag/fly-research-2026-09)・[全ファイルの対応とSHA256](SOURCE_MANIFEST.json)
 
 ## どこまで分かったか

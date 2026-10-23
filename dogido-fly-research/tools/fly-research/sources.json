@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "stale_days": 7,
+  "sources": [
+    {"repo":"blendi-remade/fly-brain-minecraft","role":"minecraft","download":true,"follow_author_on_stale":true},
+    {"repo":"philshiu/Drosophila_brain_model","role":"primary","download":true,"follow_author_on_stale":true},
+    {"repo":"PtPavloTkachenko/fly-brain-spectacles","role":"embodiment","download":true,"follow_author_on_stale":true},
+    {"repo":"ben-gitdev/fly-gym","role":"learning","download":true,"follow_author_on_stale":true},
+    {"repo":"joey-david/fly-fpv","role":"learning","download":true,"follow_author_on_stale":true},
+    {"repo":"wavendis/ruby-project","role":"minecraft-learning","download":true,"follow_author_on_stale":true},
+    {"repo":"NeLy-EPFL/flygym","role":"primary","download":false,"follow_author_on_stale":false},
+    {"repo":"TuragaLab/flybody","role":"primary","download":false,"follow_author_on_stale":false},
+    {"repo":"TuragaLab/flyvis","role":"primary","download":false,"follow_author_on_stale":false},
+    {"repo":"htem/BANC-project","role":"primary","download":false,"follow_author_on_stale":false},
+    {"repo":"dylankainth/flybrain","role":"drone","download":false,"follow_author_on_stale":true},
+    {"repo":"SpikeCalls/FlyDrones","role":"drone","download":false,"follow_author_on_stale":true},
+    {"repo":"evnsnclr/neurocraft-fly-public","role":"minecraft-pending","download":false,"follow_author_on_stale":true},
+    {"repo":"AbijahKaj/fruit-fly-brain-research","role":"vision","download":false,"follow_author_on_stale":true},
+    {"repo":"ZeroXClem/closed-loop-fly","role":"vision","download":false,"follow_author_on_stale":true},
+    {"repo":"alextitonis/fly.ai","role":"framework","download":false,"follow_author_on_stale":true},
+    {"repo":"nftechie/doomfly","role":"learning","download":false,"follow_author_on_stale":true},
+    {"repo":"ornata/fly","role":"game","download":false,"follow_author_on_stale":true},
+    {"repo":"DenisSergeevitch/desktop-fly","role":"embodiment","download":false,"follow_author_on_stale":true},
+    {"repo":"eonsystemspbc/fly-brain","role":"primary","download":false,"follow_author_on_stale":false},
+    {"repo":"townie/awesome-fruit-fly","role":"discovery-index","download":false,"follow_author_on_stale":true}
+  ],
+  "additional_sources": [
+    "https://huggingface.co/spaces/Xenova/fruit-fly-simulation",
+    "https://male-cns.janelia.org/",
+    "https://flywire.ai/",
+    "https://lnsgroup.cc/research/FlyGM/",
+    "https://eon.systems/updates"
+  ]
+}

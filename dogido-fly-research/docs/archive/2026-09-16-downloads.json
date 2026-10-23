@@ -1,0 +1,45 @@
+{
+  "sources": {
+    "blendi-remade/fly-brain-minecraft": {
+      "url": "https://github.com/blendi-remade/fly-brain-minecraft.git",
+      "commit": "6cfa30175003ef25da68a237d5eda958f8047b82",
+      "path": ".fly-research/upstream/blendi-remade--fly-brain-minecraft",
+      "verified_at": "2026-09-16T01:34:47.429647+00:00",
+      "bundled_connectome": {
+        "path": ".fly-research/upstream/blendi-remade--fly-brain-minecraft/src/main/resources/connectome/malecns-v1.0.flyb.gz",
+        "bytes": 22964094,
+        "sha256": "e33df182bed7a6f3ea279daf4790a82b05706d3d41e819a6a80c0473e8c559f3"
+      }
+    },
+    "philshiu/Drosophila_brain_model": {
+      "url": "https://github.com/philshiu/Drosophila_brain_model.git",
+      "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+      "path": ".fly-research/upstream/philshiu--Drosophila_brain_model",
+      "verified_at": "2026-09-16T01:35:29.264507+00:00"
+    },
+    "PtPavloTkachenko/fly-brain-spectacles": {
+      "url": "https://github.com/PtPavloTkachenko/fly-brain-spectacles.git",
+      "commit": "20413b4bb888f7ced63d42451250539a55d9e625",
+      "path": ".fly-research/upstream/PtPavloTkachenko--fly-brain-spectacles",
+      "verified_at": "2026-09-16T01:35:34.237162+00:00"
+    },
+    "ben-gitdev/fly-gym": {
+      "url": "https://github.com/ben-gitdev/fly-gym.git",
+      "commit": "50a8e8f51bbd184fe2f55c30a9fdc8dca9891864",
+      "path": ".fly-research/upstream/ben-gitdev--fly-gym",
+      "verified_at": "2026-09-16T01:35:35.971423+00:00"
+    },
+    "joey-david/fly-fpv": {
+      "url": "https://github.com/joey-david/fly-fpv.git",
+      "commit": "2524f1d04e0000c1b90519b0baa1930c2cf2cecf",
+      "path": ".fly-research/upstream/joey-david--fly-fpv",
+      "verified_at": "2026-09-16T01:35:36.931663+00:00"
+    },
+    "wavendis/ruby-project": {
+      "url": "https://github.com/wavendis/ruby-project.git",
+      "commit": "693d97608d542209cd3cae8c0349f84e244b4ba5",
+      "path": ".fly-research/upstream/wavendis--ruby-project",
+      "verified_at": "2026-09-16T01:35:38.503557+00:00"
+    }
+  }
+}

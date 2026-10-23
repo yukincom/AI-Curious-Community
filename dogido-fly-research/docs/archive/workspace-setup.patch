@@ -1,0 +1,30 @@
+diff --git a/.gitignore b/.gitignore
+index 869f3ad..a8cb027 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -40,3 +40,6 @@ models/
+ .aider*
+ # pytestキャッシュ
+ .pytest_cache/
++
++# 3D身体研究の取得コード・データ・収集履歴
++/.fly-research/
+diff --git a/AGENTS.md b/AGENTS.md
+index 7f10a66..19ac100 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -1,3 +1,14 @@
++# このワークツリー固有の方針: ハエ由来の3D身体研究
++
++- 作業ブランチは `codex/fly-body-research`。2D UI導入前の `908f730` から分岐した独立研究。
++- 最初に `docs/research/fly-body-workspace.md` を読む。最新mainと機能が同一とは扱わない。
++- 2D HUD・瞬き・配置プレビューを持ち込まない。main全体のmergeはせず、必要な変更を個別に検討する。
++- 3D素材は `tools/dogido-3d/`。元の別ワークツリーに依存せず、このコピーを使う。
++- 本体の仮想環境・設定・記憶・Minecraft実環境を共用せず、実行時に研究用の環境と保存先を用意する。
++- 以下は分岐時点の本体方針。研究の分離を維持したうえで適用する。
++
++---
++
+ # AGENTS.md — AI コーディングエージェント向け
+ 
+ このリポジトリで作業する AI 向けの導入メモ。  
