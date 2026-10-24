@@ -1,0 +1,17 @@
+{
+  "scanned_at_utc": "2026-10-24T11:52:30.111202+00:00",
+  "text_files_scanned": 1627,
+  "zip_text_members_scanned": 1565,
+  "pattern_categories": [
+    "huggingface_token",
+    "github_token",
+    "openai_style_token",
+    "google_api_key",
+    "aws_access_id",
+    "private_key",
+    "slack_token"
+  ],
+  "findings": [],
+  "scope": "All selected non-weight files and non-weight members of original transfer ZIPs; no unrelated app logs or settings.",
+  "limits": "Credential-pattern scan; not a proof that arbitrary sensitive prose is absent. Experimental utterances, local paths and original execution metadata are preserved."
+}

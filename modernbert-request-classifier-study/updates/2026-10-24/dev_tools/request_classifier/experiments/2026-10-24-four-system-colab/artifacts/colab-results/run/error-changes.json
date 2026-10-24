@@ -1,0 +1,5243 @@
+{
+  "base-seed43": {
+    "fixed": {
+      "count": 0,
+      "ids": []
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 9,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed42-spatial": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed42-mount": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "user_addition__user_20261022_072"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed42-sword": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed42-mob": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed42-arithmetic-quarter": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed42-arithmetic-half": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed42-arithmetic-one": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066"
+      ]
+    },
+    "new_errors": {
+      "count": 17,
+      "ids": [
+        "legacy__train-082",
+        "legacy__train-085",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_046",
+        "live__short_runtime_174",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_far_sky_shared_01"
+      ]
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 24,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-083",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-184",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed42-ties20-half": {
+    "fixed": {
+      "count": 3,
+      "ids": [
+        "legacy__train-013",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed42-ties20-one": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed43-spatial": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "user_addition__user_20261022_072"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed43-mount": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed43-sword": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed43-mob": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "user_addition__user_20261022_072"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed43-arithmetic-quarter": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed43-arithmetic-half": {
+    "fixed": {
+      "count": 8,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 1,
+      "ids": [
+        "contrast__contrast_030"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed43-arithmetic-one": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "new_errors": {
+      "count": 26,
+      "ids": [
+        "legacy__train-062",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_046",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front"
+      ]
+    },
+    "still_correct": {
+      "count": 15,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-065",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_02"
+      ]
+    }
+  },
+  "seed43-ties20-half": {
+    "fixed": {
+      "count": 3,
+      "ids": [
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed43-ties20-one": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed44-spatial": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed44-mount": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed44-sword": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed44-mob": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed44-arithmetic-quarter": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed44-arithmetic-half": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "new_errors": {
+      "count": 4,
+      "ids": [
+        "legacy__train-526",
+        "legacy__train-770",
+        "live__short_runtime_046",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front"
+      ]
+    },
+    "still_correct": {
+      "count": 37,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed44-arithmetic-one": {
+    "fixed": {
+      "count": 3,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066"
+      ]
+    },
+    "new_errors": {
+      "count": 26,
+      "ids": [
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_046",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    },
+    "still_wrong": {
+      "count": 6,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 15,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-090",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right"
+      ]
+    }
+  },
+  "seed44-ties20-half": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed44-ties20-one": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed45-spatial": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "user_addition__user_20261022_072"
+      ]
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed45-mount": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed45-sword": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed45-mob": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed45-arithmetic-quarter": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed45-arithmetic-half": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed45-arithmetic-one": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 22,
+      "ids": [
+        "legacy__train-082",
+        "legacy__train-085",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 19,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-083",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-184",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_02"
+      ]
+    }
+  },
+  "seed45-ties20-half": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed45-ties20-one": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed46-spatial": {
+    "fixed": {
+      "count": 7,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 2,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_030"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed46-mount": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed46-sword": {
+    "fixed": {
+      "count": 3,
+      "ids": [
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed46-mob": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed46-arithmetic-quarter": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed46-arithmetic-half": {
+    "fixed": {
+      "count": 8,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "new_errors": {
+      "count": 3,
+      "ids": [
+        "legacy__train-526",
+        "live__short_runtime_046",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 1,
+      "ids": [
+        "contrast__contrast_030"
+      ]
+    },
+    "still_correct": {
+      "count": 38,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed46-arithmetic-one": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066"
+      ]
+    },
+    "new_errors": {
+      "count": 22,
+      "ids": [
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_046",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 19,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right"
+      ]
+    }
+  },
+  "seed46-ties20-half": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed46-ties20-one": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed47-spatial": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "user_addition__user_20261022_072"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed47-mount": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed47-sword": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed47-mob": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed47-arithmetic-quarter": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed47-arithmetic-half": {
+    "fixed": {
+      "count": 7,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 4,
+      "ids": [
+        "legacy__train-526",
+        "legacy__train-770",
+        "live__short_runtime_046",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 2,
+      "ids": [
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 37,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed47-arithmetic-one": {
+    "fixed": {
+      "count": 3,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "user_addition__user_20261022_066"
+      ]
+    },
+    "new_errors": {
+      "count": 20,
+      "ids": [
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_046",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01"
+      ]
+    },
+    "still_wrong": {
+      "count": 6,
+      "ids": [
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 21,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-090",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed47-ties20-half": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed47-ties20-one": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed48-spatial": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "user_addition__user_20261022_072"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed48-mount": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed48-sword": {
+    "fixed": {
+      "count": 3,
+      "ids": [
+        "legacy__train-012",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 6,
+      "ids": [
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed48-mob": {
+    "fixed": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 4,
+      "ids": [
+        "legacy__train-205",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed48-arithmetic-quarter": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed48-arithmetic-half": {
+    "fixed": {
+      "count": 7,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 2,
+      "ids": [
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed48-arithmetic-one": {
+    "fixed": {
+      "count": 3,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "user_addition__user_20261022_066"
+      ]
+    },
+    "new_errors": {
+      "count": 23,
+      "ids": [
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_046",
+        "live__short_runtime_174",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    },
+    "still_wrong": {
+      "count": 6,
+      "ids": [
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 18,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-184",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_far_sky_shared_02"
+      ]
+    }
+  },
+  "seed48-ties20-half": {
+    "fixed": {
+      "count": 3,
+      "ids": [
+        "legacy__train-013",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "seed48-ties20-one": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "mean7-spatial": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 2,
+      "ids": [
+        "legacy__train-526",
+        "user_addition__user_20261022_072"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 39,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "mean7-mount": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "mean7-sword": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "mean7-mob": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "mean7-arithmetic-quarter": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "mean7-arithmetic-half": {
+    "fixed": {
+      "count": 7,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 3,
+      "ids": [
+        "legacy__train-526",
+        "live__short_runtime_046",
+        "contrast__contrast_048"
+      ]
+    },
+    "still_wrong": {
+      "count": 2,
+      "ids": [
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 38,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "mean7-arithmetic-one": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "legacy__train-205",
+        "user_addition__user_20261022_066"
+      ]
+    },
+    "new_errors": {
+      "count": 24,
+      "ids": [
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_046",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_back",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 17,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-090",
+        "live__short_runtime_005",
+        "live__short_runtime_147",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_far_sky_shared_02"
+      ]
+    }
+  },
+  "mean7-ties20-half": {
+    "fixed": {
+      "count": 4,
+      "ids": [
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 0,
+      "ids": []
+    },
+    "still_wrong": {
+      "count": 5,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-205",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 41,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-526",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  },
+  "mean7-ties20-one": {
+    "fixed": {
+      "count": 6,
+      "ids": [
+        "legacy__train-012",
+        "legacy__train-013",
+        "user_addition__user_20261022_066",
+        "contrast__contrast_029",
+        "contrast__contrast_030",
+        "gaze_variant__gaze_direction_10_back"
+      ]
+    },
+    "new_errors": {
+      "count": 1,
+      "ids": [
+        "legacy__train-526"
+      ]
+    },
+    "still_wrong": {
+      "count": 3,
+      "ids": [
+        "legacy__train-205",
+        "gaze_variant__gaze_direction_10_front",
+        "gaze_variant__gaze_direction_10_left"
+      ]
+    },
+    "still_correct": {
+      "count": 40,
+      "ids": [
+        "legacy__train-011",
+        "legacy__train-018",
+        "legacy__train-061",
+        "legacy__train-062",
+        "legacy__train-065",
+        "legacy__train-082",
+        "legacy__train-083",
+        "legacy__train-085",
+        "legacy__train-089",
+        "legacy__train-090",
+        "legacy__train-141",
+        "legacy__train-144",
+        "legacy__train-184",
+        "legacy__train-185",
+        "legacy__train-525",
+        "legacy__train-736",
+        "legacy__train-770",
+        "live__short_runtime_005",
+        "live__short_runtime_046",
+        "live__short_runtime_147",
+        "live__short_runtime_174",
+        "live__short_runtime_175",
+        "user_addition__user_20261022_008",
+        "user_addition__user_20261022_048",
+        "user_addition__user_20261022_058",
+        "user_addition__user_20261022_064",
+        "user_addition__user_20261022_072",
+        "contrast__contrast_032",
+        "contrast__contrast_045",
+        "contrast__contrast_046",
+        "contrast__contrast_048",
+        "gaze_variant__gaze_direction_10_front_left",
+        "gaze_variant__gaze_direction_10_front_right",
+        "gaze_variant__gaze_direction_10_back_left",
+        "gaze_variant__gaze_direction_10_back_right",
+        "gaze_variant__gaze_player_04_variant_01",
+        "gaze_variant__gaze_player_04_variant_02",
+        "gaze_variant__gaze_far_sky_shared_01",
+        "gaze_variant__gaze_far_sky_shared_02",
+        "gaze_variant__gaze_far_sky_shared_03"
+      ]
+    }
+  }
+}

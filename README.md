@@ -17,11 +17,20 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 | 2026-10-17 | Gemma QATの生成時間・MTP・追加最適化 | 生成のどこに時間がかかるかを計測。MTPの効果とMoAD固有の効果を区別し、追加最適化を採用しなかった結果も記録 | [3本のレポート・集計・試作差分](gemma-inference-study/) |
 | 2026-10-11 | ローカルモデルの生成方式 | Gemma 26Bの量子化・生成方式とJSON / native形式を比較。用途と条件を固定して読む | [QAT比較](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/2026-10-11-gemma26b-qat-comparison.md)・[JSON / native比較](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/2026-10-11-gemma26b-json-vs-native.md) |
 
-## AIの知覚・モデルの追加学習
+## AIの知覚
 
 | 学習・資料の時期 | テーマ | 内容・位置づけ | 資料 |
 |---|---|---|---|
 | 2026-01-05（資料作成日） | AIエージェントを迷わせる仕組み | AIの知覚・判断やモデルの追加学習を理解するための試作。循環依存を題材に、エージェントの状況把握と行動の継続を考える [🗒️](https://note.com/yukin_co/n/n9a8b17260d2a) [🗒️](https://note.com/yukin_co/n/n61ae6eadafa1) | [morew-circulation](https://github.com/yukincom/morew-circulation) |
+
+## 追加学習
+
+用途に合わせた教材の設計、分類の境界、学習方法とモデル合成を扱います。各READMEから、方法を変えた順序、改善しなかった試行、採用判断、保存データへ辿れます。
+
+| 学習・実験の時期 | テーマ | 変更の経緯・読むポイント | 資料 |
+|---|---|---|---|
+| 2026-10-14〜24 | ドギドの日本語依頼分類 | ModernBERT-Jaの5→11→23分類、川柳8分類と通常16分類への分離、独立seedの重み合成、共通初期重みからの専門別学習、4系統×7seedの比較。通常側の選定モデルは固定testで45/50。改善と悪化、評価条件を併記 | [経緯と現在の構成](modernbert-request-classifier-study/README.md)・[10月24日の教材・全予測・実行コード](modernbert-request-classifier-study/updates/2026-10-24/README.md)・[全期間の重みと再現資料](modernbert-request-classifier-study/full-archive/README.md) |
+| 2026-10-17〜20 | ニャムルの操作分類器 | ModernBERTの19分類、境界例の選定、学習方法と3seedの比較。採用判断・評価の限界・再現手順と全保存モデルを本体側へ集約 | [改善手順・研究記録](https://github.com/yukincom/nyamuru-image-hub/tree/main/docs/ModernBERT)・[全モデルと再現資料](https://github.com/yukincom/nyamuru-image-hub/releases/tag/nyamuru-modernbert-research-2026-10-24) |
 
 ## 神経回路・身体・エージェントの行動
 
@@ -37,7 +46,6 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 |---|---|---|---|
 | 2026-06-07（紹介記事） | ドギドの実況・川柳 | Minecraftの状況を受け取って会話・川柳を行う相棒の開発記録 [🗒️](https://note.com/yukin_co/n/n6f7f1f6bfdf7) | [プロジェクト](https://github.com/yukincom/DokiDoki_Dogido) |
 | 2026-10-13 | 身体から見えるものと会話のずれ | 現在の観測と過去の発話が食い違う場面の実機・再生比較。小規模な比較と未解決点 | [視認と会話履歴の比較](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/2026-10-13-body-vision-live-analysis.md) |
-| 2026-10-14〜23 | 日本語の依頼分類 | ModernBERT-Jaの教材・23分類の作り直し、重み・層の合成、3シードの差。改善と悪化、採用までの経緯を記録 | [試行錯誤](modernbert-request-classifier-study/試行錯誤.md)・[詳細資料](modernbert-request-classifier-study/資料一覧.md)・[重み・再現資料](modernbert-request-classifier-study/full-archive/README.md)・[コード・データ・評価](https://github.com/yukincom/DokiDoki_Dogido/tree/main/dev_tools/request_classifier) |
 
 現行仕様、過去の記録、今後の構想は[ドギドのドキュメント案内](https://github.com/yukincom/DokiDoki_Dogido/blob/main/docs/README.md)から確認できます。
 
@@ -52,7 +60,6 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 | 2026-10-13（試行）、2026-10-21（中止記録整理） | Gemmaによる人物ラフの調整英文 | 俯きと黒い袖の個別調整。メモリ保護での停止と、汎用性を検証する目的から方法がずれていたための中止を区別 | [試みた調整と中止理由](gemma-sketch-refinement-study/) |
 | 2026-10-14（試行）、2026-10-21（記録整理） | Hermesによる2ページ漫画の制作 | 1ページの途中で中止。コマ数・文字除去・画像評価の失敗と、工程を絞って進んだ範囲を画像4枚で記録 | [失敗と部分的な改善](nyamuru-hermes-manga-study/) |
 | 2026-10-17（試行）、2026-10-21（中止） | Hermesによるフキダシ自律配置 | 起動引数と画像添付で停止。自律配置の品質評価には至らず、試作経路を中止 | [失敗と中止の記録](nyamuru-hermes-bubble-placement/) |
-| 2026-10-17〜20 | ニャムルの操作分類器 | ModernBERTの19分類、境界例の選定、学習方法と3seedの比較。採用判断・評価の限界・再現手順と全保存モデルを本体側へ集約 | [改善手順・研究記録](https://github.com/yukincom/nyamuru-image-hub/tree/main/docs/ModernBERT)・[全モデルと再現資料](https://github.com/yukincom/nyamuru-image-hub/releases/tag/nyamuru-modernbert-research-2026-10-24) |
 
 ## 翻訳
 

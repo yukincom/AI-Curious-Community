@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "protocol_sha256": "d5616691fcf4a467fe3cd92eefcb18343ffa120e1da73d2b7cf9470ee67fdb94",
+    "input_manifest_sha256": "c7706d2624d0420bd1c964a5dd51c6feab7dda669cda7c9e8ee917f47c7e1fac"
+  },
+  "completed_at_utc": "2026-10-24T10:24:52.097434+00:00",
+  "recipe": {
+    "id": "arithmetic-half",
+    "method": "arithmetic",
+    "scale": 0.5,
+    "seed": 42,
+    "sources": [
+      "seed42-spatial",
+      "seed42-mount",
+      "seed42-sword",
+      "seed42-mob"
+    ]
+  },
+  "checkpoint_sha256": {
+    "config.json": "bd1ebcc8a20a6a5b158a77e4df4031a3274e4a62e6982ad4780b10bbdbeb8f3f",
+    "model.safetensors": "8c172eb5ae3601893227866b3919bb9325d19c65277b19225ffb58e71a411024",
+    "tokenizer.json": "6a0734cf21c802169defaffe719bc2ef12bb9d0be37e54b61ed27aa89394723d",
+    "tokenizer_config.json": "930dd278b2f45e3fdb6814699eaa23297a8ba534e0756ce0d194ec7dd4deccec"
+  }
+}

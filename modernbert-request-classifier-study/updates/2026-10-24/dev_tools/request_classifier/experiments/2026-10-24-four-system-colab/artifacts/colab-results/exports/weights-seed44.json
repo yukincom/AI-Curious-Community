@@ -1,0 +1,15 @@
+{
+  "file": "exports/weights-seed44.zip",
+  "bytes": 422893749,
+  "sha256": "d275a3de1ae3e967ea347d2465e8c8cbc6df00eb65b731ad207a140e0d3e2e04",
+  "members": 42,
+  "created_at_utc": "2026-10-24T10:13:48.336178+00:00",
+  "seed": 44,
+  "experts": [
+    "spatial",
+    "mount",
+    "sword",
+    "mob"
+  ],
+  "complete_seed": true
+}

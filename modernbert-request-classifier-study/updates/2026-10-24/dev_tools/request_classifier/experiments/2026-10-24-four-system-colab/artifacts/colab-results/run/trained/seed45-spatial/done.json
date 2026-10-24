@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "protocol_sha256": "d5616691fcf4a467fe3cd92eefcb18343ffa120e1da73d2b7cf9470ee67fdb94",
+    "input_manifest_sha256": "c7706d2624d0420bd1c964a5dd51c6feab7dda669cda7c9e8ee917f47c7e1fac"
+  },
+  "completed_at_utc": "2026-10-24T10:14:26.417927+00:00",
+  "seed": 45,
+  "expert": "spatial",
+  "unique_train": 818,
+  "train_occurrences": 1184,
+  "initial_all_66_tensors_equal": true,
+  "all_parameters_trainable": true,
+  "best_development": {
+    "selection_split": "dev",
+    "trial_index": 4,
+    "seed": 45,
+    "learning_rate": 1e-05,
+    "epoch": 2.0,
+    "step": 148,
+    "macro_f1": 0.8990530303030303,
+    "accuracy": 0.8913043478260869,
+    "loss": 1.085157036781311,
+    "per_class": {
+      "dogido_recall": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 3,
+        "predicted_count": 2,
+        "correct": 2
+      },
+      "enemy_information": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8,
+        "predicted_count": 8,
+        "correct": 8
+      },
+      "equip_sword": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091,
+        "support": 5,
+        "predicted_count": 6,
+        "correct": 5
+      },
+      "look_direction": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "support": 6,
+        "predicted_count": 5,
+        "correct": 5
+      },
+      "look_player": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 3,
+        "predicted_count": 2,
+        "correct": 2
+      },
+      "look_relative_back": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5,
+        "support": 1,
+        "predicted_count": 3,
+        "correct": 1
+      },
+      "look_relative_back_left": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1,
+        "predicted_count": 1,
+        "correct": 1
+      },
+      "look_relative_back_right": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1,
+        "predicted_count": 1,
+        "correct": 1
+      },
+      "look_relative_front": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1,
+        "predicted_count": 1,
+        "correct": 1
+      },
+      "look_relative_front_left": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1,
+        "predicted_count": 1,
+        "correct": 1
+      },
+      "look_relative_front_right": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1,
+        "predicted_count": 1,
+        "correct": 1
+      },
+      "look_relative_left": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1,
+        "predicted_count": 1,
+        "correct": 1
+      },
+      "look_relative_right": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1,
+        "predicted_count": 1,
+        "correct": 1
+      },
+      "look_target": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "support": 2,
+        "predicted_count": 4,
+        "correct": 2
+      },
+      "not_target": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 6,
+        "predicted_count": 4,
+        "correct": 4
+      },
+      "recall_mount": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5,
+        "predicted_count": 5,
+        "correct": 5
+      }
+    }
+  },
+  "steps": 740,
+  "max_tokens": 36,
+  "seconds": 37.17866339400007,
+  "metrics": {
+    "train_runtime": 36.9337,
+    "train_samples_per_second": 320.575,
+    "train_steps_per_second": 20.036,
+    "train_loss": 0.05325628193447694,
+    "epoch": 10.0
+  },
+  "changed_tensors": [
+    "classifier.bias",
+    "classifier.weight",
+    "head.dense.weight",
+    "head.norm.weight",
+    "model.embeddings.norm.weight",
+    "model.embeddings.tok_embeddings.weight",
+    "model.final_norm.weight",
+    "model.layers.0.attn.Wo.weight",
+    "model.layers.0.attn.Wqkv.weight",
+    "model.layers.0.mlp.Wi.weight",
+    "model.layers.0.mlp.Wo.weight",
+    "model.layers.0.mlp_norm.weight",
+    "model.layers.1.attn.Wo.weight",
+    "model.layers.1.attn.Wqkv.weight",
+    "model.layers.1.attn_norm.weight",
+    "model.layers.1.mlp.Wi.weight",
+    "model.layers.1.mlp.Wo.weight",
+    "model.layers.1.mlp_norm.weight",
+    "model.layers.2.attn.Wo.weight",
+    "model.layers.2.attn.Wqkv.weight",
+    "model.layers.2.attn_norm.weight",
+    "model.layers.2.mlp.Wi.weight",
+    "model.layers.2.mlp.Wo.weight",
+    "model.layers.2.mlp_norm.weight",
+    "model.layers.3.attn.Wo.weight",
+    "model.layers.3.attn.Wqkv.weight",
+    "model.layers.3.attn_norm.weight",
+    "model.layers.3.mlp.Wi.weight",
+    "model.layers.3.mlp.Wo.weight",
+    "model.layers.3.mlp_norm.weight",
+    "model.layers.4.attn.Wo.weight",
+    "model.layers.4.attn.Wqkv.weight",
+    "model.layers.4.attn_norm.weight",
+    "model.layers.4.mlp.Wi.weight",
+    "model.layers.4.mlp.Wo.weight",
+    "model.layers.4.mlp_norm.weight",
+    "model.layers.5.attn.Wo.weight",
+    "model.layers.5.attn.Wqkv.weight",
+    "model.layers.5.attn_norm.weight",
+    "model.layers.5.mlp.Wi.weight",
+    "model.layers.5.mlp.Wo.weight",
+    "model.layers.5.mlp_norm.weight",
+    "model.layers.6.attn.Wo.weight",
+    "model.layers.6.attn.Wqkv.weight",
+    "model.layers.6.attn_norm.weight",
+    "model.layers.6.mlp.Wi.weight",
+    "model.layers.6.mlp.Wo.weight",
+    "model.layers.6.mlp_norm.weight",
+    "model.layers.7.attn.Wo.weight",
+    "model.layers.7.attn.Wqkv.weight",
+    "model.layers.7.attn_norm.weight",
+    "model.layers.7.mlp.Wi.weight",
+    "model.layers.7.mlp.Wo.weight",
+    "model.layers.7.mlp_norm.weight",
+    "model.layers.8.attn.Wo.weight",
+    "model.layers.8.attn.Wqkv.weight",
+    "model.layers.8.attn_norm.weight",
+    "model.layers.8.mlp.Wi.weight",
+    "model.layers.8.mlp.Wo.weight",
+    "model.layers.8.mlp_norm.weight",
+    "model.layers.9.attn.Wo.weight",
+    "model.layers.9.attn.Wqkv.weight",
+    "model.layers.9.attn_norm.weight",
+    "model.layers.9.mlp.Wi.weight",
+    "model.layers.9.mlp.Wo.weight",
+    "model.layers.9.mlp_norm.weight"
+  ],
+  "checkpoint_sha256": {
+    "config.json": "bd1ebcc8a20a6a5b158a77e4df4031a3274e4a62e6982ad4780b10bbdbeb8f3f",
+    "model.safetensors": "baa9ecd955f4ce82957963c950c2b41803c7d37bece11771724ef075c6572e28",
+    "tokenizer.json": "6a0734cf21c802169defaffe719bc2ef12bb9d0be37e54b61ed27aa89394723d",
+    "tokenizer_config.json": "930dd278b2f45e3fdb6814699eaa23297a8ba534e0756ce0d194ec7dd4deccec"
+  }
+}

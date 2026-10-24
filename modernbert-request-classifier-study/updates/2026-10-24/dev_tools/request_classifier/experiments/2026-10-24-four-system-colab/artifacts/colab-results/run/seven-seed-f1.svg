@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="463" viewBox="0 0 1000 463">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="sans-serif" font-size="14" fill="#1f2937">
+<text x="20" y="25" font-size="18">Known test: macro F1 — seven-seed mean ± sample SD</text>
+<line x1="235.0" y1="45" x2="235.0" y2="428" stroke="#e5e7eb"/>
+<text x="227.0" y="451">0.0</text>
+<line x1="292.0" y1="45" x2="292.0" y2="428" stroke="#e5e7eb"/>
+<text x="284.0" y="451">0.1</text>
+<line x1="349.0" y1="45" x2="349.0" y2="428" stroke="#e5e7eb"/>
+<text x="341.0" y="451">0.2</text>
+<line x1="406.0" y1="45" x2="406.0" y2="428" stroke="#e5e7eb"/>
+<text x="398.0" y="451">0.3</text>
+<line x1="463.0" y1="45" x2="463.0" y2="428" stroke="#e5e7eb"/>
+<text x="455.0" y="451">0.4</text>
+<line x1="520.0" y1="45" x2="520.0" y2="428" stroke="#e5e7eb"/>
+<text x="512.0" y="451">0.5</text>
+<line x1="577.0" y1="45" x2="577.0" y2="428" stroke="#e5e7eb"/>
+<text x="569.0" y="451">0.6</text>
+<line x1="634.0" y1="45" x2="634.0" y2="428" stroke="#e5e7eb"/>
+<text x="626.0" y="451">0.7</text>
+<line x1="691.0" y1="45" x2="691.0" y2="428" stroke="#e5e7eb"/>
+<text x="683.0" y="451">0.8</text>
+<line x1="748.0" y1="45" x2="748.0" y2="428" stroke="#e5e7eb"/>
+<text x="740.0" y="451">0.9</text>
+<line x1="805.0" y1="45" x2="805.0" y2="428" stroke="#e5e7eb"/>
+<text x="797.0" y="451">1.0</text>
+<line x1="640.0288461538462" y1="42" x2="640.0288461538462" y2="428" stroke="#dc2626" stroke-dasharray="5 4"/>
+<text x="820" y="48" fill="#b91c1c">base 0.7106</text>
+<text x="18" y="70">spatial</text>
+<line x1="665.6325059215787" y1="65" x2="735.6668451999888" y2="65" stroke="#2563eb" stroke-width="3"/>
+<circle cx="700.6496755607836" cy="65" r="5" fill="#2563eb"/>
+<text x="820" y="70">0.8169 ± 0.0614</text>
+<text x="18" y="112">mount</text>
+<line x1="683.2173319559971" y1="107" x2="704.3557484125138" y2="107" stroke="#2563eb" stroke-width="3"/>
+<circle cx="693.7865401842555" cy="107" r="5" fill="#2563eb"/>
+<text x="820" y="112">0.8049 ± 0.0185</text>
+<text x="18" y="154">sword</text>
+<line x1="682.4886136387984" y1="149" x2="728.0925790655563" y2="149" stroke="#2563eb" stroke-width="3"/>
+<circle cx="705.2905963521773" cy="149" r="5" fill="#2563eb"/>
+<text x="820" y="154">0.8251 ± 0.0400</text>
+<text x="18" y="196">mob</text>
+<line x1="687.8521787413458" y1="191" x2="727.1469640976079" y2="191" stroke="#2563eb" stroke-width="3"/>
+<circle cx="707.4995714194769" cy="191" r="5" fill="#2563eb"/>
+<text x="820" y="196">0.8289 ± 0.0345</text>
+<text x="18" y="238">arithmetic-quarter</text>
+<line x1="707.0013854002157" y1="233" x2="710.8576673117782" y2="233" stroke="#2563eb" stroke-width="3"/>
+<circle cx="708.9295263559969" cy="233" r="5" fill="#2563eb"/>
+<text x="820" y="238">0.8315 ± 0.0034</text>
+<text x="18" y="280">arithmetic-half</text>
+<line x1="693.8147155554406" y1="275" x2="757.6442766953057" y2="275" stroke="#2563eb" stroke-width="3"/>
+<circle cx="725.7294961253732" cy="275" r="5" fill="#2563eb"/>
+<text x="820" y="280">0.8609 ± 0.0560</text>
+<text x="18" y="322">arithmetic-one</text>
+<line x1="447.05477411469997" y1="317" x2="520.4703770180013" y2="317" stroke="#2563eb" stroke-width="3"/>
+<circle cx="483.7625755663506" cy="317" r="5" fill="#2563eb"/>
+<text x="820" y="322">0.4364 ± 0.0644</text>
+<text x="18" y="364">ties20-half</text>
+<line x1="683.8322742768602" y1="359" x2="703.2958258268177" y2="359" stroke="#2563eb" stroke-width="3"/>
+<circle cx="693.5640500518389" cy="359" r="5" fill="#2563eb"/>
+<text x="820" y="364">0.8045 ± 0.0171</text>
+<text x="18" y="406">ties20-one</text>
+<line x1="696.6670399475734" y1="401" x2="711.6049233832134" y2="401" stroke="#2563eb" stroke-width="3"/>
+<circle cx="704.1359816653934" cy="401" r="5" fill="#2563eb"/>
+<text x="820" y="406">0.8230 ± 0.0131</text>
+</g></svg>

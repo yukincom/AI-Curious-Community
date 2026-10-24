@@ -1,0 +1,967 @@
+{
+  "trials": [
+    {
+      "selection_split": "dev",
+      "trial_index": 0,
+      "seed": 42,
+      "learning_rate": 5e-05,
+      "epoch": 10.0,
+      "step": 310,
+      "macro_f1": 0.870376559714795,
+      "accuracy": 0.8260869565217391,
+      "loss": 3.973606824874878,
+      "per_class": {
+        "not_target": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 6,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "enemy_information": {
+          "precision": 0.8888888888888888,
+          "recall": 1.0,
+          "f1": 0.9411764705882353,
+          "support": 8,
+          "predicted_count": 9,
+          "correct": 8
+        },
+        "equip_sword": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 5,
+          "predicted_count": 6,
+          "correct": 5
+        },
+        "recall_mount": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 5,
+          "predicted_count": 6,
+          "correct": 5
+        },
+        "dogido_recall": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3,
+          "predicted_count": 3,
+          "correct": 3
+        },
+        "look_direction": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 6,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "look_relative_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_target": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "look_player": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 3,
+          "predicted_count": 6,
+          "correct": 3
+        },
+        "look_relative_front": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "support": 1,
+          "predicted_count": 3,
+          "correct": 1
+        },
+        "look_relative_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        }
+      },
+      "trial": "trial-1",
+      "train_seconds": 20.789098000000024,
+      "dev_evaluation_and_save_seconds": [
+        0.39202913200000467,
+        0.40850705400004017,
+        0.42006609300000264,
+        3.280949693000025,
+        0.04272544200000539,
+        0.42255618999996614,
+        0.043805818999999246,
+        0.042871287000025404,
+        0.39923184599996375,
+        0.4129378580000207
+      ],
+      "train_other_seconds": 14.923417585999971,
+      "peak_cuda_allocated_bytes": 755948032,
+      "peak_cuda_reserved_bytes": 895483904
+    },
+    {
+      "selection_split": "dev",
+      "trial_index": 1,
+      "seed": 43,
+      "learning_rate": 5e-05,
+      "epoch": 9.0,
+      "step": 279,
+      "macro_f1": 0.8930115635997988,
+      "accuracy": 0.8478260869565217,
+      "loss": 2.3479835987091064,
+      "per_class": {
+        "not_target": {
+          "precision": 0.6666666666666666,
+          "recall": 0.3333333333333333,
+          "f1": 0.4444444444444444,
+          "support": 6,
+          "predicted_count": 3,
+          "correct": 2
+        },
+        "enemy_information": {
+          "precision": 0.8888888888888888,
+          "recall": 1.0,
+          "f1": 0.9411764705882353,
+          "support": 8,
+          "predicted_count": 9,
+          "correct": 8
+        },
+        "equip_sword": {
+          "precision": 0.625,
+          "recall": 1.0,
+          "f1": 0.7692307692307693,
+          "support": 5,
+          "predicted_count": 8,
+          "correct": 5
+        },
+        "recall_mount": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "predicted_count": 5,
+          "correct": 5
+        },
+        "dogido_recall": {
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.6666666666666666,
+          "support": 3,
+          "predicted_count": 3,
+          "correct": 2
+        },
+        "look_direction": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "support": 6,
+          "predicted_count": 4,
+          "correct": 4
+        },
+        "look_relative_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_target": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "look_player": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3,
+          "predicted_count": 3,
+          "correct": 3
+        },
+        "look_relative_front": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 1,
+          "predicted_count": 2,
+          "correct": 1
+        },
+        "look_relative_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        }
+      },
+      "trial": "trial-2",
+      "train_seconds": 20.195635677999974,
+      "dev_evaluation_and_save_seconds": [
+        0.3855666219999989,
+        2.929946763999965,
+        0.42438859799995043,
+        0.38545775700004015,
+        0.04467579800001431,
+        0.04332105600002478,
+        0.4596667389999993,
+        0.506914590000008,
+        0.46059404100003576,
+        0.05051750300003732
+      ],
+      "train_other_seconds": 14.5045862099999,
+      "peak_cuda_allocated_bytes": 757570048,
+      "peak_cuda_reserved_bytes": 895483904
+    },
+    {
+      "selection_split": "dev",
+      "trial_index": 2,
+      "seed": 44,
+      "learning_rate": 5e-05,
+      "epoch": 7.0,
+      "step": 217,
+      "macro_f1": 0.8822813216195569,
+      "accuracy": 0.8478260869565217,
+      "loss": 1.8935495615005493,
+      "per_class": {
+        "not_target": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 6,
+          "predicted_count": 3,
+          "correct": 3
+        },
+        "enemy_information": {
+          "precision": 0.8888888888888888,
+          "recall": 1.0,
+          "f1": 0.9411764705882353,
+          "support": 8,
+          "predicted_count": 9,
+          "correct": 8
+        },
+        "equip_sword": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 5,
+          "predicted_count": 6,
+          "correct": 5
+        },
+        "recall_mount": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 5,
+          "predicted_count": 6,
+          "correct": 5
+        },
+        "dogido_recall": {
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.6666666666666666,
+          "support": 3,
+          "predicted_count": 3,
+          "correct": 2
+        },
+        "look_direction": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 6,
+          "predicted_count": 3,
+          "correct": 3
+        },
+        "look_relative_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_target": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "look_player": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 3,
+          "predicted_count": 4,
+          "correct": 3
+        },
+        "look_relative_front": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "support": 1,
+          "predicted_count": 3,
+          "correct": 1
+        },
+        "look_relative_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        }
+      },
+      "trial": "trial-3",
+      "train_seconds": 16.749066898999956,
+      "dev_evaluation_and_save_seconds": [
+        0.3058231919999912,
+        0.4498031820000392,
+        0.4323301330000504,
+        0.39644646300001796,
+        0.4168150530000503,
+        0.04548637499999586,
+        0.41038663599999836,
+        0.057616319000032945,
+        0.044466813999974875,
+        0.04361671899999919
+      ],
+      "train_other_seconds": 14.146276012999806,
+      "peak_cuda_allocated_bytes": 757782016,
+      "peak_cuda_reserved_bytes": 918552576
+    }
+  ],
+  "learning_rate_means": [
+    {
+      "selection_split": "dev",
+      "learning_rate": 5e-05,
+      "trial_index": 0,
+      "macro_f1": 0.8818898149780502,
+      "loss": 2.7383799950281777,
+      "epoch": 8.666666666666666,
+      "accuracy": 0.8405797101449275
+    }
+  ],
+  "selected_learning_rate": 5e-05,
+  "selected_models": [
+    {
+      "selection_split": "dev",
+      "trial_index": 0,
+      "seed": 42,
+      "learning_rate": 5e-05,
+      "epoch": 10.0,
+      "step": 310,
+      "macro_f1": 0.870376559714795,
+      "accuracy": 0.8260869565217391,
+      "loss": 3.973606824874878,
+      "per_class": {
+        "not_target": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 6,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "enemy_information": {
+          "precision": 0.8888888888888888,
+          "recall": 1.0,
+          "f1": 0.9411764705882353,
+          "support": 8,
+          "predicted_count": 9,
+          "correct": 8
+        },
+        "equip_sword": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 5,
+          "predicted_count": 6,
+          "correct": 5
+        },
+        "recall_mount": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 5,
+          "predicted_count": 6,
+          "correct": 5
+        },
+        "dogido_recall": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3,
+          "predicted_count": 3,
+          "correct": 3
+        },
+        "look_direction": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 6,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "look_relative_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_target": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "look_player": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 3,
+          "predicted_count": 6,
+          "correct": 3
+        },
+        "look_relative_front": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "support": 1,
+          "predicted_count": 3,
+          "correct": 1
+        },
+        "look_relative_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        }
+      },
+      "trial": "trial-1",
+      "train_seconds": 20.789098000000024,
+      "dev_evaluation_and_save_seconds": [
+        0.39202913200000467,
+        0.40850705400004017,
+        0.42006609300000264,
+        3.280949693000025,
+        0.04272544200000539,
+        0.42255618999996614,
+        0.043805818999999246,
+        0.042871287000025404,
+        0.39923184599996375,
+        0.4129378580000207
+      ],
+      "train_other_seconds": 14.923417585999971,
+      "peak_cuda_allocated_bytes": 755948032,
+      "peak_cuda_reserved_bytes": 895483904
+    },
+    {
+      "selection_split": "dev",
+      "trial_index": 1,
+      "seed": 43,
+      "learning_rate": 5e-05,
+      "epoch": 9.0,
+      "step": 279,
+      "macro_f1": 0.8930115635997988,
+      "accuracy": 0.8478260869565217,
+      "loss": 2.3479835987091064,
+      "per_class": {
+        "not_target": {
+          "precision": 0.6666666666666666,
+          "recall": 0.3333333333333333,
+          "f1": 0.4444444444444444,
+          "support": 6,
+          "predicted_count": 3,
+          "correct": 2
+        },
+        "enemy_information": {
+          "precision": 0.8888888888888888,
+          "recall": 1.0,
+          "f1": 0.9411764705882353,
+          "support": 8,
+          "predicted_count": 9,
+          "correct": 8
+        },
+        "equip_sword": {
+          "precision": 0.625,
+          "recall": 1.0,
+          "f1": 0.7692307692307693,
+          "support": 5,
+          "predicted_count": 8,
+          "correct": 5
+        },
+        "recall_mount": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "predicted_count": 5,
+          "correct": 5
+        },
+        "dogido_recall": {
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.6666666666666666,
+          "support": 3,
+          "predicted_count": 3,
+          "correct": 2
+        },
+        "look_direction": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "support": 6,
+          "predicted_count": 4,
+          "correct": 4
+        },
+        "look_relative_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_target": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "look_player": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3,
+          "predicted_count": 3,
+          "correct": 3
+        },
+        "look_relative_front": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 1,
+          "predicted_count": 2,
+          "correct": 1
+        },
+        "look_relative_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        }
+      },
+      "trial": "trial-2",
+      "train_seconds": 20.195635677999974,
+      "dev_evaluation_and_save_seconds": [
+        0.3855666219999989,
+        2.929946763999965,
+        0.42438859799995043,
+        0.38545775700004015,
+        0.04467579800001431,
+        0.04332105600002478,
+        0.4596667389999993,
+        0.506914590000008,
+        0.46059404100003576,
+        0.05051750300003732
+      ],
+      "train_other_seconds": 14.5045862099999,
+      "peak_cuda_allocated_bytes": 757570048,
+      "peak_cuda_reserved_bytes": 895483904
+    },
+    {
+      "selection_split": "dev",
+      "trial_index": 2,
+      "seed": 44,
+      "learning_rate": 5e-05,
+      "epoch": 7.0,
+      "step": 217,
+      "macro_f1": 0.8822813216195569,
+      "accuracy": 0.8478260869565217,
+      "loss": 1.8935495615005493,
+      "per_class": {
+        "not_target": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 6,
+          "predicted_count": 3,
+          "correct": 3
+        },
+        "enemy_information": {
+          "precision": 0.8888888888888888,
+          "recall": 1.0,
+          "f1": 0.9411764705882353,
+          "support": 8,
+          "predicted_count": 9,
+          "correct": 8
+        },
+        "equip_sword": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 5,
+          "predicted_count": 6,
+          "correct": 5
+        },
+        "recall_mount": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 5,
+          "predicted_count": 6,
+          "correct": 5
+        },
+        "dogido_recall": {
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.6666666666666666,
+          "support": 3,
+          "predicted_count": 3,
+          "correct": 2
+        },
+        "look_direction": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 6,
+          "predicted_count": 3,
+          "correct": 3
+        },
+        "look_relative_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_target": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2,
+          "predicted_count": 2,
+          "correct": 2
+        },
+        "look_player": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 3,
+          "predicted_count": 4,
+          "correct": 3
+        },
+        "look_relative_front": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "support": 1,
+          "predicted_count": 3,
+          "correct": 1
+        },
+        "look_relative_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_front_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        },
+        "look_relative_back_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted_count": 1,
+          "correct": 1
+        }
+      },
+      "trial": "trial-3",
+      "train_seconds": 16.749066898999956,
+      "dev_evaluation_and_save_seconds": [
+        0.3058231919999912,
+        0.4498031820000392,
+        0.4323301330000504,
+        0.39644646300001796,
+        0.4168150530000503,
+        0.04548637499999586,
+        0.41038663599999836,
+        0.057616319000032945,
+        0.044466813999974875,
+        0.04361671899999919
+      ],
+      "train_other_seconds": 14.146276012999806,
+      "peak_cuda_allocated_bytes": 757782016,
+      "peak_cuda_reserved_bytes": 918552576
+    }
+  ],
+  "frozen_at_utc": "2026-10-24T07:28:44.525652+00:00"
+}

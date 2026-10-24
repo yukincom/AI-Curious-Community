@@ -1,0 +1,19 @@
+{
+  "at_utc": "2026-10-24T10:05:41.537421+00:00",
+  "python": "3.11.14 (main, Feb 12 2026, 00:42:50) [Clang 21.1.4 ]",
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "numpy": "2.4.6",
+    "tokenizers": "0.23.3"
+  },
+  "gpu": "Tesla T4",
+  "gpu_bytes": 15637086208,
+  "cuda": "13.0",
+  "dtype": "float32",
+  "attention": "sdpa",
+  "tf32": false,
+  "deterministic_algorithms": true
+}

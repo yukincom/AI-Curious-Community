@@ -1,0 +1,21 @@
+{
+  "completed_at_utc": "2026-10-24T10:28:59.446956+00:00",
+  "source": {
+    "identity": {
+      "protocol_sha256": "d5616691fcf4a467fe3cd92eefcb18343ffa120e1da73d2b7cf9470ee67fdb94",
+      "input_manifest_sha256": "c7706d2624d0420bd1c964a5dd51c6feab7dda669cda7c9e8ee917f47c7e1fac"
+    },
+    "checkpoint_sha256": {
+      "config.json": "bd1ebcc8a20a6a5b158a77e4df4031a3274e4a62e6982ad4780b10bbdbeb8f3f",
+      "model.safetensors": "da109e1fc8c7c1d9676a8114bfcdd201d8135f725fd85789ec9334ce7e12d257",
+      "tokenizer.json": "6a0734cf21c802169defaffe719bc2ef12bb9d0be37e54b61ed27aa89394723d",
+      "tokenizer_config.json": "930dd278b2f45e3fdb6814699eaa23297a8ba534e0756ce0d194ec7dd4deccec"
+    },
+    "split_sha256": "fcac4d822b7280f09aacf8700ef65a80613a380e6753826ba919b9421d1d21e6"
+  },
+  "report_sha256": {
+    "dev-predictions.jsonl": "5bbe6d1ffed177b6ba0c220d524c05e0c8c1a8a4e871d841944212ae4b8ed825",
+    "metrics.json": "9c1e0d0b32f58aa79c454a592edba455e084008f9fa4bbb5413a352dcf1e8144",
+    "misclassifications.md": "032ec977b243cee6b12bbd4190114b86d639f4d31ce95b719631d11e0191d1ee"
+  }
+}

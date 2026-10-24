@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-24T10:34:11.202460+00:00",
+  "completed_sha256": "68efc796972533c67eab64f716eac78aabe43213e2a27c4c46786d268b43430b",
+  "report_sha256": {
+    "report.md": "72e1fdcb972b845f580e0e33891a398aadd2ec40568106858809cad326b33af1",
+    "seven-seed-f1.svg": "ce28256db9235689bc36e50e396d2274ca65d1ea72b14efa664dc961b1902b4b",
+    "all-metrics.json": "547d93c831c93b21eba028de311983057bf6bf9dc4dcfd28222a669318a2004e",
+    "group-metrics.json": "8e7f7771008367b6b37db76b49c17412281094341633e3a1f84fd2734a86432e",
+    "error-changes.json": "5975a8ab7a8816fecadb92a12a8b72a8fc9996ca02beb6761d5e39c69d38a700",
+    "candidate-checkpoints.json": "3214d3a0e75944e7b00b89dc8a64652eb4c5cbe5b763c3a2b9e43987cb8442e9",
+    "comparison.csv": "8b0ba02db54ffd1442ce9c32937dfc1005092b1f4bbd6f94ba408fda7676f20f",
+    "per-class.csv": "7e5df60e7e2eb815662430e6f21489e76f79b7e77399fb328c0218ee218ef096"
+  }
+}

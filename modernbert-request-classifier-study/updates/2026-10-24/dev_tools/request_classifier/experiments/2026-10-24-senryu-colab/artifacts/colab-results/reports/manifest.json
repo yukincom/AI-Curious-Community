@@ -1,0 +1,122 @@
+{
+  "started_at_utc": "2026-10-24T06:44:27.177868+00:00",
+  "model_id": "sbintuitions/modernbert-ja-30m",
+  "model_revision": "8cb03f54cb9e30e72459e5f1cedc6d89c7d8dcb5",
+  "label_to_id": {
+    "not_target": 0,
+    "senryu_line_upper": 1,
+    "senryu_line_middle": 2,
+    "senryu_line_lower": 3,
+    "senryu_change_upper": 4,
+    "senryu_change_middle": 5,
+    "senryu_change_lower": 6,
+    "senryu_end": 7
+  },
+  "material_release": true,
+  "label_mapping_sha256": "46f3b699d4a842d6e46cc39149e55bd104146d2a1205a5c1c78316bbfbe7723e",
+  "dataset_git_head": "3f0250cdb1838d231ca5f7411db8ded23a997be8",
+  "data_sha256": {
+    "train": "94423a79046978d2b208ff994c956b7f20f93f713f6ea709dce6406e622c574c",
+    "dev": "f81346802816e28bac27ee8a92003b2b40b887025006fc685accebbb7b233b76",
+    "test": "f3437b44126734b9e2a475feaa103ca9ebc422e328bd74acf3ac02805bf1d562"
+  },
+  "source_sha256": {
+    "train.py": "76cc522e8dea62089b48ef678585e9d928894eb21ddc195b6d67adf5651efa80",
+    "evaluation.py": "3300083a0b94d682ad05525b9fb066f93143b6d0de40adc842f81f0f87bb97cf",
+    "dataset.py": "083c91f132502bf397ad9bb66c23a48623c02033335a68fb26f17e6529a58e23",
+    "labels.json": "237c708a4c5401ec03371ee7bb15b744fd0d6af08cb1f7b53f8864e8988eba9c"
+  },
+  "packages": {
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "accelerate": "1.15.0",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "huggingface-hub": "2.2.0",
+    "tokenizers": "0.23.3"
+  },
+  "python": "3.11.14",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "device_requested": "cuda",
+  "torch_threads": 4,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "learning_rates": [
+    5e-05
+  ],
+  "max_epochs": 10,
+  "batch_size": 16,
+  "max_length": 128,
+  "max_context": 0,
+  "token_lengths": {
+    "train": {
+      "min": 16,
+      "max": 35,
+      "mean": 23.72779369627507,
+      "truncated": 0
+    },
+    "dev": {
+      "min": 19,
+      "max": 28,
+      "mean": 23.94871794871795,
+      "truncated": 0
+    },
+    "test": {
+      "min": 16,
+      "max": 24,
+      "mean": 21.444444444444443,
+      "truncated": 0
+    }
+  },
+  "selection": "per trial: dev macro_f1 descending; loss ascending; epoch ascending; trial index ascending. shared learning rate: mean best-dev macro_f1 descending; mean loss ascending; mean epoch ascending; learning-rate index ascending. Evaluate every seed.",
+  "dispersion": "sample standard deviation (ddof=1); not a confidence interval",
+  "optimizer": "adamw_torch",
+  "scheduler": "linear",
+  "warmup_steps": 0,
+  "weight_decay": 0.01,
+  "dtype": "float32",
+  "attention": "sdpa",
+  "classification": "single_label_argmax_no_threshold",
+  "full_finetuning": true,
+  "test_regression_used_for_selection": false,
+  "cuda": {
+    "gpu_name": "NVIDIA A100-SXM4-40GB",
+    "total_memory_bytes": 42405855232,
+    "compute_capability": [
+      8,
+      0
+    ],
+    "torch_cuda_version": "13.0",
+    "cudnn_version": 92400,
+    "matmul_allow_tf32": false,
+    "cudnn_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": false,
+    "nvidia_smi": "Sat Oct 24 06:44:27 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:00:04.0 Off |                    0 |\n| N/A   34C    P0             45W /  400W |       6MiB /  40960MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  "parameters": 36773384,
+  "device_actual": "cuda:0",
+  "parameter_dtypes": [
+    "torch.float32"
+  ],
+  "selected_checkpoints": {
+    "seed-42": {
+      "path": "trial-1/best",
+      "sha256": "2e95a4f304867161adeff507ca5e5e2e89f13df0b7f0ac6bd257538dfc58411d"
+    },
+    "seed-43": {
+      "path": "trial-2/best",
+      "sha256": "4b32d90e84572ee24611f8af02a43a938f0cfc893edaba267b39d91512c94ad5"
+    },
+    "seed-44": {
+      "path": "trial-3/best",
+      "sha256": "a1d28018755a37236c5f1fcfbfee6e07d1436af8af58290bfa73c7ffc769924e"
+    }
+  },
+  "elapsed_seconds": 33.67656995699997,
+  "finished_at_utc": "2026-10-24T06:45:00.137945+00:00"
+}

@@ -1,0 +1,984 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "splits": {
+    "train": {
+      "correct": {
+        "values": [
+          349,
+          349,
+          349
+        ],
+        "mean": 349,
+        "sample_stddev": 0.0,
+        "min": 349,
+        "max": 349
+      },
+      "accuracy": {
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean": 1.0,
+        "sample_stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "macro_f1": {
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean": 1.0,
+        "sample_stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "per_class": {
+        "not_target": {
+          "support": 48,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_line_upper": {
+          "support": 48,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_line_middle": {
+          "support": 48,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_line_lower": {
+          "support": 56,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_change_upper": {
+          "support": 42,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_change_middle": {
+          "support": 42,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_change_lower": {
+          "support": 48,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_end": {
+          "support": 17,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        }
+      }
+    },
+    "dev": {
+      "correct": {
+        "values": [
+          38,
+          38,
+          38
+        ],
+        "mean": 38,
+        "sample_stddev": 0.0,
+        "min": 38,
+        "max": 38
+      },
+      "accuracy": {
+        "values": [
+          0.9743589743589743,
+          0.9743589743589743,
+          0.9743589743589743
+        ],
+        "mean": 0.9743589743589743,
+        "sample_stddev": 0.0,
+        "min": 0.9743589743589743,
+        "max": 0.9743589743589743
+      },
+      "macro_f1": {
+        "values": [
+          0.9653846153846154,
+          0.9707792207792207,
+          0.9707792207792207
+        ],
+        "mean": 0.968981018981019,
+        "sample_stddev": 0.0031145768767472035,
+        "min": 0.9653846153846154,
+        "max": 0.9707792207792207
+      },
+      "per_class": {
+        "not_target": {
+          "support": 6,
+          "precision": {
+            "values": [
+              0.8571428571428571,
+              1.0,
+              1.0
+            ],
+            "mean": 0.9523809523809523,
+            "sample_stddev": 0.08247860988423228,
+            "min": 0.8571428571428571,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              0.8333333333333334,
+              0.8333333333333334
+            ],
+            "mean": 0.888888888888889,
+            "sample_stddev": 0.0962250448649376,
+            "min": 0.8333333333333334,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              0.923076923076923,
+              0.9090909090909091,
+              0.9090909090909091
+            ],
+            "mean": 0.9137529137529137,
+            "sample_stddev": 0.008074828939715029,
+            "min": 0.9090909090909091,
+            "max": 0.923076923076923
+          }
+        },
+        "senryu_line_upper": {
+          "support": 6,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_line_middle": {
+          "support": 6,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_line_lower": {
+          "support": 8,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_change_upper": {
+          "support": 3,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_change_middle": {
+          "support": 3,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_change_lower": {
+          "support": 4,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_end": {
+          "support": 3,
+          "precision": {
+            "values": [
+              1.0,
+              0.75,
+              0.75
+            ],
+            "mean": 0.8333333333333334,
+            "sample_stddev": 0.14433756729740643,
+            "min": 0.75,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              0.6666666666666666,
+              1.0,
+              1.0
+            ],
+            "mean": 0.8888888888888888,
+            "sample_stddev": 0.1924500897298753,
+            "min": 0.6666666666666666,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              0.8,
+              0.8571428571428571,
+              0.8571428571428571
+            ],
+            "mean": 0.8380952380952381,
+            "sample_stddev": 0.03299144395369285,
+            "min": 0.8,
+            "max": 0.8571428571428571
+          }
+        }
+      }
+    },
+    "test": {
+      "correct": {
+        "values": [
+          36,
+          35,
+          35
+        ],
+        "mean": 35.333333333333336,
+        "sample_stddev": 0.5773502691896257,
+        "min": 35,
+        "max": 36
+      },
+      "accuracy": {
+        "values": [
+          1.0,
+          0.9722222222222222,
+          0.9722222222222222
+        ],
+        "mean": 0.9814814814814815,
+        "sample_stddev": 0.016037507477489613,
+        "min": 0.9722222222222222,
+        "max": 1.0
+      },
+      "macro_f1": {
+        "values": [
+          1.0,
+          0.9803030303030303,
+          0.9725274725274725
+        ],
+        "mean": 0.9842768342768343,
+        "sample_stddev": 0.014160800823006423,
+        "min": 0.9725274725274725,
+        "max": 1.0
+      },
+      "per_class": {
+        "not_target": {
+          "support": 8,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              0.875,
+              1.0
+            ],
+            "mean": 0.9583333333333334,
+            "sample_stddev": 0.07216878364870322,
+            "min": 0.875,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              0.9333333333333333,
+              1.0
+            ],
+            "mean": 0.9777777777777777,
+            "sample_stddev": 0.03849001794597504,
+            "min": 0.9333333333333333,
+            "max": 1.0
+          }
+        },
+        "senryu_line_upper": {
+          "support": 3,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_line_middle": {
+          "support": 3,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_line_lower": {
+          "support": 5,
+          "precision": {
+            "values": [
+              1.0,
+              0.8333333333333334,
+              1.0
+            ],
+            "mean": 0.9444444444444444,
+            "sample_stddev": 0.0962250448649376,
+            "min": 0.8333333333333334,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              0.9090909090909091,
+              1.0
+            ],
+            "mean": 0.9696969696969697,
+            "sample_stddev": 0.05248638810814781,
+            "min": 0.9090909090909091,
+            "max": 1.0
+          }
+        },
+        "senryu_change_upper": {
+          "support": 6,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              0.8571428571428571
+            ],
+            "mean": 0.9523809523809523,
+            "sample_stddev": 0.08247860988423228,
+            "min": 0.8571428571428571,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              0.923076923076923
+            ],
+            "mean": 0.9743589743589743,
+            "sample_stddev": 0.044411559168432785,
+            "min": 0.923076923076923,
+            "max": 1.0
+          }
+        },
+        "senryu_change_middle": {
+          "support": 4,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              0.75
+            ],
+            "mean": 0.9166666666666666,
+            "sample_stddev": 0.14433756729740643,
+            "min": 0.75,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              0.8571428571428571
+            ],
+            "mean": 0.9523809523809523,
+            "sample_stddev": 0.08247860988423228,
+            "min": 0.8571428571428571,
+            "max": 1.0
+          }
+        },
+        "senryu_change_lower": {
+          "support": 4,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "senryu_end": {
+          "support": 3,
+          "precision": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "recall": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "f1": {
+            "values": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sample_stddev": 0.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4090 @@
+{
+  "base-seed43": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 3
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 2,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 17,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 8,
+        "correct": 6,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed42-spatial": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed42-mount": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed42-sword": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed42-mob": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed42-arithmetic-quarter": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed42-arithmetic-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 2
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed42-arithmetic-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 16,
+        "wrongly_entered": 3
+      },
+      "mount": {
+        "n": 5,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 4,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 8
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 12,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 3,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 13
+      }
+    }
+  },
+  "seed42-ties20-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed42-ties20-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed43-spatial": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 2
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 3
+      }
+    }
+  },
+  "seed43-mount": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed43-sword": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 22,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed43-mob": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed43-arithmetic-quarter": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed43-arithmetic-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 17,
+        "wrongly_entered": 2
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 22,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed43-arithmetic-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 13,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 18
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 10,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 3,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 20
+      }
+    }
+  },
+  "seed43-ties20-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed43-ties20-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed44-spatial": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed44-mount": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed44-sword": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed44-mob": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed44-arithmetic-quarter": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed44-arithmetic-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 17,
+        "wrongly_entered": 2
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 4
+      }
+    }
+  },
+  "seed44-arithmetic-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 9,
+        "wrongly_entered": 7
+      },
+      "mount": {
+        "n": 5,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 2,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 10
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 8,
+        "wrongly_entered": 3
+      },
+      "mount": {
+        "n": 7,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 2,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 16
+      }
+    }
+  },
+  "seed44-ties20-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed44-ties20-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed45-spatial": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 3
+      }
+    }
+  },
+  "seed45-mount": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed45-sword": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed45-mob": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed45-arithmetic-quarter": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed45-arithmetic-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 2
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed45-arithmetic-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 14,
+        "wrongly_entered": 2
+      },
+      "mount": {
+        "n": 5,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 2,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 3,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 11
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 11,
+        "wrongly_entered": 3
+      },
+      "mount": {
+        "n": 7,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 3,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 5,
+        "wrongly_entered": 14
+      }
+    }
+  },
+  "seed45-ties20-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed45-ties20-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed46-spatial": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 22,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed46-mount": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed46-sword": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed46-mob": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed46-arithmetic-quarter": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed46-arithmetic-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 16,
+        "wrongly_entered": 2
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 22,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed46-arithmetic-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 10,
+        "wrongly_entered": 3
+      },
+      "mount": {
+        "n": 5,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 3,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 8
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 12
+      }
+    }
+  },
+  "seed46-ties20-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed46-ties20-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed47-spatial": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed47-mount": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 3
+      }
+    }
+  },
+  "seed47-sword": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed47-mob": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed47-arithmetic-quarter": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed47-arithmetic-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 17,
+        "wrongly_entered": 2
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 3
+      }
+    }
+  },
+  "seed47-arithmetic-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 14,
+        "wrongly_entered": 4
+      },
+      "mount": {
+        "n": 5,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 2,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 8
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 11,
+        "wrongly_entered": 3
+      },
+      "mount": {
+        "n": 7,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 6,
+        "wrongly_entered": 13
+      }
+    }
+  },
+  "seed47-ties20-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed47-ties20-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed48-spatial": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed48-mount": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 3
+      }
+    }
+  },
+  "seed48-sword": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 3
+      }
+    }
+  },
+  "seed48-mob": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed48-arithmetic-quarter": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "seed48-arithmetic-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 2
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "seed48-arithmetic-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 11,
+        "wrongly_entered": 4
+      },
+      "mount": {
+        "n": 5,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 4,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 9
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 9,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 8,
+        "correct": 6,
+        "wrongly_entered": 15
+      }
+    }
+  },
+  "seed48-ties20-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 3
+      }
+    }
+  },
+  "seed48-ties20-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "mean7-spatial": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "mean7-mount": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "mean7-sword": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "mean7-mob": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "mean7-arithmetic-quarter": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "mean7-arithmetic-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 17,
+        "wrongly_entered": 2
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 2
+      }
+    }
+  },
+  "mean7-arithmetic-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 12,
+        "wrongly_entered": 3
+      },
+      "mount": {
+        "n": 5,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 2,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 8,
+        "correct": 2,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 11
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 9,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 7,
+        "correct": 0,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 1,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 16
+      }
+    }
+  },
+  "mean7-ties20-half": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 19,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 1
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 1
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 20,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 1
+      },
+      "sword": {
+        "n": 6,
+        "correct": 6,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 7,
+        "wrongly_entered": 1
+      }
+    }
+  },
+  "mean7-ties20-one": {
+    "dev": {
+      "spatial": {
+        "n": 22,
+        "correct": 18,
+        "wrongly_entered": 1
+      },
+      "mount": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 5,
+        "correct": 5,
+        "wrongly_entered": 1
+      },
+      "mob": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 6,
+        "correct": 4,
+        "wrongly_entered": 0
+      }
+    },
+    "test": {
+      "spatial": {
+        "n": 23,
+        "correct": 21,
+        "wrongly_entered": 0
+      },
+      "mount": {
+        "n": 7,
+        "correct": 7,
+        "wrongly_entered": 0
+      },
+      "sword": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "mob": {
+        "n": 6,
+        "correct": 5,
+        "wrongly_entered": 0
+      },
+      "other": {
+        "n": 8,
+        "correct": 8,
+        "wrongly_entered": 2
+      }
+    }
+  }
+}

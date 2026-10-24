@@ -1,0 +1,15 @@
+{
+  "path": "dev_tools/request_classifier/experiments/2026-10-24-four-system-colab/modernbert-four-system-base.zip",
+  "original_zip_present_at_capture": false,
+  "reconstruction": "The exact archived deterministic ZIP function was applied to the preserved original four checkpoint files. No model inference or training.",
+  "original_expected_sha256": "f863ff4a58652d953c937a0a300647e33be1bd1dce4b93278b4776783ce79749",
+  "reconstructed_sha256": "f863ff4a58652d953c937a0a300647e33be1bd1dce4b93278b4776783ce79749",
+  "byte_identical_to_original_record": true,
+  "initial_checkpoint_files": {
+    "config.json": "bd1ebcc8a20a6a5b158a77e4df4031a3274e4a62e6982ad4780b10bbdbeb8f3f",
+    "model.safetensors": "0e8142045166ffea465ffaef6c5742fbd93949cec71641b5bfdb288aa49b813d",
+    "tokenizer.json": "6a0734cf21c802169defaffe719bc2ef12bb9d0be37e54b61ed27aa89394723d",
+    "tokenizer_config.json": "930dd278b2f45e3fdb6814699eaa23297a8ba534e0756ce0d194ec7dd4deccec"
+  },
+  "archive": "original-transfer-zips-05.tar.gz"
+}

@@ -1,0 +1,21 @@
+{
+  "completed_at_utc": "2026-10-24T10:31:33.643124+00:00",
+  "source": {
+    "identity": {
+      "protocol_sha256": "d5616691fcf4a467fe3cd92eefcb18343ffa120e1da73d2b7cf9470ee67fdb94",
+      "input_manifest_sha256": "c7706d2624d0420bd1c964a5dd51c6feab7dda669cda7c9e8ee917f47c7e1fac"
+    },
+    "checkpoint_sha256": {
+      "config.json": "bd1ebcc8a20a6a5b158a77e4df4031a3274e4a62e6982ad4780b10bbdbeb8f3f",
+      "model.safetensors": "456287f32490a10ca00b602567bbff47c2c27f6d02e404603003de4ef7c55fdd",
+      "tokenizer.json": "6a0734cf21c802169defaffe719bc2ef12bb9d0be37e54b61ed27aa89394723d",
+      "tokenizer_config.json": "930dd278b2f45e3fdb6814699eaa23297a8ba534e0756ce0d194ec7dd4deccec"
+    },
+    "split_sha256": "5638ba8990b6d666e1babb8d5e24b50ea0a0b30acae75e2b320daddb8be8ad35"
+  },
+  "report_sha256": {
+    "metrics.json": "8659d068dcc62cfb9fcf91fbb4361677dfe65617636fff58febf154785d2937a",
+    "misclassifications.md": "11f0f2b64edfe2b9d10df53d3050449bf463cc274e9eeb728f9884137c7a5ce5",
+    "test-predictions.jsonl": "a54e3fd9428418551ee44b70393b4abbffd0118fd975d4e8e590497fe8aa0d21"
+  }
+}

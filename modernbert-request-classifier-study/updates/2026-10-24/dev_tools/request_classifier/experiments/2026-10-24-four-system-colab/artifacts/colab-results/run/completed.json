@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-10-24T10:34:10.433020+00:00",
+  "identity": {
+    "protocol_sha256": "d5616691fcf4a467fe3cd92eefcb18343ffa120e1da73d2b7cf9470ee67fdb94",
+    "input_manifest_sha256": "c7706d2624d0420bd1c964a5dd51c6feab7dda669cda7c9e8ee917f47c7e1fac"
+  },
+  "training_jobs": 28,
+  "merged_checkpoints": 44,
+  "evaluated_candidates": 73,
+  "dev_test_prediction_rows": 7008,
+  "train_diagnostic_models": [
+    "base-seed43",
+    "seed48-mob",
+    "seed43-ties20-half",
+    "mean7-ties20-half"
+  ],
+  "train_diagnostic_rows": 3272,
+  "selection_sha256": "b69d7d1702794142817de90f77e2f1ffde49e0a9388aec066b1e77656b3b23cd",
+  "runtime_adoption": false
+}

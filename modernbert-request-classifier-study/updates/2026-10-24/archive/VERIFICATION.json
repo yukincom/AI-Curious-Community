@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-24T11:53:52.597182+00:00",
+  "all_hashes_match": true,
+  "regular_files_verified": 1700,
+  "archives": 14,
+  "logical_bytes_verified": 12995670445,
+  "method": "Each independently extractable tar.gz was reopened and every member size and SHA-256 checked against independently captured source bytes.",
+  "model_inference_or_training_performed": false,
+  "source_writes_performed": false,
+  "reconstructed_input_zip_matches_original_sha256": true
+}
