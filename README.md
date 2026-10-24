@@ -52,6 +52,7 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 | 2026-10-13（試行）、2026-10-21（中止記録整理） | Gemmaによる人物ラフの調整英文 | 俯きと黒い袖の個別調整。メモリ保護での停止と、汎用性を検証する目的から方法がずれていたための中止を区別 | [試みた調整と中止理由](gemma-sketch-refinement-study/) |
 | 2026-10-14（試行）、2026-10-21（記録整理） | Hermesによる2ページ漫画の制作 | 1ページの途中で中止。コマ数・文字除去・画像評価の失敗と、工程を絞って進んだ範囲を画像4枚で記録 | [失敗と部分的な改善](nyamuru-hermes-manga-study/) |
 | 2026-10-17（試行）、2026-10-21（中止） | Hermesによるフキダシ自律配置 | 起動引数と画像添付で停止。自律配置の品質評価には至らず、試作経路を中止 | [失敗と中止の記録](nyamuru-hermes-bubble-placement/) |
+| 2026-10-17〜20 | ニャムルの操作分類器 | ModernBERTの19分類、境界例の選定、学習方法と3seedの比較。採用判断・評価の限界・再現手順と全保存モデルを本体側へ集約 | [改善手順・研究記録](https://github.com/yukincom/nyamuru-image-hub/tree/main/docs/ModernBERT)・[全モデルと再現資料](https://github.com/yukincom/nyamuru-image-hub/releases/tag/nyamuru-modernbert-research-2026-10-24) |
 
 ## 翻訳
 
