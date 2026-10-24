@@ -2,20 +2,12 @@
   "publication_date": "2026-10-23",
   "source_repository": "colab-modernbert-ja-30m-2026-10-14 (local experiment repository)",
   "source_git_commit": "637e35f1c216fdb2848f8187d28b5988b7d4399d",
-  "source_selection": "Committed Markdown: all dated docs, comparison reports, diagnostic summary reports, and their linked Markdown. Uncommitted edits are excluded.",
+  "source_selection": "Initial 2026-10-23 publication: committed Markdown at source_git_commit, including dated docs, comparison reports, diagnostic summary reports and linked Markdown. The 2026-10-24 source_updates below additionally preserve two uncommitted source edits; the other 99 Markdown files are unchanged. The complete source snapshot, weights and evaluation artifacts are stored separately in full_archive.",
   "public_edits": [
     "Add a common historical-status note linking to the consolidated summary.",
     "Replace personal absolute filesystem paths with experiment-relative paths or $DOGIDO_ROOT, $DOWNLOADS, $HOME placeholders.",
     "Keep links between included Markdown files; display references to omitted local files as text with source paths.",
     "Keep historical results and claims unchanged; explain later corrections in the consolidated summary."
-  ],
-  "omitted_artifacts": [
-    "model weights",
-    "prediction JSONL",
-    "JSON data",
-    "source code",
-    "notebooks",
-    "ZIP archives"
   ],
   "files": [
     {
@@ -247,10 +239,10 @@
       "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/materials-review.md",
       "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/materials-review.md",
       "title": "単文学習候補の全件一覧",
-      "source_sha256": "8bf9a6db4f6700ee8d605ee6dcdaf0b646ab71734ef49db8048bf15366b125da",
-      "published_sha256": "b349172b70b33bf49b6e8ef4e794d9d857a763b68b2fe3cb53662a6344cc960f",
-      "source_bytes": 35784,
-      "published_bytes": 36123
+      "source_sha256": "a999b0dcccb196ddb0780a02d7bc0dbbd14df49e7aa859a7a38a17ebd14da407",
+      "published_sha256": "6c9a69f11d3ef2af540f2ed9831add805ec99c288a96f0c93db5cc7d9867d722",
+      "source_bytes": 35787,
+      "published_bytes": 36126
     },
     {
       "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/not-target-representatives-v2.md",
@@ -265,10 +257,10 @@
       "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/not-target-representatives.md",
       "published_path": "archive/dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/not-target-representatives.md",
       "title": "not_target の代表例",
-      "source_sha256": "c14fc60d9b3ffa66e41782e8f892d2f1855933f5cf2b08cf78aca996b9932d2f",
-      "published_sha256": "3f152608650cc1efc6e841b3e4ee0148adff781a87c57336d4a4cb96ca11b9d7",
-      "source_bytes": 6623,
-      "published_bytes": 6962
+      "source_sha256": "cbabf179c3d9d7eac584a48f1976443c7b478a30e8864c46ef8a11b2464c98b3",
+      "published_sha256": "8c49cb58ae7d60ec4cc73dc5052c79d8ea5276db598ec91325d8723429540cb7",
+      "source_bytes": 6628,
+      "published_bytes": 6967
     },
     {
       "source_path": "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/quality-review.md",
@@ -929,5 +921,170 @@
     }
   ],
   "markdown_count": 101,
-  "unpublished_reference_count": 256
+  "updated_date": "2026-10-24",
+  "source_updates": [
+    {
+      "date": "2026-10-24",
+      "source_git_commit": "54005915153d3f7d7f83226cfb7576f156d3781f",
+      "source_state": "Working tree with the two uncommitted Markdown edits listed below.",
+      "source_paths": [
+        "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/materials-review.md",
+        "dev_tools/request_classifier/curation/2026-10-22-training-materials-v2/not-target-representatives.md"
+      ]
+    }
+  ],
+  "artifacts_in_release_instead_of_git": [
+    "model weights",
+    "prediction JSONL",
+    "JSON data",
+    "source code",
+    "notebooks",
+    "ZIP archives"
+  ],
+  "initial_markdown_only_unpublished_reference_count": 256,
+  "initial_reference_count_note": "The count describes references outside the initial Markdown-only publication on 2026-10-23. It is not a count of files missing from the complete 2026-10-24 release.",
+  "full_archive": {
+    "date": "2026-10-24",
+    "release_tag": "modernbert-research-2026-10-24",
+    "release_url": "https://github.com/yukincom/AI-Curious-Community/releases/tag/modernbert-research-2026-10-24",
+    "guide": "full-archive/README.md",
+    "source_git_commit": "54005915153d3f7d7f83226cfb7576f156d3781f",
+    "source_state": "Current source snapshot including modified and untracked research files.",
+    "regular_files": 2065,
+    "logical_bytes": 5857369668,
+    "symlinks": 1,
+    "external_symlink_target_included": false,
+    "independently_extractable_tar_gz_parts": 7,
+    "history_bundle": "modernbert-source-history.bundle",
+    "manifest": {
+      "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/MANIFEST.json",
+      "sha256": "d55b6850a581fca3b3734ad6261f5eacae3a828bd9216c77cca570c844d58268"
+    },
+    "checksums": {
+      "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/SHA256SUMS",
+      "sha256": "ca23ff755da8fe5f362b9c8eef26226297925591d08703f4a846ed20c9c35cc7"
+    },
+    "exclusions": [
+      "Finder metadata",
+      "regenerable Python and Ruff caches",
+      "local Git configuration/hooks/reflogs and unreachable objects; reachable history is preserved in the bundle"
+    ],
+    "verification": "Every tar member size and SHA-256 matched the source manifest; source files were rehashed after packaging. No model retraining or reevaluation.",
+    "assets": [
+      {
+        "name": "CURRENT_CONTENT_SCAN.json",
+        "bytes": 919,
+        "sha256": "c15e5bd87d2dc4b2d958164d6ba3b51e710b576de410d0c5dc4c7724374f0d93",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/CURRENT_CONTENT_SCAN.json"
+      },
+      {
+        "name": "HISTORY_SCAN.json",
+        "bytes": 631,
+        "sha256": "daf17d687f6e8538a70d8e3a54b6fc08c7b225a3f083bbc06a40397150acfcc7",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/HISTORY_SCAN.json"
+      },
+      {
+        "name": "LICENSE-modernbert-ja-30m.txt",
+        "bytes": 1070,
+        "sha256": "284353c80e0d52c06e97af62fd40e4dd1d253fa28f5d1e756121ea1d5d441509",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/LICENSE-modernbert-ja-30m.txt"
+      },
+      {
+        "name": "MANIFEST.json",
+        "bytes": 669858,
+        "sha256": "d55b6850a581fca3b3734ad6261f5eacae3a828bd9216c77cca570c844d58268",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/MANIFEST.json"
+      },
+      {
+        "name": "README.md",
+        "bytes": 8538,
+        "sha256": "5b971e3c42eb94b2e3f373892b876d4214f347ae7f1b580172564cea9152185d",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/README.md"
+      },
+      {
+        "name": "SHA256SUMS",
+        "bytes": 1639,
+        "sha256": "ca23ff755da8fe5f362b9c8eef26226297925591d08703f4a846ed20c9c35cc7",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/SHA256SUMS"
+      },
+      {
+        "name": "STANDALONE_VERIFIER_RESULT.json",
+        "bytes": 388,
+        "sha256": "53ef8377a56fdeaff0662fae5c33619eee462ea781240cc2c9cb7e1c8681b4ab",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/STANDALONE_VERIFIER_RESULT.json"
+      },
+      {
+        "name": "SUPPLEMENTAL_FILES.json",
+        "bytes": 608,
+        "sha256": "0cfba9dcbde8c85f97264e0d48b11e05783b53a331a5eddf0f38f2641f278fbf",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/SUPPLEMENTAL_FILES.json"
+      },
+      {
+        "name": "VERIFICATION.json",
+        "bytes": 634,
+        "sha256": "9f340d530a0bb4cd24522a893f0d1ecde2f96142afd04b4d7a8dd5cef82badd4",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/VERIFICATION.json"
+      },
+      {
+        "name": "model-checkpoints-01.tar.gz",
+        "bytes": 771412713,
+        "sha256": "5accede6c032a39428d2d5fabec93aeeeb13382b1196c20b90b7af0edd036ac0",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/model-checkpoints-01.tar.gz"
+      },
+      {
+        "name": "model-checkpoints-02.tar.gz",
+        "bytes": 764323071,
+        "sha256": "e24d81d8e676b89ded8ceae8c2b2ae6f269860e86a0168ba3f62b075ed0f295c",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/model-checkpoints-02.tar.gz"
+      },
+      {
+        "name": "model-checkpoints-03.tar.gz",
+        "bytes": 756712525,
+        "sha256": "9e82cefdcd0be92c6a3c4d978e2e15cd54c275c46b7410c56ab373537a7a4ff4",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/model-checkpoints-03.tar.gz"
+      },
+      {
+        "name": "model-checkpoints-04.tar.gz",
+        "bytes": 754789667,
+        "sha256": "d3a6ee237107cd79088f328fe2702f6793056dbe822fcd637ecffa525d967bb8",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/model-checkpoints-04.tar.gz"
+      },
+      {
+        "name": "model-checkpoints-05.tar.gz",
+        "bytes": 284585437,
+        "sha256": "42727ca344cb07391967e81fd2b478ad0ebf55a1f12bbd5772ad06712a85cec1",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/model-checkpoints-05.tar.gz"
+      },
+      {
+        "name": "modernbert-source-history.bundle",
+        "bytes": 8565275,
+        "sha256": "1574e1142d47d3c54e595e71f58f78ae0d598185c7bd06c30662ec97baf5a9bf",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/modernbert-source-history.bundle"
+      },
+      {
+        "name": "original-transfer-zips-01.tar.gz",
+        "bytes": 314394044,
+        "sha256": "f983a7e32240a6260ea2dc5d28e8e4a3e8aae3c9839008420ad2b58600e3b37f",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/original-transfer-zips-01.tar.gz"
+      },
+      {
+        "name": "prepare_archive.py",
+        "bytes": 17606,
+        "sha256": "87f2b310a42c7942afc0bee9db5fc27634f5d9ba87886e47794e5cb435d30494",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/prepare_archive.py"
+      },
+      {
+        "name": "source-evaluation-records-01.tar.gz",
+        "bytes": 16853480,
+        "sha256": "aae4355c088c0436f3b019fa6674349e8b4091b51998a3f5b39274d9f1a8c2af",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/source-evaluation-records-01.tar.gz"
+      },
+      {
+        "name": "verify_archive.py",
+        "bytes": 4776,
+        "sha256": "c7f9fd990c36e84a0a5ab839b5eaca516947e327b063d3cf7b4f63905545b169",
+        "url": "https://github.com/yukincom/AI-Curious-Community/releases/download/modernbert-research-2026-10-24/verify_archive.py"
+      }
+    ]
+  }
 }
