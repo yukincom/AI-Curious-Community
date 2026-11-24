@@ -1,0 +1,207 @@
+{
+  "experiment_date": "2026-11-24",
+  "hardware": {
+    "chip": "Apple M4 Max",
+    "memory_gib": 64
+  },
+  "runtime": {
+    "os": "macOS",
+    "python": "3.11.15",
+    "onnxruntime": "1.23.2",
+    "execution_provider": "CPUExecutionProvider"
+  },
+  "dataset": {
+    "reference_split": "Same 33-page split as 2026-08 page-level-summary.csv; main scores exclude the 1 degraded stress-test page.",
+    "main_pages": 32,
+    "main_reference_chars": 3714,
+    "stress_test_pages": 1,
+    "stress_test_reference_chars": 161,
+    "total_pages": 33,
+    "total_bubble_crops": 267,
+    "profiles": {
+      "鉛筆・生ネーム": 17,
+      "清書済み漫画": 9,
+      "清書済みデジタル手書き": 5,
+      "濃い手書きネーム": 1,
+      "低コントラスト・紙面劣化（ストレステスト）": 1
+    }
+  },
+  "ndlocr_lite_v2": {
+    "repository": "ndl-lab/ndlocr-lite",
+    "tag": "2.0.0",
+    "commit": "1f3adc7af311af1ce4cbbd4d9089f30781d01313",
+    "models": [
+      "deim-s-1024x1024-261124.onnx",
+      "parseq-ndl-24x256-30-tiny-499epoch-261124.onnx",
+      "parseq-ndl-24x384-50-tiny-278epoch-261124.onnx",
+      "parseq-ndl-24x768-100-tiny-153epoch-261124.onnx"
+    ],
+    "table_model_bundled_not_invoked": "tablecenternet_s_800_v3.onnx",
+    "ocr_models_size_mb": 150.1,
+    "all_bundled_models_size_mb": 177.3,
+    "license": "CC BY 4.0 (code/NDL models) + DINOv3 License (DEIMv2 layout backbone)",
+    "detector_thresholds": {
+      "det_score_threshold": 0.2,
+      "det_conf_threshold": 0.25,
+      "det_iou_threshold": 0.2,
+      "det_overlap_threshold": 0.9
+    },
+    "enable_tcy": false,
+    "enable_tcy_smoke_note": "Tested on vertical handwritten manga smoke sample and degraded recognition; kept disabled (default).",
+    "apply_character_inclusion_changed_pages": 4
+  },
+  "existing_production": {
+    "detector": "rtdetrv4-x-manga109s_v2 (model.onnx, conf_threshold=0.2, Apache-2.0)",
+    "ocr": "Baberu OCR ONNX (vision_int4.onnx + decoder_prefill_int8.onnx + decoder_step_int8.onnx, Apache-2.0)",
+    "postprocess": "usable_ocr_lines + single_page_role/printed_four_panel_strips",
+    "rtdetr_size_mb": 238.6,
+    "baberu_size_mb": 115.9,
+    "total_models_size_mb": 354.5
+  },
+  "timings_seconds": {
+    "existing_prod": {
+      "rtdetr_load_seconds": 0.2246,
+      "baberu_load_seconds": 0.1417,
+      "total_load_seconds": 0.3663,
+      "total_rtdetr_seconds": 35.5721,
+      "total_baberu_seconds": 32.5619,
+      "total_inference_seconds": 68.1337
+    },
+    "ndlocr_v2": {
+      "det_load_seconds": 0.2557,
+      "rec_load_seconds": 1.4735,
+      "total_load_seconds": 1.7292,
+      "fullpage_total_seconds": 12.413,
+      "fullpage_avg_seconds": 0.3762,
+      "crops_total_seconds": 80.8872,
+      "total_crops": 267,
+      "total_zero_det_crops": 23
+    }
+  },
+  "baseline_parity_checks": {
+    "Baberu OCR": {
+      "archived_micro_cer": 0.5864297253634895,
+      "current_micro_cer": 0.5864297253634895,
+      "diff_micro_cer": 0.0,
+      "diff_macro_cer": 0.0,
+      "diff_macro_f1": 0.0,
+      "passed": true
+    },
+    "NDLOCR-Lite（現行アプリ）": {
+      "archived_micro_cer": 0.6847065158858374,
+      "current_micro_cer": 0.6847065158858374,
+      "diff_micro_cer": 0.0,
+      "diff_macro_cer": 1.1102230246251565e-16,
+      "diff_macro_f1": 5.551115123125783e-17,
+      "passed": true
+    },
+    "PaddleOCR": {
+      "archived_micro_cer": 0.613354873451804,
+      "current_micro_cer": 0.613354873451804,
+      "diff_micro_cer": 0.0,
+      "diff_macro_cer": 1.1102230246251565e-16,
+      "diff_macro_f1": 0.0,
+      "passed": true
+    }
+  },
+  "head_to_head_32_pages": [
+    {
+      "a": "NDLOCR-Lite v2 (フルページ単体)",
+      "b": "現行アプリ本番 (RT-DETR+Baberu)",
+      "cer": {
+        "a_wins": 9,
+        "b_wins": 22,
+        "ties": 1
+      },
+      "bag_f1": {
+        "a_wins": 7,
+        "b_wins": 24,
+        "ties": 1
+      }
+    },
+    {
+      "a": "NDLOCR-Lite v2 (フルページ単体)",
+      "b": "Baberu OCR (バブルクロップ / 既存評価基準)",
+      "cer": {
+        "a_wins": 13,
+        "b_wins": 18,
+        "ties": 1
+      },
+      "bag_f1": {
+        "a_wins": 14,
+        "b_wins": 16,
+        "ties": 2
+      }
+    },
+    {
+      "a": "NDLOCR-Lite v2 (フルページ→RT-DETR領域本番)",
+      "b": "現行アプリ本番 (RT-DETR+Baberu)",
+      "cer": {
+        "a_wins": 6,
+        "b_wins": 23,
+        "ties": 3
+      },
+      "bag_f1": {
+        "a_wins": 5,
+        "b_wins": 25,
+        "ties": 2
+      }
+    },
+    {
+      "a": "NDLOCR-Lite v2 (フルページ→バブル割当)",
+      "b": "Baberu OCR (バブルクロップ / 既存評価基準)",
+      "cer": {
+        "a_wins": 9,
+        "b_wins": 21,
+        "ties": 2
+      },
+      "bag_f1": {
+        "a_wins": 10,
+        "b_wins": 20,
+        "ties": 2
+      }
+    },
+    {
+      "a": "NDLOCR-Lite v2 (フルページ→バブル割当)",
+      "b": "NDLOCR-Lite v1 (旧版・参考)",
+      "cer": {
+        "a_wins": 16,
+        "b_wins": 12,
+        "ties": 4
+      },
+      "bag_f1": {
+        "a_wins": 17,
+        "b_wins": 12,
+        "ties": 3
+      }
+    },
+    {
+      "a": "NDLOCR-Lite v2 (バブルクロップ+0件時PARSeq)",
+      "b": "Baberu OCR (バブルクロップ / 既存評価基準)",
+      "cer": {
+        "a_wins": 4,
+        "b_wins": 26,
+        "ties": 2
+      },
+      "bag_f1": {
+        "a_wins": 5,
+        "b_wins": 26,
+        "ties": 1
+      }
+    }
+  ],
+  "bubble_crop_head_to_head_267_crops": {
+    "total_bubbles": 267,
+    "baberu_empty": 1,
+    "ndlv2_empty": 24,
+    "ndlv2_fb_empty": 1,
+    "ndlv2_zero_det_crops": 23,
+    "exact_agreement_raw": 23,
+    "exact_agreement_fb": 24,
+    "baberu_total_chars": 2980,
+    "ndlv2_total_chars": 2315,
+    "ndlv2_fb_total_chars": 2514,
+    "baberu_total_seconds": 23.187,
+    "ndlv2_total_seconds": 80.887
+  }
+}

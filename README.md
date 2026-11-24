@@ -6,7 +6,7 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 
 このREADMEでは、その研究と関連する実験・開発の記録をテーマ別に案内します。うまくいった結果だけでなく、失敗、比較条件、まだ分からないことも残しています。他の研究者の論文を使う追試・翻訳と、この場所で行った実験・考察は区別して記載しています。
 
-日付は実験・調査の時期を優先しています。日まで分からないものは年月とし、公開記録や資料作成日を使った項目にはその旨を記載しています。目次の更新日：**2026-10-24**。
+日付は実験・調査の時期を優先しています。日まで分からないものは年月とし、公開記録や資料作成日を使った項目にはその旨を記載しています。目次の更新日：**2026-11-24**。
 
 ## LLMの内部表現・生成の仕組み
 
@@ -56,7 +56,7 @@ AIは世界をどう捉え、その捉え方は人間とどこで食い違うの
 | 開発・実験の時期 | テーマ | 内容・位置づけ | 資料 |
 |---|---|---|---|
 | 2026-07〜08（開発）、2026-10-21（中止） | 漫画フキダシ配置ツール | ニャムル側の制作パイプラインへ一本化して開発終了。コード・素材・ローカル試験出力を公開保存 | [manga-babble-maker](https://github.com/yukincom/manga-babble-maker) |
-| 2026-08-23〜24、2026-10-14 | 手書き漫画ネームのOCR | ページ、フキダシ、処理段階ごとの集計比較。原稿画像・正解本文・作家や作品の識別情報は含まない [🗒️](https://note.com/yukin_co/n/n3bb589b006b9) [🗒️](https://note.com/yukin_co/n/n30b31dc5eadd) | [概要](manga-ocr-benchmark/)・[実験条件と日付](manga-ocr-benchmark/docs/2026-08-experiment-conditions.md)・[ページ比較](manga-ocr-benchmark/results/page-level-summary.csv)・[フキダシ条件](manga-ocr-benchmark/results/bubble-configuration-comparisons.csv)・[段階比較](manga-ocr-benchmark/results/single-page-stage-comparisons.csv) |
+| 2026-08-23〜24、2026-10-14、2026-11-24 | 手書き漫画ネームのOCR | ページ、フキダシ、処理段階、NDLOCR-Lite v2.0.0と現行構成の集計比較。原稿画像・正解本文・作家や作品の識別情報は含まない [🗒️](https://note.com/yukin_co/n/n3bb589b006b9) [🗒️](https://note.com/yukin_co/n/n30b31dc5eadd) | [概要](manga-ocr-benchmark/)・[NDLOCR-Lite v2比較](manga-ocr-benchmark/docs/2026-11-24-ndlocr-lite-v2.md)・[実験条件と日付](manga-ocr-benchmark/docs/2026-08-experiment-conditions.md)・[ページ比較](manga-ocr-benchmark/results/page-level-summary.csv)・[フキダシ条件](manga-ocr-benchmark/results/bubble-configuration-comparisons.csv)・[段階比較](manga-ocr-benchmark/results/single-page-stage-comparisons.csv) |
 | 2026-10-13（試行）、2026-10-21（中止記録整理） | Gemmaによる人物ラフの調整英文 | 俯きと黒い袖の個別調整。メモリ保護での停止と、汎用性を検証する目的から方法がずれていたための中止を区別 | [試みた調整と中止理由](gemma-sketch-refinement-study/) |
 | 2026-10-14（試行）、2026-10-21（記録整理） | Hermesによる2ページ漫画の制作 | 1ページの途中で中止。コマ数・文字除去・画像評価の失敗と、工程を絞って進んだ範囲を画像4枚で記録 | [失敗と部分的な改善](nyamuru-hermes-manga-study/) |
 | 2026-10-17（試行）、2026-10-21（中止） | Hermesによるフキダシ自律配置 | 起動引数と画像添付で停止。自律配置の品質評価には至らず、試作経路を中止 | [失敗と中止の記録](nyamuru-hermes-bubble-placement/) |
